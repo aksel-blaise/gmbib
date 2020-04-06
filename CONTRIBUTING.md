@@ -10,7 +10,7 @@ We welcome pull requests from everyone! By participating in this project, you ag
 
 ## Making changes
 
-* Fork the repository on GitHub to make a copy of the repository on your account. Or use this line in your shell terminal `git clone git@github.com:your-username/gahaganmorph2.git`
+* Fork the repository on GitHub to make a copy of the repository on your account. Or use this line in your shell terminal `git clone git@github.com:your-username/gmbib.git`
 * Edit the files, save often, and make commits of logical units, where each commit indicates one concept
 * Follow our [style guide](http://adv-r.had.co.nz/Style.html).
 * Make sure you write [good commit messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
