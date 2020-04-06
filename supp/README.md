@@ -1,1 +1,1 @@
-Supplementary data
+The code in this folder documents the supplementary materials associated with the project, which can be accessed at [https://aksel-blaise.github.io/gmbib/](https://aksel-blaise.github.io/gmbib/).
