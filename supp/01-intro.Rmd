@@ -10,7 +10,7 @@ While neither a formal systematic review or a meta-analysis his study enlisted t
 
 ```{r}
 # PRISMA flow diagram
-#install.packages("PRISMAstatement") #if not installed, remove the hash at the beginning of this line
+install.packages("PRISMAstatement") #if not installed, remove the hash at the beginning of this line
 library(PRISMAstatement)
 prisma(found = 103,
        found_other = 0,
