@@ -6,4 +6,4 @@ _A bibliometric study of geometric morphometrics in archaeology_
 
 The interactive version of the static network illustrated below can be found at [https://aksel-blaise.github.io/gmarchnet/](https://aksel-blaise.github.io/gmarchnet/)
 
-![](./img/gmarchnet.png)
+![](./figs/gmarchnet.png)
