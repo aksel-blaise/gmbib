@@ -12,7 +12,7 @@ description: "Bibliometric study of geometric morphometrics in archaeology"
 
 # Preface {-}
 
->The notion that one can begin anything at all from scratch, free from the past, or unindebted to others, could not conceivably be more wrong (Magee 1974:69.
+>The notion that one can begin anything at all from scratch, free from the past, or unindebted to others, could not conceivably be more wrong [@RN20923,69].
 
 This volume is written in **Markdown**, and includes all analysis code employed in the study, providing a means for others to reproduce (exactly) those results discussed and expounded upon in the manuscript. The reproducible nature of this undertaking provides a means for others to critically assess and evaluate the various analytical components of this study [@RN20915;@RN20916;@RN20917], which is a necessary requirement for the production of reliable knowledge. 
 
