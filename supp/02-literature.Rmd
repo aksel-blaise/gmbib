@@ -1,6 +1,6 @@
 # Literature
 
-This chapter contains a table of the titles, authors, abstracts, and DOIs for each indexed publication included in the analysis, and are organized by publication date. Formal citations are included at the end of this document, and in the References section of this volume.
+This chapter contains a listing of basic metadata for each indexed publication included in the analysis, and is organized by publication date (Year). Formal citations are included at the end of this document, and in the References section of this volume.
 
 ## Works included in analysis
 
@@ -201,4 +201,439 @@ DOCUMENT TYPE: Article
 PUBLICATION STAGE: Final
 
 SOURCE: Scopus
+
+### [@RN20931]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Wallace, M., Bonhomme, V., Russell, J., Stillman, E., George, T.S., Ramsay, L., Wishart, J., Timpany, S., Bull, H., Booth, A., Martin, P.
+55621822700;55581390500;7404209813;6601945184;7202598168;7102039046;13605461200;25643589600;57196002536;7201728320;55474868200;
+Searching for the Origins of Bere Barley: a Geometric Morphometric Approach to Cereal Landrace Recognition in Archaeology
+(2019) Journal of Archaeological Method and Theory, 26 (3), pp. 1125-1142. Cited 2 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85056694105&doi=10.1007%2fs10816-018-9402-2&partnerID=40&md5=05b2fc7c98f10b8d3253648b3ad42c4e
+
+DOI: 10.1007/s10816-018-9402-2
+
+AFFILIATIONS: Department of Archaeology, University of Sheffield, Sheffield, South Yorkshire  S1 3NJ, United Kingdom; 
+Institut des Sciences de l’Evolution-Montpellier, Université de Montpellier, Montpellier Cedex 2, 34095, France; 
+The James Hutton Institute, Dundee, DD2 5DA, United Kingdom; 
+School of Mathematics and Statistics, University of Sheffield, Sheffield, S3 7RH, United Kingdom; 
+Agronomy Institute, Orkney College, University of the Highlands and Islands, Kirkwall, KW15 1LX, United Kingdom; 
+Archaeology Institute, Orkney College, University of the Highlands and Islands, Kirkwall, KW15 1LX, United Kingdom
+ABSTRACT: Bere is a landrace of barley, adapted to the marginal conditions of northern Scotland, especially those of the Northern and Western Isles. The history of bere on these islands is long and, in an era of diminishing landrace cultivation, bere now represents one of the oldest cereal landraces in Europe still grown commercially. The longevity of bere raises the possibility of using grain characteristics of present-day specimens to identify bere in the archaeological record. Geometric modern morphometric (GMM) analysis of grains from bere and other barley landraces is conducted to determine whether landraces can be differentiated on grain morphology. Results indicate that there are morphological differences between bere and other British and Scandinavian landraces, and between bere from Orkney and the Western Isles, both of which are apparent in genetic analysis. This finding paves the way for the identification of bere archaeologically, helping to establish its status as living heritage and securing its commercial future. More broadly, this work indicates the potential of grain GMM for the recognition of cereal landraces, permitting the ancestry and exchange of landraces to be traced in the archaeological record. © 2018, The Author(s).
+
+AUTHOR KEYWORDS: Agriculture;  Archaeobotany;  Archaeology;  Barley;  Cereals;  Genetics;  Geometric morphometrics;  Landraces
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20932]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Courtenay, L.A., Yravedra, J., Aramendi, J., Maté-González, M.Á., Martín-Perea, D.M., Uribelarrea, D., Baquedano, E., González-Aguilera, D., Domínguez-Rodrigo, M.
+57200549280;56962776200;55827562600;56780291300;57192089446;6507093504;36237883200;24477009700;6603679662;
+Cut marks and raw material exploitation in the lower pleistocene site of Bell's Korongo (BK, Olduvai Gorge, Tanzania): A geometric morphometric analysis
+(2019) Quaternary International, 526, pp. 155-168. Cited 2 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85067334452&doi=10.1016%2fj.quaint.2019.06.018&partnerID=40&md5=bad71bee8c61719226b4fa642314a69e
+
+DOI: 10.1016/j.quaint.2019.06.018
+
+AFFILIATIONS: Área de Prehistoria, Universitat Rovira I Virgillo (URV), Avignuda de Catalunya 35, Tarragona, 43002, Spain; 
+Institut de Paleoecologia Humana i Evolució Social (IPHES), C/ Marcellí Domingo s/n, Campus Secelades URV (Edifici W3) E3, Tarragona, 43700, Spain; 
+Department of Cartographic and Land Engineering, Higher Polytechnic School of Avila, University of Salamanca, Hornos Caleros 50, Avila, 05003, Spain; 
+Department of Prehistory, Complutense University, Prof. Aranguren s/n, Madrid, 28040, Spain; 
+Director of the C. A. I. Archaeometry and Archaeological Analysis, Complutense University, Professor Aranguren s/n, Madrid, 28040, Spain; 
+IDEA (Institute of Evolution in Africa), Covarrubias 36, Madrid, 28010, Spain; 
+Department of Geodynamics, Stratigraphy and Paleontology, Complutense University, C/ José Antonio Novais 12, Madrid, 28040, Spain; 
+Museo Arqueológico Regional, Plaza de las Bernardas s/n, Alcalá de Henares, Madrid, 28801, Spain; 
+Real Complutense College at Harvard, 26 Towbridge Street, Cambridge, MA  02138, United States
+
+ABSTRACT: The Lower Pleistocene site of Bell's Korongo (BK) in Olduvai Gorge (Tanzania) has been a key site for the study of the origin of human behaviour. The lower archaeological levels of BK are characterized by anthropogenic activity related to the exploitation of megafauna (elephant, hippopotamus, Sivatherium) and smaller game (zebra, wildebeest and antelopes). These remains display a high frequency of cut marks. The exceptional state of preservation of the BK fossil assemblage has allowed a wide range of different analyses that, among other things, detected the use of quartzite in butchering activities through the study of cut marks. Following up previous analyses, this paper presents the study of a series of cut marks from the BK faunal assemblage using a 3D geometric morphometric methodological approach in order to determine the mineralogical properties of the quartzite used at the site. BK cut marks are compared with experimentally produced cut marks using 9 mineralogically different quartzite types from Olduvai Gorge. This comparative analysis provides valuable hints about the exact nature of the raw materials used in butchering activities. The results presented here identify a preferential use of quartzite with a finer granular composition, suggesting that hominin populations were already selecting the best raw materials for their use in specific activities 1.3 Mya. © 2019 Elsevier Ltd and INQUA
+
+AUTHOR KEYWORDS: Cut mark morphology;  Experimental archaeology;  Homo erectus;  Olduvai gorge;  Quartzite;  Taphonomy
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20933]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Pelletier, M.
+56677378300;
+Morphological diversity of wild rabbit populations: Implications for archaeology and palaeontology
+(2019) Biological Journal of the Linnean Society, 128 (1), art. no. blz074, pp. 211-224. Cited 2 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85070835141&doi=10.1093%2fbiolinnean%2fblz074&partnerID=40&md5=c7efa24878468225a0f9626e7f481ccf
+
+DOI: 10.1093/biolinnean/blz074
+
+AFFILIATIONS: Department of Archaeology History, Culture and Communication Studies, Faculty of Humanities, University of Oulu, Oulu, Finland; 
+Aix Marseille Univ, CNRS, Minist Culture, LAMPEA, Aix-en-Provence, France
+
+ABSTRACT: Morphometric characteristics of the European rabbit (Oryctolagus cuniculus) are regularly used in archaeological and palaeontological studies to explore aspects of prehistoric human hunting behaviour, to reconstruct past environments or to define new species. However, the variability of these characteristics is still both poorly understood and under-documented due to a lack of population-level data that are essential for reliably interpreting the fossil record of this species. Here we address the morphometric diversity of wild rabbits in seven current populations from south-western Europe. Size variations in different skeletal parts were analysed to explore the potential impact of sexual dimorphism. A geometric morphometric analysis of the third lower premolar (p3) - a tooth commonly used to distinguish leporid species - was used to evaluate the relative effects of size, phylogeny, geographical location and climate on shape variation. The results show a negligible impact of sexual dimorphism, contradicting previous studies. We also demonstrate geography and climate to be the main factors driving variation in p3 shape, potentially calling into question criteria typically used to identify rabbit species. These results are valuable not only for palaeobiologists studying the taxonomy and the evolutionary history of the leporid family but also for archaeologists interested in the socio-economic and behavioural aspects of Palaeolithic human groups. © 2019 The Linnean Society of London, Biological Journal of the Linnean Society.
+AUTHOR KEYWORDS: adaptation;  climatic influences;  fossil record;  morphometric variability;  Oryctolagus cuniculus;  sexual dimorphism;  tooth geometric morphometrics
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20934]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Timbrell, L., Plomp, K.A.
+57209285389;55425784700;
+Using the shape of the basicranial portion of the temporal bone to distinguish between relatively closely-related human populations
+(2019) Journal of Archaeological Science: Reports, 26, art. no. 101885, . 
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85067195383&doi=10.1016%2fj.jasrep.2019.101885&partnerID=40&md5=b6c87e4420110a41d4667fc96ab66db4
+
+DOI: 10.1016/j.jasrep.2019.101885
+
+AFFILIATIONS: Leverhulme Centre for Human Evolutionary Studies, Department of Archaeology, University of Cambridge, Ireland; 
+Department of Archaeology, Classics and Egyptology, University of Liverpool, Ireland; 
+Department of Archaeology, Simon Fraser University, 8888 University Dr, Burnaby, BC  V5A 1S6, Canada
+
+ABSTRACT: Variation in cranial morphology is routinely used in archaeology to identify population affinity in human skeletal remains. The shape of the external basicranial portion of the temporal bone, in particular, has been found to have one of the strongest phylogenetic signals in the crania, and so it can be effectively used to distinguish between populations on a large, often global scale. However, its applicability to the analysis of relatively closely-related groups remains largely unexplored. The retention of population signatures in the shape of this portion of the temporal bone is particularly useful for archaeology, as the fragility of the cranium makes analysis of its shape in entirety often difficult. If the shape of the temporal bone can identify differences between relatively closely-related populations with a similar accuracy as for more distantly-related populations, this would significantly aid analyses of population history on a local scale. To test this, we initiated a study that used three-dimensional geometric morphometrics to investigate the shape variation of the temporal bone of two British archaeological populations that were separated both temporally and geographically. The results of a MANOVA found statistically significant shape differences between the two populations and a DFA found that the shape of the temporal bone can correctly classify 84.7% of individuals into their respective population. Therefore, the findings of this study suggest that the shape of the temporal bone can accurately identify differences between two relatively closely-related populations. Future research should focus on examining larger samples from a greater number of populations to determine whether this pattern is widespread. © 2019 Elsevier Ltd
+
+AUTHOR KEYWORDS: Cranial shape;  Human variation;  Identification;  Portmahomack;  Poundbury;  Relatedness;  Shape analyses
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20935]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Haruda, A.F., Varfolomeev, V., Goriachev, A., Yermolayeva, A., Outram, A.K.
+57192678397;36992540600;57208694507;57208683323;8954776500;
+A new zooarchaeological application for geometric morphometric methods: Distinguishing Ovis aries morphotypes to address connectivity and mobility of prehistoric Central Asian pastoralists
+(2019) Journal of Archaeological Science, 107, pp. 50-57. Cited 1 time.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85065525092&doi=10.1016%2fj.jas.2019.05.002&partnerID=40&md5=3fd5f82573d9b8fa3eb00ab2732d7e97
+
+DOI: 10.1016/j.jas.2019.05.002
+
+AFFILIATIONS: Department of Archaeology, University of Exeter, North Park Road, Exeter, EX4 4QE, United Kingdom; 
+Central Natural Science Collections, Martin Luther University Halle-Wittenberg, Domplatz 4, Saale, Halle, 06108, Germany; 
+Sarya-Arka Institute of Archaeology, Bukhetov Karaganda State University, 28 University Street, Karaganda100028, Kazakhstan; 
+Margulan Institute of Archaeology, 44 Dostyk Street, Almaty, 050010, Kazakhstan
+
+ABSTRACT: Geometric morphometric methods (GMM), which were developed to characterize the shape and size of biological organisms, have been applied within zooarchaeology over the past decade to address animal domestication processes and to refine morphological criteria to differentiate between taxa. However, there has been limited utilization of these methods to discriminate between populations of the same taxa to challenge and refine other key archaeological issues, such as migration and connectivity in prehistory. Presented here is a novel application of a three-dimensional landmark based geometric morphometric approach to address the nature of long distance trade and connectivity on the prehistoric Silk Road. The similarity of Bronze and Iron Age archaeological cultures along this steppe route has encouraged characterisations of these people as nomads, with highly mobile, integrated, and connected human and animal populations. However, the interconnectedness of domestic animal populations, in particular sheep (Ovis aries), the foundation of this prehistoric pastoral economy, has never been examined. This study utilized geometric morphometric methods to quantify geometric morphometric variance of O. aries astragali between three geographically disparate settlement sites within a single Final Bronze age cultural and chronological context. Significant differences between morphotypes revealed that protracted mobility patterns were unlikely and that while animal exchange may have occurred, it was not pervasive enough to produce a uniform sheep morphotype across central and southeastern Kazakhstan. The result of this new application of geometric morphometric methods challenges models of uniform and undifferentiated long distance mobility and economic connectivity between the peoples of the Silk Road. © 2019
+
+AUTHOR KEYWORDS: Bronze age;  Central Asia;  Geometric morphometrics;  Ovis aries;  Pastoralism;  Three-dimensional digitisation;  Zooarchaeology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20936]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Yravedra Sainz de los Terreros, J., Maté-González, M.Á., Courtenay, L.A.
+57209685315;56780291300;57200549280;
+New technologies applied to archaeology. Contributions of photogrammetry and geometric morphometrics to the resolution of taphonomic issues
+(2019) Quaternary International, 517, pp. 1-3. 
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85068446514&doi=10.1016%2fj.quaint.2019.06.030&partnerID=40&md5=50ef51d30e4ecff1832984f09ac93db0
+
+DOI: 10.1016/j.quaint.2019.06.030
+
+AFFILIATIONS: Department of Prehistory, Complutense University, Prof. Aranguren s/n, Madrid, 28040, Spain; 
+Department of Cartographic and Land Engineering, Higher Polytechnic School of Avila, University of Salamanca, Hornos Caleros 50, Avila, 05003, Spain; 
+Àrea de Prehisòria, Universita Rovira I Virgili (URV), Avignuda de Catalunya 35, Tarragona, 43002, Spain; 
+Institut de Paleoecologia Humana I Evolució Social (IPHES), Zona Educacional, Campus Sescelades URV (Edifici W3) E3, Tarragona, 43700, Spain
+
+DOCUMENT TYPE: Editorial
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20937]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Courtenay, L.A., Yravedra, J., Huguet, R., Ollé, A., Aramendi, J., Maté-González, M.Á., González-Aguilera, D.
+57200549280;56962776200;7004123299;6602728872;55827562600;56780291300;24477009700;
+New taphonomic advances in 3D digital microscopy: A morphological characterisation of trampling marks
+(2019) Quaternary International, 517, pp. 55-66. Cited 11 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85058956060&doi=10.1016%2fj.quaint.2018.12.019&partnerID=40&md5=e4ec8a99e27a10b596c0fc6527d6575e
+
+DOI: 10.1016/j.quaint.2018.12.019
+
+AFFILIATIONS: Àrea de Prehistòria, Universitat Rovira i Virgili (URV), Avinguda de Catalunya 35, Tarragona, 43002, Spain; 
+Institut de Paleoecologia Humana i Evolució Social (IPHES). Zona Educacional, Campus Sescelades URV (Edifici W3) E3, Tarragona, 43700, Spain; 
+Department of Prehistory, Complutense University, Prof. Aranguren s/n, Madrid, 28040, Spain; 
+IDEA (Institute of Evolution in Africa), Covarrubias 36, Madrid, 28010, Spain; 
+Unit Associated to CSIC, Departamento de Paleobiologia, Museo de Ciencias Naturales, calle José Gutiérrez Abascal, s/n, Madrid, 28006, Spain; 
+Department of Cartography and Terrain Engineering, Polytechnic School of Avila, University of Salamanca, Hornos Caleros 50Avila  05003, Spain
+
+ABSTRACT: The concept of equifinality has become one of the greatest difficulties in the field of taphonomy However, new advances in technology have diminished the margins of error in the interpretation of archaeological sites. The use of multivariate statistics and the most recent advances in microscopic analysis of Bone Surface Modifications (BSMs) have enable a less subjective interpretation of site formation processes. Nevertheless, this broader range of methodological approaches also presents some problems. The capacity of laser scanners in processing inconspicuous and superficial cortical alterations, such as trampling marks, has proven to be problematic. This study presents a new advance towards resolving this problem through the use of the HIROX KH-8700 Digital Microscope, whereby detailed digital three-dimensional (3D) reconstructions are able to pick up such minute BSMs. Through the statistical comparison of the David Laser scanner and the HIROX KH-8700 Digital Microscope, this paper contributes to our understanding of said equipment, followed by a significant advance in the characterisation of superficial BSMs. The combination of advanced microscopy and the application of geometric morphometrics highlights a morphological differentiation between two different types of trampling marks, hereby named scratch and graze trampling marks. © 2018 Elsevier Ltd and INQUA
+
+AUTHOR KEYWORDS: Bone surface modifications (BSM);  Geometric morphometrics;  Microscopy;  Taphonomy
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20938]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Linares-Matás, G.J., Yravedra, J., Maté-González, M.Á., Courtenay, L.A., Aramendi, J., Cuartero, F., González-Aguilera, D.
+57202464782;56962776200;56780291300;57200549280;55827562600;36476024800;24477009700;
+A geometric-morphometric assessment of three-dimensional models of experimental cut-marks using flint and quartzite flakes and handaxes
+(2019) Quaternary International, 517, pp. 45-54. Cited 1 time.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85065551301&doi=10.1016%2fj.quaint.2019.05.010&partnerID=40&md5=4ca2098cef3bbd6378b60034166b9243
+
+DOI: 10.1016/j.quaint.2019.05.010
+
+AFFILIATIONS: St. Hugh's College, St. Margaret's Road, Oxford, OX2 6LE, United Kingdom; 
+Department of Prehistory, Complutense University, Prof. Aranguren s/n, Madrid, 28040, Spain; 
+C.A.I. de Ciencias de la Tierra y Arqueometría UCM, Prof. Aranguren s/n, Madrid, 28040, Spain; 
+Department of Cartography and Terrain Engineering, Polytechnic School of Avila, University of Salamanca, Hornos Caleros 50, Avila05003, Spain; 
+Àrea de Prehistòria, Universitat Rovira i Virgili (URV), Avinguda de Catalunya 35, Tarragona, 43002, Spain; 
+Institut de Paleoecologia Humana i Evolució Social (IPHES). Zona Educacional, Campus Sescelades URV (Edifici W3) E3, Tarragona, 43700, Spain; 
+IDEA (Institute of Evolution in Africa), Covarrubias 36, Madrid, 28010, Spain; 
+Department of Prehistory and Archaeology, Autonomous University of Madrid, Cantoblanco Campus, Madrid, 28049, Spain
+
+ABSTRACT: Developments in methodological approaches to high-resolution morphometrical study of cut-mark morphology further our understanding of butchering activities. Identification of micro-morphological variability between different taphonomical alterations on ancient bone allows detection and comparison of bone-surface modifications and associated taphonomical agents and activities. By taking a geometrical-morphometrical approach, data from 3-D laser-scanning and micro-photogrammetrical models of experimental cut-marks enable statistical analysis to classify and distinguish between cut-marks by bifaces from those by flakes, and, in each case, between marks made by flint from those made by quartzite tools. Analysis of two tool types, each made from two raw materials as independent variables, is a methodological advance in morphometrical studies of experimental cut-marks, which hitherto have tended to focus on the respective parts played by tool types or types of raw material in morphometrical characterization of experimental and archaeological cut-marks. © 2019 Elsevier Ltd and INQUA
+
+AUTHOR KEYWORDS: Cut-marks;  Experimental archaeology;  High-resolution taphonomy;  Multivariate statistics;  Palaeolithic technology;  Raw materials
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20939]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Courtenay, L.A., Yravedra, J., Huguet, R., Aramendi, J., Maté-González, M.Á., González-Aguilera, D., Arriaza, M.C.
+57200549280;56962776200;7004123299;55827562600;56780291300;24477009700;56786056800;
+Combining machine learning algorithms and geometric morphometrics: A study of carnivore tooth marks
+(2019) Palaeogeography, Palaeoclimatology, Palaeoecology, 522, pp. 28-39. Cited 9 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85062731527&doi=10.1016%2fj.palaeo.2019.03.007&partnerID=40&md5=603dcfab4653e781c2141f843c24ee4a
+
+DOI: 10.1016/j.palaeo.2019.03.007
+
+AFFILIATIONS: Àrea de Prehistòria, Universitat Rovira i Virgili (URV), Avinguda de Catalunya 35, Tarragona, 43002, Spain; 
+Institut de Paleoecologia Humana i Evolució Social (IPHES), Zona Educacional, Campus Sescelades URV (Edifici W3) E3, Tarragona, 43700, Spain; 
+Department of Prehistory, Complutense University, Prof. Aranguren s/n, Madrid, 28040, Spain; 
+C. A. I. Archaeometry and Archaeological Analysis, Complutense University, Professor Aranguren s/n, Madrid, 28040, Spain; 
+Unit Associated to CSIC, Departamento de Paleobiologia, Museo de Ciencias Naturales, calle José Gutiérrez Abascal, s/n, Madrid, 28006, Spain; 
+IDEA (Institute of Evolution in Africa), Covarrubias 36, Madrid, 28010, Spain; 
+Department of Cartography and Terrain Engineering, Polytechnic School of Avila, University of Salamanca, Hornos Caleros 50, Avila, 05003, Spain; 
+School of Geography, Archaeology and Environmental Studies, University of the Witwatersrand, Private Bag 32050, South Africa; 
+Centre of Excellence in Paleosciences, University of the Witwatersrand, Johannesburg, South Africa
+
+ABSTRACT: Since the 1980s an intense scientific debate has revolved around the hunting capacities of early hominin populations and the behavioral patterns of carnivores sharing the same ecosystem, and thus competing for the same resources. This debate, commonly known as the hunter-scavenger debate, fostered the emergence of a new research line into the Bone Surface Modifications (BSMs) produced by both taphonomic agents. Throughout the following 20 years, multiple studies concerning the action of carnivores have been developed, with a particular focus on the oldest archaeological sites in East Africa. Recent technological advances applied to taphonomy have provided new insight into carnivore BSMs. A newly developed part of this work relies on Geometric Morphometrics (GMM) studies aimed at discerning carnivore agency through the morphologic characterization of tooth scores and pits. GMM studies have produced promising results, however methodological limitations are still present. This paper presents the first combined application of Machine Learning (ML) algorithms and GMM to the analysis of carnivore tooth marks, generating classification rates of 100% between carnivore species in some cases. © 2019 Elsevier B.V.
+
+AUTHOR KEYWORDS: Artificial Intelligence;  Bone Surface modifications;  Statistics;  Taphonomy
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20940]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+He, L., Liu, W., Temple, D.H., Wang, M., Zhang, Q., von Cramon-Taubadel, N.
+57207733337;28567979400;18038865200;57207734230;12645364800;23471109300;
+Diachronic changes in craniofacial morphology among the middle–late Holocene populations from Hehuang region, Northwest China
+(2019) American Journal of Physical Anthropology, 169 (1), pp. 55-65. Cited 1 time.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85062771047&doi=10.1002%2fajpa.23807&partnerID=40&md5=45a7f150b945666706683e00d12b6249
+
+DOI: 10.1002/ajpa.23807
+
+AFFILIATIONS: Key Laboratory of Vertebrate Evolution and Human Origins of Chinese Academy of Sciences, Institute of Vertebrate Paleontology and Paleoanthropology, Chinese Academy of Sciences, Beijing, 100044, China; 
+Center for Excellence in Life and Paleoenvironment, Chinese Academy of Sciences, Beijing, 100044, China; 
+School of Earth Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China; 
+Department of Sociology and Anthropology, George Mason UniversityVA  22030-4444, United States; 
+Institute of Archaeology, Chinese Academy of Social Sciences, Beijing, 100710, China; 
+School of Archaeology, Jilin University, Changchun, 130012, China; 
+Buffalo Human Evolutionary Morphology Lab, Department of Anthropology, University at Buffalo, Buffalo, 14261, United States
+
+ABSTRACT: Objectives: This study analyzes craniofacial shape variation in the Hehuang region of Northwest China within a population genetic framework, and takes a diachronic approach to explore the relationship betwee cultural discontinuity and biological continuity/discontinuity in the Hehuang region during the middle to late Holocene. Materials and methods: The sample comprises 76 adult skulls from five archaeological sites, ranging from 4,500 to 1,530 BP. 3D geometric morphometrics, multivariate statistics, quantitative evolutionary genetic and biodistance analyses were performed to study the diachronic variation in craniofacial morphology. Analyses were performed on two cranial modules: the face and the cranial vault, across three major diachronic groups representing the late Neolithic (LNA), the Bronze Age (BA), and the Han-Jin dynasty (HD). Results: Average regional FST for both cranial modules was low, indicating relatively greater variation within diachronic groups than among them. While the LNA and BA groups did not show any significant differences in facial and vault shape, significant craniofacial shape changes were detected between the BA and HD groups. Discussion: The consistent craniofacial morphology during the LNA and the BA, and the shift in morphology between the BA and the HD indicates that cultural discontinuity does not always coincide with biological discontinuity. The Hehuang population evolved in situ with few changes, despite cultural and dietary changes, until the HD when migrations from the Central Plains are associated with extra-local gene flow to the area. © 2019 Wiley Periodicals, Inc.
+
+AUTHOR KEYWORDS: 3D geometric morphometrics;  Hehuang region;  population history;  skull morphology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20941]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Romano, M., Citton, P., Salvador, I., Arobba, D., Rellini, I., Firpo, M., Negrino, F., Zunino, M., Starnini, E., Avanzini, M.
+57201387303;55351996200;57194419336;15918895800;6505869534;7003456589;8661312000;33068548500;13410810600;7006552322;
+A multidisciplinary approach to a unique palaeolithic human ichnological record from Italy (Bàsura cave)
+(2019) eLife, 8, art. no. e45204, . 
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85067219323&doi=10.7554%2feLife.45204&partnerID=40&md5=57dd4a627ac648e43c193c10dcd8b8e3
+
+DOI: 10.7554/eLife.45204
+
+AFFILIATIONS: Evolutionary Studies Institute (ESI), School of Geosciences, University of the Witwatersrand, Johannesburg, South Africa; 
+CONICET-Consejo Nacional de Investigaciones Científicas y Técnicas, Buenos Aires, Argentina; 
+MUSE, Museo delle Scienze, Trento, Italy; 
+Museo Archeologico del Finale, Finale Ligure Borgo, Italy; 
+Dipartimento di Scienze della Terra, dell’Ambiente e della Vita (DISTAV), Università degli Studi di Genova, Genoa, Italy; 
+Dipartimento di Antichità, Filosofia, Storia (DAFIST), Università degli Studi di Genova, Genoa, Italy; 
+Grotte di Toirano, Toirano, Italy; 
+Soprintendenza Archeologia Belle Arti e Paesaggio per la Città Metropolitana di Genova e le province di Imperia, La Spezia e Savona, Genoa, Italy; 
+Dipartimento di Civiltà e Forme del Sapere, Università di Pisa, Pise, Italy
+
+ABSTRACT: Based on the integration of laser scans, sedimentology, geochemistry, archeobotany, geometric morphometrics and photogrammetry, here we present evidence testifying that a Palaeolithic group of people explored a deep cave in northern Italy about 14 ky cal. BP. Ichnological data enable us to shed light on individual and group level behavior, social relationship, and mode of exploration of the uneven terrain. Five individuals, two adults, an adolescent and two children, entered the cave barefoot and illuminated the way with a bunch of wooden sticks. Traces of crawling locomotion are documented for the first time in the global human ichnological record. Anatomical details recognizable in the crawling traces show that no clothing was present between limbs and the trampled sediments. Our study demonstrates that very young children (the youngest about 3 years old) were active members of the Upper Palaeolithic populations, even in apparently dangerous and social activities. © Romano et al.
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20942]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Courtenay, L.A., Yravedra, J., Mate-González, M.Á., Aramendi, J., González-Aguilera, D.
+57200549280;56962776200;56780291300;55827562600;24477009700;
+3D analysis of cut marks using a new geometric morphometric methodological approach
+(2019) Archaeological and Anthropological Sciences, 11 (2), pp. 651-665. Cited 19 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85041580684&doi=10.1007%2fs12520-017-0554-x&partnerID=40&md5=25726db5b43a059314e040443fd6d9a6
+
+DOI: 10.1007/s12520-017-0554-x
+
+AFFILIATIONS: Department of Prehistory, Complutense University, Prof. Aranguren s/n, Madrid, 28040, Spain; 
+IDEA (Institute of Evolution in Africa), Covarrubias 36, Madrid, 28010, Spain; 
+Deparment of Cartography and Terrain Engineering, Polytechnic School of Avila, University of Salamanca, Hornos Caleros 50, Avila, 05003, Spain; 
+C. A. I. Archaeometry and Archaeological Analysis, Complutense University, Professor Aranguren s/n, Madrid, 28040, Spain
+
+ABSTRACT: The arrival of new methodological approaches to study microscopic qualities in cut mark morphology has been a major improvement in our understanding of butchering activities. Micro-morphological differences can be detected in multiple different taphonomic alterations on bone cortical surfaces that can later be used to compare different trace mark types. Through this, we can generate studies that are able to diagnose the specific taphonomic agents and activities that produce said traces that can be found on osteological surfaces. This paper presents experimental data that have been studied using micro-photogrammetry and geometric morphometrics, successfully distinguishing morphological differences in cut marks produced by different lithic tool types as well as different raw materials. The statistical results and methodologies presented here can later be applied to archaeological sites; aiding in our understanding of raw material exploitation, tool production as well as the different butchering activities that are present in faunal assemblages. © 2017, Springer-Verlag GmbH Germany.
+
+AUTHOR KEYWORDS: Cut marks;  Experimental archaeology;  Geometric morphometrics;  Raw materials;  Taphonomy
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20944]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Okumura, M., Araujo, A.G.M.
+8562919300;36730594400;
+Archaeology, biology, and borrowing: A critical examination of Geometric Morphometrics in Archaeology
+(2019) Journal of Archaeological Science, 101, pp. 149-158. Cited 5 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85046166965&doi=10.1016%2fj.jas.2017.09.015&partnerID=40&md5=424c97159605d1ac4b3ce4775511f4b2
+
+DOI: 10.1016/j.jas.2017.09.015
+
+AFFILIATIONS: Laboratório de Estudos Evolutivos Humanos, Departamento de Genética e Biologia Evolutiva, Instituto de Biociências, Universidade de São Paulo, Brazil; 
+Instituto de Estudos Avançados, Universidade de São Paulo, Brazil; 
+Museu de Arqueologia e Etnologia, Universidade de São Paulo, Brazil
+
+ABSTRACT: Geometric Morphometrics (GM) is a method originally applied in Evolutionary Biology studies, using the analysis of change in size and shape in order to better understand ontogenetic sequences, phylogenetic relations, among other issues. The application of GM in archaeological materials has seen a sharp increase in the last decade, mostly associated with theoretical approaches from Evolutionary Archaeology. This is not an isolated case, since most methods used by Evolutionary Archaeologists have been borrowed from Biology, provoking discussion with regard to the future development of Evolutionary Archaeology and its methods (Lycett, 2015). This article aims to discuss some concepts that have been directly borrowed from the application of GM in Biological Sciences and that have not been subject to much thought when used in Archaeology. Such concepts include homology and landmark types, the concept of modularity, as well as the idea of allometry. As much as archaeologists using GM can learn from past discussions held by biologists regarding the above mentioned concepts, it is high time for archaeologists to further discuss ideas concerning the use of these concepts in archaeological studies. © 2017
+
+AUTHOR KEYWORDS: Evolutionary Archaeology;  Geometric Morphometrics;  Interdisciplinarity;  Stone tools
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20853]
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Thulman, D.K.
+33768076600;
+A Typology of Florida Fluted Points Using Landmark-based Geometric Morphometrics
+(2019) PaleoAmerica, . Cited 1 time.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85065660089&doi=10.1080%2f20555563.2019.1602946&partnerID=40&md5=89a75b8764301a580bdb9433345d87eb
+
+DOI: 10.1080/20555563.2019.1602946
+
+AFFILIATIONS: Department of Anthropology, George Washington University, Washington, DC, United States
+
+ABSTRACT: This typology of Florida fluted points was created from 164 images of fluted-point bases using landmark-based geometric morphometrics (LGM). Three highly distinctive types were discriminated using the shapes of the point bases. LGM is a powerful method for discriminating shapes, so paying close attention to analytical details is crucial for meaningful analyses. In archaeology, LGM is in its relative infancy compared to its use in biology, and archaeologists have not settled on standard procedures for its use in artifact shape analysis. Several general issues in the use of LGM for artifact-shape discrimination are discussed and illustrated, especially the effects of sample size and the Pinocchio Effect, in which highly variable aspects of an artifact shape, such as the fluted point blade, can affect analyses in unintended ways. The choices made in creating this typology are discussed in detail and alternatives tested to show how choices can significantly change results and archaeological interpretations. © 2019, © 2019 Center for the Study of the First Americans.
+
+AUTHOR KEYWORDS: Florida;  Fluted point;  landmark-based geometric morphometrics;  Paleoindian;  typology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Article in Press
+
+SOURCE: Scopus
+
+### Souron et al., conf. paper
+
+Scopus
+EXPORT DATE:06 Apr 2020
+
+Souron, A., Napias, A., Lavidalie, T., Santos, F., Ledevin, R., Castel, J.-C., Costamagno, S., Cusimano, D., Drumheller, S., Parkinson, J., Rozada, L., Cochard, D.
+55233785400;57215209415;57215193406;7202141340;26436458100;8397743500;15043964700;57215190787;55090211500;56519286000;57202435428;24504235300;
+A new geometric morphometrics-based shape and size analysis discriminating anthropogenic and non-anthropogenic bone surface modifications of an experimental data set
+(2019) 2019 IMEKO TC4 International Conference on Metrology for Archaeology and Cultural Heritage, MetroArchaeo 2019, pp. 560-565. 
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85080043342&partnerID=40&md5=e8f95ba7d64fbefeea3f93f9aba4a550
+
+AFFILIATIONS: PACEA, UMR 5199, Université de Bordeaux, CS50023, Bât. B2, Allée Geoffroy Saint Hilaire, Pessac, 33615, France; 
+Muséum d’histoire naturelle, Route de Malagnou, Genève, 1208, Switzerland; 
+TRACES, UMR 5608, Université de Toulouse Jean Jaurès, Maison de la Recherche, Bât. 26-5, allée Antonio Machado, Toulouse, 31058, France; 
+Diablo Valley College, Anthropology Department, 321 Golf Club Road, Pleasant Hill, CA  94523, United States; 
+Department of Earth and Planetary Sciences, University of Tennessee, 1621 Cumberland Avenue, Knoxville, TN  37996-1410, United States; 
+Department of Anthropology, University of San Diego, 5998 Alcalá Park, San Diego, CA  92110, United States; 
+CR2P, UMR 7207, Muséum national d’Histoire naturelle, 8, rue Buffon, CP 38, Paris, 75005, France
+
+ABSTRACT: Reliable discrimination of anthropogenic and non-anthropogenic bone surface modifications (BSM) is crucial to reconstructing the taphonomic history of bone assemblages and past behaviors of hominids and other animals. This discrimination is hindered by equifinality, i.e., BSM with similar morphologies that were produced by different agents. Here we propose a new method to identify the taphonomic agents responsible for BSM and apply it to an experimental data set containing 177 BSM produced by anthropogenic (stone tool-induced cut marks) and non-anthropogenic agents (carnivoran and crocodylian bite marks, and trampling marks). We used 3D topographic models of BSM built from confocal microscopy and applied geometric morphometrics-based shape and size analyses to cross-sectional profiles extracted from the BSM. The new method considers both average profiles and intra-mark variability of profiles. Multivariate analyses of several shape and size variables result in a new synthetic morphospace where anthropogenic and non-anthropogenic BSM show very little overlap. © 2019 International Conference on Metrology for Archaeology and Cultural Heritage.
+
+DOCUMENT TYPE: Conference Paper
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
 
