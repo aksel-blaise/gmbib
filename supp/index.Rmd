@@ -22,7 +22,7 @@ How do we know what we know? Upon whose work will this new project build? How ha
 
 We extend our gratitude to the MORPHMET and Morph2016-2019 communities, as well as our colleagues at archaeologicalmorphometrics.com for their comments on earlier versions of the networks.
 
-This volume enlists a variety of tools from the [Open Review Toolkit](https://www.openreviewtoolkit.org/), as well as the code provided for the `bookdown` package, and follows the excellent example advanced by [Ben Marwick](https://benmarwick.github.io/bookdown-ort/). I extend my gratitude to all who contribute comments and constructive criticisms throughout the development and maturation of this project. This document will remain in open review until the article is published.
+This volume enlists a variety of tools from the [Open Review Toolkit](https://www.openreviewtoolkit.org/), as well as the code provided for the `bookdown` package, and follows the excellent example advanced by [Ben Marwick](https://benmarwick.github.io/bookdown-ort/). I extend my gratitude to all who contribute comments and constructive criticisms throughout the development and maturation of this project. This document will remain in open review until the manuscript is published.
 
 ## Funding
 
