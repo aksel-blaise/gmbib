@@ -207,27 +207,30 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 <div id="introduction" class="section level1">
 <h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
 <p>The initial step in any bibliometric study is one of logic, primarily Boolean logic (Figure 1), used to ensure that the bulk of those publications harvested in the study are relevant to the question at hand. In this case, <em>geometric morphometrics in archaeology</em> is the topic of interest; thus, the query employed for this study was <em>“geometric morphometric” AND (archeology OR archaeology)</em>, which yielded 103 results in Scopus.</p>
-<div class="figure">
-<img src="figs/boolean.png" alt="Figure 1. Example of query results that employ Boolean operators. The structure of the query used in this study most closely matches the second venn diagram from the right." />
-<p class="caption">Figure 1. Example of query results that employ Boolean operators. The structure of the query used in this study most closely matches the second venn diagram from the right.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="kw">rep</span>(<span class="st">&quot;./figs/boolean.png&quot;</span>))</a></code></pre></div>
+<div class="figure"><span id="fig:boolean"></span>
+<img src="figs/boolean.png" alt="Example of query results that employ Boolean operators. The structure of the query used in this study most closely matches the second venn diagram from the right." width="3750" />
+<p class="caption">
+Figure 1.1: Example of query results that employ Boolean operators. The structure of the query used in this study most closely matches the second venn diagram from the right.
+</p>
 </div>
 <div id="prisma" class="section level2">
 <h2><span class="header-section-number">1.1</span> PRISMA</h2>
 <p>While neither a formal systematic review or a meta-analysis his study enlisted the work-flow of the Preferred Reporting Items for Systematic Reviews and Meta-Analysese (PRISMA) <span class="citation">(Liberati et al. <a href="#ref-RN20925" role="doc-biblioref">2009</a>)</span>, as a means of improving reporting. There is no shortage of unindexed publications on the topic in question; however, the focus of this particular study relied only on those works included in Scopus, which includes a complementary record with the cited works for each publication.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="co"># PRISMA flow diagram</span></a>
-<a class="sourceLine" id="cb1-2" title="2"><span class="co"># install.packages(&quot;PRISMAstatement&quot;) #if not installed, remove the hash at the beginning of this line</span></a>
-<a class="sourceLine" id="cb1-3" title="3"><span class="kw">library</span>(PRISMAstatement)</a>
-<a class="sourceLine" id="cb1-4" title="4"><span class="kw">prisma</span>(<span class="dt">found =</span> <span class="dv">103</span>,</a>
-<a class="sourceLine" id="cb1-5" title="5">       <span class="dt">found_other =</span> <span class="dv">0</span>,</a>
-<a class="sourceLine" id="cb1-6" title="6">       <span class="dt">no_dupes =</span> <span class="dv">103</span>, </a>
-<a class="sourceLine" id="cb1-7" title="7">       <span class="dt">screened =</span> <span class="dv">103</span>, </a>
-<a class="sourceLine" id="cb1-8" title="8">       <span class="dt">screen_exclusions =</span> <span class="dv">1</span>, </a>
-<a class="sourceLine" id="cb1-9" title="9">       <span class="dt">full_text =</span> <span class="dv">102</span>,</a>
-<a class="sourceLine" id="cb1-10" title="10">       <span class="dt">full_text_exclusions =</span> <span class="dv">0</span>, </a>
-<a class="sourceLine" id="cb1-11" title="11">       <span class="dt">qualitative =</span> <span class="dv">102</span>, </a>
-<a class="sourceLine" id="cb1-12" title="12">       <span class="dt">quantitative =</span> <span class="dv">102</span>)</a></code></pre></div>
-<div id="htmlwidget-72ef6e0f8c5e1ed87c86" style="width:672px;height:480px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-72ef6e0f8c5e1ed87c86">{"x":{"diagram":"digraph prisma {\n    node [shape=\"box\", fontsize = 10];\n    graph [splines=ortho, nodesep=1, dpi = 72]\n    a -> nodups;\n    b -> nodups;\n    a [label=\"Records identified through\ndatabase searching\n(n = 103)\"];\n    b [label=\"Additional records identified\nthrough other sources\n(n = 0)\"]\n    nodups -> incex;\n    nodups [label=\"Records after duplicates removed\n(n = 103)\"];\n    incex -> {ex; ft}\n    incex [label=\"Records screened\n(n = 103)\"];\n    ex [label=\"Records excluded\n(n = 1)\"];\n    {rank=same; incex ex}\n    ft -> {qual; ftex};\n    ft [label=\"Full-text articles assessed\nfor eligibility\n(n = 102)\"];\n    {rank=same; ft ftex}\n    ftex [label=\"Full-text articles excluded,\nwith reasons\n(n = 0)\"];\n    qual -> quant\n    qual [label=\"Studies included in qualitative synthesis\n(n = 102)\"];\n    quant [label=\"Studies included in\nquantitative synthesis\n(meta-analysis)\n(n = 102)\"];\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="co"># PRISMA flow diagram</span></a>
+<a class="sourceLine" id="cb2-2" title="2"><span class="co"># install.packages(&quot;PRISMAstatement&quot;) #if not installed, remove the hash at the beginning of this line</span></a>
+<a class="sourceLine" id="cb2-3" title="3"><span class="kw">library</span>(PRISMAstatement)</a>
+<a class="sourceLine" id="cb2-4" title="4"><span class="kw">prisma</span>(<span class="dt">found =</span> <span class="dv">103</span>,</a>
+<a class="sourceLine" id="cb2-5" title="5">       <span class="dt">found_other =</span> <span class="dv">0</span>,</a>
+<a class="sourceLine" id="cb2-6" title="6">       <span class="dt">no_dupes =</span> <span class="dv">103</span>, </a>
+<a class="sourceLine" id="cb2-7" title="7">       <span class="dt">screened =</span> <span class="dv">103</span>, </a>
+<a class="sourceLine" id="cb2-8" title="8">       <span class="dt">screen_exclusions =</span> <span class="dv">1</span>, </a>
+<a class="sourceLine" id="cb2-9" title="9">       <span class="dt">full_text =</span> <span class="dv">102</span>,</a>
+<a class="sourceLine" id="cb2-10" title="10">       <span class="dt">full_text_exclusions =</span> <span class="dv">0</span>, </a>
+<a class="sourceLine" id="cb2-11" title="11">       <span class="dt">qualitative =</span> <span class="dv">102</span>, </a>
+<a class="sourceLine" id="cb2-12" title="12">       <span class="dt">quantitative =</span> <span class="dv">102</span>)</a></code></pre></div>
+<div id="htmlwidget-6557ef1f243c4b6a4f22" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6557ef1f243c4b6a4f22">{"x":{"diagram":"digraph prisma {\n    node [shape=\"box\", fontsize = 10];\n    graph [splines=ortho, nodesep=1, dpi = 72]\n    a -> nodups;\n    b -> nodups;\n    a [label=\"Records identified through\ndatabase searching\n(n = 103)\"];\n    b [label=\"Additional records identified\nthrough other sources\n(n = 0)\"]\n    nodups -> incex;\n    nodups [label=\"Records after duplicates removed\n(n = 103)\"];\n    incex -> {ex; ft}\n    incex [label=\"Records screened\n(n = 103)\"];\n    ex [label=\"Records excluded\n(n = 1)\"];\n    {rank=same; incex ex}\n    ft -> {qual; ftex};\n    ft [label=\"Full-text articles assessed\nfor eligibility\n(n = 102)\"];\n    {rank=same; ft ftex}\n    ftex [label=\"Full-text articles excluded,\nwith reasons\n(n = 0)\"];\n    qual -> quant\n    qual [label=\"Studies included in qualitative synthesis\n(n = 102)\"];\n    quant [label=\"Studies included in\nquantitative synthesis\n(meta-analysis)\n(n = 102)\"];\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 </div>
 </div>
