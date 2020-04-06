@@ -2,7 +2,7 @@
 
 The initial step in any bibliometric study is one of logic, primarily Boolean logic (Figure 1), used to ensure that the bulk of those publications harvested in the study are relevant to the question at hand. In this case, *geometric morphometrics in archaeology* is the topic of interest; thus, the query employed for this study was _"geometric morphometric" AND (archeology OR archaeology)_, which yielded 103 results in Scopus.
 
-![Figure 1. Example of query results that employ Boolean operators. The structure of the query used in this study most closely matches the second venn diagram from the right.](../figs/boolean.png)
+![Figure 1. Example of query results that employ Boolean operators. The structure of the query used in this study most closely matches the second venn diagram from the right.](./figs/boolean.png)
 
 ## PRISMA
 
@@ -10,7 +10,7 @@ While neither a formal systematic review or a meta-analysis his study enlisted t
 
 ```{r}
 # PRISMA flow diagram
-install.packages("PRISMAstatement") #if not installed, remove the hash at the beginning of this line
+# install.packages("PRISMAstatement") #if not installed, remove the hash at the beginning of this line
 library(PRISMAstatement)
 prisma(found = 103,
        found_other = 0,
