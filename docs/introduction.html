@@ -154,7 +154,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#prisma"><i class="fa fa-check"></i><b>1.1</b> PRISMA</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>2</b> Literature</a></li>
+<li class="chapter" data-level="2" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>2</b> Literature</a><ul>
+<li class="chapter" data-level="2.1" data-path="literature.html"><a href="literature.html#works-included-in-analysis"><i class="fa fa-check"></i><b>2.1</b> Works included in analysis</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="literature.html"><a href="literature.html#rn20926"><i class="fa fa-check"></i><b>2.1.1</b> <span class="citation">(Dhoop et al. <span>2020</span>)</span></a></li>
+<li class="chapter" data-level="2.1.2" data-path="literature.html"><a href="literature.html#rn20927"><i class="fa fa-check"></i><b>2.1.2</b> <span class="citation">(Ameen et al. <span>2019</span>)</span></a></li>
+<li class="chapter" data-level="2.1.3" data-path="literature.html"><a href="literature.html#rn20928"><i class="fa fa-check"></i><b>2.1.3</b> <span class="citation">(Ciarlo et al. <span>2019</span>)</span></a></li>
+<li class="chapter" data-level="2.1.4" data-path="literature.html"><a href="literature.html#rn20929"><i class="fa fa-check"></i><b>2.1.4</b> <span class="citation">(Stoetzel et al. <span>2019</span>)</span></a></li>
+<li class="chapter" data-level="2.1.5" data-path="literature.html"><a href="literature.html#rn20930"><i class="fa fa-check"></i><b>2.1.5</b> <span class="citation">(Natahi et al. <span>2019</span>)</span></a></li>
+</ul></li>
+</ul></li>
 <li class="chapter" data-level="3" data-path="open.html"><a href="open.html"><i class="fa fa-check"></i><b>3</b> Open Review</a><ul>
 <li class="chapter" data-level="3.1" data-path="open.html"><a href="open.html#faq-about-open-review"><i class="fa fa-check"></i><b>3.1</b> FAQ about open review</a><ul>
 <li class="chapter" data-level="3.1.1" data-path="open.html"><a href="open.html#what-kind-of-feedback-are-you-looking-for"><i class="fa fa-check"></i><b>3.1.1</b> What kind of feedback are you looking for?</a></li>
@@ -229,15 +237,15 @@ Figure 1.1: Example of query results that employ Boolean operators. The structur
 <a class="sourceLine" id="cb2-10" title="10">       <span class="dt">full_text_exclusions =</span> <span class="dv">0</span>, </a>
 <a class="sourceLine" id="cb2-11" title="11">       <span class="dt">qualitative =</span> <span class="dv">102</span>, </a>
 <a class="sourceLine" id="cb2-12" title="12">       <span class="dt">quantitative =</span> <span class="dv">102</span>)</a></code></pre></div>
-<div id="htmlwidget-dfe76a9cc0ddfbdd137f" style="width:672px;height:480px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-dfe76a9cc0ddfbdd137f">{"x":{"diagram":"digraph prisma {\n    node [shape=\"box\", fontsize = 10];\n    graph [splines=ortho, nodesep=1, dpi = 72]\n    a -> nodups;\n    b -> nodups;\n    a [label=\"Records identified through\ndatabase searching\n(n = 103)\"];\n    b [label=\"Additional records identified\nthrough other sources\n(n = 0)\"]\n    nodups -> incex;\n    nodups [label=\"Records after duplicates removed\n(n = 103)\"];\n    incex -> {ex; ft}\n    incex [label=\"Records screened\n(n = 103)\"];\n    ex [label=\"Records excluded\n(n = 1)\"];\n    {rank=same; incex ex}\n    ft -> {qual; ftex};\n    ft [label=\"Full-text articles assessed\nfor eligibility\n(n = 102)\"];\n    {rank=same; ft ftex}\n    ftex [label=\"Full-text articles excluded,\nwith reasons\n(n = 0)\"];\n    qual -> quant\n    qual [label=\"Studies included in qualitative synthesis\n(n = 102)\"];\n    quant [label=\"Studies included in\nquantitative synthesis\n(meta-analysis)\n(n = 102)\"];\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-2c7b1386d89ba005b135" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2c7b1386d89ba005b135">{"x":{"diagram":"digraph prisma {\n    node [shape=\"box\", fontsize = 10];\n    graph [splines=ortho, nodesep=1, dpi = 72]\n    a -> nodups;\n    b -> nodups;\n    a [label=\"Records identified through\ndatabase searching\n(n = 103)\"];\n    b [label=\"Additional records identified\nthrough other sources\n(n = 0)\"]\n    nodups -> incex;\n    nodups [label=\"Records after duplicates removed\n(n = 103)\"];\n    incex -> {ex; ft}\n    incex [label=\"Records screened\n(n = 103)\"];\n    ex [label=\"Records excluded\n(n = 1)\"];\n    {rank=same; incex ex}\n    ft -> {qual; ftex};\n    ft [label=\"Full-text articles assessed\nfor eligibility\n(n = 102)\"];\n    {rank=same; ft ftex}\n    ftex [label=\"Full-text articles excluded,\nwith reasons\n(n = 0)\"];\n    qual -> quant\n    qual [label=\"Studies included in qualitative synthesis\n(n = 102)\"];\n    quant [label=\"Studies included in\nquantitative synthesis\n(meta-analysis)\n(n = 102)\"];\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 </div>
 </div>
 <h3>References</h3>
 <div id="refs" class="references">
 <div id="ref-RN20925">
-<p>Liberati, Alessandro, Douglas G. Altman, Jennifer Tetzlaff, Cynthia Mulrow, Peter C. Gotzsche, John P. A. Ioannidis, Mike Clarke, P. J. Devereaux, Jos Kleijnen, and David Moher. 2009. “The Prisma Statement for Reporting Systematic Reviews and Meta-Analyses of Studies That Evaluate Health Care Interventions: Explanation and Elaboration.” Journal Article. <em>PLoS Med</em> 6 (7): e1000100. <a href="https://doi.org/10.1371/journal.pmed.1000100">https://doi.org/10.1371/journal.pmed.1000100</a>.</p>
+<p>Liberati, Alessandro, Douglas G. Altman, Jennifer Tetzlaff, Cynthia Mulrow, Peter C. Gotzsche, John P. A. Ioannidis, Mike Clarke, P. J. Devereaux, Jos Kleijnen, and David Moher. 2009. “The Prisma Statement for Reporting Systematic Reviews and Meta-Analyses of Studies That Evaluate Health Care Interventions: Explanation and Elaboration.” <em>PLoS Med</em> 6 (7): e1000100. <a href="https://doi.org/10.1371/journal.pmed.1000100">https://doi.org/10.1371/journal.pmed.1000100</a>.</p>
 </div>
 </div>
             </section>
