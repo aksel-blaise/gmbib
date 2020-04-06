@@ -1,0 +1,34 @@
+--- 
+title: "Supplementary data for paper: A bibliometric study of geometric morphometrics in archaeology"
+author: "Robert Z. Selden, Jr.; Christian S. Hoggard; and Sarah Y. Stark"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Bibliometric study of geometric morphometrics in archaeology"
+---
+
+# Preface {-}
+
+>The notion that one can begin anything at all from scratch, free from the past, or unindebted to others, could not conceivably be more (Magee 1974:69.
+
+This volume is written in **Markdown**, and includes all analysis code employed in the study, providing a means for others to reproduce (exactly) those results discussed and expounded upon in the manuscript. The reproducible nature of this undertaking provides a means for others to critically assess and evaluate the various analytical components of this study [@RN20915;@RN20916;@RN20917], which is a necessary requirement for the production of reliable knowledge. 
+
+## Acknowledgments
+
+We extend our gratitude to the MORPHMET and Morph2016, Morph2017, Morph2018, and Morph2019 communities, as well as our colleagues at archaeologicalmorphometrics.com for their comments on earlier versions of the networks.
+
+This volume enlists a variety of tools from the [Open Review Toolkit](https://www.openreviewtoolkit.org/), as well as the code provided for the `bookdown` package, and follows the excellent example advanced by [Ben Marwick](https://benmarwick.github.io/bookdown-ort/). I extend my gratitude to all who contribute comments and constructive criticisms throughout the development and maturation of this project. This document will remain in open review until the article is published.
+
+## Funding
+
+Funding for this project was provided to RZS by the United States Forest Service, National Forests and Grasslands in Texas (15-PA-11081300-033 and 20-PA-11081300-074), and components of the analytical work flow were developed and funded by a grant to RZS from the National Center for Preservation Technology and Training.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

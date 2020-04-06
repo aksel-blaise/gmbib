@@ -1,0 +1,91 @@
+# Open Review {#open}
+
+Open Review means that you can freely read this volume and easily help to make it better. You can offer suggestions by making annotations using [hypothes.is](https://hypothes.is/), an open source annotation system. This is a simple system for interacting with this volume. If you are familiar with GitHub or Git, you can also comment using [GitHub's issue tracker](https://github.com/aksel-blaise/garylin/issues/new) for the volume, or make a pull request. In addition to these feedback options, this website for the book will be collecting your implicit feedback by tracking the readership and abandonment rate of each section.
+
+Open Review takes place before and during the peer review process. The feedback from Open Review and peer review will be used to create a revised manuscript. The Open Review period will end when the final manuscript is submitted to the publisher. 
+
+The concept of Open Review, as implemented here, is taken from [Matthew Salganik's](https://twitter.com/msalganik) [Open Review Toolkit](http://www.openreviewtoolkit.org/). Much of the text on this page comes from the [Open Review Toolkit About page](http://www.bitbybitbook.com/en/open-review/) and the [Open Review Toolkit Privacy and Consent page](http://www.bitbybitbook.com/en/privacy/)
+
+## FAQ about open review
+
+### What kind of feedback are you looking for?
+
+Open Review is not just about catching typos. Rather, Open Review is designed to collect all types of feedback, and I would particularly welcome feedback that relates to the substance of the volume. Are there sections that you find particularly confusing? Are their points that you find particularly important? Am I making claims that you think need to be refined? Are there parts of the book that you think should be removed? When in doubt, I ask that you follow one of the main principles at Wikipedia: [Be bold](https://en.wikipedia.org/wiki/Wikipedia:Be_bold).
+
+### Can I see the annotations that others are making?
+
+Yes, all annotations are public. You can view them on right side of the each page, or you can read them in [stream form](https://hypothes.is/stream?q=aksel-blaise-garylin).
+
+### What are the benefits for readers?
+
+You get to read the manuscript and participate in making it better.
+
+### What are the benefits for authors and publishers?
+
+The Open Review process will benefit both authors and publishers, even if they have no interest in increasing access to knowledge. The process will lead to higher manuscript quality through the explicit and implicit feedback. Further, the Open Review process will provide valuable data that can be used during that marketing of the book.
+
+### Has anyone ever done something like this before?
+
+This is based on [Matthew Salganik's](https://twitter.com/msalganik) [Open Review Toolkit](http://www.openreviewtoolkit.org/). He has written about some related efforts here: <http://www.bitbybitbook.com/en/open-review/>
+
+### What kind of information are you collecting and how will that information be used?
+
+Please read the privacy and consent policy, below. 
+
+### How I can learn more about traditional peer review of academic books?
+
+The AAUP recently published [a report](http://www.aaupnet.org/resources/for-members/handbooks-and-toolkits/peer-review-best-practices) on best practices for peer review.
+
+### Can I do this with my book?
+
+Absolutely. View the code for this website at <https://github.com/aksel-blaise/garylin> for more about how we did it.
+
+### I have a different question about Open Review. How can I get in touch?
+
+Send an email to `zselden@sfasu.edu`
+
+## Privacy and Consent Policy
+
+### Overview
+
+The complete text of the supplementary data is made available on this website at no cost. While you are reading the volume, reader behavior is measured in aggregate. For example, which sections of the book get read most often is measured. These data will help to improve the book.
+
+### What information do we collect?
+
+[Google Analytics](https://analytics.google.com/) is used to collect information about how you interact with this website. Further, like most websites, [cookies](https://en.wikipedia.org/wiki/HTTP_cookie) are used to enhance your experience, gather general visitor information, and track visits to the website. Please refer to the "do we use cookies?" section below for information about cookies and how we use them.
+
+### How do we use your information?
+
+Any of the information that we collect may be used for research, to improve the supplementary data.
+
+### How do we protect your information?
+
+A variety of security measures is used to maintain the safety of the information that you provide.
+
+Most of the browsing information that we gather is stored in Google Analytics, and you can read more about their [security and privacy principles](https://support.google.com/analytics/answer/6004245?hl=en).
+
+Annotations that you can add are managed by [hypothes.is](https://hypothes.is/), and you can read more about their [terms of service](https://hypothes.is/terms-of-service/).
+
+Our website is hosted by [Github Pages](https://pages.github.com/), and you can read more about Github's [terms of service](https://help.github.com/articles/github-terms-of-service/).
+
+### Do we use cookies?
+
+Yes. Cookies are small files that a site or its service provider transfers to your computer's hard drive through your web browser (if you allow) that enables the sites or service providers systems to recognize your browser and capture and remember certain information.
+
+In order to offer you a better site experience, cookies are used to understand and save your preferences for future visits, and to compile aggregate data regarding site traffic.
+
+### Your consent
+
+By using this site, you consent to the privacy policy.
+
+### Questions
+
+If you have any questions, please contact me by email at `zselden@sfasu.edu`
+
+### Changes to our Privacy and Consent Policy
+
+I reserve the right to this privacy policy from time to time at my discretion. Please periodically check this section to review the current version of the Privacy and Consent Policy. All previous policies are included in the associated repository, and this page will be updated if any changes are needed.
+
+### Acknowledgments
+
+The bulk of the (modified) text above comes directly from [Ben Marwick's](https://github.com/benmarwick/bookdown-ort) excellent bookdown example that illustrates how each of the pieces of this volume function independently, and as a whole. Many thanks to Ben for making this available, and I encourage other archaeologists to fork his repository, and make use of these tools.
