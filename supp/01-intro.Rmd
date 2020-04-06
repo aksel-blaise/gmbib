@@ -8,7 +8,7 @@ knitr::include_graphics(rep("./figs/boolean.png"))
 
 ## PRISMA
 
-While neither a formal systematic review or a meta-analysis his study enlisted the work-flow of the Preferred Reporting Items for Systematic Reviews and Meta-Analysese (PRISMA) [@RN20925], as a means of improving reporting. There is no shortage of unindexed publications on the topic in question; however, the focus of this particular study relied only on those works included in Scopus, which includes a complementary record with the cited works for each publication.
+While neither a formal systematic review or a meta-analysis his study enlisted the work-flow of the Preferred Reporting Items for Systematic Reviews and Meta-Analysese (PRISMA) [@RN20925], as a means of improving reporting. There is no shortage of unindexed publications on the topic in question; however, the focus of this particular study relied only on those works included in Scopus, which includes a complementary record with the cited works for each publication. The one publication omitted from the study did not include an application of geometric morphometrics, but discussed how the methods of geometric morphometrics might be applied.
 
 ```{r prisma, echo=TRUE}
 # PRISMA flow diagram
