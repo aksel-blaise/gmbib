@@ -609,31 +609,354 @@ PUBLICATION STAGE: Article in Press
 
 SOURCE: Scopus
 
-### Souron et al., conf. paper
+### [@RN11716]
 
 Scopus
-EXPORT DATE:06 Apr 2020
+EXPORT DATE:07 Apr 2020
 
-Souron, A., Napias, A., Lavidalie, T., Santos, F., Ledevin, R., Castel, J.-C., Costamagno, S., Cusimano, D., Drumheller, S., Parkinson, J., Rozada, L., Cochard, D.
-55233785400;57215209415;57215193406;7202141340;26436458100;8397743500;15043964700;57215190787;55090211500;56519286000;57202435428;24504235300;
-A new geometric morphometrics-based shape and size analysis discriminating anthropogenic and non-anthropogenic bone surface modifications of an experimental data set
-(2019) 2019 IMEKO TC4 International Conference on Metrology for Archaeology and Cultural Heritage, MetroArchaeo 2019, pp. 560-565. 
-https://www.scopus.com/inward/record.uri?eid=2-s2.0-85080043342&partnerID=40&md5=e8f95ba7d64fbefeea3f93f9aba4a550
+Selden, R.Z., Jr.
+55352809700;
+Ceramic morphological organisation in the Southern Caddo Area: The Clarence H. Webb collections
+(2019) Journal of Cultural Heritage, 35, pp. 41-55. Cited 2 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85050128636&doi=10.1016%2fj.culher.2018.07.002&partnerID=40&md5=9355a2fde894247f1b03031f8b5e271d
 
-AFFILIATIONS: PACEA, UMR 5199, Université de Bordeaux, CS50023, Bât. B2, Allée Geoffroy Saint Hilaire, Pessac, 33615, France; 
-Muséum d’histoire naturelle, Route de Malagnou, Genève, 1208, Switzerland; 
-TRACES, UMR 5608, Université de Toulouse Jean Jaurès, Maison de la Recherche, Bât. 26-5, allée Antonio Machado, Toulouse, 31058, France; 
-Diablo Valley College, Anthropology Department, 321 Golf Club Road, Pleasant Hill, CA  94523, United States; 
-Department of Earth and Planetary Sciences, University of Tennessee, 1621 Cumberland Avenue, Knoxville, TN  37996-1410, United States; 
-Department of Anthropology, University of San Diego, 5998 Alcalá Park, San Diego, CA  92110, United States; 
-CR2P, UMR 7207, Muséum national d’Histoire naturelle, 8, rue Buffon, CP 38, Paris, 75005, France
+DOI: 10.1016/j.culher.2018.07.002
 
-ABSTRACT: Reliable discrimination of anthropogenic and non-anthropogenic bone surface modifications (BSM) is crucial to reconstructing the taphonomic history of bone assemblages and past behaviors of hominids and other animals. This discrimination is hindered by equifinality, i.e., BSM with similar morphologies that were produced by different agents. Here we propose a new method to identify the taphonomic agents responsible for BSM and apply it to an experimental data set containing 177 BSM produced by anthropogenic (stone tool-induced cut marks) and non-anthropogenic agents (carnivoran and crocodylian bite marks, and trampling marks). We used 3D topographic models of BSM built from confocal microscopy and applied geometric morphometrics-based shape and size analyses to cross-sectional profiles extracted from the BSM. The new method considers both average profiles and intra-mark variability of profiles. Multivariate analyses of several shape and size variables result in a new synthetic morphospace where anthropogenic and non-anthropogenic BSM show very little overlap. © 2019 International Conference on Metrology for Archaeology and Cultural Heritage.
+AFFILIATIONS: Center for Regional Heritage Research, Stephen F. Austin State University, United States; 
+Cultural Heritage Department, Jean-Monnet University, France
 
-DOCUMENT TYPE: Conference Paper
+ABSTRACT: Analyses of ceramic vessel shape are neither new or novel; however, the relatively recent adoption of geometric morphometric (GM) methods by archaeologists provides a preview of the contribution of GM to the systematic and rigorous study of morphology as applied to material culture. This study is focused upon an analysis of Caddo bottle shapes for Belcher Engraved, Hickory Fine Engraved, Keno Trailed, Smithport Plain, and Taylor Engraved vessels from the Allen Plantation, Belcher Mound, Gahagan Mound, and Smithport Landing sites in the Clarence H. Webb collections from northwest Louisiana. Results indicate some significant relationships between bottle shape and size (allometry), bottle shape and type, and bottle shape and site. A test of morphological integration indicates that the bottles are significantly integrated, meaning that those discrete traits used to characterise their shape (rim, neck, body, and base) vary in a coordinated manner, highlighting significant integration between suites of attributes. The Smithport Plain and Hickory (Fine) Engraved bottles found at the Belcher Mound, Smithport Landing, and Gahagan Mound sites also provide evidence for two discrete (north–south) base and body shapes. © 2018 Elsevier Masson SAS
+
+AUTHOR KEYWORDS: 3D;  American Southeast;  Geometric morphometrics;  Morphological disparity;  Morphological integration;  Virtual archaeology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20945]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+O'Higgins, P., Fitton, L.C., Godinho, R.M.
+7004722122;36738982500;56996996100;
+Geometric morphometrics and finite elements analysis: Assessing the functional implications of differences in craniofacial form in the hominin fossil record
+(2019) Journal of Archaeological Science, 101, pp. 159-168. Cited 1 time.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85029591397&doi=10.1016%2fj.jas.2017.09.011&partnerID=40&md5=ebd4eb8c7d10357c924b2d5c02f66309
+
+DOI: 10.1016/j.jas.2017.09.011
+
+AFFILIATIONS: Department of Archaeology and Hull York Medical School, University of York, Heslington, York, YO10 5DD, United Kingdom; 
+Interdisciplinary Center for Archaeology and Evolution of Human Behaviour (ICArHEB), Faculdade das Ciências Humanas e Sociais, Universidade do Algarve, Campus Gambelas, Faro, 8005-139, Portugal
+
+ABSTRACT: The study of morphological variation in the hominin fossil record has been transformed in recent years by the advent of high resolution 3D imaging combined with improved geometric morphometric (GM) toolkits. In parallel, increasing numbers of studies have applied finite elements analysis (FEA) to the study of skeletal mechanics in fossil and extant hominoid material. While FEA studies of fossils are becoming ever more popular they are constrained by the difficulties of reconstruction and by the uncertainty that inevitably attaches to the estimation of forces and material properties. Adding to these modelling difficulties it is still unclear how FEA analyses should best deal with species variation. Comparative studies of skeletal form and function can be further advanced by applying tools from the GM toolkit to the inputs and outputs of FEA studies. First they facilitate virtual reconstruction of damaged material and can be used to rapidly create 3D models of skeletal structures. Second, GM methods allow variation to be accounted for in FEA by warping models to represent mean and extreme forms of interest. Third, GM methods can be applied to compare FEA outputs – the ways in which skeletal elements deform when loaded. Model comparisons are hampered by differences in material properties, forces and size among models but how deformations from FEA are impacted by these parameters is increasingly well understood, allowing them to be taken into account in comparing FEA outputs. In this paper we review recent advances in the application of GM in relation to FEA studies of craniofacial form in hominins, providing examples from our recent work and a critical appraisal of the state of the art. © 2017 Elsevier Ltd
+
+AUTHOR KEYWORDS: Craniofacial form;  Finite element analysis;  Form-function;  Functional performance;  Geometric morphometrics
+
+DOCUMENT TYPE: Article
 
 PUBLICATION STAGE: Final
 
 SOURCE: Scopus
+
+### [@RN20946]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Buchanan, B., Collard, M., O'Brien, M.J.
+11241802300;7102608373;36128081000;
+Geometric Morphometric Analyses Support Incorporating the Goshen Point Type into Plainview
+(2019) American Antiquity, 85 (1), pp. 171-181. 
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85077302252&doi=10.1017%2faaq.2019.89&partnerID=40&md5=ee3e1dd8c53be99abb513994a835b3c6
+
+DOI: 10.1017/aaq.2019.89
+
+AFFILIATIONS: Department of Anthropology, University of Tulsa, Tulsa, OK  74104, United States; 
+Department of Archaeology, Simon Fraser University, Burnaby, British Columbia  V5A 1S6, Canada; 
+Department of History, Texas AandM University-San Antonio, San Antonio, TX  78224, United States
+
+ABSTRACT: Recent work has demonstrated that Goshen points overlap in time with another group of unfluted lanceolate points from the Plains, Plainview points. This has raised the question of whether the two types should be kept separate or consolidated into a single type. We sought to resolve this issue by applying geometric morphometric methods to a sample of points from well-documented Goshen and Plainview assemblages. We found that their shapes were statistically indistinguishable, which indicates that Goshen and Plainview points should be assigned to the same type. Because Plainview points were recognized before Goshen points, it is the latter type name that should be dropped. Sinking Goshen into Plainview allows us to move beyond taxonomic issues and toward understanding both the spatiotemporal variation that exists among Plainview assemblages and what it can tell us about the adaptations and social dynamics of Plainview groups. Copyright © 2019 by the Society for American Archaeology.
+
+AUTHOR KEYWORDS: geometric morphometrics;  Goshen;  Late Paleoindian;  Plains;  Plainview;  typology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20947]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Eyquem, A.P., Kuzminsky, S.C., Aguilera, J., Astudillo, W., Toro-Ibacache, V.
+57205321574;42661433900;57205325530;57205318156;56341900600;
+Normal and altered masticatory load impact on the range of craniofacial shape variation: An analysis of pre-Hispanic and modern populations of the American Southern Cone
+(2019) PLoS ONE, 14 (12), art. no. e0225369, . 
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85076296826&doi=10.1371%2fjournal.pone.0225369&partnerID=40&md5=3d0e93eb9ee5118edb0c0f9d0e208dab
+
+DOI: 10.1371/journal.pone.0225369
+
+AFFILIATIONS: Centro de Análisis Cuantitativo en Antropología Dental, Facultad de Odontología, Universidad de Chile, Santiago, Chile; 
+Max Planck Weizmann Center for Integrative Archaeology and Anthropology, Max PlanckInstitute for Evolutionary Anthropology, Leipzig, Germany; 
+Department of Anthropology and AppliedArchaeology, Eastern New Mexico University, Portales, NM, United States; 
+Anthropology Department, University of California, Santa Cruz, CA, United States; 
+Facultad de Medicina and Hospital Clínico, Universidad de Chile, Santiago, Chile; 
+Department of HumanEvolution, Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
+
+ABSTRACT: The reduction of masticatory load intensity resulting from dietary changes in human evolution has been proposed as an important factor that alters craniofacial shape in past and current populations. However, its impact on craniofacial variation and on the perceived differences among populations is unclear. The maxillomandibular relationship, which alters masticatory force direction, is a factor often neglected but it can contribute to variation in craniofacial morphology, particularly among modern/urban populations where the prevalence of dental malocclusions is greater than in prehistoric populations. This study investigates the influence of masticatory load intensity and maxillomandibular relationship as a proxy for force direction on the human craniofacial skeleton. By using 3D imaging and geometric morphometrics, we analyzed craniofacial shape variation among 186 individuals from pre-Hispanic and modern Chilean and Argentinean populations that differ in diet consistency (a proxy for masticatory load intensity) and maxillomandibular relationship. We predicted that masticatory load would have a subtle effect on the upper craniofacial bones and that this would be more marked in the maxilla. Our results showed no clear influence of masticatory load on craniofacial shape, particularly in modern/urban populations. Allometry, on the contrary, shows a stronger effect. The degree of integration between the upper craniofacial bones and the load-bearing maxilla depends on masticatory load intensity, decreasing from high to low but showing a conservative pattern of covariation among the groups. The degree of variation in the shape of the maxilla is greater than the upper craniofacial bones. These results suggest that masticatory load has a limited effect in determining differences in craniofacial morphology among populations. This effect is slightly greater for the maxillary region of the face. We propose that the reduction of functional constraints is key to greater shape variation found in modern/urban populations. © 2019 Eyquem et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20722]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Doyon, L.
+57200142401;
+On the shape of things: A geometric morphometrics approach to investigate Aurignacian group membership
+(2019) Journal of Archaeological Science, 101, pp. 99-114. Cited 2 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85058057849&doi=10.1016%2fj.jas.2018.11.009&partnerID=40&md5=4c3be842aa1d4165392836f343ecc8d6
+
+DOI: 10.1016/j.jas.2018.11.009
+
+AFFILIATIONS: Institute of Cultural Heritage, Shandong University, 27 Shanda Nanlu, Jinan, 250100, China; 
+Centre National de la Recherche Scientifique, UMR 5199 – PACEA, Université de Bordeaux, Bât. B18, Allée Geoffroy Saint Hilaire, Pessac Cedex, CS, 50023, 33615, France
+
+ABSTRACT: The manufacture of composite projectile technology requires the production and assemblage of tightly fitted parts designed to fulfill a number of distinct functions. Each part combines a number of techno-functional units, and various processes may be responsible for the shape variability of these units. In order to investigate the relative contribution of each process to the overall variability of a projectile implement, one must identify the point of demarcation between its techno-functional units. In the present paper, the concept of shape modularity is introduced to precisely identify this locus. The application of geometric morphometrics and shape modularity to the study of two Aurignacian osseous projectile point types, i.e., split- and massive-based points, reveals interesting patterns. On both types, the maximum width delimits the distal and proximal techno-functional units of these objects. When focusing on the morphometric variability and the geographic distribution of the implements’ proximal unit, the eight shapes identified for split-based points are found over vast regions of Europe. On the other hand, the two proximal shapes defined for massive-based points show a pattern of local, or regional, aggregation. These proximal shapes were likely considered fit for hafting and hunting by the prehistoric populations who reproduced them, and they are interpreted as a proxy for the socially shared rules of production that guided the manufacture of these tool types. They could therefore be used in future studies that aim to identify group membership amongst the Aurignacian metapopulation and the extent of their interactions. © 2018 Elsevier Ltd
+
+AUTHOR KEYWORDS: Bone technology;  Early Upper Palaeolithic;  Europe;  Projectile points;  Shape modularity
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20948]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+MacLeod, N.
+57200347364;
+The quantitative assessment of archaeological artifact groups: Beyond geometric morphometrics
+(2018) Quaternary Science Reviews, 201, pp. 319-348. Cited 6 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85055626269&doi=10.1016%2fj.quascirev.2018.08.024&partnerID=40&md5=c71b8447562d5ab09c09cb3e4fcfe3d2
+
+DOI: 10.1016/j.quascirev.2018.08.024
+
+AFFILIATIONS: The Natural History Museum, Cromwell Road, London, SW7 5BD, United Kingdom; 
+Department of Earth Sciences, University College, London, Gower Street, London, WC1E 6BT, United Kingdom; 
+Nanjing Institute of Geology and Palaeontology, Chinese Academy of Sciences, 39 Beijing, Donglu, Nanjing, China
+
+ABSTRACT: Archaeologists often wish to distinguish between groups of cultural artifacts using information collected from descriptions or measurements of their morphological forms. Morphometric methods have played an increasingly large role in such quantitative assessments. However, standard approaches to morphometric analyses are often poorly suited to many artifact types as much variation of interest to archeologists cannot be quantified adequately by sparse sets of landmarks or semilandmarks. Use of measurement conventions also requires that investigators know which aspects of the artifacts under consideration are important to include at the outset of an investigation. In this review results obtained from landmark-semilandmark-based, and image pixel-based assessments of a common set of Paleoindian fluted projectile points are compared. Results confirm that, by itself, PCA is unsuited for the assessment of between-group differences irrespective of data type, but can be useful as a transformation to reduce the dimensionality of a morphological dataset while retaining its effective information content. Landmark-semilandmark data analysed using geometric morphometric methods delivered the lowest-quality results whereas image pixel data analysed by the Naïve Bayes machine-learning classifier delivered the highest. Direct analyses of artifact images using geometric morphometric methods delivered very good results. These findings suggest that the direct analyses of digital images and 3D scans, using either geometric morphometric data-analysis methods or machine-learning procedures, can provide archaeologists with tools that improve and extend the scope of their assessments of a wide range of artifact types. © 2018
+
+AUTHOR KEYWORDS: Data analysis;  Discriminant analysis;  Machine learning;  Morphometrics;  North America;  Paleogeography;  Paleoindian;  Projectile points;  Quaternary;  Typology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20949]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Presnyakova, D., Braun, D.R., Conard, N.J., Feibel, C., Harris, J.W.K., Pop, C.M., Schlager, S., Archer, W.
+56429690500;23972180300;6603626316;6603873935;55740177800;55860417700;48662907600;35085743300;
+Site fragmentation, hominin mobility and LCT variability reflected in the early Acheulean record of the Okote Member, at Koobi Fora, Kenya
+(2018) Journal of Human Evolution, 125, pp. 159-180. Cited 6 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85053873119&doi=10.1016%2fj.jhevol.2018.07.008&partnerID=40&md5=8a13624f1538bc06eee2a6abf0d43041
+
+DOI: 10.1016/j.jhevol.2018.07.008
+
+AFFILIATIONS: Department of Early Prehistory and Quaternary Ecology, University of Tübingen, Schloss Hohentübingen, Tübingen, 72070, Germany; 
+Center for the Advanced Study of Hominid Paleobiology, George Washington UniversityWashington, DC  20052, United States; 
+Department of Anthropology, Rutgers University, New Brunswick, NJ  08901-1414, United States; 
+Department of Human Evolution, Max Planck Institute for Evolutionary Anthropology, Leipzig, 04103, Germany; 
+Biological Anthropology, Faculty of Medicine, Albert-Ludwigs-University, Freiburg, 79098, Germany; 
+Department of Archaeology, University of Cape Town7700, South Africa
+
+ABSTRACT: From its initial appearance at ∼1.7 Ma, the Acheulean was prevalent through a vast chronological span of hominin behavioural evolution that lasted nearly 1.5 million years. The origins and production patterns of large bifacial cutting tools (‘LCTs’) – the marker of the Acheulean techno-complex – and the systematic changes in this behaviour through time are gaining increasing interest in paleoanthropology. Here we provide a synthesis of early Acheulean LCT variation in a landscape context by analysing assemblages from four different quasi-contemporaneous (∼1.4 Ma) sites from the Koobi Fora Formation. We characterize this variation using both 3D geometric morphometric and descriptive approaches. The expansive lateral exposures of fluvial and lacustrine sediments, as well as the associated tephrostratigraphy of the Koobi Fora Formation provide the landscape context that enables these comparative analyses. Our study demonstrates that when multiple contemporaneous early Acheulean localities are analysed together, a broader picture of LCT variability is elucidated. Four sites at Koobi Fora appear to represent a single system of lithic economy, characterized by a discrete trajectory of changes in LCT size and shape. These sites have ranges of LCT forms which appear to represent different but overlapping stages on a single reduction trajectory. Certain sites exhibit the full reduction trajectory while others exhibit only fragments of this trajectory. Other inter-site lithic proxies further complement these patterns in LCT variability. We explore patterns of site function, mobility and hominin landscape use, all of which may be suggestive of a depth of planning in early Acheulean hominins wherein technological activities were undertaken in substantial anticipation of future needs. © 2018 Elsevier Ltd
+
+AUTHOR KEYWORDS: Early Acheulean;  Geometric morphometrics;  Hominin behaviour;  Landscape scale variation;  Large cutting tools;  Lithic analysis
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20950]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Limier, B., Ivorra, S., Bouby, L., Figueiral, I., Chabal, L., Cabanis, M., Ater, M., Lacombe, T., Ros, J., Brémond, L., Terral, J.-F.
+57204163442;14828273200;6602374494;6603067806;23984103300;23994967800;6603387124;23485802300;55899046100;6506805677;6603580109;
+Documenting the history of the grapevine and viticulture: A quantitative eco-anatomical perspective applied to modern and archaeological charcoal
+(2018) Journal of Archaeological Science, 100, pp. 45-61. Cited 2 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85054706770&doi=10.1016%2fj.jas.2018.10.001&partnerID=40&md5=c00d57eb40246928c6e475ff1cae3334
+
+DOI: 10.1016/j.jas.2018.10.001
+
+AFFILIATIONS: Institut National de la Recherche Agronomique, 2 place P. Viala, Montpellier, 34060, France; 
+Institut des Sciences de l'Evolution de Montpellier - Université de Montpellier / CNRS / IRD / EPHE, place E. Bataillon, Cedex 5, Montpellier, 34090, France; 
+Institut National de Recherche Archéologique Préventive Méditerranée, 3 rue de l'Acropole, Lot. Actipolis, Villeneuve-les-Béziers, 34420, France; 
+Institut National de Recherche Archéologique Préventive Rhône-Alpes Auvergne UMR 6042, Université Clermont Auvergne, 4 rue Ledru, Cedex 1, Clermont-Ferrand, 63057, France; 
+Laboratoire Botanique Appliquée, Equipe Bio-Agrodiversité, Département de Biologie, Faculté des Sciences, Université Abdelmalek Essaâdi. BP 2062, Tétouan, 93030, Morocco; 
+AGAP, Université Montpellier, CIRAD, INRA, Montpellier SupAgro, 2 place P. Viala, Cedex 2, Montpellier, 34060, France; 
+Casa de Velasquez, Ciudad Universitaria, C/ Paul Guinard 3, Madrid, 28040, Spain
+
+ABSTRACT: The history of the grapevine and viticulture is well documented by an extensive and rich corpus of textual, iconographic, archaeological, archaeobotanical and morphometric data. However, until now, grapevine charcoal remains from archaeological contexts were largely underexploited. In this study we describe the development of a quantitative anatomical method which aims to discriminate between the wild and cultivated grapevines based on a reference collection of modern individuals. The plasticity of grapevine anatomical characters was quantified in relation to maturity or age of wood and environmental conditions. For the first time, quantitative eco-anatomical features of charcoal from archaeological sites (South of France, Bronze Age - Modern Period) were compared to the reference models established beforehand. This procedure allowed us to identify the status (wild or cultivated-domesticated) of certain sub-fossil samples. Our results complement data from archaeobotany and from traditional and geometric morphometric analyses of Vitis pips. They confirm the collection/use of the wild grapevine during the Bronze Age and the exploitation of cultivated forms on coastal or near coastal sites (Mediterranean), from the Iron Age up to the Modern Period. Furthermore, the question of an early grapevine cultivation (5th c. BCE) in regions away from the sea is raised for the first time. © 2018 Elsevier Ltd
+
+AUTHOR KEYWORDS: Archaeobotany;  Eco-anatomy;  Vitis vinifera L.;  Wild vs. cultivated-domesticated;  Wood charcoal anatomy
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20951]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Herzlinger, G., Grosman, L.
+56910008800;25636007900;
+AGMT3-D: A software for 3-D landmarks-based geometric morphometric shape analysis of archaeological artifacts
+(2018) PLoS ONE, 13 (11), art. no. e0207890, . Cited 3 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85056802184&doi=10.1371%2fjournal.pone.0207890&partnerID=40&md5=71be54d99dbcf0171316651c353cd694
+
+DOI: 10.1371/journal.pone.0207890
+
+AFFILIATIONS: Institute of Archaeology, Mount Scopus, Hebrew University of Jerusalem, Jerusalem, Israel; 
+Jack, Joseph and Morton Mandel School for Advanced Studies in the Humanities, Mount Scopus, Hebrew University of Jerusalem, Jerusalem, Israel
+
+ABSTRACT: We present here a newly developed software package named Artifact GeoMorph Toolbox 3-D (AGMT3-D). It is intended to provide archaeologists with a simple and easy-to-use tool for performing 3-D landmarks-based geometric morphometric shape analysis on 3-D digital models of archaeological artifacts. It requires no prior knowledge of programming or proficiency in statistics. AGMT3-D consists of a data-acquisition procedure for automatically positioning 3-D models in space and fitting them with grids of 3-D semi-landmarks. It also provides a number of analytical tools and procedures that allow the processing and statistical analysis of the data, including generalized Procrustes analysis, principal component analysis, a warp tool, automatic calculation of shape variabilities and statistical tests. It provides an output of quantitative, objective and reproducible results in numerical, textual and graphic formats. These can be used to answer archaeologically significant questions relating to morphologies and morphological variabilities in artifact assemblages. Following the presentation of the software and its functions, we apply it to a case study addressing the effects of different types of raw material on the morphologies and morphological variabilities present in an experimentally produced Acheulian handaxe assemblage. The results show that there are statistically significant differences between the mean shapes and shape variabilities of handaxes produced on flint and those produced on basalt. With AGMT3-D, users can analyze artifact assemblages and address questions that are deducible from the morphologies and morphological variabilities of material culture assemblages. These questions can relate to issues of, among others, relative chronology, cultural affinities, tool function and production technology. AGMT3-D is aimed at making 3-D landmarks-based geometric morphometric shape analysis more accessible to archaeologists, in the hope that this method will become a tool commonly used by archaeologists. © 2018 Herzlinger, Grosman. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20952]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Samper Carro, S.C., Louys, J., O'Connor, S.
+55914468200;15136337000;8707659200;
+Shape does matter: A geometric morphometric approach to shape variation in Indo-Pacific fish vertebrae for habitat identification
+(2018) Journal of Archaeological Science, 99, pp. 124-134. Cited 1 time.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85054155690&doi=10.1016%2fj.jas.2018.09.010&partnerID=40&md5=d3aa72e6195a76f3237e6b9b29483458
+
+DOI: 10.1016/j.jas.2018.09.010
+
+AFFILIATIONS: School of Archaeology and Anthropology, College of Arts and Social Sciences, Australian National UniversityACT  0200, Australia; 
+Department of Archaeology and Natural History, College of Asia and the Pacific, Australian National UniversityACT  0200, Australia; 
+Centre d'Estudis del Patrimoni Arqueològic de la Prehistoria, Facultat de Lletres, Universitat Autònoma de Barcelona, Spain; 
+Australian Research Centre of Human Evolution (ARCHE), Environmental Futures Research Institute, Griffith University, Brisbane, Australia; 
+ARC Centre of Excellence for Australian Biodiversity and Heritage, Australian National UniversityACT  0200, Australia
+
+ABSTRACT: Traditional fish vertebrae identification relies on the availability of comprehensive reference collections that include every element from the neural spine for each taxon. In regions with great taxonomic diversity, such as the Indo-Pacific, the identification of fish vertebrae to species is difficult. This results in taxonomic lists with many skeletal elements identified only to family. However family level identifications often tell us little about the environmental preferences of the fish and thus, by inference, human fishing practices. Here we apply geometric morphometrics (GM) to examine shape variations within vertebrae in modern specimens of a variety of pelagic and reef species to determine if this method can be used to reliably inform on habitat preferences. Digitized vertebral elements of reef (Acanthuridae, Balistidae, Labridae, Lethrinidae, Lutjanidae and Serranidae) and pelagic/open water (Scombridae and Carangidae) families were scored using 2D landmarks. These were subjected to Generalized Procrustes Analysis and discriminatory multivariate analyses (Linear Discriminant Analysis and Discriminant Function Analysis) in order to assess whether shape can be used to differentiate habitats. Our results suggest that geometric morphometrics do allow the differentiation of habitat in vertebrae and provide an alternative method for the classification of archaeological fish assemblages. These analyses were applied to a sample of archaeological fish remains from a site in Alor Island (Nusa Tenggara Timur, Indonesia) and compared with the results of an earlier traditional comparative icthyoarchaeological analysis. We found that the main component of the Pleistocene marine human diet comprised reef species, with the sporadic addition of open water species, supporting the pattern recorded with traditional analyses. This methodology could be widely applied to archaeological fish material from across the Indo-Pacific allowing a greater number of bones in assemblages to contribute to insights into human exploitation of coastal habitats and fishing techniques over time. © 2018 Elsevier Ltd
+
+AUTHOR KEYWORDS: Fish habitat;  Geometric morphometrics;  Icthyoarchaeology;  Vertebrae;  Wallacea;  Zooarchaeology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20953]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Buchanan, B., Andrews, B., O'Brien, M.J., Eren, M.I.
+11241802300;26661326100;36128081000;23975681200;
+AN ASSESSMENT of STONE WEAPON TIP STANDARDIZATION during the CLOVIS-FOLSOM TRANSITION in the WESTERN United States
+(2018) American Antiquity, 83 (4), pp. 721-734. Cited 2 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85055107375&doi=10.1017%2faaq.2018.53&partnerID=40&md5=8600905ec6c317bfe1073fc14b3f52fa
+
+DOI: 10.1017/aaq.2018.53
+
+AFFILIATIONS: Department of Anthropology, University of Tulsa, 800 South Tucker Drive, Tulsa, OK  74104, United States; 
+Department of Psychology and Sociology, Rogers State University, 1701 Will Rogers Blvd., Claremore, OK  74107, United States; 
+Department of Humanities and Social Sciences, Texas AandM University-San Antonio, One University Way, San Antonio, TX  78253, United States; 
+Department of Anthropology, University of Missouri, Columbia, MO  65211, United States; 
+Department of Anthropology, Kent State University, 750 Hilltop Drive, Kent, OH, United States; 
+Department of Archaeology, Cleveland Museum of Natural History, 1 Wade Oval Drive, Cleveland, OH  44106, United States
+
+ABSTRACT: It has long been assumed that Folsom points are more standardized than Clovis points, although an adequate test of this proposition has yet to be undertaken. Here, we address that deficiency by using data from a sample of Folsom and Clovis points recovered from sites across the western United States. We used geometric morphometric techniques to capture point shape and then conducted statistical analyses of variability associated with Clovis and Folsom point bases and blades. Our results demonstrate that Folsom bases and blades are less variable than those on earlier Clovis points, indicating an increase in point standardization during the Early Paleoindian period. In addition, despite published claims to the contrary, Clovis and Folsom point bases are no more variable than blades. Based on these results, we conducted additional analyses to examine the modularity and size of Clovis and Folsom points. The results suggest Clovis points have more integrated base and blade segments than Folsom points. We suggest that several classes of Clovis points - intended for different functions - might have been in use during the Clovis period and that the later Folsom points might have served only as weapon tips, the shape of which were constrained by the fluting process. Copyright © 2018 by the Society for American Archaeology.
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20954]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Selden, R.Z., Dockall, J.E., Shafer, H.J.
+55352809700;6504247046;6602836598;
+Lithic morphological organisation: Gahagan bifaces from the Southern Caddo Area
+(2018) Digital Applications in Archaeology and Cultural Heritage, 10, art. no. e00080, . Cited 1 time.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85053924005&doi=10.1016%2fj.daach.2018.e00080&partnerID=40&md5=9493bbe377621c87a79a4ad447747b30
+
+DOI: 10.1016/j.daach.2018.e00080
+
+AFFILIATIONS: Center for Regional Heritage Research, Stephen F. Austin State University, United States; 
+Cultural Heritage Department, Jean Monnet University, France; 
+Prewitt and Associates, Inc., United States; 
+Department of Anthropology, Texas A&M University, United States
+
+ABSTRACT: This analysis of Gahagan biface morphology enlists the three largest samples of Gahagan bifaces, to include that of the type site (Gahagan Mound) as well as the Mounds Plantation and George C. Davis sites. Results indicate a significant difference in Gahagan biface morphology at the Mounds Plantation site when compared with Gahagan bifaces from the Gahagan Mound and George C. Davis sites. Tests for allometry and asymmetry were not significant. The test of morphological disparity indicates that Gahagan bifaces produced at the Mounds Plantation site occupy a more restricted range of morphospace than those produced at Gahagan Mound, providing indirect evidence for standardisation and diversity in Caddo biface production. While the sample includes a wide range of variation in biface shapes, the test of morphological integration indicates that Gahagan bifaces are significantly integrated, meaning that those traits used to characterise their shape (blade and base) vary in a coordinated manner. These results articulate with a shift in Caddo bottle morphology over the same geography, potentially indicating two previously unrecognised and morphologically-distinct lithic and ceramic production areas. © 2018 Elsevier Ltd
+
+AUTHOR KEYWORDS: 3D;  American Southeast;  Caddo;  Geometric morphometrics;  Morphological disparity;  Morphological integration;  Virtual archaeology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
