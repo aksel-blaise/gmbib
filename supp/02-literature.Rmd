@@ -1388,7 +1388,149 @@ PUBLICATION STAGE: Final
 
 SOURCE: Scopus
 
-### [@]
+### [@RN20969]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Nelson, E., Hall, J., Randolph-Quinney, P., Sinclair, A.
+35105614600;57192811548;56862348800;56358638800;
+Beyond size: The potential of a geometric morphometric analysis of shape and form for the assessment of sex in hand stencils in rock art
+(2017) Journal of Archaeological Science, 78, pp. 202-213. Cited 8 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85008168812&doi=10.1016%2fj.jas.2016.11.001&partnerID=40&md5=f51a951e6a21e14ee2c2fda09befc966
+
+DOI: 10.1016/j.jas.2016.11.001
+
+AFFILIATIONS: School of Medicine, Faculty of Health and Life Sciences, Whelan Building, University of Liverpool, Brownlow HillL69 3GB, United Kingdom; 
+Archaeology Classics and Egyptology, Abercromby Square, University of LiverpoolL69 7ZG, United Kingdom; 
+School of Forensic and Applied Sciences, University of Central Lancashire, Preston, PR1 2HE, United Kingdom; 
+School of Anatomical Sciences, University of the Witwatersrand Medical School, Faculty of Health Sciences, 7 York Road, Parktown, Johannesburg, 2193, South Africa; 
+Evolutionary Studies Institute, University of the Witwatersrand, Wits, Johannesburg, 2050, South Africa
+
+ABSTRACT: Hand stencils are some of the most enduring images in Upper Palaeolithic rock art sites across the world; the earliest have been dated to over 40 Kya in Sulawesi and 37 Kya in Europe. The analysis of these marks may permit us to know more about who was involved in the making the of prehistoric images as well as expanding the literature on the evolution of human behaviour. A number of researchers have previously attempted to identify the sex of the makers of Upper Palaeolithic hand stencils using methods based on hand size and digit length ratios obtained from digital or photo-based images of modern reference samples. Some analyses report that it was males who were responsible for the majority of hand stencils, whilst the most recent analysis determined that females produced the majority of hand stencils. Taken together, however, these studies generate contrasting and incompatible interpretations. In this study we critically review where we currently stand with methods of sexing the makers of hand stencils and the problems for the interpretation of hand markings of Palaeolithic age. We then present the results of a new method of predicting the sex of individuals from their hand stencils using a geometric morphometric approach that detects sexual differences in hand shape and hand form (size and shape). The method has the additional advantage of being able to detect these differences in both complete, as well as partial hand stencils. Finally we urge researchers to test this method on other ethnic groups and populations and consider ways of combining efforts towards a common goal of developing a robust, predictive methodology based on diverse modern samples before it is applied to Upper Palaeolithic hand stencils. © 2016 The Authors
+
+AUTHOR KEYWORDS: Biometrics;  Cave art;  Forensic anthropology;  Geometric morphometrics;  Palaeolithic;  Sex assessment
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20970]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Hanot, P., Guintard, C., Lepetz, S., Cornette, R.
+56303948700;6602112945;26036377000;6506350460;
+Identifying domestic horses, donkeys and hybrids from archaeological deposits: A 3D morphological investigation on skeletons
+(2017) Journal of Archaeological Science, 78, pp. 88-98. Cited 9 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85006868837&doi=10.1016%2fj.jas.2016.12.002&partnerID=40&md5=065efb24eace98440a3aa327df3ea1f3
+
+DOI: 10.1016/j.jas.2016.12.002
+
+AFFILIATIONS: Laboratoire Archéozoologie et Archéobotanique: Sociétés, Pratiques et Environnements, UMR 7209, CNRS, MNHN, Muséum national d'Histoire naturelle, Sorbonne Universités, 55 rue Buffon CP 56, Paris, France; 
+École Nationale Vétérinaire, de l'Agroalimentaire et de l'Alimentation, Nantes Atlantique – ONIRIS, route de Gachet, CS 40706, Nantes, 44307, France; 
+Institut de Systématique Évolution Biodiversité, ISYEB, UMR 7205, CNRS, MNHN, UPMC, EPHE, Muséum national d'Histoire naturelle, Sorbonne Universités, 45 rue Buffon, Paris, France
+
+ABSTRACT: The first evidence for the domestication of donkeys (Equus asinus) dates back to at least 6000-5000 BP in Northeast Africa, and their dispersion is attributed to the ancient Romans. Latin authors described donkeys as being particularly suitable for the transport of goods and farm work. In addition, they were also bred to produce prized hybrids, particularly mules, which were perfectly adapted to the long-distance transport of people and goods. However, although the historical sources extensively describe their economic importance, both donkey and hybrid remains are surprisingly scarce in the archaeological record. This apparent contradiction is probably due to the difficulties involved in correctly identifying their bones: relatively few bones displaying morphological and metrical criteria can be used for identification, so it is often based purely on bone size. The aim of this study, therefore, is to propose solutions to identify domestic equid bones using 3D geometric morphometrics on isolated and combinations of anatomical elements. A set of 3D coordinates were registered on the 18 main skull and limb bones of 111 modern reference specimens (i.e. 42 horses, 44 donkeys and 25 hybrids). In this paper, we present the classification rate obtained on this reference sample using the k-Nearest Neighbors algorithm. The application of this method on archaeological skeletons from Roman to modern sites is also presented. The percentage of correctly classified specimens was between 77% and 95% for all 18 bones, and higher than 80% for 10 of the fragmentation patterns we defined. Using a combination of several bones enabled us to increase the rate of correct reclassification to a maximum of 97%. The application to archaeological skeletons proved the ability of this method to identify domestic horses and donkeys from archaeological samples. Correspondingly, some bones, and especially combinations of bones, provided good rates to identify hybrids. This method has proved reliable in detecting the presence of donkeys and hybrids from the archaeological samples of equid bones, and should enrich our knowledge regarding their spread across Europe. © 2016 Elsevier Ltd
+
+AUTHOR KEYWORDS: 3D geometric morphometrics;  Equus;  Species identification;  Zooarchaeology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20971]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Márquez, F., Primost, M.A., Bigatti, G.
+14832998300;26026486400;6603270408;
+Shell shape as a biomarker of marine pollution historic increase
+(2017) Marine Pollution Bulletin, 114 (2), pp. 816-820. Cited 15 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85006784998&doi=10.1016%2fj.marpolbul.2016.11.018&partnerID=40&md5=49b2ca9f6272e317023f0653f2a505ea
+
+DOI: 10.1016/j.marpolbul.2016.11.018
+
+AFFILIATIONS: LARBIM, Instituto de Biología de Organismos Marinos (IBIOMAR-CCT CONICET-CENPAT), Blvd. Brown 2915 (U9120ACD), Puerto Madryn, Argentina; 
+UNPSJB — Universidad Nacional de la Patagonia San Juan Bosco, Blvd. Brown 3100, Puerto Madryn, Argentina
+
+ABSTRACT: Buccinanops globulosus is a TBT sensitive marine gastropod, classified as a good indicator of imposex incidence and used as a model to study adverse contamination effects. Population and maritime industries has incremented pollution in Nuevo gulf harbor since 1970s, promoting morphological changes in B. globulosus shell shape. We study the shell shape of the species comparing present day's specimens from the harbor zone with those collected in the same zone before the increasing of maritime activity and pre-Hispanic archaeological Middens. We demonstrated that harbor pollution produces globular shell shape in B. globulosus, an effect that probably allows gastropods to isolate themselves from the external adverse environment. On the contrary, shells from pre-Hispanic periods, unpolluted sites and those collected before the expansion of maritime activities, presented an elongated shell shape. Our study confirms that shell shape variation in marine gastropods can be used as a biomarker of harbor pollution. © 2016 Elsevier Ltd
+
+AUTHOR KEYWORDS: Gastropod shell;  Geometric morphometrics;  Harbor pollution;  Patagonia
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN11933]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Kuzminsky, S.C., Tung, T.A., Hubbe, M., Villaseñor-Marchal, A.
+42661433900;8571474900;10338946900;57192159433;
+The application of 3D geometric morphometrics and laser surface scanning to investigate the standardization of cranial vault modification in the Andes
+(2016) Journal of Archaeological Science: Reports, 10, pp. 507-513. Cited 7 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84999026105&doi=10.1016%2fj.jasrep.2016.11.007&partnerID=40&md5=0a8196c78a2d8174cea9523dcd467070
+
+DOI: 10.1016/j.jasrep.2016.11.007
+
+AFFILIATIONS: Universidad Católica del Norte, Instituto de Investigaciones Arqueológicas y Museo, Calle Gustavo Le Paige 380, San Pedro de Atacama, Chile; 
+University of California, Anthropology Department, Social Sciences 1, 1156 High Street, Santa Cruz, CA, United States; 
+Vanderbilt University, Department of Anthropology, VU Station B #356050, 2301 Vanderbilt Place, Nashville, TN  37235, United States; 
+The Ohio State University, Department of Anthropology, 4034 Smith Laboratory, 174 W. 18th Avenue, Columbus, OH  43210-1106, United States
+
+ABSTRACT: Cranial vault modification and the social significance of permanent body modification have long been an important topic of interest in Andean archaeology. While previous studies have enriched our understanding of these practices among prehistoric Andean populations, the introduction of 3D surface scanners and geometric morphometric methods in archaeology enable us to examine head-shaping practices in novel ways. In this pilot study, we used a NextEngine 3D Laser Surface Scanner to generate high resolution models of artificially modified crania from four archaeological sites dating to the Archaic (2300–1600 BCE), Formative (500 CE), late Middle Horizon/early Late Intermediate period (LIP) (750–1100 CE) in Chile and late LIP crania (circa 1350 CE) from central, highland Peru. Landmarks were recorded on the 3D digital models of crania and these data were analyzed to assess variation in vault shape within and between the samples. Results of the PCA analysis showed graphical separation of the annular, tabular erect, and some tabular oblique types even when gross morphological assessments proved challenging. We documented marked variation within the general modification type traditionally identified as tabular oblique, which suggests more detailed classifications within this type are needed. We also investigated how standardized (i.e., similar) particular cranial modification types were at each site, and results show that the coastal sites of Morro 1 and Playa Miller 7, and the highlands Huari-Vegachayoc Moqo site show higher levels of standardization than the other four samples. This study highlights the utility of 3D imaging and geometric morphometric methods for straightforward, objective assessments of cranial modification and levels of standardization within sites and within particular modification types. This has implications for understanding the broader social and cultural significance of this practice, such as whether there were shared cultural norms about how a head should be modified, which could have led to highly uniform modification practices and head shapes in the Andes. © 2016 Elsevier Ltd
+
+AUTHOR KEYWORDS: 3D laser scanning;  Andean archaeology;  Archaeological science;  Bioarchaeology;  Biocultural anthropology;  Cranial vault modification;  Social identity
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20973]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Field, J.H., Kealhofer, L., Cosgrove, R., Coster, A.C.F.
+35239626800;6602327303;7003898463;7003984165;
+Human-environment dynamics during the Holocene in the Australian Wet Tropics of NE Queensland: A starch and phytolith study
+(2016) Journal of Anthropological Archaeology, 44, pp. 216-234. Cited 9 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84979787899&doi=10.1016%2fj.jaa.2016.07.007&partnerID=40&md5=dac0a79b538bc3b035346220f36ba27f
+
+DOI: 10.1016/j.jaa.2016.07.007
+
+AFFILIATIONS: School of Biological, Earth and Environmental Sciences, The University of New South WalesNSW, Australia; 
+Dept of Anthropology and Environmental Studies and Sciences, Santa Clara University, 500 El Camino Real, Santa Clara, CA  95053, United States; 
+Archaeology Program, School of Humanities, La Trobe University, Melbourne, Victoria  3086, Australia; 
+School of Mathematics & Statistics, The University of New South WalesNSW, Australia
+
+ABSTRACT: The timing and nature of hunter-gather exploitation of tropical rainforests is a topic of ongoing debate. In contrast to most other tropical regions, permanent settlement in Australian rainforests developed much later, and in the absence of adjacent agricultural economies. Here we explore how the tropical rainforests of northern Queensland were exploited during the late Holocene through an ancient starch and phytolith record spanning the last 2000 years. Sequences at the two sites under study – Urumbal Pocket (a ‘Eucalyptus pocket’ surrounded by rainforest) and Goddard Creek (within the rainforest) – indicate a human presence since the early Holocene, coincident with the re-establishment of rainforest in the region. Toxic starchy nuts and the associated complex processing underpinned permanent settlement. Using a geometric morphometric approach to starch analysis, a range of economic starch producing plant species were identified including Endiandra palmerstonii, E. insignis, Lasjia whelani and Beilschmiedia bancroftii in the Urumbal pocket sequence. The phytolith record shows that Urumbal Pocket has been a ‘Eucalyptus pocket’ for at least the last 2000 years, the open nature of the vegetation maintained by regular burning. Goddard Creek, on the other hand has been closed forest, with a changing profile as fire was used more frequently over time. The starch and phytolith sequence provide a unique insight into the local history of these rainforest archaeological sites, with a record that can be viewed against the backdrop of regional sequences documenting climatic and environmental patterns during the late Holocene. © 2016 Elsevier Inc.
+
+AUTHOR KEYWORDS: Ancient starch;  Archaeology;  Australia;  Holocene;  Niche construction;  Phytoliths;  Rainforest
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+
 
 
 
