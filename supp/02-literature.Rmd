@@ -1530,6 +1530,31 @@ PUBLICATION STAGE: Final
 
 SOURCE: Scopus
 
+### [@RN20974]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Kubicka, A.M., Lubiatowski, P., Długosz, J.D., Romanowski, L., Piontek, J.
+56719583100;6602139069;56653685600;6603869135;6701441740;
+Directional asymmetry of upper limbs in a medieval population from Poland: A combination of linear and geometric morphometrics
+(2016) American Journal of Human Biology, 28 (6), pp. 817-824. Cited 3 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84996551905&doi=10.1002%2fajhb.22873&partnerID=40&md5=7e87545099da778dd97ea4900d9a4366
+
+DOI: 10.1002/ajhb.22873
+
+AFFILIATIONS: Department of Human Evolutionary Biology, Institute of Anthropology, Adam Mickiewicz University in Poznań, Poland; 
+Department of Traumatology, Orthopaedics and Hand Surgery, University of Medical Sciences in Poznań, Poland; 
+Rehasport Clinic, Poznań, Poland
+
+ABSTRACT: Objectives: Degrees of upper-limb bilateral asymmetry reflect habitual behavior and activity levels throughout life in human populations. The shoulder joint facilitates a wide range of combined motions due to the simultaneous motion of all three bones: clavicle, scapula, and humerus. Accordingly, we used three-dimensional geometric morphometrics to analyze shape differences in the glenoid cavity and linear morphometrics to obtain the degree of directional asymmetry in a medieval population. Methods: To calculate directional asymmetry, clavicles, humeri, and scapulae from 100 individuals (50 females, 50 males) were measured. Landmarks and semilandmarks were placed within a three-dimensional reconstruction of the glenoid cavity for analysis of shape differences between sides of the body within sexes. Results: Linear morphometrics showed significant directional asymmetry in both sexes in all bones. Geometric morphometrics revealed significant shape differences of the glenoid cavity between sides of the body in females but not in males. Both indicators of directional asymmetry (%DA and %AA) did not show significant differences between sexes. PLS analysis revealed a significant correlation between glenoid shape and two humeral head diameters only in females on the left side of the body. Conclusions: The studied population, perhaps due to a high level of activity, exhibited slightly greater upper-limb bone bilateral asymmetry than other agricultural populations. Results suggest that the upper limbs were involved in similar activity patterns in both sexes but were characterized by different habitual behaviors. To obtain comprehensive results, studies should be based on sophisticated methods such as geometric morphometrics as well as standard measurements. Am. J. Hum. Biol. 28:817–824, 2016. © 2016Wiley Periodicals, Inc. © 2016 Wiley Periodicals, Inc.
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
 
 
 
