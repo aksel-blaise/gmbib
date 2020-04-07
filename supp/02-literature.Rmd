@@ -945,6 +945,455 @@ PUBLICATION STAGE: Final
 
 SOURCE: Scopus
 
+### [@RN20955]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Mounier, A., Correia, M., Rivera, F., Crivellaro, F., Power, R., Jeffery, J., Wilshaw, A., Foley, R.A., Mirazón Lahr, M.
+26031615600;57202239043;57072759300;19638325100;57072864400;57202233588;57073916700;7102887389;6603894491;
+Who were the Nataruk people? Mandibular morphology among late Pleistocene and early Holocene fisher-forager populations of West Turkana (Kenya)
+(2018) Journal of Human Evolution, 121, pp. 235-253. Cited 1 time.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85047506744&doi=10.1016%2fj.jhevol.2018.04.013&partnerID=40&md5=ca7856ef61b5db8ba7236a8bfcb4126d
+
+DOI: 10.1016/j.jhevol.2018.04.013
+
+AFFILIATIONS: UMR 7194, CNRS-Muséum National D'Histoire Naturelle, Musée de L'Homme, 17 Place Du Trocadéro et Du 11 Novembre, Paris, 75016, France; 
+Leverhulme Centre for Human Evolutionary Studies, Department of Archaeology, University of Cambridge, Fitzwilliam Street, Cambridge, CB2 1QH, United Kingdom; 
+Department of Ancient History, Macquarie University, Level 5, W6A BuildingNSW  2109, Australia; 
+Turkana Basin Institute, Kenya
+
+ABSTRACT: Africa is the birthplace of the species Homo sapiens, and Africans today are genetically more diverse than other populations of the world. However, the processes that underpinned the evolution of African populations remain largely obscure. Only a handful of late Pleistocene African fossils (∼50-12 Ka) are known, while the more numerous sites with human fossils of early Holocene age are patchily distributed. In particular, late Pleistocene and early Holocene human diversity in Eastern Africa remains little studied, precluding any analysis of the potential factors that shaped human diversity in the region, and more broadly throughout the continent. These periods include the Last Glacial Maximum (LGM), a moment of extreme aridity in Africa that caused the fragmentation of population ranges and localised extinctions, as well as the ‘African Humid Period’ a moment of abrupt climate change and enhanced connectivity throughout Africa. East Africa, with its range of environments, may have acted as a refugium during the LGM, and may have played a critical biogeographic role during the heterogene’ous environmental recovery that followed. This environmental context raises a number of questions about the relationships among early Holocene African populations, and about the role played by East Africa in shaping late hunter-gatherer biological diversity. Here, we describe eight mandibles from Nataruk, an early Holocene site (∼10 Ka) in West Turkana, offering the opportunity of exploring population diversity in Africa at the height of the ‘African Humid Period’. We use 3D geometric morphometric techniques to analyze the phenotypic variation of a large mandibular sample. Our results show that (i) the Nataruk mandibles are most similar to other African hunter-fisher-gatherer populations, especially to the fossils from Lothagam, another West Turkana locality, and to other early Holocene fossils from the Central Rift Valley (Kenya); and (ii) a phylogenetic connection may have existed between these Eastern African populations and some Nile Valley and Maghrebian groups, who lived at a time when a Green Sahara may have allowed substantial contact, and potential gene flow, across a vast expanse of Northern and Eastern Africa. © 2018 Elsevier Ltd
+
+AUTHOR KEYWORDS: Africa;  Late human evolution;  Mandibles;  Nataruk;  Phenetic;  West-Turkana
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20956]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Rofes, J., Cucchi, T., Hanot, P., Herman, J., Stephan, P., Cersoy, S., Horáček, I., Kerr, E., Allberry, K., Valenzuela, S., Zazzo, A., Cornette, R., Tresset, A.
+14619640800;6506822509;56303948700;8222147100;7005148001;37002626200;6603688948;57203573680;57204733657;36951937200;6602317727;6506350460;6506727552;
+Postglacial recolonization and Holocene diversification of Crocidura suaveolens (Mammalia, Soricidae) on the north-western fringe of the European continent
+(2018) Quaternary Science Reviews, 190, pp. 1-10. Cited 2 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85056850691&doi=10.1016%2fj.quascirev.2018.04.016&partnerID=40&md5=73b073072883112cb76eead5ec2f0855
+
+DOI: 10.1016/j.quascirev.2018.04.016
+
+AFFILIATIONS: Archéozoologie, Archéobotanique: Sociétés, pratiques et environnements (UMR 7209), Sorbonne Universités, Muséum national d'Histoire naturelle, CNRS, CP56, 55 rue Buffon, Paris, 75005, France; 
+National Museums of Scotland, Chambers Street, Edinburgh, EH1 1JF, United Kingdom; 
+LETG laboratoire, UMR 6554 CNRS, Université de Bretagne Occidentale, Institut Universitaire Européen de la Mer, Rue Dumont d'Urville, Plouzané, 29280, France; 
+Centre de Recherche sur la Conservation (CRC, USR 3224), Sorbonne Universités, Muséum national d'Histoire naturelle, Ministère de la Culture et de la Communication, CNRS, CP21, 36 rue Geoffroy Saint-Hilaire, Paris, 75005, France; 
+Department of Zoology, Charles University in Prague, Faculty of Science, Viničná 7, Praha 2, 128 43, Czech Republic; 
+Département d'Ecologie et de Gestion de la Biodiversité (UMR 7179), Sorbonne Universités, Muséum national d'Histoire naturelle, CNRS, 55 rue Buffon, Paris, 75005, France; 
+The Durrell Institute of Conservation and Ecology (DICE), School of Anthropology and Conservation, Marlowe Building, The University of Kent, Canterbury, Kent  CT2 7NR, United Kingdom; 
+Consejo Superior de Investigaciones Científicas - Institució Milà i Fontanals, C/ Egipcíaques 1, Barcelona, 08001, Spain; 
+UMR 7205 ‘Institut de Systématique, Evolution, Biodiversité’ (CNRS, MNHN, UPMC, EPHE), Sorbonne Universités, Muséum national d'Histoire naturelle, 45 rue Buffon, Paris, 75005, France
+
+ABSTRACT: Phenotypic variation was characterized in 187 modern and archaeological specimens of the lesser white-toothed shrew (Crocidura suaveolens), obtained from both insular and continental European locations. Geometric morphometric methods were used to quantify variation in size and shape of the mandible. The phenotypic distance between populations, and the influence of several eco-geographical factors on the size and shape of the mandible in island populations, were assessed. Based on mandible shape divergence, the populations of C. suaveolens were clustered into continental, insular Atlantic and insular Mediterranean groups. Archaeological specimens from Molène Island, more than 3400 years old, display a mandible shape signal closer to that of the continental population than those of modern island populations. Conversely, the continental shape signals of the modern populations from Höedic and Sark suggest that these are relatively recent anthropogenic introductions. The populations of C. suaveolens from both the Atlantic and Mediterranean islands (except for Rouzic and Cyprus) show a significant increase in mandible size, compared to those from continental Europe. Significant phenotypic differences support the indigenous condition of C. suaveolens on most of the Atlantic islands, suggesting that the species arrived there before the separation of the Scilly Isles and Ushant from the continent due to the post-glacial rise in sea level. This provides an ante quem for its colonization of the north-western fringe of continental Europe, notwithstanding its absence from the region in the present day. © 2018 Elsevier Ltd
+
+AUTHOR KEYWORDS: Data analysis;  Eco-geographical constraints;  Europe;  Geometric morphometrics;  Holocene;  Island rule;  Mandible;  Paleogeography;  Shape divergence
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20957]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Maté-González, M.Á., Yravedra, J., Martín-Perea, D.M., Palomeque-González, J., San-Juan-Blazquez, M., Estaca-Gómez, V., Uribelarrea, D., Álvarez-Alonso, D., Cuartero, F., González-Aguilera, D., Domínguez-Rodrigo, M.
+56780291300;56962776200;57192089446;56780262200;57192960468;57188553158;6507093504;55320183200;36476024800;24477009700;6603679662;
+Flint and Quartzite: Distinguishing Raw Material Through Bone Cut Marks
+(2018) Archaeometry, 60 (3), pp. 437-452. Cited 18 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85028314535&doi=10.1111%2farcm.12327&partnerID=40&md5=7935fac98e936d7ec89bc21b83e7d8a2
+
+DOI: 10.1111/arcm.12327
+
+AFFILIATIONS: Department of Cartography and Terrain Engineering, Polytechnic School of Avila, University of Salamanca, Hornos Caleros 50, Avila, 05003, Spain; 
+C.A.I. Arqueometry and Archaeological Analysis, Complutense University, Profesor Aranguren s/n, Madrid, 28040, Spain; 
+Department of Prehistory, Complutense University, Profesor Aranguren s/n, Madrid, 28040, Spain; 
+IDEA (Institute of Evolution in Africa), Origins Museum, Plaza de San Andrés 2, Madrid, 28005, Spain; 
+Geodynamics Department, Complutense University of Madrid, José Antonio Novais 12, Madrid, 28040, Spain; 
+Department of Prehistory, UNED, Madrid, Spain; 
+Department of Archaeology, Autonomous University, Madrid, Spain
+
+ABSTRACT: Since the 1980s, several experimental analyses have been able to differentiate some lithic tool types and some of their raw materials according to the morphology of cut marks imprinted by such tools when used for butchering activities. Thus, metal tool use has been differentiated in contexts with an abundance of lithic tools, or even the use of hand axes has been documented in carcass processing, in contrast with simple unretouched or retouched flakes. As important as this information is, there are still other important aspects to be analysed. Can cut marks produced with different lithic raw material types be differentiated? Can cut marks made with different types of the same raw material type be characterized and differentiated? The objective of this study is to evaluate if cut marks resulting from the use of different flints and different quartzites are distinguishable from each other. In the present work, an experimental analysis of hundreds of cut marks produced by five types of flint and five varieties of quartzite was carried out. Microphotogrammetry and geometric–morphometric techniques were applied to analyse these cut marks. The results show that flint cut marks and quartzite cut marks can be characterized at the assemblage level. Different types of flint produced cut marks that were not significantly different from each other. Cut marks made with Olduvai Gorge quartzite were significantly different from those produced with a set comprising several other types of quartzites. Crystal size, which is larger in Olduvai Gorge quartzites (0.5 mm) than Spanish quartzites (177–250 μm), is discussed as being the main reason for these statistically significant differences. This documented intra-sample and inter-sample variance does not hinder the resolution of the approach to differentiate between these two generic raw material types and opens the door for the application of this method in archaeological contexts. © 2017 University of Oxford
+
+AUTHOR KEYWORDS: cut marks;  flint;  micro-morphometry;  micro-photogrammetry;  quartzite;  raw materials
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20958]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Zanolli, C., Pan, L., Dumoncel, J., Kullmer, O., Kundrát, M., Liu, W., Macchiarelli, R., Mancini, L., Schrenk, F., Tuniz, C.
+35410978200;55539634900;55840120800;6508188094;24344146700;28567979400;6701717392;7103376845;6603042411;7003708200;
+Inner tooth morphology of Homo erectus from Zhoukoudian. New evidence from an old collection housed at Uppsala University, Sweden
+(2018) Journal of Human Evolution, 116, pp. 1-13. Cited 14 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85040583268&doi=10.1016%2fj.jhevol.2017.11.002&partnerID=40&md5=36d86c9f07bfc80720255e78582ebe27
+
+DOI: 10.1016/j.jhevol.2017.11.002
+
+AFFILIATIONS: UMR 5288 CNRS, Université Toulouse III – Paul Sabatier, France; 
+Key Laboratory of Vertebrate Evolution and Human Origins, Institute of Vertebrate Paleontology and Paleoanthropology, CAS, Beijing, China; 
+State Key Laboratory of Palaeobiology and Stratigraphy, Nanjing Institute of Geology and Palaeontology, CAS, Nanjing, China; 
+Department of Palaeoanthropology, Senckenberg Research Institute, Frankfurt am Main, Germany; 
+Department of Paleobiology and Environment, Institute of Ecology, Evolution, and Diversity, Goethe University, Max-von-Laue-Str. 13, Frankfurt, 60438, Germany; 
+Center for Interdisciplinary Biosciences, Technology and Innovation Park, Pavol Jozef Safarik University, Kosice, Slovakia; 
+UMR 7194 CNRS, Muséum National d'Histoire Naturelle, Paris, France; 
+Unité de Formation Géosciences, University of Poitiers, France; 
+Elettra-Sincrotrone Trieste S.C.p.A., Basovizza (Trieste), Italy; 
+Multidisciplinary Laboratory, The ‘Abdus Salam’ International Centre for Theoretical Physics, Trieste, Italy; 
+Centro Fermi, Museo Storico della Fisica, Rome, Italy; 
+Center for Archaeological Science, University of Wollongong, Australia
+
+ABSTRACT: Locality 1, in the Lower Cave of the Zhoukoudian cave complex, China, is one of the most important Middle Pleistocene paleoanthropological and archaeological sites worldwide, with the remains of c. 45 Homo erectus individuals, 98 mammalian taxa, and thousands of lithic tools recovered. Most of the material collected before World War II was lost. However, besides two postcranial elements rediscovered in China in 1951, four human permanent teeth from the ‘Dragon Bone Hill,’ collected by O. Zdansky between 1921 and 1923, were at the time brought to the Paleontological Institute of Uppsala University, Sweden, where they are still stored. This small sample consists of an upper canine (PMU 25719), an upper third molar (PMU M3550), a lower third premolar crown (PMU M3549), and a lower fourth premolar (PMU M3887). Some researchers have noted the existence of morpho-dimensional differences between the Zhoukoudian and the H. erectus dental assemblage from Sangiran, Java. However, compared to its chrono-geographical distribution, the Early to Middle Pleistocene dental material currently forming the Chinese-Indonesian H. erectus hypodigm is quantitatively meager and still poorly characterized for the extent of its endostructural variation. We used micro-focus X-ray tomography techniques of virtual imaging coupled with geometric morphometrics for comparatively investigating the endostructural conformation (tissue proportions, enamel thickness distribution, enamel-dentine junction morphology, pulp cavity shape) of the four specimens stored in Uppsala, all previously reported for their outer features. The results suggest the existence of time-related differences between continental and insular Southeast Asian dental assemblages, the Middle Pleistocene Chinese teeth apparently retaining an inner signature closer to the likely primitive condition represented by the Early Pleistocene remains from Java, while the Indonesian stock evolved toward tooth structural simplification. © 2017 Elsevier Ltd
+
+AUTHOR KEYWORDS: Chinese Homo erectus;  Early Middle Pleistocene;  Inner structure;  Permanent teeth;  Zhoukoudian
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN11631]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Topi, J.R., VanPool, C.S., Waller, K.D., VanPool, T.L.
+57201065508;14326369100;57196222504;14055200600;
+The economy of specialized ceramic craft production in the casas grandes region
+(2018) Latin American Antiquity, 29 (1), pp. 122-142. Cited 3 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85043300263&doi=10.1017%2flaq.2017.62&partnerID=40&md5=62e6274e500ef8c9539f17f0b57bb237
+
+DOI: 10.1017/laq.2017.62
+
+AFFILIATIONS: Swallow Department 202, Department of Anthropology, University of Missouri, Columbia, MO  65211, United States
+
+ABSTRACT: Recent analyses use geometric morphometrics (GM), the quantitative study of shape and its variation, to examine aspects of the archaeological record. Our research builds on such applications to examine the organization of production by applying GM analysis to whole ceramic vessels from the Casas Grandes culture of northwest Mexico. We quantify variation in vessel shape and size and conclude that specialists made at least some of the Ramos and Babicora Polychromes, but that the other Casas Grandes ceramic types were generally made by nonspecialists. This bolsters arguments for Medio period (AD 1200 to 1450) specialized production above the household level but indicates that specialized production was limited to a subset of economically valuable goods. We further suggest some Ramos Polychrome was made by attached specialists associated with elites at Paquime, the religious center of the Medio period, whereas some Babicora Polychrome was made by independent specialists. The analysis contributes to three important anthropological topics: (1) the study of the Medio period Casas Grandes culture, and by extension the organization of production in mid-level hierarchically organized societies; (2) geometric morphometric analysis of archaeological collections; and (3) the Standardization Hypothesis and the relationship between artifact standardization and the organization of production. Copyright © 2017 by the Society for American Archaeology.
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20959]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Kuzminsky, S.C., Reyes Báez, O., Arriaza, B., Méndez, C., Standen, V.G., San Román, M., Muñoz, I., Durán Herrera, Á., Hubbe, M.
+42661433900;22735672600;6602846124;35576830900;6602356440;23394020200;36788343700;57196390913;10338946900;
+Investigating cranial morphological variation of early human skeletal remains from Chile: A 3D geometric morphometric approach
+(2018) American Journal of Physical Anthropology, 165 (2), pp. 223-237. Cited 5 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85032839568&doi=10.1002%2fajpa.23344&partnerID=40&md5=d7146af9b8636f706da9869b0625642f
+
+DOI: 10.1002/ajpa.23344
+
+AFFILIATIONS: Instituto de Investigaciones Arqueológicas y Museo R.P Gustavo Le Paige, Universidad Católica del Norte, Gustavo Le Paige 380, San Pedro de Atacama, Chile; 
+Anthropology Department, University of California, 156 High Street, Santa Cruz, CA, United States; 
+Centro de Estudios del Hombre Austral, Instituto de la Patagonia, Universidad de Magallanes, Avenida Bulnes 01890 Casilla 113D, Punta Arenas, Chile; 
+Instituto de Alta Investigación, Universidad de Tarapacá, Arica, Chile; 
+Centro de Investigación en Ecosistemas de la Patagonia, Moraleda 16, Coyhaique, Chile; 
+Departamento de Antropología, Universidad de Tarapacá, 18 de Septiembre 2222, Casilla 6-D, Arica, Chile; 
+Museo La Serena, Calle Cienfuegos, La Serena, Chile; 
+Department of Anthropology, 4034 Smith Laboratory, The Ohio State University, 174 W. 18th Avenue, Columbus, OH, United States
+
+ABSTRACT: Objectives: Archaeological and genetic research has demonstrated that the Pacific Coast was a key route in the early colonization of South America. Research examining South American skeletons >8000 cal BP has revealed differences in cranial morphology between early and late Holocene populations, which may reflect distinct migration events and/or populations. However, genetic, cultural, and some skeletal data contradict this model. Given these discrepancies, this study examines ∼9000 years of prehistory to test the hypothesis that Early skeletons have a distinct cranial morphology from later skeletons. Materials and Methods: Using 3D digital models, craniofacial landmarks, and geometric morphometric analyses, we compared Early Holocene crania (n = 4) to later Chilean samples (n = 90) frequently absent in continental assessments of craniofacial variation. PCA, Mahalanobis distances, posterior and typicality probabilities were used to examine variation. Results: Two of the earliest skeletons from northern Chile show clear affinities to individuals from later sites in the same region. However, the hypothesis cannot be rejected as one Early individual from northern Chile and one individual from inland Patagonia did not always show clear affinities to coastal populations. Discussion: Biological affinities among northern populations and other regions of Chile align with genetic and archaeological data, supporting cultural and biological continuity along the Pacific Coast. In Patagonia, archaeological data are in accordance with skeletal differences between the Early inland steppe individual and coastal populations. This study incorporates 3D methods and skeletal datasets not widely used in assessments of biological affinity, thus contributing to a critical body of research examining the ancient population history of western South America. © 2017 Wiley Periodicals, Inc.
+
+AUTHOR KEYWORDS: ancient human migration;  bioarchaeology;  Early American crania;  South America
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20960]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Courtenay, L.A., Maté-González, M.A., Aramendi, J., Yravedra, J., González-Aguilera, D., Domínguez-Rodrigo, M.
+57200549280;56780291300;55827562600;56962776200;24477009700;6603679662;
+Testing accuracy in 2D and 3D geometric morphometric methods for cut mark identification and classification
+(2018) PeerJ, 2018 (7), art. no. e5133, . Cited 12 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85049469892&doi=10.7717%2fpeerj.5133&partnerID=40&md5=5decd3305bf41a1b3566a9633d86faff
+
+DOI: 10.7717/peerj.5133
+
+AFFILIATIONS: Área de Prehistoria, Universitat Rovira I Virgili Tarragona, Tarragona, Spain; 
+Institut de Paleoecologia Humana i Evolució Social (IPHES), Tarragona, Spain; 
+Department of Prehistory, Universidad Complutense de Madrid, Madrid, Spain; 
+Department of Cartography and Terrain Engineering, Polytechnic School of Avila, University of Salamanca, Avila, Spain; 
+IDEA (Institute of Evolution in Africa), Madrid, Spain
+
+ABSTRACT: The analysis of bone surface modifications (BSMs) is a prominent part of paleoanthropological studies, namely taphonomic research. Behavioral interpretations of the fossil record hinge strongly upon correct assessment of BSMs. With the significant impact of microscopic analysis to the study of BSMs, multiple authors have discussed the reliability of these technological improvements for gaining resolution in BSM discrimination. While a certain optimism is present, some important questions are ignored and others overemphasized without appropriate empirical support. This specifically affects the study of cut marks. A diversity of geometric morphometric approaches applied to the study of cut marks have resulted in the coexistence (and competition) of different 2D and 3D methods. The present work builds upon the foundation of experiments presented by Maté-González et al. (2015), Courtenay et al. (2017) and Otárola-Castillo et al. (2018) to contrast for the first time 2D and 3D methods in their resolution of cut mark interpretation and classification. The results presented here show that both approaches are equally valid and that the use of sophisticated 3D methods do not contribute to an improvement in accuracy. © 2018 Courtenay et al.
+
+AUTHOR KEYWORDS: Cut marks;  Experimental archaeology;  Geometric morphometrics;  Microscopy;  Taphonomy
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20961]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Aramendi, J., Maté-González, M.A., Yravedra, J., Ortega, M.C., Arriaza, M.C., González-Aguilera, D., Baquedano, E., Domínguez-Rodrigo, M.
+55827562600;56780291300;56962776200;26039376000;56786056800;24477009700;36237883200;6603679662;
+Discerning carnivore agency through the three-dimensional study of tooth pits: Revisiting crocodile feeding behaviour at FLK- Zinj and FLK NN3 (Olduvai Gorge, Tanzania)
+(2017) Palaeogeography, Palaeoclimatology, Palaeoecology, 488, pp. 93-102. Cited 31 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85019375211&doi=10.1016%2fj.palaeo.2017.05.021&partnerID=40&md5=1ec828addef25a6013ba4fbd4415931c
+
+DOI: 10.1016/j.palaeo.2017.05.021
+
+AFFILIATIONS: Department of Prehistory, Complutense University, Prof. Aranguren s/n, Madrid, 28040, Spain; 
+IDEA (Institute of Evolution in Africa), Covarrubias 36, Madrid, 28010, Spain; 
+Department of Cartography and Terrain Engineering, Polytechnic School of Avila, University of Salamanca, Hornos Caleros 50, Avila, 05003, Spain; 
+C.A.I. Arqueometry and Archaeological Analysis, Complutense University, Profesor Aranguren s/n, Madrid, 28040, Spain; 
+Universidad Complutense de Madrid-Instituto Carlos III (UCM- ISCIII), Centro de Investigacion de la Evolucion y Comportamiento Humanos, Madrid, Spain; 
+School of Geography, Archaeology and Environmental Studies, Evolutionary Studies Institute, University of the Witwatersrand, Private Bag 32050, South Africa; 
+Museo Arqueológico Regional, Plaza de las Bernardas s/n, Alcalá de Henares, Madrid, 28801, Spain
+
+ABSTRACT: Hominins and carnivores have shared similar habitats in Africa, evolving as direct competitors for the same prey and spaces. The overlap of their ecological niches has raised an important debate on the role that carnivores played in archaeological site formation. Different analytical techniques differentiate the action of carnivores and humans and identify the type of carnivore involved of which tooth mark analyses are prominent. However, available taphonomic studies present some limitations given the great overlap among tooth mark sizes from different carnivores, enabling only the distinction of size groups, not specific carnivores. In this work, we use a new technique combining three-dimensional (3D) reconstruction and geometric morphometrics (GMM) of tooth pits on equid and bovid bone created by different carnivores (including crocodiles, hyenas, jaguars, lions and wolves) in controlled settings. The 3D methodology we present isolates and differentiates tooth marks generated by different carnivores. We also test the applicability of the technique to ascribe tooth pits recorded on some hominin specimens from FLK Zinj and FLKNN 3 (Bed I, Olduvai Gorge). The tooth marks on the Olduvai OH8 and OH35 hominin fossils, previously assigned to crocodiles show that while OH8 tooth pit morphology falls in the range created by crocodiles, the pits on OH35 can not be interpreted as crocodile-inflicted marks. © 2017 Elsevier B.V.
+
+AUTHOR KEYWORDS: Geometric morphometrics;  Homo habilis;  Micro-photogrammetry;  Taphonomy;  Tooth marks
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20962]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Woods, C., Fernee, C., Browne, M., Zakrzewski, S., Dickinson, A.
+7202273143;57199062123;7101932476;8201941100;23396563100;
+The potential of statistical shape modelling for geometric morphometric analysis of human teeth in archaeological research
+(2017) PLoS ONE, 12 (12), art. no. e0186754, . Cited 4 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85037546910&doi=10.1371%2fjournal.pone.0186754&partnerID=40&md5=0d07abcd463ab4f0b92d4466089af143
+
+DOI: 10.1371/journal.pone.0186754
+
+AFFILIATIONS: Bioengineering Sciences Research Group, University of Southampton, Highfield Campus, Highfield, Southampton, United Kingdom; 
+Department of Archaeology, University of Southampton, Avenue Campus, Highfield, Southampton, United Kingdom
+
+ABSTRACT: This paper introduces statistical shape modelling (SSM) for use in osteoarchaeology research. SSM is a full field, multi-material analytical technique, and is presented as a supplementary geometric morphometric (GM) tool. Lower mandibular canines from two archaeological populations and one modern population were sampled, digitised using micro-CT, aligned, registered to a baseline and statistically modelled using principal component analysis (PCA). Sample material properties were incorporated as a binary enamel/dentin parameter. Results were assessed qualitatively and quantitatively using anatomical landmarks. Finally, the technique’s application was demonstrated for inter-sample comparison through analysis of the principal component (PC) weights. It was found that SSM could provide high detail qualitative and quantitative insight with respect to archaeological inter- and intra-sample variability. This technique has value for archaeological, biomechanical and forensic applications including identification, finite element analysis (FEA) and reconstruction from partial datasets. © 2017 Woods et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+
+### [@RN11533]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Smith, H.L., DeWitt, T.J.
+55805377100;7005129580;
+The northern fluted point complex: technological and morphological evidence of adaptation and risk in the late Pleistocene-early Holocene Arctic
+(2017) Archaeological and Anthropological Sciences, 9 (8), pp. 1799-1823. Cited 7 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85036589885&doi=10.1007%2fs12520-016-0335-y&partnerID=40&md5=0f6f4e4a4e3ba5c7db493bff6bd7b86e
+
+DOI: 10.1007/s12520-016-0335-y
+
+AFFILIATIONS: Center for the Study of the First Americans, Department of Anthropology, Texas A&M University, College Station, TX  77843-4352, United States; 
+Department of Wildlife and Fisheries Sciences, Texas A&M University, College Station, TX  77843-2258, United States
+
+ABSTRACT: Analyses of fluted point technology and Paleoindian technological risk have contributed to our understanding of human adaptation across North America in the late Pleistocene and early Holocene. However, poor chronological control has dissuaded similar studies of fluted points found in Alaska and northern Yukon and our understanding of their adaptive role in early arctic adaptations remains unclear. Two new archeological sites have provided reliable radiocarbon data and for the first time, a comprehensive analysis of northern fluted points is possible. Here, technological and morphological analyses of northern fluted points are presented, including variables statistically evaluated and compared to a collection of fluted Folsom artifacts serving as a reference. Variation in tool shape was measured using geometric morphometrics, and a new approach to landmark placement designed to characterize basal morphology and allow the analysis to include tool fragments is presented. Results confirm that northern fluted points represent a cohesive technological strategy and are used to formulate hypotheses suggesting its service as a risk-management system promoting ease-of-replacement-after-failure to offset transport costs and reduce risk during long-distance travel. © 2016, Springer-Verlag Berlin Heidelberg.
+
+AUTHOR KEYWORDS: Arctic archeology;  Fluted projectile points;  Geometric morphometrics;  Late Paleoindian;  Technological risk
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20964]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Estévez, E.J., López-Lázaro, S., López-Morago, C., Alemán, I., Botella, M.C.
+57195346014;46861416800;57195349793;23134325000;23134271400;
+Sex estimation of infants through geometric morphometric analysis of the ilium
+(2017) International Journal of Legal Medicine, 131 (6), pp. 1747-1756. Cited 3 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85027376379&doi=10.1007%2fs00414-017-1659-6&partnerID=40&md5=8065d6620f2cb368033326b174d9d3c5
+
+DOI: 10.1007/s00414-017-1659-6
+
+AFFILIATIONS: Laboratory of Anthropology, Department of Legal Medicine, Toxicology and Physical Anthropology, University of Granada, Granada, 18012, Spain; 
+Laboratory of Forensic Dentistry, Center for Applied Morphology Research, Faculty of Dentistry, Universidad de La Frontera, Temuco, 4780000, Chile
+
+ABSTRACT: In archeology or forensics, the analysis of the ilia is often used to determine the age and sex of unknown individuals. However, sex determination using the skeletal remains of individuals who did not develop secondary sexual characteristics remains controversial. Accurately estimating the sex of subadults is hampered by a small number of studies based on identified skeletal collections of juvenile individuals. Here, we analyzed the sexual dimorphism of the subadult ilia using geometric morphometric techniques and individuals from the osteological collection of identified subadults from San José’s graveyard (Granada). Seventy-one left ilia from 40 males and 31 females aged between birth and 1 year were included in the analysis. Three landmarks and 27 semi-landmarks of the ilia were placed. By principal component analysis, we found that the size and shape of the ilia could be used to differentiate males and females. © 2017, Springer-Verlag GmbH Germany.
+
+AUTHOR KEYWORDS: Forensic anthropology;  Geometric morphometrics;  Ilium;  Infant;  Juvenile;  Sex estimation
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20965]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Corny, J., Galland, M., Arzarello, M., Bacon, A.-M., Demeter, F., Grimaud-Hervé, D., Higham, C., Matsumura, H., Nguyen, L.C., Nguyen, T.K.T., Nguyen, V., Oxenham, M., Sayavongkhamdy, T., Sémah, F., Shackelford, L.L., Détroit, F.
+55928735500;56919438200;15822094900;7005967102;8519621800;56168771500;7003507065;8519622500;7202156601;57209165953;55960997400;8264446500;24339512600;7003586205;6701493845;6504774261;
+Dental phenotypic shape variation supports a multiple dispersal model for anatomically modern humans in Southeast Asia
+(2017) Journal of Human Evolution, 112, pp. 41-56. Cited 8 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85032992386&doi=10.1016%2fj.jhevol.2017.08.017&partnerID=40&md5=32657401d3c99aa0df4cac4d3d08bc97
+
+DOI: 10.1016/j.jhevol.2017.08.017
+
+AFFILIATIONS: Aix Marseille Université, CNRS, EFS, ADES UMR 7268, Marseille, 13916, France; 
+University College Dublin, School of Archaeology, Belfield, Dublin, Ireland; 
+Muséum national d'Histoire naturelle, Musée de l'Homme, Département Homme et environnement, CNRS, UMR 7206, Paris, 75116, France; 
+Università degli Studi di Ferrara, Dipartimento Studi Umanistici, Ferrara, 44121, Italy; 
+Université Paris-Descartes, Faculté de chirurgie dentaire, UMR 5288 CNRS, AMIS, Montrouge, 92120, France; 
+Center for GeoGenetics, Copenhagen, Denmark; 
+Muséum national d'Histoire naturelle, Musée de l'Homme, Département Homme et environnement, CNRS, UMR 7194, Paris, 75116, France; 
+University of Otago, Department of Anthropology and Archaeology, Dunedin, 9054, New Zealand; 
+Sapporo Medical University, School of Health Science, Sapporo, 060-8556, Japan; 
+Institute of Archaeology, Hanoi, Viet Nam; 
+Center for Southeast Asian Prehistory, 96/203 Hoang Quoc Viet, Hanoi, Viet Nam; 
+Australian National University, School of Archaeology and Anthropology, Canberra, ACT  0200, Australia; 
+Department of National Heritage, Ministry of Information and Culture, Vientiane, United Kingdom; 
+University of Illinois, Department of Anthropology, Urbana, IL  61801, United States
+
+ABSTRACT: The population history of anatomically modern humans (AMH) in Southeast Asia (SEA) is a highly debated topic. The impact of sea level variations related to the Last Glacial Maximum (LGM) and the Neolithic diffusion on past population dispersals are two key issues. We have investigated competing AMH dispersal hypotheses in SEA through the analysis of dental phenotype shape variation on the basis of very large archaeological samples employing two complementary approaches. We first explored the structure of between- and within-group shape variation of permanent human molar crowns. Second, we undertook a direct test of competing hypotheses through a modeling approach. Our results identify a significant LGM-mediated AMH expansion and a strong biological impact of the spread of Neolithic farmers into SEA during the Holocene. The present work thus favors a “multiple AMH dispersal” hypothesis for the population history of SEA, reconciling phenotypic and recent genomic data. © 2017 Elsevier Ltd
+
+AUTHOR KEYWORDS: Contour analysis;  Geometric morphometrics;  Homo sapiens;  Last Glacial Maximum;  Neolithic expansion;  Population history
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20966]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Bonhomme, V., Forster, E., Wallace, M., Stillman, E., Charles, M., Jones, G.
+55581390500;57189696846;55621822700;6601945184;7201434799;8761946200;
+Identification of inter- and intra-species variation in cereal grains through geometric morphometric analysis, and its resilience under experimental charring
+(2017) Journal of Archaeological Science, 86, pp. 60-67. Cited 9 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85031712136&doi=10.1016%2fj.jas.2017.09.010&partnerID=40&md5=79b5a3ef1ab1fab11a2e288f15de9925
+
+DOI: 10.1016/j.jas.2017.09.010
+
+AFFILIATIONS: School of Mathematics and Statistics, University of Sheffield, Hicks Building, Hounsfield Road, Sheffield, S3 7RH, United Kingdom; 
+UMR 5554 Institut des Sciences de L'Evolution, équipe Dynamique de La Biodiversité, Anthropo-écologie, Université de Montpellier, CNRS, IRD, EPHE Place Eugène Bataillon, Montpellier, CEDEX 05, 34095, France; 
+Department of Archaeology, University of Sheffield, Northgate House, West Street, Sheffield, S1 4ET, United Kingdom; 
+Institute of Archaeology, 36 Beaumont St, Oxford, OX1 2PG, United Kingdom
+
+ABSTRACT: The application of morphometric analysis in archaeobotany has the potential to refine quantitatively identifications of ancient plant material recovered from archaeological sites, most commonly preserved through charring due to exposure to heat. This paper uses geometric morphometrics, first, to explore variation in grain shape between three domesticated cereal species, einkorn (Triticum monococcum), emmer (Triticum dicoccum) and barley (Hordeum vulgare), both before and after experimental charring at 230 and 260 °C. Results demonstrate that outline analysis reliably reflects known variations in grain shape between species and differences due to charring observed in previous experimental work, and is capable of distinguishing the species, with near-perfect results, both before and after charring. Having established this, the same method was applied to different accessions of the same species, which indicated that three different grain morphotypes of einkorn and two, possibly three, of emmer could be identified in the uncharred material, and that at least two different morphotypes for each species could be distinguished even after charring at temperatures up to 260 °C. This opens up the possibility of tracking evolutionary change in crops, both chronologically and geographically, through morphometric analysis. © 2017
+
+AUTHOR KEYWORDS: Archaeobotany;  Barley;  Cereal grain;  Einkorn;  Elliptical Fourier transforms;  Emmer;  Experimental charring
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20967]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Herzlinger, G., Goren-Inbar, N., Grosman, L.
+56910008800;6602327672;25636007900;
+A new method for 3D geometric morphometric shape analysis: The case study of handaxe knapping skill
+(2017) Journal of Archaeological Science: Reports, 14, pp. 163-173. Cited 8 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85020027466&doi=10.1016%2fj.jasrep.2017.05.013&partnerID=40&md5=0144f8e99018ea88e5189aec77af7cb4
+
+DOI: 10.1016/j.jasrep.2017.05.013
+
+AFFILIATIONS: Institute of Archaeology, The Hebrew University of Jerusalem, Mt. Scopus, Jerusalem, 91905, Israel; 
+The Jack, Joseph and Morton Mandel School for Advanced Studies in the Humanities, The Hebrew University of Jerusalem, Israel
+ABSTRACT: The following study presents a novel method for computerized 3D geometric morphometric shape analysis of archaeological artifacts. It consists of a newly developed tool for automated positioning of 3D digital models and the following placement of 3D homologous landmarks for geometric morphometric analysis. It provides a quick and easy method for acquiring high-resolution 3D landmark coordinate data. This tool is applicable to a wide range of objects which have two opposed faces of relatively similar size and can be consistently positioned along their maximal length in planform view. The acquired data can be subjected to common multivariate statistical procedures for the quantitative description and analysis of shape variability in an assemblage. The method is applied here to a case study of experimentally produced assemblages of Acheulian handaxe replicas made by six knappers of differing skill levels. An analysis is performed to test whether the shapes of the handaxes can be used to classify them according to their knapper's skill level. Generalized Procrustes analysis (GPA), principal component analysis (PCA) and discriminant analysis (DA) are applied to the landmarks' coordinates. The results indicate that applying DA to PC scores allows a reliable classification of artifacts according to the skill level of their knappers, with a minimal misclassification rate. Thus, this method demonstrates that application of high-resolution 3D geometric morphometric methods can be used for the quantitative differentiation of skill levels based on tool morphology. © 2017 Elsevier Ltd
+
+AUTHOR KEYWORDS: 3D geometric morphometrics;  Acheulian handaxes;  Discriminant analysis;  Experimental archaeology;  Homologous landmarks;  Skill level
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20968]
+
+Scopus
+EXPORT DATE:07 Apr 2020
+
+Errickson, D., Grueso, I., Griffith, S.J., Setchell, J.M., Thompson, T.J.U., Thompson, C.E.L., Gowland, R.L.
+55661632700;57194068606;57191224960;6701625451;7401552868;55455493400;8413662400;
+Towards a Best Practice for the Use of Active Non-contact Surface Scanning to Record Human Skeletal Remains from Archaeological Contexts
+(2017) International Journal of Osteoarchaeology, 27 (4), pp. 650-661. Cited 7 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85018554684&doi=10.1002%2foa.2587&partnerID=40&md5=45bd698c031ab89986966daeededa240
+
+DOI: 10.1002/oa.2587
+
+AFFILIATIONS: School of Science and Engineering, Teesside University, Middlesbrough, United Kingdom; 
+Department of Archaeology, Durham University, Durham, United Kingdom; 
+School of Ocean and Earth Sciences, University of Southampton, Southampton, United Kingdom; 
+Department of Anthropology, Durham University, Durham, United Kingdom
+
+ABSTRACT: Active surface scanners emit light or a laser stripe to record the exterior surface of an object or landscape, providing results in three dimensions. The use of active surface scanners to record anthropological and archaeological contexts has increased within the last few years, creating a number of sub-contexts within these disciplines and allowing a further development of certain applications, such as quantitative analysis, the use of replicas in education and museums and the creation of digital databases archived in institutions. However, with guidance, this paper aims to assess the advantages and disadvantages of active surface scanning and the potential for research with regard to the recording and analysis of human skeletal remains. The key advantages and uses identified include quantitative digitisation, geometric morphometric studies, conservation, preservation, documentation and reconstruction. However, surface scanning also has some limitations, including cost, technological expertise, the need for a power source, computing requirements and data size. Overall, the application of active surface scanning technology to archaeological skeletal remains will provide a vital digital archive that will serve to preserve the integrity of this fragile and finite resource for future generations. This is particularly important within the current developer-funded environment in which many skeletal collections, including those yielding unique or unusual pathological or morphological features, are re-buried, with only very limited time for analysis. Copyright © 2017 John Wiley & Sons, Ltd. Copyright © 2017 John Wiley & Sons, Ltd.
+
+AUTHOR KEYWORDS: 3D;  anthropology;  archaeology;  digitisation;  human remains;  surface scanning
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@]
+
+
+
+
+
 
 
 
