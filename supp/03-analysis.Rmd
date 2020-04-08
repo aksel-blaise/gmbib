@@ -1,0 +1,115 @@
+# Methods and Analysis
+
+```{r bibliometrix, echo=TRUE}
+# install bibliometrix and load data
+#install.packages("devtools")
+#devtools::install_github("massimoaria/bibliometrix")
+library(bibliometrix)
+data<-readFiles("scopus.bib")
+df<-convert2df(data, dbsource = "scopus",format = "bibtex")
+```
+
+## Descriptive summary
+
+```{r summary, echo=TRUE}
+results<-biblioAnalysis(df,sep = ";")
+options(width = 100)
+s<-summary(object = results, k = 10, pause = FALSE)
+plot(x = results, k = 10, pause = FALSE)
+# calculate citations in the local network
+CR<-localCitations(df,sep = ";")
+# top 20 cited authors in local network
+CR$Authors[1:10,]
+# top 20 cited papers in local network
+CR$Papers[1:10,]
+# top authors' productivity over time
+topAU<-authorProdOverTime(df,k = 10, graph = TRUE)
+```
+
+## Bipartite networks
+
+```{r network matrices, echo=TRUE}
+pubnet<-cocMatrix(df,Field = "SO",sep = ";")
+# identify 10 most relevant publication venues
+sort(Matrix::colSums(pubnet),decreasing = TRUE)[1:10]
+# compute citation network
+citnet<-cocMatrix(df,Field = "CR", sep = ";")
+# identify 10 most relevant citations
+sort(Matrix::colSums(citnet),decreasing = TRUE)[1:10]
+# compute author network
+authnet<-cocMatrix(df,Field = "AU",sep = ";")
+# identify 10 most relevant authors
+sort(Matrix::colSums(authnet),decreasing = TRUE)[1:10]
+# compute author-keyword network
+aukeynet<-cocMatrix(df,Field = "DE",sep = ";")
+# identify 10 most relevant keywords
+sort(Matrix::colSums(aukeynet),decreasing = TRUE)[1:10]
+```
+
+## Author collaboration network
+
+Scientific collaboration networks are plotted where nodes are the authors and links are co-authorships.
+
+```{r collab network, echo=TRUE}
+# author collaboration network
+collab1<-biblioNetwork(df,analysis = "collaboration",network = "authors",sep = ";")
+# network plot
+collabnet1=networkPlot(collab1,weighted=TRUE,n = 200,Title = "Author Collaboration", type = "auto",curved = TRUE, size=5,size.cex=T,remove.multiple=TRUE, label = FALSE)
+```
+
+## Collaboration among countries
+
+```{r countrycollab, echo=TRUE}
+# country collaboration network
+country <- metaTagExtraction(df, Field = "AU_CO", sep = ";")
+cmat1 <- biblioNetwork(country, analysis = "collaboration", network = "countries", sep = ";")
+# network plot
+cnet1=networkPlot(cmat1, n = dim(cmat1)[1], Title = "Country Collaboration", type = "circle", size=TRUE, remove.multiple=FALSE,labelsize=0.7,cluster="none")
+```
+
+## Bibliographic coupling and co-citation
+
+Bibliographic coupling occurs when two articles cite the same source. Bibliographic co-citation is a counterpart of bibliographic coupling, and co-citation occurs when two articles are cited in a third.
+
+```{r network coupling, echo=TRUE}
+# article coupling network
+comat1<-biblioNetwork(df,analysis = "coupling",network = "references",sep = ";")
+# network plot
+conet1=networkPlot(comat1, weighted=TRUE, n = 500, Title = "Article Coupling", type = "auto",curved = TRUE, size=5,size.cex=T,remove.multiple=TRUE,labelsize=0.5,label.n=10,label.cex=F)
+#article co-citation network
+comat2<-biblioNetwork(df,analysis = "co-citation",network = "references",sep = ";")
+# network plot
+conet1=networkPlot(comat2, weighted=TRUE, n = 500, Title = "Article Co-Citation", type = "auto",curved = TRUE, size=5,size.cex=T,remove.multiple=TRUE,labelsize=0.5,label.n=10,label.cex=F)
+```
+
+## Keyword co-occurrence
+
+```{r keywordco, echo=TRUE}
+# keyword co-occurrences network
+keymat1 <- biblioNetwork(df, analysis = "co-occurrences", network = "keywords", sep = ";")
+# networkplot
+keynet1=networkPlot(keymat1, normalize="association", weighted=T, n = 50, Title = "Keyword Co-occurrences", type = "fruchterman", size=T,edgesize = 5,labelsize=0.7)
+```
+
+## Co-word analysis
+
+Co-word analysis maps the conceptual structure of a research domain using the co-occurrence of words in the bibliiographic collection.
+
+```{r coword, echo=TRUE}
+cw <- conceptualStructure(df,field="ID", method="CA", minDegree=4, clust=3, stemming=FALSE, labelsize=5, documents=25)
+```
+
+## Historical direct citation network
+
+The historiographic map is a chronological network map of the most relevant direct citations resulting from this bibliographic collection.
+
+```{r hdcn, echo=TRUE}
+# historical citation network
+options(width=100)
+histResults <- histNetwork(df, min.citations = 4, sep = ";")
+# plot historical co-citation network
+hnet <- histPlot(histResults, n=15, size = 8, labelsize=4)
+#end of code
+```
+
+
