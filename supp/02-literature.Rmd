@@ -2354,31 +2354,417 @@ PUBLICATION STAGE: Final
 
 SOURCE: Scopus
 
+### [@RN1750]
 
+Scopus
+EXPORT DATE:08 Apr 2020
 
+Shott, M.J.
+6602942184;
+History Written in Stone: Evolutionary Analysis of Stone Tools in Archeology
+(2011) Evolution: Education and Outreach, 4 (3), pp. 435-445. Cited 5 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84899484088&doi=10.1007%2fs12052-011-0344-3&partnerID=40&md5=17d99fe748b7ba80e38fb84ab9987a62
 
+DOI: 10.1007/s12052-011-0344-3
 
+AFFILIATIONS: Department of Anthropology and Classical Studies, University of Akron, Akron, OH  44325, United States
+ABSTRACT: Populations of living things evolve over time, but do other things? Evolution involves transmission, be it of genes, ideas, or designs. What is transmitted, how and by whom, influences tempo and mode of evolution. In recent years, archeologists have applied evolutionary logic and processes to their study of things made and used by ancient people. Despite differences in subject units and in modes and patterns of transmission, evolutionary processes and the transmission modes that accompany them are worth seeking in archeological data. Stone spear points are abundant in the archeological record, yet we lack a theory to explain the creation, duration, and divergence of point types. Evolutionary studies of New World Late Pleistocene Paleoindian points are a step toward such theory, but limit the form of data and the evolutionary processes considered. An alternative in the study of Paleoindian points is geometric morphometric methods that do not constrain how point size and form are characterized nor assume branching divergence between taxa. Evolutionism should not dominate archeology, but it should become a major area of research within the field. © 2011 Springer Science+Business Media, LLC.
 
+AUTHOR KEYWORDS: Evolution;  Geometric morphometrics;  Points
 
+DOCUMENT TYPE: Review
 
+PUBLICATION STAGE: Final
 
+ACCESS TYPE: Open Access
 
+SOURCE: Scopus
 
+### [@RN20988]
 
+Scopus
+EXPORT DATE:08 Apr 2020
 
+Castiñeira, C., Cardillo, M., Charlin, J., Baeza, J.
+7801358570;57212772096;26658892500;7006092781;
+Geometric morphometric analysis in fish tail points of Uruguay [Analisis de morfometría geométrica en puntas cola de pescado del uruguay]
+(2011) Latin American Antiquity, 22 (3), pp. 335-358. Cited 30 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84876079639&doi=10.7183%2f1045-6635.22.3.335&partnerID=40&md5=11ecdd90757651eb3ab4bf45d488b78e
 
+DOI: 10.7183/1045-6635.22.3.335
 
+AFFILIATIONS: División Mineralogía y Petrología del Museo de La Plata, UNLP, CONICET, Argentina; 
+IMHICIHU-CONICET, Argentina; 
+Instituto de Antropología de la Facultad de Humanidades y Ciencias de la Educación, Universidad de la República Oriental del Uruguay, Uruguay
 
+ABSTRACT: Projectile points of the Fishtail or Fell I type are usually associated with the early hunter-gatherer populations who inhabited South America in the Late Pleistocene and Early Holocene. The majority of these points were collected from the pampas region of Argentina, Uruguay, central Chile, and southern Patagonia. These artifacts are defined by a convex blade, rounded shoulders, slightly concave stem sides, concave base, and occasional fluting on one or both faces. The presence of fluting and the Late Pleistocene-Early Holocene chronological assignment have been proposed as evidence in support of a cultural relationship between these points and the early points of North America. To explore projectile point shape and related size variation in a quantitative way, we applied geometric morphometric techniques over a sample of 24 Fishtail points from Uruguay. The major trends of shape variation were tested against metric attributes, geographical provenance, and lithic raw material type. Results suggest no relationships between geographical provenance or lithic raw material type and shape variation. However, a significant correlation between size and shape was observed, which indicates an allometric relationship. Finally, we discuss some implications of these results in terms of the design and life history of projectile points and their relationship with the hunter-gatherer technology of the Late Pleistocene and Early Holocene. Copyright © 2011 by the Society for American Archaeology.
 
+DOCUMENT TYPE: Article
 
+PUBLICATION STAGE: Final
 
+SOURCE: Scopus
 
+### [@RN20989]
 
+Scopus
+EXPORT DATE:08 Apr 2020
 
+Kovarovic, K., Aiello, L.C., Cardini, A., Lockwood, C.A.
+15827625200;7006805529;21933368100;7102516713;
+Discriminant function analyses in archaeology: Are classification rates too good to be true?
+(2011) Journal of Archaeological Science, 38 (11), pp. 3006-3018. Cited 101 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-80053448090&doi=10.1016%2fj.jas.2011.06.028&partnerID=40&md5=afd624be686edaa950e3b47fe2e0f06b
 
+DOI: 10.1016/j.jas.2011.06.028
 
+AFFILIATIONS: Department of Anthropology, Durham University, South Road, Durham DH1 3LE, United Kingdom; 
+The Wenner-Gren Foundation, 470 Park Avenue South, 8th Floor, New York City, NY 10016, United States; 
+Dipartimento di Biologia, Universitá di Modena e Reggio Emilia, Via Campi 213, 41100 Modena, Italy; 
+Hull York Medical School, University of Hull and University of York, Heslington, York YO10 5DD, United Kingdom; 
+Centre for Forensic Science, The University of Western Australia, 35 Stirling Highway, Crawley WA 6009, Australia; 
+Department of Anthropology, University College London, 14 Taviton Street, London WC1H 0BW, United Kingdom
+ABSTRACT: The use of discriminant function analyses (DFA) in archaeological and related research is on the increase, however many of the assumptions of this method receive a mixed treatment in the literature. Statisticians frequently use complex statistical models to investigate analytical parameters, but such idealised datasets may be hard to relate to "real-life" examples and the literature difficult to assess. Using two faunal datasets that are more typical of archaeological and related research, one comprised of size-corrected linear measurements of bovid humeri and another of 3D geometric morphometric (GMM) shape data of African monkey skulls, and two simulated datasets, we illustrate some of the most important but often ignored issues of DFA. We specifically show why it is paramount to address "over-fitting" by cross-validation when applying this method and how the probability of correctly classifying cases by chance can be properly and explicitly taken into account. © 2011.
 
+AUTHOR KEYWORDS: Classification accuracy;  Cross-validation;  Discriminant function analysis;  Over-fitting;  Resampling
 
+DOCUMENT TYPE: Article
 
+PUBLICATION STAGE: Final
 
+SOURCE: Scopus
 
+### [@RN1736]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Buchanan, B., Collard, M., Hamilton, M.J., O'Brien, M.J.
+11241802300;7102608373;8578778600;36128081000;
+Points and prey: A quantitative test of the hypothesis that prey size influences early Paleoindian projectile point form
+(2011) Journal of Archaeological Science, 38 (4), pp. 852-864. Cited 47 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-79251608170&doi=10.1016%2fj.jas.2010.11.007&partnerID=40&md5=01a9a6a4719b7a1d1b261b23ddf5df42
+
+DOI: 10.1016/j.jas.2010.11.007
+
+AFFILIATIONS: Laboratory of Human Evolutionary Studies, Department of Archaeology, Simon Fraser University, British Columbia, Canada; 
+Department of Anthropology, University of Missouri, Columbia, MO, United States; 
+Department of Anthropology, University of New Mexico, Albuquerque, NM, United States; 
+Department of Biology, University of New Mexico, Albuquerque, NM, United States; 
+Santa Fe Institute, Sante Fe, NM, United States
+
+ABSTRACT: Understanding the causes of variation within and between projectile point types is an important task for Paleoindian archaeologists since they rely heavily on points to investigate such things as settlement dynamics and hunting practices. One long-held explanation for the variation in early Paleoindian point form is that prey size influenced the size and shape of projectile points. The study reported here evaluated this hypothesis with standard and geometric morphometric data recorded on Clovis and Folsom points from the Southern Plains and Southwest that are associated with mammoth or bison remains. Points used to hunt mammoth were found to be larger and of a different shape than points used to hunt bison, which supports the hypothesis. However, when both point type and prey size were taken into account, the results ran counter to predictions. Potential explanations for this discrepancy are discussed. © 2010 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Bison;  Clovis;  Folsom;  Geometric morphometrics;  Mammoth;  Projectile points
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20990]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+De Groote, I.
+35791611100;
+Femoral curvature in Neanderthals and modern humans: A 3D geometric morphometric analysis
+(2011) Journal of Human Evolution, 60 (5), pp. 540-548. Cited 25 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-79953062743&doi=10.1016%2fj.jhevol.2010.09.009&partnerID=40&md5=b3584c49b60cfee6f3fb4b406717497a
+
+DOI: 10.1016/j.jhevol.2010.09.009
+
+AFFILIATIONS: University College London, Department of Anthropology, Gower Street, London WC1E 6BT, United Kingdom; 
+The Natural History Museum, Palaeontology Department, London, SW7 5BD, United Kingdom
+
+ABSTRACT: Since their discovery, Neanderthals have been described as having a marked degree of anteroposterior curvature of the femoral shaft. Although initially believed to be pathological, subsequent discoveries of Neanderthal remains lead femoral curvature to be considered as a derived Neanderthal feature. A recent study on Neanderthals and middle and early Upper Palaeolithic modern humans found no differences in femoral curvature, but did not consider size-corrected curvature. Therefore, the objectives of this study were to use 3D morphometric landmark and semi-landmark analysis to quantify relative femoral curvature in Neanderthals, Upper Palaeolithic and recent modern humans, and to compare adult bone curvature as part of the overall femoral morphology among these populations.Comparisons among populations were made using geometric morphometrics (3D landmarks) and standard multivariate methods. Comparative material involved all available complete femora from Neanderthal and Upper Palaeolithic modern human, archaeological (Mesolithic, Neolithic, Medieval) and recent human populations representing a wide geographical and lifestyle range. There are significant differences in the anatomy of the femur between Neanderthals and modern humans. Neanderthals have more curved femora than modern humans. Early modern humans are most similar to recent modern humans in their anatomy. Femoral curvature is a good indicator of activity level and habitual loading of the lower limb, indicating higher activity levels in Neanderthals than modern humans. These differences contradict robusticity studies and the archaeological record, and would suggest that femoral morphology, and curvature in particular, in Neanderthals may not be explained by adult behavior alone and could be the result of genetic drift, natural selection or differences in behavior during ontogeny. © 2010 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Curvature;  Geometric morphometrics;  Homo sapiens;  Neanderthals;  Postcrania
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20991]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Bermúdez de Castro, J.M., Martinón-Torres, M., Gómez-Robles, A., Prado-Simón, L., Martín-Francés, L., Lapresa, M., Olejniczak, A., Carbonell, E.
+7003670066;6505967345;19638655200;36721883500;51763866100;51763934700;6603542852;7004942023;
+Early Pleistocene human mandible from Sima del Elefante (TE) cave site in Sierra de Atapuerca (Spain): A comparative morphological study
+(2011) Journal of Human Evolution, 61 (1), pp. 12-25. Cited 56 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-79956082888&doi=10.1016%2fj.jhevol.2011.03.005&partnerID=40&md5=488fc7f9fb9109e6ad743d88f111aa0d
+
+DOI: 10.1016/j.jhevol.2011.03.005
+
+AFFILIATIONS: Centro Nacional de Investigación sobre la Evolución Humana (CENIEH), Avenida Sierra de Atapuerca s/n, 09001 Burgos, Spain; 
+Konrad Lorenz Institute for Evolution and Cognition Research, Adolf Lorenz Gasse 2, A-3422, Altenberg, Austria; 
+Institut Catalá de Paleoecología Humana i Evolució Social (IPHES), Universitat Rovira i Virgili, Plaça Imperial Tarraco 1, Tarragona, Spain; 
+Institut of Vertebrate Paleontology and Paleoanthropology, Chinese Academy of Sciences, 142 Xizhimenwai Str., Beijing, China
+
+ABSTRACT: We present a detailed morphological comparative study of the hominin mandible ATE9-1 recovered in 2007 from the Sima del Elefante cave site in Sierra de Atapuerca, Burgos, northern Spain. Paleomagnetic analyses, biostratigraphical studies, and quantitative data obtained through nuclide cosmogenic methods, place this specimen in the Early Pleistocene (1.2-1.3 Ma). This finding, together with archaeological evidence from different European sites, suggests that Western Europe was colonised shortly after the first hominin expansion out of Africa around the Olduvai subchron. Our analysis of the ATE9-1 mandible includes a geometric morphometric analysis of the lower second premolar (LP4), a combined and detailed external and internal assessment of ATE9-1 roots through CT and microCT techniques, as well as a comparative study of mandibular and other dental features. This analysis reveals some primitive Homo traits on the external aspect of the symphysis and the dentition shared with early African Homo and the Dmanisi hominins. In contrast, other mandibular traits on the internal aspect of the symphysis are derived with regard to African early Homo, indicating unexpectedly large departures from patterns observed in Africa. Reaching the most occidental part of the Eurasian continent implies that the first African emigrants had to cross narrow corridors and to overcome geographic barriers favouring genetic drift, long isolation periods, and adaptation to new climatic and seasonal conditions. Given these conditions and that we are dealing with a long time period, it is possible that one or more speciation events could have occurred in this extreme part of Eurasia during the Early Pleistocene, originating in the lineages represented by the Sima del Elefante-TE9 hominins and possibly by the Gran Dolina-TD6 hominins. In the absence of any additional evidence, we prefer not include the specimen ATE9-1 in any named taxon and refer to it as Homo sp. © 2011 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Early Pleistocene;  Hominins;  Mandible;  Microtomography;  Root morphology;  Sierra de Atapuerca;  Sima del Elefante cave site
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN11556]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Cardillo, M.
+57212772096;
+Some applications of geometric morphometrics to archaeology
+(2010) Lecture Notes in Earth Sciences, 124, pp. 325-341. Cited 35 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85030431181&doi=10.1007%2f978-3-540-95853-6_15&partnerID=40&md5=c5d26cf0bbc8697ed97be18fd59879f1
+
+DOI: 10.1007/978-3-540-95853-6_15
+
+AFFILIATIONS: IMHICIHU-CONICET, Saavedra 5th floor, Buenos Aires, Argentina
+
+ABSTRACT: This work explores some aspects of the application of geometric morphometric techniques in archeology, with a focus on lithic artifacts. We show that Elliptic Fourier Analysis and landmark/semi-landmark based methods can easily generate quantitative useful information relative to outline variation in lithic artifacts. This information can be used latter as raw data into univariate, multivariate analysis to explore mayor trends of morphological variation as well as relations between metric and morphological variation. © Springer-Verlag Berlin Heidelberg 2010.
+
+DOCUMENT TYPE: Book Chapter
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN1754]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Buchanan, B., Collard, M.
+11241802300;7102608373;
+A geometric morphometrics-based assessment of blade shape differences among Paleoindian projectile point types from western North America
+(2010) Journal of Archaeological Science, 37 (2), pp. 350-359. Cited 71 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-70449670300&doi=10.1016%2fj.jas.2009.09.047&partnerID=40&md5=a9427cde1f0831534d0ec656aed5615a
+
+DOI: 10.1016/j.jas.2009.09.047
+
+AFFILIATIONS: Laboratory of Human Evolutionary Studies, Department of Archaeology, Simon Fraser University, 9635-8888 University Drive, Burnaby, BC V5A 1S6, Canada
+ABSTRACT: Blade shape features in the type definitions of Clovis, Folsom, and Plainview projectile points. However, the accuracy of these assessments has never been evaluated. Here we report a study in which geometric morphometrics and multivariate statistics were used to compare the shapes of the blades of Clovis, Folsom and Plainview points from the Southern Plains of North America. In the course of the analyses, we controlled for the impact of three potential confounding factors: allometry, differences in raw material quality, and resharpening. The analyses show that blade shape distinguishes Clovis points from both Folsom points and Plainview points, but does not distinguish Folsom points from Plainview points. The analyses also show that the similarities and differences in blade shape among the types are independent of allometry, raw material quality, and resharpening. These findings suggest that the type definitions for Clovis, Folsom and Plainview need to be altered. They also have implications for typing specimens that lack other defining characters (e.g. channel flakes, flutes). Lastly, the absence of resharpening effects raises questions about the validity of the reduction thesis. © 2009 Elsevier Ltd. All rights reserved.
+
+AUTHOR KEYWORDS: Blade shape;  Geometric morphometrics;  Paleoindian;  Projectile points;  Raw material quality;  Reduction thesis;  Resharpening
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN1727]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Archer, W., Braun, D.R.
+35085743300;23972180300;
+Variability in bifacial technology at Elandsfontein, Western cape, South Africa: a geometric morphometric approach
+(2010) Journal of Archaeological Science, 37 (1), pp. 201-209. Cited 74 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-70350780084&doi=10.1016%2fj.jas.2009.09.033&partnerID=40&md5=05d7b51b183bf76a6ead7d77733b1a4a
+
+DOI: 10.1016/j.jas.2009.09.033
+
+AFFILIATIONS: Department of Archaeology, University of Cape Town, Rondebosch, 7701 Western Cape, South Africa
+ABSTRACT: This study applies a new three-dimensional measurement technique to determine the major source of variation in the Acheulian bifacial tool collection from the Middle Pleistocene site of Elandsfontein, South Africa. This three-dimensional technique is compared with conventional two-dimensional methods to investigate which methods capture morphological variation in the assemblage most comprehensively. Additionally, a set of experimentally produced bifacial tools are incorporated into the analyses to isolate the behavioral pattern underpinning identified variation in the archaeological assemblage. The interpretative breadth of current models explaining morphological variation in bifacial tools is then tested against the pattern identified in the Elandsfontein assemblage. Variation appears to be related to the consistent application of a specific reduction strategy associated with the early stages of bifacial tool manufacture. The intensity with which this strategy was applied seems to have been mediated by the availability of raw material that was suitable for the production of large bifacial tools. © 2009 Elsevier Ltd. All rights reserved.
+
+AUTHOR KEYWORDS: Acheulean;  Biface;  Elandsfontein;  Experimental archaeology;  Lithic analysis;  Middle Pleistocene
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20992]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Harvati, K., Hublin, J.-J., Gunz, P.
+57203032637;6602606027;6506472733;
+Evolution of middle-late Pleistocene human cranio-facial form: A 3-D approach
+(2010) Journal of Human Evolution, 59 (5), pp. 445-464. Cited 54 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-77958177900&doi=10.1016%2fj.jhevol.2010.06.005&partnerID=40&md5=182a4071bbd6819561c059ce96f0cac1
+
+DOI: 10.1016/j.jhevol.2010.06.005
+
+AFFILIATIONS: Paleoanthropology Section, Dept. of Early Prehistory and Quaternary Ecology, Senckenberg Center for Human Evolution and Paleoecology, Eberhard Karls Universität Tübingen, Rümelinstr. 23, 72070 Tübingen, Baden-Württenberg, Germany; 
+Department of Human Evolution, Max Planck Institute for Evolutionary Anthropology, Germany
+
+ABSTRACT: The classification and phylogenetic relationships of the middle Pleistocene human fossil record remains one of the most intractable problems in paleoanthropology. Several authors have noted broad resemblances between European and African fossils from this period, suggesting a single taxon ancestral to both modern humans and Neanderthals. Others point out 'incipient' Neanderthal features in the morphology of the European sample and have argued for their inclusion in the Neanderthal lineage exclusively, following a model of accretionary evolution of Neanderthals. We approach these questions using geometric morphometric methods which allow the intuitive visualization and quantification of features previously described qualitatively. We apply these techniques to evaluate proposed cranio-facial 'incipient' facial, vault, and basicranial traits in a middle-late Pleistocene European hominin sample when compared to a sample of the same time depth from Africa. Some of the features examined followed the predictions of the accretion model and relate the middle Pleistocene European material to the later Neanderthals. However, although our analysis showed a clear separation between Neanderthals and early/recent modern humans and morphological proximity between European specimens from OIS 7 to 3, it also shows that the European hominins from the first half of the middle Pleistocene still shared most of their cranio-facial architecture with their African contemporaries. © 2010 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Face;  Geometric morphometrics;  Homo heidelbergensis;  Neanderthal;  Occipital;  Temporal
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4740]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Cucchi, T.
+6506822509;
+Uluburun shipwreck stowaway house mouse: molar shape analysis and indirect clues about the vessel's last journey
+(2008) Journal of Archaeological Science, 35 (11), pp. 2953-2959. Cited 27 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-49849106069&doi=10.1016%2fj.jas.2008.06.016&partnerID=40&md5=7b3fc8d00d41a0684584515fd6fca4f1
+
+DOI: 10.1016/j.jas.2008.06.016
+
+AFFILIATIONS: Department of Archaeology, University of Durham, South Road, Durham, DH1 3LE, United Kingdom; 
+CNRS, Muséum National d'Histoire Naturelle, Département Écologie et Gestion de la Biodiversité, 55 rue Buffon, 75005 Paris, France
+ABSTRACT: Human translocation by stowaway transport is the widely accepted vector of the current worldwide distribution of commensal rodents but its historical process has never been directly evidenced. The anecdotal find of the small murine (mice and rats) mandible among the wealthy cargo of the Uluburun shipwreck provide us with an unexpected opportunity to directly evidence the species associated with this stowaway and provide indirect clues regarding the ship's route. Taxonomic identification and geographic sourcing has been performed using outline molar shape analysis by Elliptic Fourier Transform comparing the Uluburun mouse molar phenotype with extant populations from eastern Mediterranean sibling species. Results showed that the mandible belonged to the house mouse (Mus musculus domesticus) with significant phenotypic similarities with extant Syrian house mouse populations. These results provide the earliest direct evidence for stowaway transports highlighting the historical process of the house mouse invasion of the Mediterranean. Using modern behavioural comparisons, combined with archaeological and historical sources, it has been argued that the servicing port of Ugarit (Minet el Beida) was a likely step on the vessel's last journey. © 2008 Elsevier Ltd. All rights reserved.
+
+AUTHOR KEYWORDS: Elliptic Fourier Transform;  Geometric morphometric;  Invasive species;  Maritime Trade;  Zooarchaeology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20993]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Braga, J., Treil, J.
+7004881640;6603973386;
+Estimation of pediatric skeletal age using geometric morphometrics and three-dimensional cranial size changes
+(2007) International Journal of Legal Medicine, 121 (6), pp. 439-443. Cited 36 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-35348882661&doi=10.1007%2fs00414-007-0170-x&partnerID=40&md5=7e6ef12bc4dd4fb237e2cfb5fc7ad140
+
+DOI: 10.1007/s00414-007-0170-x
+
+AFFILIATIONS: Centre d'Anthropobiologie, Université Paul Sabatier, FRE 2960 CNRS, 39, allées Jules Guesde, 31000 Toulouse, France
+ABSTRACT: This paper presents a method for estimating the skeletal age of children based on the centroid size of their face and their basicranium, derived from the three-dimensional coordinates of anatomical landmarks. The sample consists of computed tomography scans of 127 children (54 boys, 73 girls) of mixed origin living in the area of Toulouse (France), ranging in age from a few days to 18 years. The purpose of the present investigation was, first, to increase the variety of age-related structures theoretically available for pediatric skeletal age estimation and, second, to devise a method that can be applicable from early postnatal age to the end of adolescence with a satisfactory accuracy independent of age and even a better accuracy with greater age. We examined the relationship between the chronological age and the centroid size, calculated by using geometric morphometric methods and a linear model. With the aid of cross-validations, the statistical analysis indicates that the centroid size of the facial skeleton can be used an age-related variable without any loss of accuracy with increased age, contrary to most of the methods of pediatric age estimation. The standard error was always lower or equal to 2.1 years (at the 95% confidence level) and decreased in our sub-sample of older children represented by a larger number of individuals. © 2007 Springer-Verlag.
+
+AUTHOR KEYWORDS: Age estimation;  Geometric morphometrics;  Skeletal growth
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20994]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+González-José, R., Martínez-Abadías, N., González-Martín, A., Bautista-Martínez, J., Gómez-Valdés, J., Quinto, M., Hernández, M.
+6602423911;9739700800;6701477260;16063190900;16063951800;16064455200;7401971749;
+Detection of a population replacement at the Classic-Postclassic transition in Mexico
+(2007) Proceedings of the Royal Society B: Biological Sciences, 274 (1610), pp. 681-688. Cited 28 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-33947528330&doi=10.1098%2frspb.2006.0151&partnerID=40&md5=ad97be0c4afe220aba9a5cd9d7e74a10
+
+DOI: 10.1098/rspb.2006.0151
+
+AFFILIATIONS: Centro Nacional Patagónico, Consejo Nacional de Investigaciones Científicas Y Técnicas, Boulevard Brown 3500, U9120ACV Puerto Madryn, Argentina; 
+Unitat d'Antropologia, Facultat de Biologia, Universitat de Barcelona, Diagonal 645, 08028 Barcelona, Spain; 
+Departamento de Zoología Y Antropología Física, Facultad de Biología, Universidad Complutense de Madrid, 28040 Madrid, Spain; 
+Dirección de Antropología Física, Instituto Nacional de Antropología e Historia, Juarez 425-431, Colonia Centro, 91700 Veracruz, Mexico; 
+Área Académica de Historia Y Antropología, Universidad Autónoma del Estado de Hidalgo, Pachuca, Hidalgo 42160, Mexico
+
+ABSTRACT: The Mexica Empire reached an outstanding social, economic and politic organization among Mesoamerican civilizations. Even though archaeology and history provide substantial information about their past, their biological origin and the demographic consequences of their settlement in the Central Valley of Mexico remain unsolved. Two main hypotheses compete to explain the Mexica origin: a social reorganization of the groups already present in the Central Valley after the fall of the Classic centres or a population replacement of the Mesoamerican groups by migrants from the north and the consequent setting up of the Mexica society. Here, we show that the main changes in the facial phenotype occur during the Classic-Postclassic transition, rather than in the rise of the Mexica. Furthermore, Mexica facial morphology seems to be already present in the early phases of the Postclassic epoch and is not related to the northern facial pattern. A combination of geometric morphometrics with Relethford-Blangero analyses of within- versus among-group variation indicates that Postclassic groups are more variable man expected. This result suggests that intense gene exchange was likely after the fall of the Classic and maybe responsible for the Postclassic facial phenotype. The source population for the Postclassic groups could be located somewhere in western Mesoamerica, since North Mexico and Central Mesoamerican Preclassic and Classic groups are clearly divergent from the Postclassic ones. Similarity among Preclassic and Classic groups and those from Aridoamerica could be reflecting the ancestral phenotypic pattern characteristic of the groups diat first settled Mesoamerica. © 2006 The Royal Society.
+
+AUTHOR KEYWORDS: Classic-postclassic transition;  Facial shape;  Geometric morphometrics;  Mesoamerica;  Mexica;  Population replacement
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN388]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Perez, S.I.
+13808174600;
+Artificial cranial deformation in South America: a geometric morphometrics approximation
+(2007) Journal of Archaeological Science, 34 (10), pp. 1649-1658. Cited 33 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-34547105046&doi=10.1016%2fj.jas.2006.12.003&partnerID=40&md5=538a92121955ca471c48d27916aa32aa
+
+DOI: 10.1016/j.jas.2006.12.003
+
+AFFILIATIONS: CONICET, División Antropología, Facultad de Ciencias Naturales y Museo, Paseo del Bosque s/n, 1900 La Plata, Argentina
+
+ABSTRACT: The bioarchaeological record of South America is characterized by the high frequency of individuals with a variety of cranial deformations concentrated in three areas (North-West, Central-West and South) of this subcontinent. The general purpose of this paper is to study the variation in artificial cranial deformation in several regions of Central-West and South of South America. Cranial variation related to artificial deformation of human cranial remains is analyzed by means of geometric morphometrics and multivariate statistic methods. The results of this work show that there are no large differences in variation among states, chiefdoms and bands of hunter-gatherers. The pattern of variation observed in cranial deformation among regions can be interpreted principally according to the chronological and spatial distribution of the cranial samples analyzed. © 2006 Elsevier Ltd. All rights reserved.
+
+AUTHOR KEYWORDS: Bioarchaeology;  Cluster identification;  Cultural cranial variation;  Semilandmarks
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN1722]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Lycett, S.J., von Cramon-Taubadel, N., Foley, R.A.
+9434693200;23471109300;7102887389;
+A crossbeam co-ordinate caliper for the morphometric analysis of lithic nuclei: A description, test and empirical examples of application
+(2006) Journal of Archaeological Science, 33 (6), pp. 847-861. Cited 78 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-33645078897&doi=10.1016%2fj.jas.2005.10.014&partnerID=40&md5=0941f76714b1a033debac0223bb90b3f
+
+DOI: 10.1016/j.jas.2005.10.014
+
+AFFILIATIONS: Leverhulme Centre for Human Evolutionary Studies, University of Cambridge, Fitzwilliam Street, Cambridge CB2 1QH, United Kingdom
+
+ABSTRACT: Over the last four decades, there has been surprisingly little advance in the quantitative morphometric analysis of Palaeolithic stone tools, especially compared to that which has taken place in biological morphometrics over a comparable time frame. In Palaeolithic archaeology's sister discipline of palaeoanthropology, detailed quantitative morphometric, geometric morphometric, and even 3D geometric morphometric analyses are now seen almost as routine. This period of relative methodological stasis may have been influenced by the lack of homologous landmarks on many lithic tools (essential for any comparative analysis), especially core-based technologies of the Lower Palaeolithic. Archaeological field conditions may also prohibit the use of expensive and delicate precision instruments in certain cases. Here we present a crossbeam co-ordinate caliper that - crucially - both geometrically locates and measures distances between morphologically homologous landmarks upon lithic nuclei via a single protocol. Intra- and inter-observer error tests provide evidence that error levels associated with the instrument fall within acceptable ranges. In addition, we present empirical examples of application in the form of a multivariate analysis of 55 discrete morphometric variables, and a 3D geometric morphometric analysis of co-ordinate landmark configurations derived from Pleistocene lithic nuclei (i.e. 'cores' sensu lato). We also introduce to lithic studies some techniques for the study of shape variation that have previously been used with success in biological morphometric analyses. We conclude that use of an instrument such as the crossbeam co-ordinate caliper may provide a useful adjunct to traditional techniques of lithic analysis, particularly in developing a quantitative morphometric approach. © 2005 Elsevier Ltd. All rights reserved.
+
+AUTHOR KEYWORDS: 3D geometric morphometrics;  Geometric mean;  Landmarks;  Lithics;  Morphometrics;  Semi-landmarks;  Size-adjustment
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20995]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Vioarsdóttir, U.S., O'Higgins, P., Stringer, C.
+6506617331;7004722122;7005875885;
+A geometric morphometric study of regional differences in the ontogeny of the modern human facial skeleton
+(2002) Journal of Anatomy, 201 (3), pp. 211-229. Cited 146 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-0036737886&doi=10.1046%2fj.1469-7580.2002.00092.x&partnerID=40&md5=a318560cd22fffa0ee48e62e65caf6a9
+
+DOI: 10.1046/j.1469-7580.2002.00092.x
+
+AFFILIATIONS: Evolutionary Anthropology Research Group, Department of Anthropology, University of Durham, 43 Old Elvet, Durham DH1 3HN, United Kingdom; 
+Department of Anatomy and Developmental Biology, University College London, Rockefeller Building, University Street, London WC1E 6JJ, United Kingdom; 
+Department of Palaeontology, Natural History Museum, Cromwell Road, London SW7 5BD, United Kingdom
+
+ABSTRACT: This study examines interpopulation variations in the facial skeleton of 10 modern human populations and places these in an ontogenetic perspective. It aims to establish the extent to which the distinctive features of adult representatives of these populations are present in the early post natal period and to what extent population differences in ontogenetic scaling and allometric trajectories contribute to distinct facial forms. The analyses utilize configurations of facial landmarks and are carried out using geometric morphometric methods. The results of this study show that modern human populations can be distinguished based on facial shape alone, irrespective of age or sex, indicating the early presence of differences. Additionally, some populations have statistically distinct facial ontogenetic trajectories that lead to the development of further differences later in ontogeny. We conclude that population-specific facial morphologies develop principally through distinctions in facial shape probably already present at birth and further accentuated and modified to variable degrees during growth. These findings raise interesting questions regarding the plasticity of facial growth patterns in modern humans. Further, they have important implications in relation to the study of growth in the face of fossil hominins and in relation to the possibility of developing effective discriminant functions for the identification of population affinities of immature facial skeletal material. Such tools would be of value in archaeological, forensic and anthropological applications. The findings of this study underline the need to examine more deeply, and in more detail, the ontogenetic basis of other causes of craniometric variation, such as sexual dimorphism and hominin species differentiation.
+
+AUTHOR KEYWORDS: Allometric vectors;  Craniofacial variation;  Facial ontogeny
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
