@@ -1555,6 +1555,812 @@ PUBLICATION STAGE: Final
 
 SOURCE: Scopus
 
+### [@RN20975]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Ferros, I., Mora, M.J., Obeso, I.F., Jimenez, P., Martinez-Insua, A.
+8212103000;24449459500;56790167400;54782795700;6602261754;
+Relationship between the cranial base and the mandible in artificially deformed skulls
+(2016) Orthodontics and Craniofacial Research, 19 (4), pp. 222-233. Cited 4 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84982994877&doi=10.1111%2focr.12128&partnerID=40&md5=d16119171a3f47c4f58ecc65489a5bda
+
+DOI: 10.1111/ocr.12128
+
+AFFILIATIONS: Stomatology, Facultad de Medicina y Odontología de Santiago de Compostela, Santiago de Compostela, Spain; 
+Private Practice, Malaga, Spain
+
+ABSTRACT: Objectives: There is controversy regarding the relationship between mandibular position and alterations of the cranial base that provoke a more anterior location of the glenoid fossa. Artificially deformed skulls display marked alterations of the cranial base. This study evaluates mandibular changes as function of the morphology of the cranial base in these skulls. Material and methods: A geometric morphometric study was performed on lateral cephalometric X-rays of three groups of skulls: 32 with anteroposterior deformity, 17 with circumferential deformity and 39 with no apparent deformity. Results: In artificially deformed skulls, the cranial base was deformed causing the mandibular condyle to be in a more anterior position. There was a complete remodelling of the mandible involving narrowing and elongation of the mandibular ramus, rotation of the corpus of the mandible and increased vertical height of the symphysis. Forward displacement did not occur. Integration between mandible and cranial base is not altered by deformation of the skull. Conclusions: Deformity of the cranial vault exerts an influence on the mandible, supporting the theory of modular units in complete integration. This also supports the theory that mandibular prognathism is a multifactorial result and not a direct effect of displacement of the cranial base. © 2016 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd
+
+AUTHOR KEYWORDS: deformed skull;  geometric morphometric;  mandible;  skull base
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN11550]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Archer, W., Pop, C.M., Gunz, P., McPherron, S.P.
+35085743300;55860417700;6506472733;6506777264;
+What is Still Bay? Human biogeography and bifacial point variability
+(2016) Journal of Human Evolution, 97, pp. 58-72. Cited 16 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84974593556&doi=10.1016%2fj.jhevol.2016.05.007&partnerID=40&md5=e2160497a06d1616815864ee74b8e1a9
+
+DOI: 10.1016/j.jhevol.2016.05.007
+
+AFFILIATIONS: Department of Human Evolution, Max Planck Institute for Evolutionary Anthropology, Deutscher Platz 6, Leipzig, D-04103, Germany
+
+ABSTRACT: 'Still Bay' is the name given to a cultural phase within the southern African Middle Stone Age, which remains critical to our understanding of modern human behavioural evolution. Although represented in only a handful of sites, the Still Bay is widespread geographically and, at certain localities, persisted over a substantial period of time. Many studies have focused on tracing the temporal range and geographic reach of the Still Bay, as well as inferring degrees of early modern human demographic connectedness from these parameters. Variation within the Still Bay, relative to the accuracy with which it can be identified, has received considerably less attention. However, demographic models based on the spread of the Still Bay in space and time hinge on the reliability with which it can be recognized in the archaeological record. Here we document patterns of bifacial point shape and size variation in some key Still Bay assemblages, and analyse these patterns using the statistical shape analysis tools of geometric morphometrics. Morphological variation appears to be geographically structured and is driven by the spatial separation between north-eastern and south-western clusters of sites. We argue that allometric variation is labile and reflects environmentally driven differences in point reduction, whereas shape differences unrelated to size more closely reflect technological and cultural fragmentation. Our results suggest that the biogeographic structure of Middle Stone Age populations was complex during the period associated with the Still Bay, and provide little support for heightened levels of cultural interconnectedness between distantly separated groups at this time. We briefly discuss the implications of our findings for tracing classic techno-traditions in the Middle Stone Age record of southern Africa, and for inferring underpinning population dynamics from these patterns. © 2016 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Bifacial points;  Cultural connectedness and fragmentation;  Geographic variation;  Geometric morphometrics;  Modern human demography;  Techno-traditions
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20976]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Guillaud, E., Cornette, R., Béarez, P.
+56324128400;6506350460;55906893100;
+Is vertebral form a valid species-specific indicator for salmonids? The discrimination rate of trout and Atlantic salmon from archaeological to modern times
+(2016) Journal of Archaeological Science, 65, pp. 84-92. Cited 7 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84949036039&doi=10.1016%2fj.jas.2015.11.010&partnerID=40&md5=fade51ae7c89a1b701dfae13668f2be8
+
+DOI: 10.1016/j.jas.2015.11.010
+
+AFFILIATIONS: UMR 7209, CNRS/MNHN Archeozoologie, archéobotanique: societes, pratiques et environnement, Muséum national d'Histoire naturelle, Département Écologie et Gestion de la Biodiversité (EGB), 55 rue Buffon, CP 56, Paris, 75005, France; 
+UMR 7208, CNRS/MNHN/IRD/UPMC, Muséum national d'Histoire naturelle, Département Milieux et Peuplements Aquatiques (DMPA), 7 rue Cuvier, Paris Cedex 05, 75231, France; 
+UMR 7205, CNRS/MNHN/UPMC/EPHE, Institut de Systématique, Évolution et Biodiversité (ISYEB), Museum national d'Histoire naturelle, Département Systématique et Évolution, 45 rue Buffon, Paris, 75005, France; 
+UMS 2700, Outils et méthodes de la systématique intégrative, Muséum national d'Histoire naturelle, Département Systématique et Evolution, 57 rue Cuvier, Paris Cedex 05, 75231, France
+
+ABSTRACT: Salmonids, especially Atlantic salmon (Salmo salar) and trout (Salmo trutta sspp.), are ubiquitous throughout the European Upper Paleolithic archaeological context; however, as these species are morphologically similar, species identification can be difficult. Here we present (I) a species classification rate for the two species using modern reference specimens, and (II) an application on archaeological vertebrae of Salmo sp. recovered from the cave of Le Taillis des Coteaux (Vienne, France). This cave contains a rich archaeological sequence with an exceptionally well preserved stratigraphy, encompassing the Upper Paleolithic from the Aurignacian to the Middle Magdalenian. To discriminate both species, we used a geometric morphometric approach to analyse vertebral form using landmarks and sliding semi-landmarks, coupled with k-Nearest Neighbour classification method. Other quantitative approaches like Principal Component Analyses exist, but the k-NN method increases the power of these analyses. Linear Discriminant Analysis was also used; however, the k-NN method provided better results. This study presents the initial results of geometric morphometric discrimination of European salmonid bones. The success rate of reassigning these to the modern reference specimens ranged from 84 to 100%, depending on the vertebrae studied, with the data indicating that S. trutta sspp. were the dominant taxon on site. This study provides clear evidence that vertebrae morphology can be used to differentiate salmonid species, allowing archaeological specimens, even partially broken, to be identified. © 2015 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Geometric morphometrics;  Le Taillis des Coteaux;  Salmo salar;  Salmo trutta;  Species identification;  Upper Paleolithic;  Vertebrae
+
+DOCUMENT TYPE: Review
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20977]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Paschetta, C., De Azevedo, S., González, M., Quinto-Sánchez, M., Cintas, C., Varela, H., Gómez-Valdés, J., Sánchez-Mejorada, G., González-José, R.
+34973286700;34972634100;51664998600;55214951500;56436822800;56702374900;16063951800;55989730100;6602423911;
+Shifts in subsistence type and its impact on the human skull's morphological integration
+(2016) American Journal of Human Biology, 28 (1), pp. 118-128. Cited 4 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84953636574&doi=10.1002%2fajhb.22746&partnerID=40&md5=baf548719ff1156eb405b81037b87323
+
+DOI: 10.1002/ajhb.22746
+
+AFFILIATIONS: Centro Nacional Patagónico, Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Puerto Madryn, U9120ACF, Argentina; 
+Universidad Nacional de Río Cuarto, Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Río Cuarto, 5800, Argentina; 
+Departamento de Anatomía, Facultad de Medicina, Universidad Nacional Autónoma de México, México D.F., 04510, Mexico
+
+ABSTRACT: Objective: Here we evaluate morphological integration patterns and magnitudes in different skull regions to detect if shifts in morphological integration are correlated to the appearance of more processed (softer) diets. Methods: To do so, three transitional populations were analyzed, including samples from groups that inhabited the same geographical region and for which the evidence shows that major changes occurred in their subsistence mode. Ninety three-dimensional landmarks were digitized on 357 skulls and used as the raw data to develop geometric morphometric analyses. The landmark coordinates were divided into several different regions of biomechanical interest, following a three-level hierarchically nested scheme: the whole skull, further subdivided into neurocranium (divided into the vault and basicranium), the facial (divided into the lower and upper facial), and the masticatory apparatus (divided into alveolar, temporal, and temporo-mandibular joint). Results: Our results indicate that the morphological integration and variability patterns significantly vary across skull regions but are maintained across the transitions. The alveolar border and the lower facial are the regions manifesting greater value of morphological integration and variability, while the upper facial, the temporo-mandibular joint, and the basicranium are highly integrated and poorly variable. Conclusions: The transition to softer diets increased morphological variation across cranial regions that are more exposed to masticatory strains effects. © 2015 Wiley Periodicals, Inc.
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4392]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Archer, W., Gunz, P., Van Niekerk, K.L., Henshilwood, C.S., McPherron, S.P.
+35085743300;6506472733;55618288400;6603544431;6506777264;
+Diachronic change within the Still Bay at Blombos Cave, South Africa
+(2015) PLoS ONE, 10 (7), art. no. e0132428, . Cited 23 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84940055265&doi=10.1371%2fjournal.pone.0132428&partnerID=40&md5=dabc86459d030dfbe5f1fa4a7e589146
+
+DOI: 10.1371/journal.pone.0132428
+
+AFFILIATIONS: Department of Human Evolution, Max Planck Institute for Evolutionary Anthropology, Deutscher Platz 6, Leipzig, 04103, Germany; 
+Institute for Archaeology, History, Culture and Religious Studies, University of Bergen, Øysteinsgate 3, Bergen, N-5007, Norway; 
+Institute for Human Evolution, University of the Witwatersrand, Johannesburg, South Africa
+
+ABSTRACT: Characteristically shaped bifacial points are stone artefacts with which the Middle Stone Age Still Bay techno-complex in Southern Africa is identified. Traditional approaches such as chaîne opératoire and two-dimensional metrics in combination with attribute analyses have been used to analyse variability within Still Bay point assemblages. Here we develop a protocol to extract and analyse high resolution 3-dimensional geometric morphometric information about Still Bay point morphology. We also investigate ways in which the independent variables of time, raw-material and tool size may be driving patterns of shape variation in the Blombos Cave point assemblage. We demonstrate that at a single, stratified Still Bay site points undergo significant modal changes in tool morphology and standardization. Our results caution against (1) treatment of the Still Bay as a static technological entity and (2) drawing demographic inferences stemming from grouping Still Bay point collections within the same cultural label. © 2015 Archer et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20978]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Duval, C., Lepetz, S., Horard-Herbin, M.-P., Cucchi, T.
+55701507500;26036377000;6504583713;6506822509;
+Did Romanization impact Gallic pig morphology? New insights from molar geometric morphometrics
+(2015) Journal of Archaeological Science, 57, pp. 345-354. Cited 7 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84926059642&doi=10.1016%2fj.jas.2015.03.004&partnerID=40&md5=ad2ed459ee85d2f309409ff1572735bb
+
+DOI: 10.1016/j.jas.2015.03.004
+
+AFFILIATIONS: CNRS, UMR7324, Cités, territoires, environnement et sociétés (CITERES), Laboratoire Archeologie et Territoires, Universite Francois-Rabelais, MSH Villes et Territoires, BP 60449, Tours, 37204, France; 
+CNRS, UMR 7209, Archéozoologie, Archéobotanique: Sociétés, Pratiques et Environnements, Muséum national d'Histoire naturelle, Dép. EGB, 55 rue Buffon, CP 56, Paris, 75005, France; 
+Department of Archaeology, University of Aberdeen, St. Mary's Building, Elphinstone Road, United Kingdom
+
+ABSTRACT: In Western Europe, at the turn of our era, the emergence of the Roman economic and agropastoral model is considered as the trigger for morphological changes experienced by livestock. This assumption is now undermined, reviving questions of the origin and mechanism of these changes as well as the influence of Gaul's agricultural particularities in the process. To investigate this question we used a geometric morphometric approach to study the phenotypic relationships of almost 600 dental remains of pigs (Sus scrofa domesticus) from 11 Gallic and Italian sites, and pinpoint evidence of Roman or indigenous signature on the livestock. The comparison of these different samples allowed us to demonstrate that the link between the Roman and Gallic pigs is weak, and, more importantly, that each of the two territories seem to follow its own livestock management model. Furthermore, each region or settlement within Gaul adopted their own particular pastoral or supplying strategies; apart from two urban sites of central Gaul which showed clear phenotypic relationships with southern populations. These results suggest that the pigs' morphology depended mainly on agricultural and economic characteristics of the different territories, within Gaul and Italy, except perhaps on some urban sites with different supply strategies. It seems, therefore, that the changing economic environment impacted both provinces independently, or at least differently, since it cannot be excluded that there may have been some commercial relationships between them. © 2015 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Archaeozoology;  Gaul;  Iron Age;  Italy;  Local and regional diversity;  Molar shape;  Morphological and phenotypic changes;  Roman period
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN11625]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Eren, M.I., Buchanan, B., O'Brien, M.J.
+23975681200;11241802300;36128081000;
+Social learning and technological evolution during the Clovis colonization of the New World
+(2015) Journal of Human Evolution, 80, pp. 159-170. Cited 48 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84923363624&doi=10.1016%2fj.jhevol.2015.01.002&partnerID=40&md5=b226f6819acca46719ed4e5ea6235079
+
+DOI: 10.1016/j.jhevol.2015.01.002
+
+AFFILIATIONS: Department of Anthropology, University of Missouri, Columbia, MO  65211, United States; 
+Department of Archaeology, Cleveland Museum of Natural History, Cleveland, OH  44106, United States; 
+Department of Anthropology, University of Tulsa, Tulsa, OK  74104, United States
+
+ABSTRACT: A long-standing debate in Pleistocene archaeology concerns the sources of variation in the technology of colonizing hunter-gatherers. One prominent example of this debate is Clovis technology (13,350-12,500 calendar years before present), which represents the earliest widespread and currently recognizable remains of hunter-gatherers in North America. Clovis projectile points appear to have been made the same way regardless of region, but several studies have documented differences in shape that appear to be regional. Two processes have been proposed for shape variation: (1) stochastic mechanisms such as copy error (drift) and (2) Clovis groups adapting their hunting equipment to the characteristics of prey and local habitat. We used statistical analysis of Clovis-point flake-scar pattern and geometric morphometrics to examine whether drift alone could cause significant differences in the technology of Stone Age colonizing hunter-gatherers. Importantly, our analysis was intraregional to rule out a priori environmental adaptation. Our analysis confirmed that the production technique was the same across the sample, but we found significant shape differences in Clovis point populations made from distinct stone outcrops. Given that current archaeological evidence suggests stone outcrops were "hubs" of regional Clovis activity, our dichotomous, intraregional results quantitatively confirm that Clovis foragers engaged in two tiers of social learning. The lower, ancestral tier relates to point production and can be tied to conformist transmission of tool-making processes across the Clovis population. The upper, derived tier relates to point shape, which can be tied to drift that resulted from increased forager interaction at different stone-outcrop hubs and decreased forager interaction among groups using different outcrops. Given that Clovis artifacts represent the earliest widespread and currently recognizable remains of hunter-gatherers in North America, our results suggest that we need to alter our theoretical understanding of how quickly drift can occur within a colonizing population and create differences among socially learned technological characters. © 2015 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Cultural transmission;  Dispersals;  Drift;  Geometric morphometrics;  Hunter-gatherers;  Peopling of the Americas
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20979]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Milella, M., Zollikofer, C.P.E., Ponce de León, M.S.
+55139248700;7006560849;7004048915;
+Virtual reconstruction and geometric morphometrics as tools for paleopathology: A new approach to study rare developmental disorders of the skeleton
+(2015) Anatomical Record, 298 (2), pp. 335-345. Cited 6 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84921001088&doi=10.1002%2far.23020&partnerID=40&md5=8622dd340156b3ab2594ca92f31abcc3
+
+DOI: 10.1002/ar.23020
+
+AFFILIATIONS: Anthropological Institute and Museum, University of Zurich, Switzerland
+
+ABSTRACT: Survey studies of osteoarchaeological collections occasionally yield specimens exhibiting rare skeletal developmental disorders. Beyond paleopathological diagnosis, however, it is often difficult to gain insight into the processes, mechanisms, and consequences of the pathology, notably because archaeological specimens are often fragmentary. Here, we propose a combination of virtual reconstruction (VR) and geometric morphometrics (GM) to address these issues. As an example, we use VR to reconstruct the only known archaeological specimen exhibiting persistence of the pelvic triradiate cartilage and compare it via GM with a set of healthy pelvises representing both sexes and different ontogenetic stages. Our results evidence (i) a marked deviation of the pathological pelvis from the adult mean shape, (ii) the retention of typical male features, and (iii) the retention of a paedomorphic ratio between iliac and ischiopubic size. Altogether, such data offer new insights into the modularity and integration of pelvic ontogeny, while at the same time demonstrating the usefulness of a combined VR/GM approach as complement to classical methods of paleopathology. Anat Rec, 298:335-345, 2015. © 2014 Wiley Periodicals, Inc.
+
+AUTHOR KEYWORDS: Geometric morphometrics;  Growth disorders;  Middle ages;  Triradiate cartilage;  Virtual reconstruction
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20980]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Webere, G.W.
+57188930505;
+Virtual anthropology
+(2015) American Journal of Physical Anthropology, 156 (S59), pp. 22-42. Cited 34 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84964253659&doi=10.1002%2fajpa.22658&partnerID=40&md5=3013f20b90387c55a166fb61dd5d3660
+
+DOI: 10.1002/ajpa.22658
+
+AFFILIATIONS: Department of Anthropology, University of Vienna, Althanstr. 14, Vienna, A-1090, Austria; 
+Core Facility for Micro-Computed Tomography, University of Vienna, Vienna, A-1090, Austria
+
+ABSTRACT: Comparative morphology, dealing with the diversity of form and shape, and functional morphology, the study of the relationship between the structure and the function of an organism's parts, are both important subdisciplines in biological research. Virtual anthropology (VA) contributes to comparative morphology by taking advantage of technological innovations, and it also offers new opportunities for functional analyses. It exploits digital technologies and pools experts from different domains such as anthropology, primatology, medicine, paleontology, mathematics, statistics, computer science, and engineering. VA as a technical term was coined in the late 1990s from the perspective of anthropologists with the intent of being mostly applied to biological questions concerning recent and fossil hominoids. More generally, however, there are advanced methods to study shape and size or to manipulate data digitally suitable for application to all kinds of primates, mammals, other vertebrates, and invertebrates or to issues regarding plants, tools, or other objects. In this sense, we could also call the field "virtual morphology." The approach yields permanently available virtual copies of specimens and data that comprehensively quantify geometry, including previously neglected anatomical regions. It applies advanced statistical methods, supports the reconstruction of specimens based on reproducible manipulations, and promotes the acquisition of larger samples by data sharing via electronic archives. Finally, it can help identify new, hidden traits, which is particularly important in paleoanthropology, where the scarcity of material demands extracting information from fragmentary remains. This contribution presents a current view of the six main work steps of VA: digitize, expose, compare, reconstruct, materialize, and share. The VA machinery has also been successfully used in biomechanical studies which simulate the stress and strains appearing in structures. Although methodological issues remain to be solved before results from the two domains can be fully integrated, the various overlaps and cross-fertilizations suggest the widespread appearance of a "virtual functional morphology" in the near future. © 2014 American Association of Physical Anthropologists.
+
+AUTHOR KEYWORDS: Biomechanics;  Comparative morphology;  Functional morphology;  Geometric morphometrics;  Human evolution;  Shape and form analysis;  Virtual anthropology;  Virtual morphology
+
+DOCUMENT TYPE: Review
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4343]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Davis, L.G., Bean, D.W., Nyers, A.J., Brauner, D.R.
+7403144732;56721019200;56538453400;56721127100;
+Glimr: A gis-based method for the geometric morphometric analysis of artifacts
+(2015) Lithic Technology, 40 (3), pp. 199-217. Cited 10 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84937030926&doi=10.1179%2f2051618515Y.0000000007&partnerID=40&md5=663e3778c5d55c3d061374913ba45320
+
+DOI: 10.1179/2051618515Y.0000000007
+
+AFFILIATIONS: Pacific Slope Archaeological Laboratory, Oregon State University, Department of Anthropology, 238 Waldo Hall, Corvallis, 97331, United States
+
+ABSTRACT: Archaeology’s participation in the digital renaissance of the twenty-first century requires adequate operationalization of technological methods, such as three-dimensional scanning. Here, we describe and demonstrate a geographic information systems-based lithic morphometric research (GLiMR) software approach. GLiMR accurately and rapidly handles a sequence of ArcGIS procedures to extract geometric morphometric data from 2D and 3D scan files that are impractical to record by hand, opening new doors to the analysis of lithic artifacts. GLiMR generates three main types of geometric properties: shape data, topographic data, and domain aggregate data. These data can be extracted in ways that support other analyses of artifact form, including generalized Procrustes analysis, principal components analysis, and cluster analyses. We illustrate the use of GLiMR by presenting a basic case study that compares the geometric morphometry ofWestern Stemmed Tradition projectile points found in two cache features at Idaho’s Cooper’s Ferry site and from other sites in the Columbia River Plateau region of the Pacific Northwest. Cluster analyses of the generalized Procrustes analysis of 3D landmarks from Cooper’s Ferry cache points fail to separate the two caches from one another on the basis of their geometric morphometric attributes. We interpret these results to suggest that these stemmed projectile points were probably created by persons who shared a specific set of technological production guidelines for the manufacture of Western Stemmed Tradition projectile points. Cluster analyses indicate that Cooper’s Ferry Western Stemmed Tradition projectile points can be morpho-metrically separated from stemmed points found at other regional sites; however, significant overlaps were seen among stemmed projectile points from the Pilcher Creek site, which may suggest the existence of contemporaneous information sharing networks or macroband territorial movements. © W. S. Maney & Son Ltd 2015.
+
+AUTHOR KEYWORDS: Geographic information systems;  Geometric morphometry;  Three dimensional scanning;  Western Stemmed Tradition
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4372]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Cornette, R., Herrel, A., Stoetzel, E., Moulin, S., Hutterer, R., Denys, C., Baylac, M.
+6506350460;7004374986;23111731600;7003453162;55965985900;7006755120;6701570331;
+Specific information levels in relation to fragmentation patterns of shrew mandibles: Do fragments tell the same story?
+(2015) Journal of Archaeological Science, 53, pp. 323-330. Cited 13 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84911059124&doi=10.1016%2fj.jas.2014.10.020&partnerID=40&md5=cc0a3d4704c96f5d3c9bf123c9ffdc46
+
+DOI: 10.1016/j.jas.2014.10.020
+
+AFFILIATIONS: UMR CNRS/MNHN/UPMC/EPHE 7205, Institut de Systématique, Evolution, Biodiversité (ISYEB), Muséum National d'Histoire Naturelle, 45 rue Buffon, Paris, 75005, France; 
+UMS CNRS/MNHN 2700, Outils et Méthodes de la Systématique Intégrative, Plate-forme de morphométrie, 45 rue Buffon, Paris, 75005, France; 
+UMR CNRS/MNHN 7179, Mécanismes adaptatifs: des organismes aux communautés, 57 rue Cuvier, Paris cedex 05, 75231, France; 
+Ghent University, Evolutionary Morphology of Vertebrates, K.L. Ledeganckstraat 35, Gent, B-9000, Belgium; 
+UMR CNRS/MNHN 7194, Histoire Naturelle de l'Homme Préhistorique, 1 Rue René Panhard, Paris, 75013, France; 
+Zoologisches Forschungsmuseum Alexander Koenig, Section of Mammals, Adenauerallee 160, Bonn, 53113, Germany
+
+ABSTRACT: Archaeological or paleontological remains are often broken and consequently cannot be used as complete specimens, especially for species identification. Consequently, they are poorly studied, even if they could possess species-specific information. Here, we use mandibles of white-toothed shrews and a taphonomic pattern of fragmentation composed of seven pieces to test their validity in species assignment. Using an extant non-ambiguous reference sample of five species, we explore the specific assignments of fragments obtained by a k-NN method of classification, artificially derived from the complete mandible. To describe the form of each piece we use 2D anatomical landmarks and sliding semilandmarks that allow the quantification of objects with no or few true anatomical landmarks. Results show that small fragments still possess species-specific information that is nearly always enhanced when using sliding-landmarks. Moreover, morpho-functional aspects are detected that can affect the species-specific information contained in the fragments. © 2014 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Archaeozoology;  Geometric morphometrics;  Mammals;  Species identification;  Taphonomy
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN370]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Okumura, M., Araujo, A.G.M.
+8562919300;36730594400;
+Long-term cultural stability in hunter-gatherers: A case study using traditional and geometric morphometric analysis of lithic stemmed bifacial points from Southern Brazil
+(2014) Journal of Archaeological Science, 45 (1), pp. 59-71. Cited 50 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84895755843&doi=10.1016%2fj.jas.2014.02.009&partnerID=40&md5=f7fbf4a955e1bd6cbfe5818019377a36
+
+DOI: 10.1016/j.jas.2014.02.009
+
+AFFILIATIONS: Museu de Arqueologia e Etnologia, Universidade de São Paulo, Avenida Professor Almeida Prado, 1466, 05508-070 São Paulo, SP, Brazil
+
+ABSTRACT: Irrespective of the great number of archaeological sites from Southern Brazil presenting bifacial stemmed points, not many detailed studies on their morphological evolution have been carried out so far. We present an extensive study of the morphology of stemmed bifacial projectile points excavated from Garivaldino Rodrigues rockshelter (RS-TQ-58), Rio Grande do Sul, Southern Brazil. Garivaldino presents a range of dates from 11,660 to 7540calBP. Multivariate statistics applied to both traditional and geometric morphometric analyses failed to reveal any important changes in shape through time. However, the coefficients of variation presented a significant increase through time in three measurements related to projectile point neck and stem. The absence of change in shape might be related to small group size and low level of cultural innovation. Such cultural stability might be related to novelty-avoiding mechanisms or the operation of a meta-tradition that would be selected in very stable environments. On the other hand, the increase in the variation of linear measurements through time might suggest an increase in population size and copying errors. © 2014 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Bifacial stemmed points;  Brazilian archaeology;  Cultural transmission;  Garivaldino Rodrigues;  Geometric morphometrics;  Meta-tradition
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4344]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Charlin, J., Cardillo, M., Borrazzo, K.
+26658892500;57212772096;25921989800;
+Spatial patterns in Late Holocene lithic projectile point technology of Tierra del Fuego (southern South America): Assessing size and shape changes
+(2014) World Archaeology, 46 (1), pp. 78-100. Cited 17 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84899486559&doi=10.1080%2f00438243.2014.890914&partnerID=40&md5=5e0f741b0fc5702ede1142fb91a9cab1
+
+DOI: 10.1080/00438243.2014.890914
+
+AFFILIATIONS: Consejo Nacional de Investigaciones Científicas y Técnicas, Instituto Multidisciplinario de Historia y Ciencias Humanas, Buenos Aires, Argentina
+ABSTRACT: This paper focuses on the application of geometric morphometrics to the study of the lithic record in southern South America. We review the regional background, discuss methodological issues and summarize research advances. Here a geometric morphometric approach is applied to the case study of Late Holocene stemmed lithic projectile points from Grande Island of Tierra del Fuego (southernmost South America). Our aim is to assess size and shape changes in a broad spatial scale. Projectile point morphometric variations are used to discuss spatial scales of interaction and differentiation among past human populations across the island. Finally, several hypotheses are introduced to explain the patterns observed. © 2014 © 2014 Taylor & Francis.
+
+AUTHOR KEYWORDS: Geometric morphometrics;  hunter-gatherers;  lithic projectile points;  Patagonia;  spatial variation;  Tierra del Fuego
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4334]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Picin, A., Vaquero, M., Weniger, G.-C., Carbonell, E.
+36651632800;56256029800;36718663300;7004942023;
+Flake morphologies and patterns of core configuration at the Abric Romaní rock-shelter: A geometric morphometric approach
+(2014) Quaternary International, 350, pp. 84-93. Cited 19 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84909641618&doi=10.1016%2fj.quaint.2014.05.004&partnerID=40&md5=cf9a259f5d424de13a1defbe3271a9f5
+
+DOI: 10.1016/j.quaint.2014.05.004
+
+AFFILIATIONS: Neanderthal Museum, Talstrasse 300, Mettmann, D40822, Germany; 
+Institut Català de Paleoecologia Humana i Evolució Social (IPHES), c/ Marcel i Domingo, Campus Sescelades URV (Edifici W3), Tarragona, ES43007, Spain; 
+Universitat Rovira I Virgili, Àrea de Prehistòria, Avinguda Catalunya 35, Tarragona, ES43002, Spain; 
+Institute of Vertebrate Palaeontology and Palaeoanthropology of Beijing (IVP), 142 Xizhimenwai Str., Beijing, China
+
+ABSTRACT: The current debate about Mousterian core technologies mainly focuses on the issues of flake predetermination and the morphological similarities of blanks in discoid and centripetal recurrent Levallois methods. To date, the arguments presented have either been based on qualitative analyses of the cores or on the use of ratios of linear measurements to infer the shape of the detached flakes. This paper presents the results of applying 2D geometric morphometric analysis to the flake assemblages in the archaeological collections from the O and M levels of the Abric Romaní rock-shelter and from materials produced by experimental knapping. The results reveal a pattern of core configuration in the Levallois artefacts from level O and a high level of morphological correspondence between the core-edge flake outlines in discoid and Levallois recurrent centripetal technologies. This evidence reinforces the hypothesis that the discoid and the Levallois recurrent centripetal methods share some techno-morphological features. The knappers' ability and the purposes of the reduction sequences play important roles in metrically differentiating between them, otherwise the differences between the two methods would be even smaller. The use of geometric morphometric analysis of flake assemblages can enhance discussions of flaking technologies in lithic studies and quantitatively improve our understanding of the patterns of core configuration and the skills of the prehistoric knappers. © 2014 Elsevier Ltd and INQUA.
+
+AUTHOR KEYWORDS: Discoid technology;  Geometric morphometric analysis;  Levallois technology;  Lithic technology;  Middle Paleolithic
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4359]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Owen, J., Dobney, K., Evin, A., Cucchi, T., Larson, G., Strand Vidarsdottir, U.
+55980924700;6602595568;23977570900;6506822509;8280762100;55349385000;
+The zooarchaeological application of quantifying cranial shape differences in wild boar and domestic pigs (Sus scrofa) using 3D geometric morphometrics
+(2014) Journal of Archaeological Science, 43 (1), pp. 159-167. Cited 28 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84892961583&doi=10.1016%2fj.jas.2013.12.010&partnerID=40&md5=c405f405cefd664079a078ca152c5eb3
+
+DOI: 10.1016/j.jas.2013.12.010
+
+AFFILIATIONS: Department of Archaeology, University of Aberdeen, School of Geosciences, St. Mary's Building, Elphinstone Road, United Kingdom; 
+CNRS-Muséum National d'Histoire Naturelle, UMR 7209, Archéoozoologie, Histoire des sociétés humaines et de peuplements animaux, 55 rue Buffon, 75005 Paris, France; 
+Durham Evolution and Ancient DNA, Department of Archaeology, University of Durham, South Road, Durham DH1 3LE, United Kingdom; 
+Department of Anthropology, University of Durham, South Road, Durham DH1 3LE, United Kingdom; 
+Human Evolutionary Studies Program, Simon Fraser University, Education Building 9635, 8888 University Dr, Burnaby, BC V5A 1S6, Canada
+
+ABSTRACT: The process of domestication increases the variety of phenotypes expressed in animals. Zooarchaeologists have attempted to study these changes osteologically in their search for the geographic and temporal origins of initial animal domestication during the late Pleistocene and early Holocene. Traditional biometric approaches have explored broad changes in body size over time, but this approach provides poor resolution. Here we investigate whether geometric morphometric (GMM) analyses of cranial shape can be used to provide better resolution between wild and domestic pigs (Sus scrofa), since shape is less affected by environmental factors than size. GMM combined with traditional multivariate statistics were applied to the crania of 42 modern domestic pigs (representing 6 breeds), 10 wild×domestic first generation hybrid pigs and 55 adult wild boar. Further analyses were carried out on morphologically discrete portions of the crania to simulate the fragmented nature of archaeological mammal remains. We found highly significant discrimination between wild and domestic pigs, both on the whole crania, and subsets including the parietal, the basicranium, the angle of the nasal and the zygomatic. We also demonstrate that it is possible to discriminate different domestic breeds on the basis of cranial morphology, and that 1st generation hybrid wild×domestic pig morphology more closely resembles wild pigs than domestic, suggesting that a wild phenotype (here represented by morphology) is dominant over a recessive domestic one. Our data demonstrate that GMM techniques can provide a quantifiable, clear classification between wild and domestic Sus (even using partial cranial remains) which has significant implications for zooarchaeological research. © 2014 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Classification;  Crania;  Domestication;  Geometric morphometrics;  Sus scrofa;  Zooarchaeology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20982]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Nova Delgado, M., Gamarra, B., Nadal, J., Mercadal, O., Olesti, O., Guàrdia, J., Pérez-Pérez, A., Galbany, J.
+56538696200;56142411600;55597088165;55096923000;56538667000;56537979800;7003385730;8208323600;
+Dental shape variability in cercopithecoid primates: A model for the taxonomic attribution of macaques from roman archaeological contexts
+(2014) Folia Primatologica, 85 (6), pp. 361-378. Cited 4 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84926419217&doi=10.1159%2f000371633&partnerID=40&md5=38586b1a1cbe6443ad021274326b2b6d
+
+DOI: 10.1159/000371633
+
+AFFILIATIONS: Secció d'Antropologia, Departament Biologia Animal, United States; 
+Grup d'Estudi de l'Evolució Dels Homínids i Altres Primats, Spain; 
+Seminari d'Estudis i Recerques Prehistòriques, Departament Prehistòria Història Antiga i Arqueologia, Universitat de Barcelona, Barcelona, Spain; 
+Museu Cerdà, Puigcerdà, France; 
+Àrea d'Història Antiga, Departament Ciències de l'Antiguitat i de l'Edat Mitjana, Universitat Autònoma de Barcelona, Bellaterra, Spain; 
+Arqueociència Serveis Culturals SL, Artés, Spain; 
+Center for the Advanced Study of Hominid Paleobiology, Department of Anthropology, George Washington University, Washington, DC  20052, United States
+
+ABSTRACT: Morphometric variation of biological structures has been widely used to determine taxonomic affinities among taxa, and teeth are especially informative for both deep phylogenetic relationships and specific ecological signals. We report 2-dimensional geometric morphometrics (GM) analyses of occlusal crown surfaces of lower molars (M<inf>1</inf>, n = 141; M<inf>2</inf>, n = 158) of cercopithecoid primate species. A 12-landmark configuration, including cusp tips and 8 points of the molar crown contour, were used to evaluate patterns of variation in lower molar shape among cercopithecoid primates and to predict the taxonomic attribution of 2 archaeological macaques from Roman time periods. The results showed that the lower molar shape of cercopithecoid primates reflects taxonomic affinities, mostly at a subfamily level and close to a tribe level. Thus, the cusp positions and crown contour were important elements of the pattern related to interspecific variation. Additionally, the archaeological specimens, attributed to Macaca sylvanus based on osteological information, were classified using the GM molar shape variability of the cercopithecoid primates studied. The results suggest that their molar shape resembled both M. sylvanus and M. nemestrina, and species attribution varied depending on the comparative sample used. © 2015 S. Karger AG, Basel.
+
+AUTHOR KEYWORDS: Cercopithecoid primates;  Geometric morphometrics;  Macaca;  Molar shape;  Procrustes superimposition;  Taxonomy;  Teeth
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4374]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Ros, J., Evin, A., Bouby, L., Ruas, M.-P.
+55899046100;23977570900;6602374494;12764302600;
+Geometric morphometric analysis of grain shape and the identification of two-rowed barley (Hordeum vulgare subsp. distichumL.) in southern France
+(2014) Journal of Archaeological Science, 41, pp. 568-575. Cited 23 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84886302631&doi=10.1016%2fj.jas.2013.09.015&partnerID=40&md5=2840a904bf1dad5eab35d3fa2c554013
+
+DOI: 10.1016/j.jas.2013.09.015
+
+AFFILIATIONS: CNRS, Muséum National d'Histoire Naturelle, UMR 7209, Archéozoologie, Archéobotanique - Sociétés, Pratiques et Environnements, 55 rue Buffon, 75005 Paris, France; 
+Department of Archaeology, University of Aberdeen, St. Mary's Building, Elphinstone Road, Aberdeen AB24 3UF, United Kingdom; 
+CNRS, Centre de Bio-Archéologie et d'Ecologie, UMR 5059, UM2/CNRS/EPHE, 163 Rue A. Broussonet, 34090 Montpellier, France
+
+ABSTRACT: Hulled barley is one of the most frequently recovered cereals in European archaeological sites from Roman and medieval periods. In southern France this cereal is common in carbonized contexts such as cultural layers, ditches, pits, hearths, etc. The distinction between the two subspecies, two-rowed (. Hordeum vulgare subsp. distichum L.) and six-rowed barley (. H.vulgare subsp. vulgare L.) is usually based on morphological characters. The following criteria can be used to discriminate both subspecies from archaeological remains: the number of fertile spikelets per rachis segments, the linear or horseshoe shape depression of the lemma base, the maximum width of the caryopses and the proportion of twisted grains. The recovery of thousands of caryopses, some clearly twisted, and of rachis segments with sterile spikelets from the site of Petit Clos (Perpignan, Pyrénées-Orientales, France) dating to the Roman period suggests that both subspecies were cultivated during this time in southern Gaul. However evidence for two-rowed barley is usually scarce in archaeobotanical reports from Roman and medieval sites. To confirm the presence of two-rowed barley in the carbonized assemblage from Petit Clos and its cultivation, we developed a new method for analysing caryopses shape using geometric morphometrics with landmarks and sliding semi-landmarks. We compared modern reference specimens to the archaeological grains from several excavations from southern France dating from the 1st to the 11th century AD. Several varieties of both subspecies were correctly identified in the modern reference sample using GMM, both before and after carbonization. Archaeological specimens could then be accurately identified. The results confirm that both subspecies of barley were cultivated in southern France during the Roman period. © 2013 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Agriculture;  Archaeobotany;  Cereal grains;  Experimental charring;  Identification;  Medieval period;  Roman period
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN305]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Wilczek, J., Monna, F., Barral, P., Burlet, L., Chateau, C., Navarro, N.
+56272838100;7003488151;6701571832;56271876900;23484256000;8335515700;
+Morphometrics of Second Iron Age ceramics - strengths, weaknesses, and comparison with traditional typology
+(2014) Journal of Archaeological Science, 50 (1), pp. 39-50. Cited 12 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84904340280&doi=10.1016%2fj.jas.2014.05.033&partnerID=40&md5=5845b7a5c71aa5e35d9a877fafae99d7
+
+DOI: 10.1016/j.jas.2014.05.033
+
+AFFILIATIONS: ARTéHIS, UMR 6298 CNRS-Université de Bourgogne, ARTéHIS, Bat. Gabriel, F-21000 Dijon, France; 
+Ústav archeologie a muzeologie, Masarykova univerzita, Arna Nováka 1, 602 00 Brno, Czech Republic; 
+Laboratoire Chrono-Environnement, UMR 6249 CNRS, Université de Franche-Comté, UFR Sciences et Techniques, 16 route de Gray, F-25030 Besançon Cedex, France; 
+Université de Bourgogne, UFR SVTE, 6 bd Gabriel, F-21000 Dijon, France; 
+Laboratoire PALEVO, Ecole Pratique des Hautes Etudes, UMR uB/CNRS 6282-Biogéosciences, Université de Bourgogne, 6 Boulevard Gabriel, F-21000 Dijon, France
+
+ABSTRACT: Although the potential of geometric morphometrics for the study of archaeological artefacts is recognised, quantitative evaluations of the concordance between such methods and traditional typology are rare. The present work seeks to fill this gap, using as a case study a corpus of 154 complete ceramic vessels from the Bibracte oppidum (France), the capital of the Celtic tribe Aedui from the Second Iron Age. Two outline-based approaches were selected: the Elliptic Fourier Analysis and the Discrete Cosine Transform. They were combined with numerous methods of standardisation/normalisation. Although standardisations may use either perimeter or surface, the resulting morphospaces remain comparable, and, interestingly, are also comparable with the morphospace built from traditional typology. Geometric morphometrics also presentthe advantage of being easily implemented and automated for large sets of artefacts. The method is reproducible and provides quantitative estimates, such as mean shape, and shape diversity of ceramic assemblages, allowing objective inferences to be statistically tested. The approach can easily be generalised and adopted for other kinds of artefacts, to study the level of production standardisation and the evolution of shape over space and time, and to provide information about material and cultural exchanges. © 2014 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Archaeology;  Bibracte;  Closed contour;  Discrete cosine transform;  Elliptic fourier analysis;  Open contour;  Pottery;  Type
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4360]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Evin, A., Cucchi, T., Escarguel, G., Owen, J., Larson, G., Strand Vidarsdottir, U., Dobney, K.
+23977570900;6506822509;7801427424;55980924700;8280762100;55349385000;6602595568;
+Using traditional biometrical data to distinguish West Palearctic wild boar and domestic pigs in the archaeological record: New methods and standards
+(2014) Journal of Archaeological Science, 43 (1), pp. 1-8. Cited 20 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84891462330&doi=10.1016%2fj.jas.2013.11.033&partnerID=40&md5=625b8b0653624cc35212a405dc944115
+
+DOI: 10.1016/j.jas.2013.11.033
+
+AFFILIATIONS: Department of Archaeology, University of Aberdeen, St. Mary's Building, Elphinstone Road, United Kingdom; 
+CNRS-Muséum National d'Histoire Naturelle, UMR 7209, Archéoozoologie, histoire des sociétés humaines et des peuplements animaux, 55 rue Buffon, 75005 Paris, France; 
+Laboratoire de Géologie de Lyon, UMR-CNRS 5276, Université Claude Bernard Lyon 1, Bât. Géode, Bvd. du 11 Novembre 1918, 69622 Villeurbanne Cedex, France; 
+Durham Evolution and Ancient DNA, Department of Archaeology, University of Durham, South Road, Durham DH1 3LE, United Kingdom; 
+Department of Anthropology, University of Durham, South Road, Durham DH1 3LE, United Kingdom
+
+ABSTRACT: Traditionally, the separation of domestic pig remains from those of wild boar in zooarchaeological assemblages has been based on the comparison of simple size measurements with those from limited numbers of modern or archaeological reference specimens and then applying poorly defined cut-off values to make the identification calls. This study provides a new statistical framework for the identification of both domestic and wild Sus scrofa using standard molar tooth lengths and widths from a large modern comparative collection consisting of 407 West Palearctic wild boar and domestic pigs. Our study continues to rely upon so-called 'cut-off' values that correspond to the optimal separation between the two groups, but based upon a measure and visualisation of the error risk curves for erroneous identifications. On average, wild boar have larger teeth than domestic pigs and cut-off values were established for maximum tooth length and width, respectively as follows: 2.39cm and 1.85cm for second upper molar, 3.69cm and 2.13cm for third upper molar, 2.26cm and 1.50cm for second lower molar, 3.79cm and 1.75cm for third lower molar. Specimens below and above these cut-offs are most likely to be, respectively, domestic pig and wild boar and the risk of providing a wrong identification will depend on the distance to the cut-off value following a relative risk curve. Although likely containing high risk of inherent statistical error, nonetheless this basic metrical identification-tool (based only on recent specimens), is here shown to correctly re-identify 94% of the Neolithic pigs from Durrington Walls (England) as domestic pig. This tool could be employed not only to systematically re-evaluate previous identifications of wild or domestic Sus scrofa, but also to establish new identifications where more powerful and reliable approaches such as Geometric Morphometrics cannot be applied. © 2013 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Archaeology;  Cut-off;  Domestication;  Error risk;  Molar size;  Sus scrofa
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4361]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Seetah, K., Cucchi, T., Dobney, K., Barker, G.
+23971935000;6506822509;6602595568;7202030377;
+A geometric morphometric re-evaluation of the use of dental form to explore differences in horse (Equus caballus) populations and its potential zooarchaeological application
+(2014) Journal of Archaeological Science, 41, pp. 904-910. Cited 18 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84888044212&doi=10.1016%2fj.jas.2013.10.022&partnerID=40&md5=39ad7679ffe1eacb8f871117297d22ae
+
+DOI: 10.1016/j.jas.2013.10.022
+
+AFFILIATIONS: Department of Anthropology, Stanford University, Main Quad, Building 50, 450 Serra Mall, Stanford, CA 943205-2034, United States; 
+McDonald Institute for Archaeological Research, Downing Street, Cambridge CB2 3ER, United Kingdom; 
+CNRS, Muséum national d'Histoire naturelle, Département Ecologie et Gestion de la Biodiversité, UMR 7209, Archéozoologie, Archéobotanique: Sociétés, Pratiques et, Environnements, case postale (bâtiment d'anatomie comparée), F-75231 Paris cedex 05, France; 
+Department of Archaeology, University of Aberdeen, St Mary's Building, Elphinstone Road, Aberdeen AB24 3UF, Scotland, United Kingdom
+
+ABSTRACT: The domestication of the horse - specifically its use as a transport animal - had a unique impact on the evolution of human societies. Along with its influence on warfare, the horse transformed land transportation, radically altering the distance that humans could travel in a day, week, month or lifetime. Over the last century horse domestication has been investigated by zooarchaeologists using morphometric, morphological and (more recently) biomolecular approaches in attempts to identify distinct 'domestic' phenotypes in the fossil record. However, identification of domestic morphotypes have been complicated by the low variation in equid cranial morphology and apparent limited changes brought about through the domestication process compared with other domestic taxa. Furthermore, cranial morphology is too prone to ecophenotypic plasticity to provide relevant taxonomic markers. Even dental morphology (of primary importance for taxonomic investigation in the fossil record) has been dismissed as a useful marker for horse domestication, since variations in tooth size and enamel patterns are considered to be too greatly influenced by age and continuous tooth wear. The proof-of-concept study presented here re-evaluates the potential of cheek teeth shape to capture significant differences between horse populations. Using geometric morphometrics (GMM), we study the enamel-folding pattern of the upper P2 and M3, selected for their distinctive morphology amongst the cheek teeth. Curated specimens of known age and sex from two horse (Equus caballus) breeds - Icelandic and Thoroughbred - were used to investigate whether the effects of age (through occlusal wear), sexual dimorphism and allometry (size-related change in shape) should be regarded as confounding factors preventing any accurate discrimination between these two populations. The results show that a landmark based approach applied to the occlusal enamel folding of the P2 and M3 captures significant differences in size (centroïd) and shape between the horses breeds studied. Age-related factors, allometric scaling and sexual dimorphism are not confounding factors in their discrimination, encouraging the use of dental form in population-based research on ancient horse remains. © 2013 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Age effect;  Equus caballus;  Population discrimination;  Sexual dimorphism;  Teeth;  Zooarchaeology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20983]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Krause-Kyora, B., Makarewicz, C., Evin, A., Flink, L.G., Dobney, K., Larson, G., Hartz, S., Schreiber, S., Von Carnap-Bornheim, C., Wurmb-Schwark, N., Nebel, A.
+35725595200;12786139100;23977570900;55937006800;6602595568;8280762100;23979952900;7402870125;26037746000;6602780384;12776717800;
+Use of domesticated pigs by Mesolithic hunter-gatherers in northwestern Europe
+(2013) Nature Communications, 4, art. no. 2348, . Cited 55 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84891404948&doi=10.1038%2fncomms3348&partnerID=40&md5=38e40f079e79b7cbdbbc8d9e393b2f37
+
+DOI: 10.1038/ncomms3348
+
+AFFILIATIONS: Institute of Clinical Molecular Biology, Christian-Albrechts-University, 24105 Kiel, Germany; 
+Institute of Pre- and Protohistoric Archaeology, Christian- Albrechts-University, 24105 Kiel, Germany; 
+Department of Archaeology, University of Aberdeen, Aberdeen AB24 3UF, United Kingdom; 
+MNHN-CNRS, UMR7209, 75005 Paris, France; 
+Durham Evolution and Ancient DNA, Department of Archaeology, Durham University, DH1 3LE Durham, United Kingdom; 
+School of Biological and Biomedical Sciences, Durham University, DH1 3LE Durham, United Kingdom; 
+Department of Palaeontology, Natural History Museum, SW7 5BD London, United Kingdom; 
+Archäologisches Landesmuseum, Stiftung Schleswig-Holsteinische Landesmuseen Schloss Gottorf, 24837 Schleswig, Germany; 
+Clinic for Internal Medicine I, University Hospital Schleswig-Holstein, 24105 Kiel, Germany; 
+Center for Baltic and Scandinavian Archaeology, Stiftung Schleswig-Holsteinische Landesmuseen Schloss Gottorf, 24837 Schleswig, Germany; 
+Institute of Legal Medicine, Christian-Albrechts-University, 24105 Kiel, Germany
+
+ABSTRACT: Mesolithic populations throughout Europe used diverse resource exploitation strategies that focused heavily on collecting and hunting wild prey. Between 5500 and 4200 cal BC, agriculturalists migrated into northwestern Europe bringing a suite of Neolithic technologies including domesticated animals. Here we investigate to what extent Mesolithic Ertebølle communities in northern Germany had access to domestic pigs, possibly through contact with neighbouring Neolithic agricultural groups. We employ a multidisciplinary approach, applying sequencing of ancient mitochondrial and nuclear DNA (coat colour-coding gene MC1R) as well as traditional and geometric morphometric (molar size and shape) analyses in Sus specimens from 17 Neolithic and Ertebølle sites. Our data from 63 ancient pig specimens show that Ertebølle hunter-gatherers acquired domestic pigs of varying size and coat colour that had both Near Eastern and European mitochondrial DNA ancestry. Our results also reveal that domestic pigs were present in the region ∼500 years earlier than previously demonstrated. © 2013 Macmillan Publishers Limited. All rights reserved.
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN20984]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Senck, S., Coquerelle, M., Weber, G.W., Benazzi, S.
+36188870600;36140239700;56370482200;24068504800;
+Virtual Reconstruction of Very Large Skull Defects Featuring Partly and Completely Missing Midsagittal Planes
+(2013) Anatomical Record, 296 (5), pp. 745-758. Cited 11 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84876483898&doi=10.1002%2far.22693&partnerID=40&md5=acf856143c3bdb21c47de90736cd2c51
+
+DOI: 10.1002/ar.22693
+
+AFFILIATIONS: Department of Anthropology, University of Vienna, Althanstrasse 14, 1090 Vienna, Austria; 
+Department of Paleobiology, Paleoanthropology group, Museo Nacional de Ciencias Naturales (MNCM-CSIC), C/José Gutiérrez Abascal 2, Madrid, 28006, Spain; 
+Department of Human Evolution, Max Planck Institute for Evolutionary Anthropology, Deutscher Platz 6, Leipzig, 04103, Germany
+
+ABSTRACT: Despite the development of computer-based methods, cranial reconstruction of very large skull defects remains a challenge particularly if the damage affects the midsagittal region hampering the usage of mirror imaging techniques. This pilot study aims to deliver a new method that goes beyond mirror imaging, giving the possibility to reconstruct crania characterized by large missing areas, which might be useful in the fields of paleoanthropology, bioarcheology, and forensics. We test the accuracy of digital reconstructions in cases where two-thirds or more of a human cranium were missing. A three-dimensional (3D) virtual model of a human cranium was virtually damaged twice to compare two destruction-reconstruction scenarios. In the first case, a small fraction of the midsagittal region was still preserved, allowing the application of mirror imaging techniques. In the second case, the damage affected the complete midsagittal region, which demands a new approach to estimate the position of the midsagittal plane. Reconstructions were carried out using CT scans from a sample of modern humans (12 males and 13 females), to which 3D digital modeling techniques and geometric morphometric methods were applied. As expected, the second simulation showed a larger variability than the first one, which underlines the fact that the individual midsagittal plane is of course preferable in order to minimize the reconstruction error. However, in both simulations the Procrustes mean shape was an effective reference for the reconstruction of the entire cranium, producing models that showed a remarkably low error of about 3 mm, given the extent of missing data. © 2013 Wiley Periodicals, Inc.
+
+AUTHOR KEYWORDS: Cranial reconstruction;  Geometric morphometrics;  Mirror imaging;  Virtual anthropology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4371]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Cucchi, T., Kovács, Z.E., Berthon, R., Orth, A., Bonhomme, F., Evin, A., Siahsarvie, R., Darvish, J., Bakhshaliyev, V., Marro, C.
+6506822509;55624529100;55624719100;7005627394;7005744319;23977570900;14424245100;8978211900;55332501300;26033191500;
+On the trail of Neolithic mice and men towards Transcaucasia: Zooarchaeological clues from Nakhchivan (Azerbaijan)
+(2013) Biological Journal of the Linnean Society, 108 (4), pp. 917-928. Cited 20 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84875069212&doi=10.1111%2fbij.12004&partnerID=40&md5=4a7b2d2ae6f4cc7268bff3376d21b312
+
+DOI: 10.1111/bij.12004
+
+AFFILIATIONS: UMR 7209 'Archeozoologie Archeobotanique: sociétés, pratiques et environnements', CNRS, Muséum National d'Histoire Naturelle, 55 rue Buffon, Paris, 75005, France; 
+Archaeology Department, University of Aberdeen, Elphinstone Road, Scotland, Aberdeen, AB24 3UF, United Kingdom; 
+Hungarian National Museum, National Heritage Protection Centre, Budapest, Hungary; 
+Graduate School 'Human Development in Landscapes', Christian-Albrechts-Universität, Kiel, Germany; 
+CNRS UMR5554, Institut des Sciences de l'Evolution, Université Montpellier 2, Montpellier, France; 
+Department of Biology, Faculty of Sciences, Ferdowsi University of Mashhad, Mashhad, Iran; 
+Rodentology Research Department, Ferdowsi University of Mashhad, Mashhad, Iran; 
+Department of Archaeology, National Academy of Science of Azerbaijan, Nakhchivan, Azerbaijan; 
+UMR 5133, Archeorient, Environnements et Societes de l'Orient Ancien Maison de l'Orient et de la Mediterranee, CNRS, Université Lyon 2, Lyon, France
+
+ABSTRACT: Transcaucasia comprises a key region for understanding the history of both the hybrid zone between house mouse lineages and the dispersal of the Neolithic way of life outside its Near Eastern cradle. The opportunity to document the colonization history of both men and mice in Transcaucasia was made possible by the discovery of mouse remains accumulated in pits from a 6000-year-old farming village in the Nakhchivan (Autonomous Republic of Nakhchivan, Azerbaijan). The present study investigated their taxonomy and most likely dispersal path through the identification of the Mus lineage to which they might belong using a geometric morphometric approach of dental traits distances between archaeological and modern populations of the different Mus lineages of South-West Asia. We demonstrate that the mouse remains trapped in the deep storage pits of the dwelling belong to the Mus musculus domesticus from the Near East, with dental shapes similar to current populations in Northern Syria. These results strongly suggest that the domesticus lineage was dispersed into Transcaucasia from the upper Euphrates valley by Neolithic migration, some time between the 7th and 5th millennium BC, providing substantial evidence to back up the scenario featuring near-eastern stimuli in the emergence of agriculture in the South Caucasus. The domesticus mitochondrial DNA signature of the current house mouse in the same location 5000 years later, as well as their turnover towards a subspecies musculus/castaneus phenotype, suggests that early domesticus colonizers hybridized with a later musculus (and maybe castaneus) dispersal originating from south of the Caspian Sea and/or Northern Caucasia. © 2013 The Linnean Society of London.
+
+AUTHOR KEYWORDS: Colonization history;  Geometric morphometric;  House mouse;  Hybridization;  Mus musculus
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+ACCESS TYPE: Open Access
+
+SOURCE: Scopus
+
+### [@RN1733]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Lycett, S.J., Von Cramon-Taubadel, N.
+9434693200;23471109300;
+A 3D morphometric analysis of surface geometry in Levallois cores: Patterns of stability and variability across regions and their implications
+(2013) Journal of Archaeological Science, 40 (3), pp. 1508-1517. Cited 40 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84871442389&doi=10.1016%2fj.jas.2012.11.005&partnerID=40&md5=6dc5ff21d8ddc1b7fc4226e969e713cd
+
+DOI: 10.1016/j.jas.2012.11.005
+
+AFFILIATIONS: Department of Anthropology, University of Kent, Canterbury, Kent CT2 7NR, United Kingdom
+ABSTRACT: Levallois cores and products were manufactured by hominin populations distributed across wide regions of Africa and Eurasia. Levallois technology remains an important focus for research in Palaeolithic archaeology, yet quantitative morphological comparisons of Levallois core morphology from different regions remain rare. Here, utilizing Levallois cores from Africa, the Near East, Europe, and the Indian subcontinent, patterns of morphological variability in the shape of the Levallois flaking surface and core outline (margin) shape were examined for patterns of variability and stability across regions using 3D geometric morphometrics. The multivariate statistical shape analyses undertaken revealed a clear pattern: that is, the greatest levels of shape variability in Levallois cores is evident in the form of their outline (planform) shape. Conversely, the geometrical relationship between the margin of the Levallois cores and their topological surface morphology was relatively uniform. This pattern of variability was evident in terms of variation both across regions and between cores from the same locality. These results indicate that the outline form of such cores was a less important variable than the geometric/topological properties of the surface morphology and, in particular, the relationship between the margin of the core and those variables. These results have implications for why it has been reported that replicating such cores in modern experiments is a particularly difficult task. The specific interrelationship between the geometric properties of the core and the core margin provide further evidence that Levallois core technology would be unlikely to emerge from the context of opportunistic migrating platform reduction strategies (such as those seen in many Mode 1 industries). If, as is widely suggested, Levallois cores were deliberate products in Pleistocene contexts, these results also hint that relatively sophisticated means of social transmission (i.e. teaching) may have been required to sustain their production over time and space. © 2012 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Core variation;  Geometric morphometric analysis;  Levallois
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20985]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Détroit, F., Corny, J., Dizon, E.Z., Mijares, A.S.
+6504774261;55928735500;23391946100;35574282200;
+"Small size" In the Philippine human fossil record: Is it meaningful for a better understanding of the evolutionary history of the negritos?
+(2013) Human Biology, 85 (1-3), pp. 45-65. Cited 23 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-85026451491&doi=10.3378%2f027.085.0303&partnerID=40&md5=cba195b57d175b7b2f37c2bfeeedbe3a
+
+DOI: 10.3378/027.085.0303
+
+AFFILIATIONS: UMR7194, Département de Préhistoire, Muséum national d'Histoire naturelle, Paris, France; 
+Dipartimento di Biologia ed Evoluzione, Università degli Studi di Ferrara, Ferrara, Italy; 
+Archaeology Division, National Museum of the Philippines, Manila, Philippines; 
+University of the Philippines Diliman, Quezon City, Philippines
+
+ABSTRACT: "Pygmy populations" are recognized in several places over the world, especially in Western Africa and in Southeast Asia (Philippine "negritos," for instance). Broadly defined as "small-bodied Homo sapiens" (compared with neighboring populations), their origins and the nature of the processes involved in the maintenance of their phenotype over time are highly debated. Major results have been recently obtained from population genetics on present-day negrito populations, but their evolutionary history remains largely unresolved. We present and discuss the Upper Pleistocene human remains recovered from Tabon Cave and Callao Cave in the Philippines, which are potentially highly relevant to these research questions. Human fossils have been recovered in large numbers from Tabon Cave (Palawan Island) but mainly from reworked and mixed sediments from several archaeological layers. We review and synthesize the long and meticulous collaborative work done on the archives left from the 1960s excavations and on the field. The results demonstrate the long history of human occupations in the cave, since at least ~30,000 BP. The examination of the Tabon human remains shows a large variability: large and robust for one part of the sample, and small and gracile for the other part. The latter would fit quite comfortably within the range of variation of Philippine negritos. Farther north, on Luzon Island, the human third metatarsal recently recovered from Callao Cave and dated to ~66,000 BP is now the oldest direct evidence of human presence in the Philippines. Previous data show that, compared with H. sapiens (including Philippine negritos), this bone presents a very small size and several unusual morphological characteristics. We present a new analytical approach using three-dimensional geometric morphometrics for comparing the Callao fossil to a wide array of extant Asian mammals, including nonhuman primates and H. sapiens. The results demonstrate that the shape of the Callao metatarsal is definitely closer to humans than to any other groups. The fossil clearly belongs to the genus Homo; however, it remains at the margin of the variation range of H. sapiens. Because of its great antiquity and the presence of another diminutive species of the genus Homo in the Wallace area during this time period (H. floresiensis), we discuss here in detail the affinities and potential relatedness of the Callao fossil with negritos that are found today on Luzon Island. © 2013 Wayne State University Press.
+
+AUTHOR KEYWORDS: Callao cave;  Homo sapiens;  Philippines;  Small body-size;  Tabon cave;  Upper pleistocene
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20986]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Gunz, P., Bulygina, E.
+6506472733;15020199800;
+The Mousterian child from Teshik-Tash is a Neanderthal: A geometric morphometric study of the frontal bone
+(2012) American Journal of Physical Anthropology, 149 (3), pp. 365-379. Cited 8 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84867580443&doi=10.1002%2fajpa.22133&partnerID=40&md5=6d51ebfcea2d6d2626249f8b5390a717
+
+DOI: 10.1002/ajpa.22133
+
+AFFILIATIONS: Department of Human Evolution, Max Planck Institute for Evolutionary Anthropology, Deutscher Platz 6, D-04103 Leipzig, Germany; 
+Anuchin's Anthropology Museum MSU, Moscow, 125009, Russian Federation
+
+ABSTRACT: In the 1930s subadult hominin remains and Mousterian artifacts were discovered in the Teshik-Tash cave in South Uzbekistan. Since then, the majority of the scientific community has interpreted Teshik-Tash as a Neanderthal. However, some have considered aspects of the morphology of the Teshik-Tash skull to be more similar to fossil modern humans such as those represented at SkhÅl and Qafzeh, or to subadult Upper Paleolithic modern humans. Here we present a 3D geometric morphometric analysis of the Teshik-Tash frontal bone in the context of developmental shape changes in recent modern humans, Neanderthals, and early modern humans. We assess the phenetic affinities of Teshik-Tash to other subadult fossils, and use developmental simulations to predict possible adult shapes. We find that the morphology of the frontal bone places the Teshik-Tash child close to other Neanderthal children and that the simulated adult shapes are closest to Neanderthal adults. Taken together with genetic data showing that Teshik-Tash carried mtDNA of the Neanderthal type, as well as its occipital bun, and its shovel-shaped upper incisors, these independent lines of evidence firmly place Teshik-Tash among Neanderthals. Copyright © 2012 Wiley Periodicals, Inc.
+
+AUTHOR KEYWORDS: developmental simulation;  evolution;  hominin;  procrustes;  semilandmarks
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN369]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Thulman, D.K.
+33768076600;
+Discriminating Paleoindian point types from Florida using landmark geometric morphometrics
+(2012) Journal of Archaeological Science, 39 (5), pp. 1599-1607. Cited 68 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84857117297&doi=10.1016%2fj.jas.2012.01.004&partnerID=40&md5=ab61ca96cff8608d83742201f68cad84
+
+DOI: 10.1016/j.jas.2012.01.004
+
+AFFILIATIONS: Department of Anthropology, George Washington University, 2110 G. St. NW, Washington, D.C. 20052, United States
+ABSTRACT: Traditional artifact typologies are typically poorly defined. While several attributes usually help define a " type," shape is invariably the most important. Here I report on a study that uses landmark-based geometric morphometrics to better define three Paleoindian point types from Florida: Suwannees, Simpsons, and Transitional Side Notched. Bilaterally symmetric specimens were created from the original artifacts to capture the presumed ideational forms of the points. The shapes of the bases and the entire points were tested to determine whether the types could be discriminated, and if so which shape was best at discriminating the types. The results show that the base configurations were best at discriminating the groups in two different jackknife allocation tests. The entire point shape was less robust due to the variability in blade shape. The study demonstrates that the three point types can be rigorously defined in ways that are usable in daily archaeological practice, and that base shape, rather than the entire shape, is a better discriminator. Further, the study demonstrates the utility of using several freeware programs for processing and analyzing shape data. © 2012 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Geometric morphometrics;  Hafting;  Landmarks;  Paleoindian;  Symmetry;  Typology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN20987]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Freidline, S.E., Gunz, P., Janković, I., Harvati, K., Hublin, J.J.
+35321002600;6506472733;11639129200;57203032637;6602606027;
+A comprehensive morphometric analysis of the frontal and zygomatic bone of the Zuttiyeh fossil from Israel
+(2012) Journal of Human Evolution, 62 (2), pp. 225-241. Cited 35 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-84856532082&doi=10.1016%2fj.jhevol.2011.11.005&partnerID=40&md5=bdfdb4e2dc2a801ab9468bcd9aa140a9
+
+DOI: 10.1016/j.jhevol.2011.11.005
+
+AFFILIATIONS: Max Planck Institute for Evolutionary Anthropology, Department of Human Evolution, Deutscher Platz 6, Leipzig 04103, Germany; 
+Anthropology Ph.D. Program, City University of New York Graduate School, 365 Fifth Avenue, New York, NY 10016, United States; 
+New York Consortium in Evolutionary Primatology, NY, United States; 
+Institut für Ur- und Frühgeschichte, Eberhard Karls Universität Tübingen, Senckenberg Center for Human Evolution and Paleoecology, Rümelinstr, 23, 72070 Tübingen, Germany; 
+Institute for Anthropological Research, Gajeva 32, 10000 Zagreb, Croatia
+
+ABSTRACT: The Zuttiyeh hominin craniofacial fossil was discovered in Israel in 1925. Radiometric dates and the archaeological context (Acheulo-Yabrudian) bracket the associated cave layers to between 200 and 500ka (thousands of years ago), making it one of the earliest cranial fossils discovered in the Near East thus far. Its geographic position, at the corridor between Africa and Eurasia, in combination with its probable Middle Pleistocene date make it a crucial specimen for interpreting later human evolution. Since its discovery, qualitative descriptive and traditional morphometric methods have variously suggested affinities to Homo erectus (Zhoukoudian), Homo neanderthalensis (Tabun), and early Homo sapiens (Skhul and Qafzeh). To better determine the taxonomic affinities of the Zuttiyeh fossil, this study uses 3D semilandmark geometric morphometric techniques and multivariate statistical analyses to quantify the frontal and zygomatic region and compare it with other Middle to Late Pleistocene African and Eurasian hominins.Our results show that the frontal and zygomatic morphology of Zuttiyeh is most similar to Shanidar 5, a Near East Neanderthal, Arago 21, a European Middle Pleistocene hominin, and Skhul 5, an early H.sapiens. The shape differences between archaic hominins (i.e., Homo heidelbergensis and H.neanderthalensis) in this anatomical region are very subtle.We conclude that Zuttiyeh exhibits a generalized frontal and zygomatic morphology, possibly indicative of the population that gave rise to modern humans and Neanderthals. However, given that it most likely postdates the split between these two lineages, Zuttiyeh might also be an early representative of the Neanderthal lineage. Neanderthals largely retained this generalized overall morphology, whereas recent modern humans depart from this presumably ancestral morphology. © 2011 Elsevier Ltd.
+
+AUTHOR KEYWORDS: Homo heidelbergensis;  Homo neanderthalensis;  Israel;  Middle Pleistocene;  Semilandmark geometric morphometrics
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+### [@RN4364]
+
+Scopus
+EXPORT DATE:08 Apr 2020
+
+Cucchi, T., Bǎlǎşescu, A., Bem, C., Radu, V., Vigne, J.-D., Tresset, A.
+6506822509;26033049400;54796493000;16064424400;7006603465;6506727552;
+New insights into the invasive process of the eastern house mouse (Mus musculus musculus): Evidence from the burnt houses of Chalcolithic Romania
+(2011) Holocene, 21 (8), pp. 1195-1202. Cited 20 times.
+https://www.scopus.com/inward/record.uri?eid=2-s2.0-82855163897&doi=10.1177%2f0959683611405233&partnerID=40&md5=e12a743feb445543be3c36645954d0d7
+
+DOI: 10.1177/0959683611405233
+
+AFFILIATIONS: CNRS-Muséum National d'Histoire Naturelle, Département Écologie et Gestion de la Biodiversité, UMR 7209, Archéoozoologie, histoire des sociétés humaines et de peuplements animaux, Bâtiment d'Anatomie comparée, 55 rue Buffon, 75005 Paris, France; 
+University of Aberdeen, United Kingdom; 
+National History Museum of Romania, Romania
+ABSTRACT: The house mouse invasion of the European continent has crucial implications for our understanding of the synanthropization process of European small mammals during the Holocene. Mice remains collected from a Chalcolithic burnt house in southern Romania, provided a unique opportunity to document which of the two house mouse subspecies was the commensal taxa of the late Neolithic Romania and question the factors of its invasive process. To obtain the subspecific status of the Mus remains, we performed molar shape analysis with geometric morphometrics, using 160 specimens sampling the extant Eastern European Mus taxa as modern comparatives. Along with an overwhelming majority of eastern house mice (Mus musculus musculus) living constantly in the Chalcolithic house, indigenous small mammals (common hamster, field mice, voles and white toothed shrews) were also occupying the settlement sporadically, highlighting the antiquity of the synanthropisation of European small mammals. This secured occurrence of the eastern house mouse in late Neolithic Romania, led us to propose two testable research hypotheses: first, an eastern house mouse commensalism center in Eastern Europe happening during the sixth millennium BC, when neolithization reached the natural distribution of free living populations of Mus musculus musculus in the Pontic steppes of Ukraine; second, new trajectories of trading networks, stimulated by copper metallurgy around the fifth millennium BC, having allowed long-distance translocation of the commensal eastern house mouse from Eastern to Southern Europe Neolithic settlements. © SAGE Publications 2011.
+
+AUTHOR KEYWORDS: commensalism;  geometric morphometrics;  Neolithic;  synanthropisation;  teeth;  zooarchaeology
+
+DOCUMENT TYPE: Article
+
+PUBLICATION STAGE: Final
+
+SOURCE: Scopus
+
+
+
+
+
+
+
+
 
 
 
