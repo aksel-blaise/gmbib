@@ -1,6 +1,6 @@
-# Methods and Analysis
+# Bibliometric Analysis
 
-```{r bibliometrix, echo=TRUE}
+```{r bibliometrix, echo=TRUE, warning=FALSE}
 # install bibliometrix and load data
 #install.packages("devtools")
 #devtools::install_github("massimoaria/bibliometrix")
@@ -13,16 +13,16 @@ df <- convert2df(data, dbsource = "scopus",format = "bibtex")
 
 ### Primary findings related to the collection
 
-```{r summary, echo=TRUE}
+```{r summary, echo=TRUE, warning=FALSE}
 results <- biblioAnalysis(df, sep = ";")
 options(width = 100)
 s <- summary(object = results, k = 10, pause = FALSE)
 plot(x = results, k = 10, pause = FALSE)
-# calculate citations in the local network
+# calculate citations in the LOCAL network
 CR <- localCitations(df, sep = ";")
-# top 20 cited authors in local network
+# top 20 cited authors in LOCAL network
 CR$Authors[1:10,]
-# top 20 cited papers in local network
+# top 20 cited papers in LOCAL network
 CR$Papers[1:10,]
 # top authors' productivity over time
 topAU <- authorProdOverTime(df, k = 10, graph = TRUE)
@@ -30,8 +30,19 @@ topAU <- authorProdOverTime(df, k = 10, graph = TRUE)
 
 ## Most cited references
 
-```{r mostcitedrefs, echo=TRUE}
+### Most cited articles
+
+```{r mostcitedrefs, echo=TRUE, warning=FALSE}
+# most cited references in FULL network
 mcr <- citations(df, field = "article", sep = ";")
+cbind(mcr$Cited[1:20])
+```
+
+### Most cited authors
+
+```{r mostcitedauths, echo=TRUE, warning=FALSE}
+# most cited authors in FULL network
+mcr <- citations(df, field = "author", sep = ";")
 cbind(mcr$Cited[1:20])
 ```
 
@@ -39,11 +50,11 @@ cbind(mcr$Cited[1:20])
 
 ### Article (references) co-citation
 
-```{r refcocite, out.width = "100%", dpi = 300, echo=TRUE}
+```{r refcocite, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # article co-citation network
 comat1 <- biblioNetwork(df, analysis = "co-citation", network = "references", sep = ";")
 # network plot
-conet1 = networkPlot(comat1, n = 50, Title = "Article Co-Citation Network", type = "auto", size = 20, size.cex = T, remove.multiple = FALSE, labelsize = 0.4, edgesize = 10, edges.min = 5)
+conet1 = networkPlot(comat1, n = 50, Title = "Article Co-Citation Network", type = "auto", size = 20, size.cex = T, remove.multiple = FALSE, labelsize = 0.6, edgesize = 5, edges.min = 3)
 # descriptive analysis of journal co-citation network
 aconetstat <- networkStat(comat1)
 summary(aconetstat, k = 15)
@@ -53,43 +64,43 @@ summary(aconetstat, k = 15)
 
 The historiographic map is a chronological network map of the most relevant direct citations resulting from this bibliographic collection.
 
-```{r hdcn, out.width = "100%", dpi = 300, echo=TRUE}
+```{r hdcn, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # historical citation network
 options(width = 100)
 histResults <- histNetwork(df, min.citations = 4, sep = ";")
 # plot historical co-citation network
-hnet <- histPlot(histResults, n = 20, size = 8, labelsize = 4)
+hnet <- histPlot(histResults, n = 30, size = 8, labelsize = 4)
 ```
 
 ## The conceptual structure of the field
 
 ### Co-word analysis through keyword co-occurrences
 
-```{r keywordco, out.width = "100%", dpi = 300, echo=TRUE}
+```{r keywordco, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # keyword co-occurrences network
 keymat1 <- biblioNetwork(df, analysis = "co-occurrences", network = "keywords", sep = ";")
 # networkplot
-keynet1=networkPlot(keymat1, normalize = "association", weighted = T, n = 50, Title = "Keyword Co-occurrences", type = "fruchterman", size = T, edgesize = 5, labelsize = 0.7)
+keynet1=networkPlot(keymat1, normalize = "association", n = 50, Title = "Keyword Co-occurrences", type = "auto", size = 8, edgesize = 2, labelsize = 0.5)
 ```
 
 ### Co-word analysis through Correspondence Analysis
 
 Co-word analysis maps the conceptual structure of a research domain using the co-occurrence of words in the bibliiographic collection. This includes two analyses; the first using the author's keywords (DE), and the second using keywords plus (ID).
 
-```{r coword1, out.width = "100%", dpi = 300, echo=TRUE}
+```{r coword1, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # using authors keywords
-cw <- conceptualStructure(df, field = "DE", method = "MCA", minDegree = 4, clust = 3, stemming = FALSE, labelsize = 5, documents = 97)
+cw <- conceptualStructure(df, field = "DE", method = "MCA", minDegree = 4, clust = 3, stemming = FALSE, labelsize = 5, documents = 20)
 ```
 
 ## Thematic mapping
 
-```{r thematicmap, out.width = "100%", dpi = 300, echo=TRUE}
+```{r thematicmap, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # keyword map
-map1 = thematicMap(df, field = "ID", n = 97, minfreq = 2, stemming = FALSE, size = 0.8, n.labels = 4, repel = TRUE)
+map1 = thematicMap(df, field = "DE", n = 97, minfreq = 3, stemming = FALSE, size = 0.8, n.labels = 3, repel = TRUE)
 # plot map
 plot(map1$map)
 # abstract map
-map2 = thematicMap(df, field = "AB", n = 97, minfreq = 5, stemming = FALSE, size = 0.8, n.labels = 4, repel = TRUE)
+map2 = thematicMap(df, field = "AB", n = 97, minfreq = 3, stemming = FALSE, size = 0.8, n.labels = 3, repel = TRUE)
 # plot map
 plot(map2$map)
 ```
@@ -100,11 +111,11 @@ plot(map2$map)
 
 Scientific collaborations are plotted where nodes are the authors and links are co-authorships.
 
-```{r collab network, out.width = "100%", dpi = 300, echo=TRUE}
+```{r collab network, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # author collaboration network
 collab1 <- biblioNetwork(df, analysis = "collaboration", network = "authors", sep = ";")
 # network plot
-collabnet1 = networkPlot(collab1, n = 75, Title = "Author Collaboration", type = "auto", size = 15, size.cex = T, edgesize = 5, labelsize = 0.5)
+collabnet1 = networkPlot(collab1, n = 100, Title = "Author Collaboration", type = "auto", size = 15, size.cex = T, edgesize = 3, labelsize = 0.5)
 # descriptive analysis of author collaboration network
 collabnetstat <- networkStat(collab1)
 summary(collabnetstat, k = 15)
@@ -112,11 +123,11 @@ summary(collabnetstat, k = 15)
 
 ### Edu collaboration
 
-```{r edunetwork, out.width = "100%", dpi = 300, echo=TRUE}
+```{r edunetwork, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # author collaboration network
 educollab1 <- biblioNetwork(df, analysis = "collaboration", network = "universities",sep = ";")
 # network plot
-educollabnet1 = networkPlot(educollab1, n = 75, Title = "Edu Collaboration", type = "auto", size = 25, size.cex = T, edgesize = 5, labelsize = 0.5)
+educollabnet1 = networkPlot(educollab1, n = 50, Title = "Edu Collaboration", type = "auto", size = 25, size.cex = T, edgesize = 4, labelsize = 0.5)
 # descriptive analysis of edu collaboration network
 edunetstat<-networkStat(educollab1)
 summary(edunetstat, k = 15)
@@ -124,12 +135,12 @@ summary(edunetstat, k = 15)
 
 ### Country collaboration
 
-```{r countrycollab, out.width = "100%", dpi = 300, echo=TRUE}
+```{r countrycollab, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # country collaboration network
 count <- metaTagExtraction(df, Field = "AU_CO", sep = ";")
 cmat1 <- biblioNetwork(count, analysis = "collaboration", network = "countries", sep = ";")
 # network plot
-cnet1 = networkPlot(cmat1, n = dim(cmat1)[1], Title = "Country Collaboration", type = "circle", size = 10, size.cex = T, edgesize = 3, labelsize = 0.6, cluster="none")
+cnet1 = networkPlot(cmat1, n = dim(cmat1)[1], Title = "Country Collaboration", type = "circle", size = 10, size.cex = T, edgesize = 1, labelsize = 0.6, cluster="none")
 # descriptive analysis of country collaboration network
 countnetstat <- networkStat(cmat1)
 summary(countnetstat, k = 15)

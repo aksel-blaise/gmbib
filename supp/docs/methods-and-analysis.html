@@ -259,7 +259,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.1" data-path="methods-and-analysis.html"><a href="methods-and-analysis.html#descriptive-analysis"><i class="fa fa-check"></i><b>3.1</b> Descriptive analysis</a><ul>
 <li class="chapter" data-level="3.1.1" data-path="methods-and-analysis.html"><a href="methods-and-analysis.html#primary-findings-related-to-the-collection"><i class="fa fa-check"></i><b>3.1.1</b> Primary findings related to the collection</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="methods-and-analysis.html"><a href="methods-and-analysis.html#most-cited-references"><i class="fa fa-check"></i><b>3.2</b> Most cited references</a></li>
+<li class="chapter" data-level="3.2" data-path="methods-and-analysis.html"><a href="methods-and-analysis.html#most-cited-references"><i class="fa fa-check"></i><b>3.2</b> Most cited references</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="methods-and-analysis.html"><a href="methods-and-analysis.html#most-cited-articles"><i class="fa fa-check"></i><b>3.2.1</b> Most cited articles</a></li>
+<li class="chapter" data-level="3.2.2" data-path="methods-and-analysis.html"><a href="methods-and-analysis.html#most-cited-authors"><i class="fa fa-check"></i><b>3.2.2</b> Most cited authors</a></li>
+</ul></li>
 <li class="chapter" data-level="3.3" data-path="methods-and-analysis.html"><a href="methods-and-analysis.html#the-intellectual-structure-of-the-field"><i class="fa fa-check"></i><b>3.3</b> The intellectual structure of the field</a><ul>
 <li class="chapter" data-level="3.3.1" data-path="methods-and-analysis.html"><a href="methods-and-analysis.html#article-references-co-citation"><i class="fa fa-check"></i><b>3.3.1</b> Article (references) co-citation</a></li>
 </ul></li>
@@ -492,33 +495,12 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 ## 9  PALEOINDIAN                       4            SKULL             19
 ## 10 PROJECTILE POINTS                 4            HISTORY           18</code></pre>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1"><span class="kw">plot</span>(<span class="dt">x =</span> results, <span class="dt">k =</span> <span class="dv">10</span>, <span class="dt">pause =</span> <span class="ot">FALSE</span>)</a></code></pre></div>
-<p><img src="gt-v_files/figure-html/summary-1.png" width="672" /></p>
-<pre><code>## Warning: Use of `xx$Country` is discouraged. Use `Country` instead.</code></pre>
-<pre><code>## Warning: Use of `xx$Freq` is discouraged. Use `Freq` instead.</code></pre>
-<pre><code>## Warning: Use of `xx$Collaboration` is discouraged. Use `Collaboration` instead.</code></pre>
-<p><img src="gt-v_files/figure-html/summary-2.png" width="672" /></p>
-<pre><code>## Warning: Use of `Y$Year` is discouraged. Use `Year` instead.</code></pre>
-<pre><code>## Warning: Use of `Y$Freq` is discouraged. Use `Freq` instead.</code></pre>
-<pre><code>## Warning: Use of `Y$Year` is discouraged. Use `Year` instead.</code></pre>
-<pre><code>## Warning: Use of `Y$Freq` is discouraged. Use `Freq` instead.</code></pre>
-<p><img src="gt-v_files/figure-html/summary-3.png" width="672" /></p>
-<pre><code>## Warning: Use of `Table2$Year` is discouraged. Use `Year` instead.</code></pre>
-<pre><code>## Warning: Use of `Table2$MeanTCperYear` is discouraged. Use `MeanTCperYear` instead.</code></pre>
-<pre><code>## Warning: Use of `Table2$Year` is discouraged. Use `Year` instead.</code></pre>
-<pre><code>## Warning: Use of `Table2$MeanTCperYear` is discouraged. Use `MeanTCperYear` instead.</code></pre>
-<pre><code>## Warning: Removed 1 rows containing missing values (position_stack).</code></pre>
-<pre><code>## Warning: Removed 1 row(s) containing missing values (geom_path).</code></pre>
-<p><img src="gt-v_files/figure-html/summary-4.png" width="672" /></p>
-<pre><code>## Warning: Use of `Table2$Year` is discouraged. Use `Year` instead.</code></pre>
-<pre><code>## Warning: Use of `Table2$MeanTCperArt` is discouraged. Use `MeanTCperArt` instead.</code></pre>
-<pre><code>## Warning: Use of `Table2$Year` is discouraged. Use `Year` instead.</code></pre>
-<pre><code>## Warning: Use of `Table2$MeanTCperArt` is discouraged. Use `MeanTCperArt` instead.</code></pre>
-<p><img src="gt-v_files/figure-html/summary-5.png" width="672" /></p>
-<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb25-1" title="1"><span class="co"># calculate citations in the local network</span></a>
-<a class="sourceLine" id="cb25-2" title="2">CR &lt;-<span class="st"> </span><span class="kw">localCitations</span>(df, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a></code></pre></div>
+<p><img src="gt-v_files/figure-html/summary-1.png" width="672" /><img src="gt-v_files/figure-html/summary-2.png" width="672" /><img src="gt-v_files/figure-html/summary-3.png" width="672" /><img src="gt-v_files/figure-html/summary-4.png" width="672" /><img src="gt-v_files/figure-html/summary-5.png" width="672" /></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" title="1"><span class="co"># calculate citations in the LOCAL network</span></a>
+<a class="sourceLine" id="cb8-2" title="2">CR &lt;-<span class="st"> </span><span class="kw">localCitations</span>(df, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a></code></pre></div>
 <pre><code>## Articles analysed   89</code></pre>
-<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb27-1" title="1"><span class="co"># top 20 cited authors in local network</span></a>
-<a class="sourceLine" id="cb27-2" title="2">CR<span class="op">$</span>Authors[<span class="dv">1</span><span class="op">:</span><span class="dv">10</span>,]</a></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" title="1"><span class="co"># top 20 cited authors in LOCAL network</span></a>
+<a class="sourceLine" id="cb10-2" title="2">CR<span class="op">$</span>Authors[<span class="dv">1</span><span class="op">:</span><span class="dv">10</span>,]</a></code></pre></div>
 <pre><code>##                    Author LocalCitations
 ## 41             BUCHANAN B             25
 ## 180             LYCETT SJ             22
@@ -530,8 +512,8 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 ## 104              FOLEY RA             13
 ## 219            O&#39;BRIEN MJ             10
 ## 115    GONZLEZ-AGUILERA D              9</code></pre>
-<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb29-1" title="1"><span class="co"># top 20 cited papers in local network</span></a>
-<a class="sourceLine" id="cb29-2" title="2">CR<span class="op">$</span>Papers[<span class="dv">1</span><span class="op">:</span><span class="dv">10</span>,]</a></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" title="1"><span class="co"># top 20 cited papers in LOCAL network</span></a>
+<a class="sourceLine" id="cb12-2" title="2">CR<span class="op">$</span>Papers[<span class="dv">1</span><span class="op">:</span><span class="dv">10</span>,]</a></code></pre></div>
 <pre><code>##                                     Paper                              DOI Year LCS GCS
 ## 8        BUCHANAN B, 2010, J ARCHAEOL SCI        10.1016/J.JAS.2009.09.047 2010  15  71
 ## 19       THULMAN DK, 2012, J ARCHAEOL SCI        10.1016/J.JAS.2012.01.004 2012  14  68
@@ -543,29 +525,18 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 ## 1            VIOARSDTTIR US, 2002, J ANAT 10.1046/J.1469-7580.2002.00092.X 2002   4 146
 ## 26        OKUMURA M, 2014, J ARCHAEOL SCI        10.1016/J.JAS.2014.02.009 2014   4  50
 ## 35               ARCHER W, 2015, PLOS ONE     10.1371/JOURNAL.PONE.0132428 2015   4  23</code></pre>
-<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb31-1" title="1"><span class="co"># top authors&#39; productivity over time</span></a>
-<a class="sourceLine" id="cb31-2" title="2">topAU &lt;-<span class="st"> </span><span class="kw">authorProdOverTime</span>(df, <span class="dt">k =</span> <span class="dv">10</span>, <span class="dt">graph =</span> <span class="ot">TRUE</span>)</a></code></pre></div>
-<pre><code>## Warning: Use of `df2$TCpY` is discouraged. Use `TCpY` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$freq` is discouraged. Use `freq` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$Author` is discouraged. Use `Author` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$year` is discouraged. Use `year` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$Author` is discouraged. Use `Author` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$year` is discouraged. Use `year` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$freq` is discouraged. Use `freq` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$Author` is discouraged. Use `Author` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$year` is discouraged. Use `year` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$Author` is discouraged. Use `Author` instead.
-
-## Warning: Use of `df2$Author` is discouraged. Use `Author` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$year` is discouraged. Use `year` instead.</code></pre>
-<pre><code>## Warning: Use of `df2$freq` is discouraged. Use `freq` instead.</code></pre>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" title="1"><span class="co"># top authors&#39; productivity over time</span></a>
+<a class="sourceLine" id="cb14-2" title="2">topAU &lt;-<span class="st"> </span><span class="kw">authorProdOverTime</span>(df, <span class="dt">k =</span> <span class="dv">10</span>, <span class="dt">graph =</span> <span class="ot">TRUE</span>)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/summary-6.png" width="672" /></p>
 </div>
 </div>
 <div id="most-cited-references" class="section level2">
 <h2><span class="header-section-number">3.2</span> Most cited references</h2>
-<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb44-1" title="1">mcr &lt;-<span class="st"> </span><span class="kw">citations</span>(df, <span class="dt">field =</span> <span class="st">&quot;article&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb44-2" title="2"><span class="kw">cbind</span>(mcr<span class="op">$</span>Cited[<span class="dv">1</span><span class="op">:</span><span class="dv">20</span>])</a></code></pre></div>
+<div id="most-cited-articles" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Most cited articles</h3>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" title="1"><span class="co"># most cited references in FULL network</span></a>
+<a class="sourceLine" id="cb15-2" title="2">mcr &lt;-<span class="st"> </span><span class="kw">citations</span>(df, <span class="dt">field =</span> <span class="st">&quot;article&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb15-3" title="3"><span class="kw">cbind</span>(mcr<span class="op">$</span>Cited[<span class="dv">1</span><span class="op">:</span><span class="dv">20</span>])</a></code></pre></div>
 <pre><code>##                                                                                                                                                                                                                                       [,1]
 ## BUCHANAN, B., COLLARD, M., A GEOMETRIC MORPHOMETRICS-BASED ASSESSMENT OF BLADE SHAPE DIFFERENCES AMONG PALEOINDIAN PROJECTILE POINT TYPES FROM WESTERN NORTH AMERICA (2010) J. ARCHAEOL. SCI., 37, PP. 350-359                           8
 ## MITTEROECKER, P., GUNZ, P., ADVANCES IN GEOMETRIC MORPHOMETRICS (2009) EVOL. BIOL., 36, PP. 235-247                                                                                                                                      8
@@ -588,18 +559,46 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 ## ADAMS, D.C., ROHLF, F.J., SLICE, D.E., A FIELD COMES OF AGE: GEOMETRIC MORPHOMETRICS IN THE 21ST CENTURY (2013) HYSTRIX, 24, PP. 7-14                                                                                                    4
 ## BOOKSTEIN, F.L., (1991) MORPHOMETRIC TOOLS FOR LANDMARK DATA: GEOMETRY AND BIOLOGY, , CAMBRIDGE: CAMBRIDGE UNIVERSITY PRESS                                                                                                              4</code></pre>
 </div>
+<div id="most-cited-authors" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Most cited authors</h3>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" title="1"><span class="co"># most cited authors in FULL network</span></a>
+<a class="sourceLine" id="cb17-2" title="2">mcr &lt;-<span class="st"> </span><span class="kw">citations</span>(df, <span class="dt">field =</span> <span class="st">&quot;author&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb17-3" title="3"><span class="kw">cbind</span>(mcr<span class="op">$</span>Cited[<span class="dv">1</span><span class="op">:</span><span class="dv">20</span>])</a></code></pre></div>
+<pre><code>##                       [,1]
+## ROHLF F J              200
+## BOOKSTEIN F L          189
+## DOMNGUEZ RODRIGO M     173
+## GUNZ P                 147
+## YRAVEDRA J             133
+## BUCHANAN B             112
+## LYCETT S J             111
+## VON CRAMON TAUBADEL N   99
+## SLICE D E               97
+## O HIGGINS P             90
+## MITTEROECKER P          87
+## COLLARD M               86
+## HUBLIN J J              84
+## CUCCHI T                72
+## ARAMENDI J              70
+## GONZLEZ AGUILERA D      70
+## O BRIEN M J             70
+## ADAMS D C               68
+## KLINGENBERG C P         67
+## HARVATI K               66</code></pre>
+</div>
+</div>
 <div id="the-intellectual-structure-of-the-field" class="section level2">
 <h2><span class="header-section-number">3.3</span> The intellectual structure of the field</h2>
 <div id="article-references-co-citation" class="section level3">
 <h3><span class="header-section-number">3.3.1</span> Article (references) co-citation</h3>
-<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb46-1" title="1"><span class="co"># article co-citation network</span></a>
-<a class="sourceLine" id="cb46-2" title="2">comat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;co-citation&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;references&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb46-3" title="3"><span class="co"># network plot</span></a>
-<a class="sourceLine" id="cb46-4" title="4">conet1 =<span class="st"> </span><span class="kw">networkPlot</span>(comat1, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Article Co-Citation Network&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">20</span>, <span class="dt">size.cex =</span> T, <span class="dt">remove.multiple =</span> <span class="ot">FALSE</span>, <span class="dt">labelsize =</span> <span class="fl">0.4</span>, <span class="dt">edgesize =</span> <span class="dv">10</span>, <span class="dt">edges.min =</span> <span class="dv">5</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb19-1" title="1"><span class="co"># article co-citation network</span></a>
+<a class="sourceLine" id="cb19-2" title="2">comat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;co-citation&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;references&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb19-3" title="3"><span class="co"># network plot</span></a>
+<a class="sourceLine" id="cb19-4" title="4">conet1 =<span class="st"> </span><span class="kw">networkPlot</span>(comat1, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Article Co-Citation Network&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">20</span>, <span class="dt">size.cex =</span> T, <span class="dt">remove.multiple =</span> <span class="ot">FALSE</span>, <span class="dt">labelsize =</span> <span class="fl">0.6</span>, <span class="dt">edgesize =</span> <span class="dv">5</span>, <span class="dt">edges.min =</span> <span class="dv">3</span>)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/refcocite-1.png" width="100%" /></p>
-<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb47-1" title="1"><span class="co"># descriptive analysis of journal co-citation network</span></a>
-<a class="sourceLine" id="cb47-2" title="2">aconetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(comat1)</a>
-<a class="sourceLine" id="cb47-3" title="3"><span class="kw">summary</span>(aconetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb20-1" title="1"><span class="co"># descriptive analysis of journal co-citation network</span></a>
+<a class="sourceLine" id="cb20-2" title="2">aconetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(comat1)</a>
+<a class="sourceLine" id="cb20-3" title="3"><span class="kw">summary</span>(aconetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
 <pre><code>## 
 ## 
 ## Main statistics about the network
@@ -616,13 +615,12 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 <div id="historiograph-direct-citation-linkages" class="section level2">
 <h2><span class="header-section-number">3.4</span> Historiograph direct citation linkages</h2>
 <p>The historiographic map is a chronological network map of the most relevant direct citations resulting from this bibliographic collection.</p>
-<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb49-1" title="1"><span class="co"># historical citation network</span></a>
-<a class="sourceLine" id="cb49-2" title="2"><span class="kw">options</span>(<span class="dt">width =</span> <span class="dv">100</span>)</a>
-<a class="sourceLine" id="cb49-3" title="3">histResults &lt;-<span class="st"> </span><span class="kw">histNetwork</span>(df, <span class="dt">min.citations =</span> <span class="dv">4</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb22-1" title="1"><span class="co"># historical citation network</span></a>
+<a class="sourceLine" id="cb22-2" title="2"><span class="kw">options</span>(<span class="dt">width =</span> <span class="dv">100</span>)</a>
+<a class="sourceLine" id="cb22-3" title="3">histResults &lt;-<span class="st"> </span><span class="kw">histNetwork</span>(df, <span class="dt">min.citations =</span> <span class="dv">4</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a></code></pre></div>
 <pre><code>## Articles analysed   68</code></pre>
-<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb51-1" title="1"><span class="co"># plot historical co-citation network</span></a>
-<a class="sourceLine" id="cb51-2" title="2">hnet &lt;-<span class="st"> </span><span class="kw">histPlot</span>(histResults, <span class="dt">n =</span> <span class="dv">20</span>, <span class="dt">size =</span> <span class="dv">8</span>, <span class="dt">labelsize =</span> <span class="dv">4</span>)</a></code></pre></div>
-<pre><code>## Warning: The curvature argument has been deprecated in favour of strength</code></pre>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb24-1" title="1"><span class="co"># plot historical co-citation network</span></a>
+<a class="sourceLine" id="cb24-2" title="2">hnet &lt;-<span class="st"> </span><span class="kw">histPlot</span>(histResults, <span class="dt">n =</span> <span class="dv">30</span>, <span class="dt">size =</span> <span class="dv">8</span>, <span class="dt">labelsize =</span> <span class="dv">4</span>)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/hdcn-1.png" width="100%" /></p>
 <pre><code>## 
 ##  Legend
@@ -636,16 +634,27 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 ## 2010 - 8                           BUCHANAN B, 2010, J ARCHAEOL SCI
 ## 2010 - 9                             ARCHER W, 2010, J ARCHAEOL SCI
 ## 2010 - 10                               HARVATI K, 2010, J HUM EVOL
+## 2011 - 12                         SHOTT MJ, 2011, EVOL EDU OUTREACH
 ## 2011 - 15                          BUCHANAN B, 2011, J ARCHAEOL SCI
+## 2012 - 18                         GUNZ P, 2012, AM J PHYS ANTHROPOL
 ## 2012 - 19                          THULMAN DK, 2012, J ARCHAEOL SCI
+## 2012 - 20                            FREIDLINE SE, 2012, J HUM EVOL
+## 2013 - 22                                   SENCK S, 2013, ANAT REC
 ## 2013 - 24                           LYCETT SJ, 2013, J ARCHAEOL SCI
 ## 2014 - 26                           OKUMURA M, 2014, J ARCHAEOL SCI
 ## 2014 - 28                                   PICIN A, 2014, QUAT INT
 ## 2015 - 35                                  ARCHER W, 2015, PLOS ONE
 ## 2015 - 37                                 EREN MI, 2015, J HUM EVOL
+## 2015 - 39                      WEBERE GW, 2015, AM J PHYS ANTHROPOL
 ## 2015 - 40                            DAVIS LG, 2015, LITHIC TECHNOL
+## 2016 - 42                    KUZMINSKY SC, 2016, J ARCHAEOL SCI REP
+## 2017 - 50                    SMITH HL, 2017, ARCHAEOL ANTHROPOL SCI
+## 2017 - 52                          BONHOMME V, 2017, J ARCHAEOL SCI
+## 2017 - 53                    HERZLINGER G, 2017, J ARCHAEOL SCI REP
 ## 2017 - 56                            NELSON E, 2017, J ARCHAEOL SCI
 ## 2018 - 59                             MACLEOD N, 2018, QUAT SCI REV
+## 2018 - 61                         MAT-GONZLEZ M, 2018, ARCHAEOMETRY
+## 2018 - 63                   KUZMINSKY SC, 2018, AM J PHYS ANTHROPOL
 ## 2018 - 64                                 COURTENAY LA, 2018, PEERJ
 ## 2019 - 65                            COURTENAY LA, 2019, QUAT INT-a
 ## 2019 - 66 COURTENAY LA, 2019, PALAEOGEOGR PALAEOCLIMATOL PALAEOECOL
@@ -658,16 +667,27 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 ## 2010 - 8         10.1016/J.JAS.2009.09.047 2010  15  71
 ## 2010 - 9         10.1016/J.JAS.2009.09.033 2010  13  74
 ## 2010 - 10     10.1016/J.JHEVOL.2010.06.005 2010   2  54
+## 2011 - 12        10.1007/S12052-011-0344-3 2011   1   5
 ## 2011 - 15        10.1016/J.JAS.2010.11.007 2011   6  47
+## 2012 - 18               10.1002/AJPA.22133 2012   1   8
 ## 2012 - 19        10.1016/J.JAS.2012.01.004 2012  14  68
+## 2012 - 20     10.1016/J.JHEVOL.2011.11.005 2012   1  35
+## 2013 - 22                 10.1002/AR.22693 2013   1  11
 ## 2013 - 24        10.1016/J.JAS.2012.11.005 2013   9  40
 ## 2014 - 26        10.1016/J.JAS.2014.02.009 2014   4  50
 ## 2014 - 28     10.1016/J.QUAINT.2014.05.004 2014   3  19
 ## 2015 - 35     10.1371/JOURNAL.PONE.0132428 2015   4  23
 ## 2015 - 37     10.1016/J.JHEVOL.2015.01.002 2015   3  48
+## 2015 - 39               10.1002/AJPA.22658 2015   1  34
 ## 2015 - 40   10.1179/2051618515Y.0000000007 2015   2  10
+## 2016 - 42     10.1016/J.JASREP.2016.11.007 2016   1   7
+## 2017 - 50        10.1007/S12520-016-0335-Y 2017   1   7
+## 2017 - 52        10.1016/J.JAS.2017.09.010 2017   1   9
+## 2017 - 53     10.1016/J.JASREP.2017.05.013 2017   1   8
 ## 2017 - 56        10.1016/J.JAS.2016.11.001 2017   2   8
 ## 2018 - 59  10.1016/J.QUASCIREV.2018.08.024 2018   2   6
+## 2018 - 61               10.1111/ARCM.12327 2018   1  18
+## 2018 - 63               10.1002/AJPA.23344 2018   1   5
 ## 2018 - 64               10.7717/PEERJ.5133 2018   3  12
 ## 2019 - 65     10.1016/J.QUAINT.2018.12.019 2019   2  11
 ## 2019 - 66     10.1016/J.PALAEO.2019.03.007 2019   2   9</code></pre>
@@ -676,45 +696,31 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 <h2><span class="header-section-number">3.5</span> The conceptual structure of the field</h2>
 <div id="co-word-analysis-through-keyword-co-occurrences" class="section level3">
 <h3><span class="header-section-number">3.5.1</span> Co-word analysis through keyword co-occurrences</h3>
-<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb54-1" title="1"><span class="co"># keyword co-occurrences network</span></a>
-<a class="sourceLine" id="cb54-2" title="2">keymat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;co-occurrences&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;keywords&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb54-3" title="3"><span class="co"># networkplot</span></a>
-<a class="sourceLine" id="cb54-4" title="4">keynet1=<span class="kw">networkPlot</span>(keymat1, <span class="dt">normalize =</span> <span class="st">&quot;association&quot;</span>, <span class="dt">weighted =</span> T, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Keyword Co-occurrences&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;fruchterman&quot;</span>, <span class="dt">size =</span> T, <span class="dt">edgesize =</span> <span class="dv">5</span>, <span class="dt">labelsize =</span> <span class="fl">0.7</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb26-1" title="1"><span class="co"># keyword co-occurrences network</span></a>
+<a class="sourceLine" id="cb26-2" title="2">keymat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;co-occurrences&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;keywords&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb26-3" title="3"><span class="co"># networkplot</span></a>
+<a class="sourceLine" id="cb26-4" title="4">keynet1=<span class="kw">networkPlot</span>(keymat1, <span class="dt">normalize =</span> <span class="st">&quot;association&quot;</span>, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Keyword Co-occurrences&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">8</span>, <span class="dt">edgesize =</span> <span class="dv">2</span>, <span class="dt">labelsize =</span> <span class="fl">0.5</span>)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/keywordco-1.png" width="100%" /></p>
 </div>
 <div id="co-word-analysis-through-correspondence-analysis" class="section level3">
 <h3><span class="header-section-number">3.5.2</span> Co-word analysis through Correspondence Analysis</h3>
 <p>Co-word analysis maps the conceptual structure of a research domain using the co-occurrence of words in the bibliiographic collection. This includes two analyses; the first using the author’s keywords (DE), and the second using keywords plus (ID).</p>
-<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb55-1" title="1"><span class="co"># using authors keywords</span></a>
-<a class="sourceLine" id="cb55-2" title="2">cw &lt;-<span class="st"> </span><span class="kw">conceptualStructure</span>(df, <span class="dt">field =</span> <span class="st">&quot;DE&quot;</span>, <span class="dt">method =</span> <span class="st">&quot;MCA&quot;</span>, <span class="dt">minDegree =</span> <span class="dv">4</span>, <span class="dt">clust =</span> <span class="dv">3</span>, <span class="dt">stemming =</span> <span class="ot">FALSE</span>, <span class="dt">labelsize =</span> <span class="dv">5</span>, <span class="dt">documents =</span> <span class="dv">97</span>)</a></code></pre></div>
-<p><img src="gt-v_files/figure-html/coword1-1.png" width="100%" /><img src="gt-v_files/figure-html/coword1-2.png" width="100%" /></p>
-<pre><code>## Warning: Use of `A$dim1` is discouraged. Use `dim1` instead.</code></pre>
-<pre><code>## Warning: Use of `A$dim2` is discouraged. Use `dim2` instead.</code></pre>
-<pre><code>## Warning: Use of `A$nomi` is discouraged. Use `nomi` instead.</code></pre>
-<pre><code>## Warning: Use of `A$dim1` is discouraged. Use `dim1` instead.</code></pre>
-<pre><code>## Warning: Use of `A$dim2` is discouraged. Use `dim2` instead.</code></pre>
-<pre><code>## Warning: Use of `A$nomi` is discouraged. Use `nomi` instead.</code></pre>
-<p><img src="gt-v_files/figure-html/coword1-3.png" width="100%" /></p>
-<pre><code>## Warning: Use of `B$dim1` is discouraged. Use `dim1` instead.</code></pre>
-<pre><code>## Warning: Use of `B$dim2` is discouraged. Use `dim2` instead.</code></pre>
-<pre><code>## Warning: Use of `B$nomi` is discouraged. Use `nomi` instead.</code></pre>
-<pre><code>## Warning: Use of `B$dim1` is discouraged. Use `dim1` instead.</code></pre>
-<pre><code>## Warning: Use of `B$dim2` is discouraged. Use `dim2` instead.</code></pre>
-<pre><code>## Warning: Use of `B$nomi` is discouraged. Use `nomi` instead.</code></pre>
-<p><img src="gt-v_files/figure-html/coword1-4.png" width="100%" /></p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb27-1" title="1"><span class="co"># using authors keywords</span></a>
+<a class="sourceLine" id="cb27-2" title="2">cw &lt;-<span class="st"> </span><span class="kw">conceptualStructure</span>(df, <span class="dt">field =</span> <span class="st">&quot;DE&quot;</span>, <span class="dt">method =</span> <span class="st">&quot;MCA&quot;</span>, <span class="dt">minDegree =</span> <span class="dv">4</span>, <span class="dt">clust =</span> <span class="dv">3</span>, <span class="dt">stemming =</span> <span class="ot">FALSE</span>, <span class="dt">labelsize =</span> <span class="dv">5</span>, <span class="dt">documents =</span> <span class="dv">20</span>)</a></code></pre></div>
+<p><img src="gt-v_files/figure-html/coword1-1.png" width="100%" /><img src="gt-v_files/figure-html/coword1-2.png" width="100%" /><img src="gt-v_files/figure-html/coword1-3.png" width="100%" /><img src="gt-v_files/figure-html/coword1-4.png" width="100%" /></p>
 </div>
 </div>
 <div id="thematic-mapping" class="section level2">
 <h2><span class="header-section-number">3.6</span> Thematic mapping</h2>
-<div class="sourceCode" id="cb68"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb68-1" title="1"><span class="co"># keyword map</span></a>
-<a class="sourceLine" id="cb68-2" title="2">map1 =<span class="st"> </span><span class="kw">thematicMap</span>(df, <span class="dt">field =</span> <span class="st">&quot;ID&quot;</span>, <span class="dt">n =</span> <span class="dv">97</span>, <span class="dt">minfreq =</span> <span class="dv">2</span>, <span class="dt">stemming =</span> <span class="ot">FALSE</span>, <span class="dt">size =</span> <span class="fl">0.8</span>, <span class="dt">n.labels =</span> <span class="dv">4</span>, <span class="dt">repel =</span> <span class="ot">TRUE</span>)</a>
-<a class="sourceLine" id="cb68-3" title="3"><span class="co"># plot map</span></a>
-<a class="sourceLine" id="cb68-4" title="4"><span class="kw">plot</span>(map1<span class="op">$</span>map)</a></code></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb28-1" title="1"><span class="co"># keyword map</span></a>
+<a class="sourceLine" id="cb28-2" title="2">map1 =<span class="st"> </span><span class="kw">thematicMap</span>(df, <span class="dt">field =</span> <span class="st">&quot;DE&quot;</span>, <span class="dt">n =</span> <span class="dv">97</span>, <span class="dt">minfreq =</span> <span class="dv">3</span>, <span class="dt">stemming =</span> <span class="ot">FALSE</span>, <span class="dt">size =</span> <span class="fl">0.8</span>, <span class="dt">n.labels =</span> <span class="dv">3</span>, <span class="dt">repel =</span> <span class="ot">TRUE</span>)</a>
+<a class="sourceLine" id="cb28-3" title="3"><span class="co"># plot map</span></a>
+<a class="sourceLine" id="cb28-4" title="4"><span class="kw">plot</span>(map1<span class="op">$</span>map)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/thematicmap-1.png" width="100%" /></p>
-<div class="sourceCode" id="cb69"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb69-1" title="1"><span class="co"># abstract map</span></a>
-<a class="sourceLine" id="cb69-2" title="2">map2 =<span class="st"> </span><span class="kw">thematicMap</span>(df, <span class="dt">field =</span> <span class="st">&quot;AB&quot;</span>, <span class="dt">n =</span> <span class="dv">97</span>, <span class="dt">minfreq =</span> <span class="dv">5</span>, <span class="dt">stemming =</span> <span class="ot">FALSE</span>, <span class="dt">size =</span> <span class="fl">0.8</span>, <span class="dt">n.labels =</span> <span class="dv">4</span>, <span class="dt">repel =</span> <span class="ot">TRUE</span>)</a>
-<a class="sourceLine" id="cb69-3" title="3"><span class="co"># plot map</span></a>
-<a class="sourceLine" id="cb69-4" title="4"><span class="kw">plot</span>(map2<span class="op">$</span>map)</a></code></pre></div>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb29-1" title="1"><span class="co"># abstract map</span></a>
+<a class="sourceLine" id="cb29-2" title="2">map2 =<span class="st"> </span><span class="kw">thematicMap</span>(df, <span class="dt">field =</span> <span class="st">&quot;AB&quot;</span>, <span class="dt">n =</span> <span class="dv">97</span>, <span class="dt">minfreq =</span> <span class="dv">3</span>, <span class="dt">stemming =</span> <span class="ot">FALSE</span>, <span class="dt">size =</span> <span class="fl">0.8</span>, <span class="dt">n.labels =</span> <span class="dv">3</span>, <span class="dt">repel =</span> <span class="ot">TRUE</span>)</a>
+<a class="sourceLine" id="cb29-3" title="3"><span class="co"># plot map</span></a>
+<a class="sourceLine" id="cb29-4" title="4"><span class="kw">plot</span>(map2<span class="op">$</span>map)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/thematicmap-2.png" width="100%" /></p>
 </div>
 <div id="social-structure---collaboration" class="section level2">
@@ -722,14 +728,14 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 <div id="author-collaboration" class="section level3">
 <h3><span class="header-section-number">3.7.1</span> Author collaboration</h3>
 <p>Scientific collaborations are plotted where nodes are the authors and links are co-authorships.</p>
-<div class="sourceCode" id="cb70"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb70-1" title="1"><span class="co"># author collaboration network</span></a>
-<a class="sourceLine" id="cb70-2" title="2">collab1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;authors&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb70-3" title="3"><span class="co"># network plot</span></a>
-<a class="sourceLine" id="cb70-4" title="4">collabnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(collab1, <span class="dt">n =</span> <span class="dv">75</span>, <span class="dt">Title =</span> <span class="st">&quot;Author Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">15</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">5</span>, <span class="dt">labelsize =</span> <span class="fl">0.5</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb30-1" title="1"><span class="co"># author collaboration network</span></a>
+<a class="sourceLine" id="cb30-2" title="2">collab1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;authors&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb30-3" title="3"><span class="co"># network plot</span></a>
+<a class="sourceLine" id="cb30-4" title="4">collabnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(collab1, <span class="dt">n =</span> <span class="dv">100</span>, <span class="dt">Title =</span> <span class="st">&quot;Author Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">15</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">3</span>, <span class="dt">labelsize =</span> <span class="fl">0.5</span>)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/collab%20network-1.png" width="100%" /></p>
-<div class="sourceCode" id="cb71"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb71-1" title="1"><span class="co"># descriptive analysis of author collaboration network</span></a>
-<a class="sourceLine" id="cb71-2" title="2">collabnetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(collab1)</a>
-<a class="sourceLine" id="cb71-3" title="3"><span class="kw">summary</span>(collabnetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb31-1" title="1"><span class="co"># descriptive analysis of author collaboration network</span></a>
+<a class="sourceLine" id="cb31-2" title="2">collabnetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(collab1)</a>
+<a class="sourceLine" id="cb31-3" title="3"><span class="kw">summary</span>(collabnetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
 <pre><code>## 
 ## 
 ## Main statistics about the network
@@ -744,14 +750,14 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 </div>
 <div id="edu-collaboration" class="section level3">
 <h3><span class="header-section-number">3.7.2</span> Edu collaboration</h3>
-<div class="sourceCode" id="cb73"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb73-1" title="1"><span class="co"># author collaboration network</span></a>
-<a class="sourceLine" id="cb73-2" title="2">educollab1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;universities&quot;</span>,<span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb73-3" title="3"><span class="co"># network plot</span></a>
-<a class="sourceLine" id="cb73-4" title="4">educollabnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(educollab1, <span class="dt">n =</span> <span class="dv">75</span>, <span class="dt">Title =</span> <span class="st">&quot;Edu Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">25</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">5</span>, <span class="dt">labelsize =</span> <span class="fl">0.5</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb33-1" title="1"><span class="co"># author collaboration network</span></a>
+<a class="sourceLine" id="cb33-2" title="2">educollab1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;universities&quot;</span>,<span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb33-3" title="3"><span class="co"># network plot</span></a>
+<a class="sourceLine" id="cb33-4" title="4">educollabnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(educollab1, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Edu Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">25</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">4</span>, <span class="dt">labelsize =</span> <span class="fl">0.5</span>)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/edunetwork-1.png" width="100%" /></p>
-<div class="sourceCode" id="cb74"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb74-1" title="1"><span class="co"># descriptive analysis of edu collaboration network</span></a>
-<a class="sourceLine" id="cb74-2" title="2">edunetstat&lt;-<span class="kw">networkStat</span>(educollab1)</a>
-<a class="sourceLine" id="cb74-3" title="3"><span class="kw">summary</span>(edunetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb34-1" title="1"><span class="co"># descriptive analysis of edu collaboration network</span></a>
+<a class="sourceLine" id="cb34-2" title="2">edunetstat&lt;-<span class="kw">networkStat</span>(educollab1)</a>
+<a class="sourceLine" id="cb34-3" title="3"><span class="kw">summary</span>(edunetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
 <pre><code>## 
 ## 
 ## Main statistics about the network
@@ -766,15 +772,15 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 </div>
 <div id="country-collaboration" class="section level3">
 <h3><span class="header-section-number">3.7.3</span> Country collaboration</h3>
-<div class="sourceCode" id="cb76"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb76-1" title="1"><span class="co"># country collaboration network</span></a>
-<a class="sourceLine" id="cb76-2" title="2">count &lt;-<span class="st"> </span><span class="kw">metaTagExtraction</span>(df, <span class="dt">Field =</span> <span class="st">&quot;AU_CO&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb76-3" title="3">cmat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(count, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;countries&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb76-4" title="4"><span class="co"># network plot</span></a>
-<a class="sourceLine" id="cb76-5" title="5">cnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(cmat1, <span class="dt">n =</span> <span class="kw">dim</span>(cmat1)[<span class="dv">1</span>], <span class="dt">Title =</span> <span class="st">&quot;Country Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;circle&quot;</span>, <span class="dt">size =</span> <span class="dv">10</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">3</span>, <span class="dt">labelsize =</span> <span class="fl">0.6</span>, <span class="dt">cluster=</span><span class="st">&quot;none&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb36-1" title="1"><span class="co"># country collaboration network</span></a>
+<a class="sourceLine" id="cb36-2" title="2">count &lt;-<span class="st"> </span><span class="kw">metaTagExtraction</span>(df, <span class="dt">Field =</span> <span class="st">&quot;AU_CO&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb36-3" title="3">cmat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(count, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;countries&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb36-4" title="4"><span class="co"># network plot</span></a>
+<a class="sourceLine" id="cb36-5" title="5">cnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(cmat1, <span class="dt">n =</span> <span class="kw">dim</span>(cmat1)[<span class="dv">1</span>], <span class="dt">Title =</span> <span class="st">&quot;Country Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;circle&quot;</span>, <span class="dt">size =</span> <span class="dv">10</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">1</span>, <span class="dt">labelsize =</span> <span class="fl">0.6</span>, <span class="dt">cluster=</span><span class="st">&quot;none&quot;</span>)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/countrycollab-1.png" width="100%" /></p>
-<div class="sourceCode" id="cb77"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb77-1" title="1"><span class="co"># descriptive analysis of country collaboration network</span></a>
-<a class="sourceLine" id="cb77-2" title="2">countnetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(cmat1)</a>
-<a class="sourceLine" id="cb77-3" title="3"><span class="kw">summary</span>(countnetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb37-1" title="1"><span class="co"># descriptive analysis of country collaboration network</span></a>
+<a class="sourceLine" id="cb37-2" title="2">countnetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(cmat1)</a>
+<a class="sourceLine" id="cb37-3" title="3"><span class="kw">summary</span>(countnetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
 <pre><code>## 
 ## 
 ## Main statistics about the network
@@ -786,7 +792,7 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 ##  Degree Centralization                 0.488 
 ##  Average path length                   1.978 
 ## </code></pre>
-<div class="sourceCode" id="cb79"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb79-1" title="1"><span class="co">#end of code</span></a></code></pre></div>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb39-1" title="1"><span class="co">#end of code</span></a></code></pre></div>
 
 </div>
 </div>
