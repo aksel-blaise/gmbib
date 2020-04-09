@@ -26,7 +26,7 @@ This volume enlists a variety of tools from the [Open Review Toolkit](https://ww
 
 ## Funding
 
-Funding for this project was provided to RZS by the United States Forest Service, National Forests and Grasslands in Texas (15-PA-11081300-033 and 20-PA-11081300-074), and components of the analytical work flow were developed and funded by a grant to RZS from the National Center for Preservation Technology and Training.
+Funding for this project was provided to RZS by the United States Forest Service, National Forests and Grasslands in Texas (15-PA-11081300-033 and 20-PA-11081300-074), and components of the analytical work flow were developed and funded by a grant to RZS from the National Center for Preservation Technology and Training, which focused upon a similar bibliometric analysis for predictive modeling in archaeology.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

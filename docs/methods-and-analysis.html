@@ -649,33 +649,51 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 </div>
 <div id="co-word-analysis" class="section level2">
 <h2><span class="header-section-number">3.7</span> Co-word analysis</h2>
-<p>Co-word analysis maps the conceptual structure of a research domain using the co-occurrence of words in the bibliiographic collection.</p>
-<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb57-1" title="1">cw &lt;-<span class="st"> </span><span class="kw">conceptualStructure</span>(df,<span class="dt">field=</span><span class="st">&quot;ID&quot;</span>, <span class="dt">method=</span><span class="st">&quot;CA&quot;</span>, <span class="dt">minDegree=</span><span class="dv">4</span>, <span class="dt">clust=</span><span class="dv">3</span>, <span class="dt">stemming=</span><span class="ot">FALSE</span>, <span class="dt">labelsize=</span><span class="dv">5</span>, <span class="dt">documents=</span><span class="dv">25</span>)</a></code></pre></div>
-<p><img src="gt-v_files/figure-html/coword-1.png" width="672" /><img src="gt-v_files/figure-html/coword-2.png" width="672" /></p>
+<p>Co-word analysis maps the conceptual structure of a research domain using the co-occurrence of words in the bibliiographic collection. This includes two analyses; the first using the author’s keywords (DE), and the second using keywords plus (ID).</p>
+<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb57-1" title="1"><span class="co"># using authors keywords</span></a>
+<a class="sourceLine" id="cb57-2" title="2">cw &lt;-<span class="st"> </span><span class="kw">conceptualStructure</span>(df,<span class="dt">field=</span><span class="st">&quot;DE&quot;</span>, <span class="dt">method=</span><span class="st">&quot;CA&quot;</span>, <span class="dt">minDegree=</span><span class="dv">4</span>, <span class="dt">clust=</span><span class="dv">3</span>, <span class="dt">stemming=</span><span class="ot">FALSE</span>, <span class="dt">labelsize=</span><span class="dv">5</span>, <span class="dt">documents=</span><span class="dv">25</span>)</a></code></pre></div>
+<p><img src="gt-v_files/figure-html/coword1-1.png" width="672" /><img src="gt-v_files/figure-html/coword1-2.png" width="672" /></p>
 <pre><code>## Warning: Use of `A$dim1` is discouraged. Use `dim1` instead.</code></pre>
 <pre><code>## Warning: Use of `A$dim2` is discouraged. Use `dim2` instead.</code></pre>
 <pre><code>## Warning: Use of `A$nomi` is discouraged. Use `nomi` instead.</code></pre>
 <pre><code>## Warning: Use of `A$dim1` is discouraged. Use `dim1` instead.</code></pre>
 <pre><code>## Warning: Use of `A$dim2` is discouraged. Use `dim2` instead.</code></pre>
 <pre><code>## Warning: Use of `A$nomi` is discouraged. Use `nomi` instead.</code></pre>
-<p><img src="gt-v_files/figure-html/coword-3.png" width="672" /></p>
+<p><img src="gt-v_files/figure-html/coword1-3.png" width="672" /></p>
 <pre><code>## Warning: Use of `B$dim1` is discouraged. Use `dim1` instead.</code></pre>
 <pre><code>## Warning: Use of `B$dim2` is discouraged. Use `dim2` instead.</code></pre>
 <pre><code>## Warning: Use of `B$nomi` is discouraged. Use `nomi` instead.</code></pre>
 <pre><code>## Warning: Use of `B$dim1` is discouraged. Use `dim1` instead.</code></pre>
 <pre><code>## Warning: Use of `B$dim2` is discouraged. Use `dim2` instead.</code></pre>
 <pre><code>## Warning: Use of `B$nomi` is discouraged. Use `nomi` instead.</code></pre>
-<p><img src="gt-v_files/figure-html/coword-4.png" width="672" /></p>
+<p><img src="gt-v_files/figure-html/coword1-4.png" width="672" /></p>
+<div class="sourceCode" id="cb70"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb70-1" title="1"><span class="co"># using keywords plus</span></a>
+<a class="sourceLine" id="cb70-2" title="2">cw &lt;-<span class="st"> </span><span class="kw">conceptualStructure</span>(df,<span class="dt">field=</span><span class="st">&quot;ID&quot;</span>, <span class="dt">method=</span><span class="st">&quot;CA&quot;</span>, <span class="dt">minDegree=</span><span class="dv">4</span>, <span class="dt">clust=</span><span class="dv">3</span>, <span class="dt">stemming=</span><span class="ot">FALSE</span>, <span class="dt">labelsize=</span><span class="dv">5</span>, <span class="dt">documents=</span><span class="dv">25</span>)</a></code></pre></div>
+<p><img src="gt-v_files/figure-html/coword2-1.png" width="672" /><img src="gt-v_files/figure-html/coword2-2.png" width="672" /></p>
+<pre><code>## Warning: Use of `A$dim1` is discouraged. Use `dim1` instead.</code></pre>
+<pre><code>## Warning: Use of `A$dim2` is discouraged. Use `dim2` instead.</code></pre>
+<pre><code>## Warning: Use of `A$nomi` is discouraged. Use `nomi` instead.</code></pre>
+<pre><code>## Warning: Use of `A$dim1` is discouraged. Use `dim1` instead.</code></pre>
+<pre><code>## Warning: Use of `A$dim2` is discouraged. Use `dim2` instead.</code></pre>
+<pre><code>## Warning: Use of `A$nomi` is discouraged. Use `nomi` instead.</code></pre>
+<p><img src="gt-v_files/figure-html/coword2-3.png" width="672" /></p>
+<pre><code>## Warning: Use of `B$dim1` is discouraged. Use `dim1` instead.</code></pre>
+<pre><code>## Warning: Use of `B$dim2` is discouraged. Use `dim2` instead.</code></pre>
+<pre><code>## Warning: Use of `B$nomi` is discouraged. Use `nomi` instead.</code></pre>
+<pre><code>## Warning: Use of `B$dim1` is discouraged. Use `dim1` instead.</code></pre>
+<pre><code>## Warning: Use of `B$dim2` is discouraged. Use `dim2` instead.</code></pre>
+<pre><code>## Warning: Use of `B$nomi` is discouraged. Use `nomi` instead.</code></pre>
+<p><img src="gt-v_files/figure-html/coword2-4.png" width="672" /></p>
 </div>
 <div id="historical-direct-citation-network" class="section level2">
 <h2><span class="header-section-number">3.8</span> Historical direct citation network</h2>
 <p>The historiographic map is a chronological network map of the most relevant direct citations resulting from this bibliographic collection.</p>
-<div class="sourceCode" id="cb70"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb70-1" title="1"><span class="co"># historical citation network</span></a>
-<a class="sourceLine" id="cb70-2" title="2"><span class="kw">options</span>(<span class="dt">width=</span><span class="dv">100</span>)</a>
-<a class="sourceLine" id="cb70-3" title="3">histResults &lt;-<span class="st"> </span><span class="kw">histNetwork</span>(df, <span class="dt">min.citations =</span> <span class="dv">4</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb83"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb83-1" title="1"><span class="co"># historical citation network</span></a>
+<a class="sourceLine" id="cb83-2" title="2"><span class="kw">options</span>(<span class="dt">width=</span><span class="dv">100</span>)</a>
+<a class="sourceLine" id="cb83-3" title="3">histResults &lt;-<span class="st"> </span><span class="kw">histNetwork</span>(df, <span class="dt">min.citations =</span> <span class="dv">4</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a></code></pre></div>
 <pre><code>## Articles analysed   68</code></pre>
-<div class="sourceCode" id="cb72"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb72-1" title="1"><span class="co"># plot historical co-citation network</span></a>
-<a class="sourceLine" id="cb72-2" title="2">hnet &lt;-<span class="st"> </span><span class="kw">histPlot</span>(histResults, <span class="dt">n=</span><span class="dv">15</span>, <span class="dt">size =</span> <span class="dv">8</span>, <span class="dt">labelsize=</span><span class="dv">4</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb85"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb85-1" title="1"><span class="co"># plot historical co-citation network</span></a>
+<a class="sourceLine" id="cb85-2" title="2">hnet &lt;-<span class="st"> </span><span class="kw">histPlot</span>(histResults, <span class="dt">n=</span><span class="dv">20</span>, <span class="dt">size =</span> <span class="dv">8</span>, <span class="dt">labelsize=</span><span class="dv">4</span>)</a></code></pre></div>
 <pre><code>## Warning: The curvature argument has been deprecated in favour of strength</code></pre>
 <p><img src="gt-v_files/figure-html/hdcn-1.png" width="672" /></p>
 <pre><code>## 
@@ -725,7 +743,7 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 ## 2018 - 64               10.7717/PEERJ.5133 2018   3  12
 ## 2019 - 65     10.1016/J.QUAINT.2018.12.019 2019   2  11
 ## 2019 - 66     10.1016/J.PALAEO.2019.03.007 2019   2   9</code></pre>
-<div class="sourceCode" id="cb75"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb75-1" title="1"><span class="co">#end of code</span></a></code></pre></div>
+<div class="sourceCode" id="cb88"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb88-1" title="1"><span class="co">#end of code</span></a></code></pre></div>
 
 </div>
 </div>

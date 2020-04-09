@@ -2,7 +2,7 @@
 
 The initial step in any bibliometric study is one of logic, primarily Boolean logic (Figure 1), used to ensure that the bulk of those publications harvested in the study are relevant to the question at hand. In this case, ***geometric morphometrics in archaeology*** is the topic of interest; thus, the query employed for this study was _"geometric morphometric" AND (archeology OR archaeology)_, which yielded 103 results in Scopus.
 
-```{r boolean, echo=TRUE, fig.cap="Example of query results that employ Boolean operators. The structure of the query used in this study most closely matches the second venn diagram from the right."}
+```{r boolean, out.width = "100%", dpi = 300, echo=TRUE, fig.cap="Example of query results that employ Boolean operators. The structure of the query used in this study most closely matches the second venn diagram from the right."}
 knitr::include_graphics(rep("./figs/boolean.png"))
 ```
 
