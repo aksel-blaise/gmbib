@@ -20,9 +20,9 @@ s <- summary(object = results, k = 10, pause = FALSE)
 plot(x = results, k = 10, pause = FALSE)
 # calculate citations in the LOCAL network
 CR <- localCitations(df, sep = ";")
-# top 20 cited authors in LOCAL network
+# top 10 cited authors in LOCAL network
 CR$Authors[1:10,]
-# top 20 cited papers in LOCAL network
+# top 10 cited papers in LOCAL network
 CR$Papers[1:10,]
 # top authors' productivity over time
 topAU <- authorProdOverTime(df, k = 10, graph = TRUE)
