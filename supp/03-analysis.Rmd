@@ -91,9 +91,17 @@ cw <- conceptualStructure(df, field = "DE", method = "MCA", minDegree = 3, clust
 
 ```{r thematicmap, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="Thematic maps are intuitive plots that can be analyzed according to the quadrant in which the theme occurs. The top right quadrant articulates with motor themes, the bottom right with basic and transversal themes, the lower left with emerging or declining themes, and the upper left with highly developed and isolated themes (Cobo et al. 2011)."}
 # keyword map
-map1 = thematicMap(df, field = "DE", n = 200, minfreq = 2, stemming = FALSE, size = 0.8, n.labels = 1, repel = TRUE)
+map1 = thematicMap(df, field = "DE", n = 1000, minfreq = 3, stemming = FALSE, size = 0.8, n.labels = 1, repel = TRUE)
 # plot map
 plot(map1$map)
+```
+
+### Thematic evolution
+
+```{r thematicevol, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# keyword thematic evolution
+nexus <- thematicEvolution(df, field = "DE", years = c(2010,2015), n = 1000, minFreq = 2, size = 0.8, n.labels = 1, repel = TRUE)
+nexus
 ```
 
 ## Social structure - collaboration
@@ -116,7 +124,7 @@ summary(collabnetstat, k = 15)
 # author collaboration network
 educollab1 <- biblioNetwork(df, analysis = "collaboration", network = "universities",sep = ";")
 # network plot
-educollabnet1 = networkPlot(educollab1, n = 50, Title = "Edu Collaboration", type = "fruchterman", size = 25, size.cex = T, edgesize = 3, labelsize = 0.3)
+educollabnet1 = networkPlot(educollab1, n = 50, Title = "Edu Collaboration", type = "fruchterman", size = 25, size.cex = T, edgesize = 3, labelsize = 0.4)
 # descriptive analysis of edu collaboration network
 edunetstat<-networkStat(educollab1)
 summary(edunetstat, k = 15)
