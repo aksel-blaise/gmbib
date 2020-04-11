@@ -45,7 +45,7 @@ ggplot(tso, aes(Year, value, group = variable, color = variable)) +
 ### Three fields plot
 
 ```{r 3.flds, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="Interactive visualization of three fields (authors, keywords, and journals) illustrating how they are related."}
-threeFieldsPlot(df, fields = c("AU", "DE", "SO"), n = c(20,20,20))
+threeFieldsPlot(df, fields = c("AU", "DE", "SO"), n = c(20,20,20), width = 800, height = 800)
 ```
 
 ## Most cited
