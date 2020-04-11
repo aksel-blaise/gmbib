@@ -5,6 +5,8 @@
 #install.packages("devtools")
 #devtools::install_github("massimoaria/bibliometrix")
 library(bibliometrix)
+library(reshape2)
+library(ggplot2)
 df <- convert2df(file = "scopus.bib", dbsource = "scopus",format = "bibtex")
 ```
 
@@ -16,7 +18,13 @@ df <- convert2df(file = "scopus.bib", dbsource = "scopus",format = "bibtex")
 results <- biblioAnalysis(df, sep = ";")
 options(width = 100)
 s <- summary(object = results, k = 10, pause = FALSE)
+# plot attributes
 plot(x = results, k = 10, pause = FALSE)
+```
+
+### Attributes of the local network
+
+```{r net.attr, echo=TRUE, warning=FALSE}
 # calculate citations in the LOCAL network
 CR <- localCitations(df, sep = ";")
 # top 10 cited authors in LOCAL network
@@ -25,6 +33,19 @@ CR$Authors[1:10,]
 CR$Papers[1:10,]
 # top authors' productivity over time
 topAU <- authorProdOverTime(df, k = 10, graph = TRUE)
+# number of documents published annually by top sources
+topSO <- sourceGrowth(df, top = 10, cdf = TRUE)
+topSO
+# plot results
+tso=melt(topSO, id = 'Year')
+ggplot(tso, aes(Year, value, group = variable, color = variable)) + 
+  geom_line()
+```
+
+### Three fields plot
+
+```{r 3.flds, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="Interactive visualization of three fields (authors, keywords, and journals) illustrating how they are related."}
+threeFieldsPlot(df, fields = c("AU", "DE", "SO"), n = c(20,20,20))
 ```
 
 ## Most cited
@@ -32,7 +53,7 @@ topAU <- authorProdOverTime(df, k = 10, graph = TRUE)
 ### Most cited articles
 
 ```{r mostcitedrefs, echo=TRUE, warning=FALSE}
-# most cited references in FULL network
+# most cited references in global network
 mcr <- citations(df, field = "article", sep = ";")
 cbind(mcr$Cited[1:20])
 ```
@@ -40,7 +61,7 @@ cbind(mcr$Cited[1:20])
 ### Most cited authors
 
 ```{r mostcitedauths, echo=TRUE, warning=FALSE}
-# most cited authors in FULL network
+# most cited authors in global network
 mcr <- citations(df, field = "author", sep = ";")
 cbind(mcr$Cited[1:20])
 ```

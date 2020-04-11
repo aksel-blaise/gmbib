@@ -24,7 +24,7 @@
 <meta name="author" content="Robert Z. Selden, Jr.; Christian S. Hoggard; and Sarah Y. Stark" />
 
 
-<meta name="date" content="2020-04-10" />
+<meta name="date" content="2020-04-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -54,6 +54,9 @@
 <script src="libs/viz-1.8.2/viz.js"></script>
 <link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
 <script src="libs/grViz-binding-1.0.5.9000/grViz.js"></script>
+<script src="libs/d3-4.5.0/d3.min.js"></script>
+<script src="libs/sankey-1/sankey.js"></script>
+<script src="libs/sankeyNetwork-binding-0.4/sankeyNetwork.js"></script>
 <script async defer src="https://hypothes.is/embed.js"></script>
 
 <script>
@@ -258,6 +261,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3" data-path="bibliometric-analysis.html"><a href="bibliometric-analysis.html"><i class="fa fa-check"></i><b>3</b> Bibliometric Analysis</a><ul>
 <li class="chapter" data-level="3.1" data-path="bibliometric-analysis.html"><a href="bibliometric-analysis.html#descriptive-analysis"><i class="fa fa-check"></i><b>3.1</b> Descriptive analysis</a><ul>
 <li class="chapter" data-level="3.1.1" data-path="bibliometric-analysis.html"><a href="bibliometric-analysis.html#attributes-of-the-collection"><i class="fa fa-check"></i><b>3.1.1</b> Attributes of the collection</a></li>
+<li class="chapter" data-level="3.1.2" data-path="bibliometric-analysis.html"><a href="bibliometric-analysis.html#attributes-of-the-local-network"><i class="fa fa-check"></i><b>3.1.2</b> Attributes of the local network</a></li>
+<li class="chapter" data-level="3.1.3" data-path="bibliometric-analysis.html"><a href="bibliometric-analysis.html#three-fields-plot"><i class="fa fa-check"></i><b>3.1.3</b> Three fields plot</a></li>
 </ul></li>
 <li class="chapter" data-level="3.2" data-path="bibliometric-analysis.html"><a href="bibliometric-analysis.html#most-cited"><i class="fa fa-check"></i><b>3.2</b> Most cited</a><ul>
 <li class="chapter" data-level="3.2.1" data-path="bibliometric-analysis.html"><a href="bibliometric-analysis.html#most-cited-articles"><i class="fa fa-check"></i><b>3.2.1</b> Most cited articles</a></li>
@@ -336,7 +341,9 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 <a class="sourceLine" id="cb3-2" title="2"><span class="co">#install.packages(&quot;devtools&quot;)</span></a>
 <a class="sourceLine" id="cb3-3" title="3"><span class="co">#devtools::install_github(&quot;massimoaria/bibliometrix&quot;)</span></a>
 <a class="sourceLine" id="cb3-4" title="4"><span class="kw">library</span>(bibliometrix)</a>
-<a class="sourceLine" id="cb3-5" title="5">df &lt;-<span class="st"> </span><span class="kw">convert2df</span>(<span class="dt">file =</span> <span class="st">&quot;scopus.bib&quot;</span>, <span class="dt">dbsource =</span> <span class="st">&quot;scopus&quot;</span>,<span class="dt">format =</span> <span class="st">&quot;bibtex&quot;</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb3-5" title="5"><span class="kw">library</span>(reshape2)</a>
+<a class="sourceLine" id="cb3-6" title="6"><span class="kw">library</span>(ggplot2)</a>
+<a class="sourceLine" id="cb3-7" title="7">df &lt;-<span class="st"> </span><span class="kw">convert2df</span>(<span class="dt">file =</span> <span class="st">&quot;scopus.bib&quot;</span>, <span class="dt">dbsource =</span> <span class="st">&quot;scopus&quot;</span>,<span class="dt">format =</span> <span class="st">&quot;bibtex&quot;</span>)</a></code></pre></div>
 <pre><code>## 
 ## Converting your scopus collection into a bibliographic dataframe
 ## 
@@ -503,8 +510,12 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 ## 8  CUT MARKS                         4            HUMAN             21
 ## 9  PALEOINDIAN                       4            SKULL             19
 ## 10 PROJECTILE POINTS                 4            HISTORY           18</code></pre>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1"><span class="kw">plot</span>(<span class="dt">x =</span> results, <span class="dt">k =</span> <span class="dv">10</span>, <span class="dt">pause =</span> <span class="ot">FALSE</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1"><span class="co"># plot attributes</span></a>
+<a class="sourceLine" id="cb7-2" title="2"><span class="kw">plot</span>(<span class="dt">x =</span> results, <span class="dt">k =</span> <span class="dv">10</span>, <span class="dt">pause =</span> <span class="ot">FALSE</span>)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/summary-1.png" width="672" /><img src="gt-v_files/figure-html/summary-2.png" width="672" /><img src="gt-v_files/figure-html/summary-3.png" width="672" /><img src="gt-v_files/figure-html/summary-4.png" width="672" /><img src="gt-v_files/figure-html/summary-5.png" width="672" /></p>
+</div>
+<div id="attributes-of-the-local-network" class="section level3">
+<h3><span class="header-section-number">3.1.2</span> Attributes of the local network</h3>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" title="1"><span class="co"># calculate citations in the LOCAL network</span></a>
 <a class="sourceLine" id="cb8-2" title="2">CR &lt;-<span class="st"> </span><span class="kw">localCitations</span>(df, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a></code></pre></div>
 <pre><code>## 
@@ -539,16 +550,155 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 ## 67           OWEN J, 2014, J ARCHAEOL SCI    10.1016/J.JAS.2013.12.010 2014   4  28</code></pre>
 <div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" title="1"><span class="co"># top authors&#39; productivity over time</span></a>
 <a class="sourceLine" id="cb14-2" title="2">topAU &lt;-<span class="st"> </span><span class="kw">authorProdOverTime</span>(df, <span class="dt">k =</span> <span class="dv">10</span>, <span class="dt">graph =</span> <span class="ot">TRUE</span>)</a></code></pre></div>
-<p><img src="gt-v_files/figure-html/summary-6.png" width="672" /></p>
+<p><img src="gt-v_files/figure-html/net.attr-1.png" width="672" /></p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" title="1"><span class="co"># number of documents published annually by top sources</span></a>
+<a class="sourceLine" id="cb15-2" title="2">topSO &lt;-<span class="st"> </span><span class="kw">sourceGrowth</span>(df, <span class="dt">top =</span> <span class="dv">10</span>, <span class="dt">cdf =</span> <span class="ot">TRUE</span>)</a>
+<a class="sourceLine" id="cb15-3" title="3">topSO</a></code></pre></div>
+<pre><code>##      Year PROCEEDINGS OF THE ROYAL SOCIETY B: BIOLOGICAL SCIENCES ARCHAEOLOGICAL AND ANTHROPOLOGICAL SCIENCES
+## 2002 2002                                                       0                                           0
+## 2003 2003                                                       0                                           0
+## 2004 2004                                                       0                                           0
+## 2005 2005                                                       0                                           0
+## 2006 2006                                                       0                                           0
+## 2007 2007                                                       1                                           0
+## 2008 2008                                                       1                                           0
+## 2009 2009                                                       1                                           0
+## 2010 2010                                                       1                                           0
+## 2011 2011                                                       1                                           0
+## 2012 2012                                                       1                                           0
+## 2013 2013                                                       1                                           0
+## 2014 2014                                                       1                                           0
+## 2015 2015                                                       1                                           0
+## 2016 2016                                                       1                                           0
+## 2017 2017                                                       1                                           1
+## 2018 2018                                                       1                                           1
+## 2019 2019                                                       2                                           3
+## 2020 2020                                                       2                                           3
+##      QUATERNARY SCIENCE REVIEWS AMERICAN JOURNAL OF PHYSICAL ANTHROPOLOGY QUATERNARY INTERNATIONAL
+## 2002                          0                                         0                        0
+## 2003                          0                                         0                        0
+## 2004                          0                                         0                        0
+## 2005                          0                                         0                        0
+## 2006                          0                                         0                        0
+## 2007                          0                                         0                        0
+## 2008                          0                                         0                        0
+## 2009                          0                                         0                        0
+## 2010                          0                                         0                        0
+## 2011                          0                                         0                        0
+## 2012                          0                                         1                        0
+## 2013                          0                                         1                        0
+## 2014                          0                                         1                        1
+## 2015                          0                                         2                        1
+## 2016                          0                                         2                        1
+## 2017                          1                                         2                        1
+## 2018                          3                                         3                        1
+## 2019                          4                                         5                        5
+## 2020                          4                                         5                        5
+##      BIOLOGICAL JOURNAL OF THE LINNEAN SOCIETY JOURNAL OF ARCHAEOLOGICAL SCIENCE: REPORTS
+## 2002                                         0                                          0
+## 2003                                         0                                          0
+## 2004                                         0                                          0
+## 2005                                         0                                          0
+## 2006                                         0                                          0
+## 2007                                         0                                          0
+## 2008                                         0                                          0
+## 2009                                         0                                          0
+## 2010                                         0                                          0
+## 2011                                         0                                          0
+## 2012                                         0                                          0
+## 2013                                         1                                          0
+## 2014                                         1                                          0
+## 2015                                         1                                          0
+## 2016                                         1                                          1
+## 2017                                         1                                          2
+## 2018                                         1                                          2
+## 2019                                         2                                          3
+## 2020                                         2                                          3
+##      JOURNAL OF ARCHAEOLOGICAL SCIENCE PALAEOGEOGRAPHY, PALAEOCLIMATOLOGY, PALAEOECOLOGY AMERICAN ANTIQUITY PLOS ONE
+## 2002                                 0                                                 0                  0        0
+## 2003                                 0                                                 0                  0        0
+## 2004                                 0                                                 0                  0        0
+## 2005                                 0                                                 0                  0        0
+## 2006                                 1                                                 0                  0        0
+## 2007                                 2                                                 0                  0        0
+## 2008                                 3                                                 0                  0        0
+## 2009                                 3                                                 0                  0        0
+## 2010                                 5                                                 0                  0        0
+## 2011                                 7                                                 0                  0        0
+## 2012                                 8                                                 0                  0        0
+## 2013                                 9                                                 0                  0        0
+## 2014                                15                                                 0                  0        0
+## 2015                                17                                                 0                  0        1
+## 2016                                18                                                 0                  0        1
+## 2017                                21                                                 1                  0        2
+## 2018                                23                                                 1                  1        3
+## 2019                                27                                                 2                  2        4
+## 2020                                27                                                 2                  2        4
+##      JOURNAL OF HUMAN EVOLUTION LATIN AMERICAN ANTIQUITY INTERNATIONAL JOURNAL OF LEGAL MEDICINE
+## 2002                          0                        0                                       0
+## 2003                          0                        0                                       0
+## 2004                          0                        0                                       0
+## 2005                          0                        0                                       0
+## 2006                          0                        0                                       0
+## 2007                          0                        0                                       1
+## 2008                          0                        0                                       1
+## 2009                          0                        0                                       1
+## 2010                          1                        0                                       1
+## 2011                          3                        1                                       1
+## 2012                          4                        1                                       1
+## 2013                          4                        1                                       1
+## 2014                          4                        1                                       1
+## 2015                          5                        1                                       1
+## 2016                          6                        1                                       1
+## 2017                          7                        1                                       2
+## 2018                         10                        2                                       2
+## 2019                         10                        2                                       2
+## 2020                         10                        2                                       2
+##      AMERICAN JOURNAL OF HUMAN BIOLOGY ANATOMICAL RECORD
+## 2002                                 0                 0
+## 2003                                 0                 0
+## 2004                                 0                 0
+## 2005                                 0                 0
+## 2006                                 0                 0
+## 2007                                 0                 0
+## 2008                                 0                 0
+## 2009                                 0                 0
+## 2010                                 0                 0
+## 2011                                 0                 0
+## 2012                                 0                 0
+## 2013                                 0                 1
+## 2014                                 0                 1
+## 2015                                 0                 2
+## 2016                                 2                 2
+## 2017                                 2                 2
+## 2018                                 2                 2
+## 2019                                 2                 2
+## 2020                                 2                 2</code></pre>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" title="1"><span class="co"># plot results</span></a>
+<a class="sourceLine" id="cb17-2" title="2">tso=<span class="kw">melt</span>(topSO, <span class="dt">id =</span> <span class="st">&#39;Year&#39;</span>)</a>
+<a class="sourceLine" id="cb17-3" title="3"><span class="kw">ggplot</span>(tso, <span class="kw">aes</span>(Year, value, <span class="dt">group =</span> variable, <span class="dt">color =</span> variable)) <span class="op">+</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb17-4" title="4"><span class="st">  </span><span class="kw">geom_line</span>()</a></code></pre></div>
+<p><img src="gt-v_files/figure-html/net.attr-2.png" width="672" /></p>
+</div>
+<div id="three-fields-plot" class="section level3">
+<h3><span class="header-section-number">3.1.3</span> Three fields plot</h3>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb18-1" title="1"><span class="kw">threeFieldsPlot</span>(df, <span class="dt">fields =</span> <span class="kw">c</span>(<span class="st">&quot;AU&quot;</span>, <span class="st">&quot;DE&quot;</span>, <span class="st">&quot;SO&quot;</span>), <span class="dt">n =</span> <span class="kw">c</span>(<span class="dv">20</span>,<span class="dv">20</span>,<span class="dv">20</span>))</a></code></pre></div>
+<div class="figure">
+<div id="htmlwidget-b0980036428aaf5606b9" style="width:1200px;height:600px;" class="sankeyNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b0980036428aaf5606b9">{"x":{"links":{"source":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,1,2,3,4,6,9,12,16,17,0,5,7,9,11,0,5,7,11,1,2,3,4,6,12,14,9,18,5,8,19,8,13,19,8,13,19,1,2,3,4,6,12,1,2,3,4,6,12,0,9,16,17,0,9,9,16,17,0,5,0,7,20,21,22,23,24,25,26,27,28,29,35,37,38,39,20,34,36,20,25,35,20,21,24,30,20,27,28,29,33,34,20,21,24,30,31,24,25,35,20,23,38,20,21,20,28,20,20,20,20,23,26,27,28,20,32],"target":[20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,21,21,21,21,21,21,21,21,21,22,22,22,22,22,23,23,23,23,24,24,24,24,24,24,24,25,25,26,27,27,28,28,28,29,29,29,30,30,30,30,30,30,31,31,31,31,31,31,33,33,33,33,34,34,37,37,37,38,38,39,39,40,40,40,40,40,40,40,40,40,40,40,40,40,40,41,41,41,42,42,42,43,43,43,43,44,44,44,44,44,44,46,46,46,46,46,47,47,47,48,48,49,50,50,51,51,53,55,56,57,57,57,58,58,59,59],"value":[4,4,4,3,4,2,1,2,4,4,2,2,2,3,2,2,2,2,3,6,6,5,6,3,1,3,1,1,4,1,2,1,1,1,2,2,2,4,4,4,4,2,2,1,1,2,1,1,1,1,1,1,2,1,2,3,3,2,2,2,1,3,3,2,2,1,2,2,2,1,1,1,1,3,1,1,2,1,2,1,12,1,6,2,1,2,3,2,1,3,1,3,1,1,6,1,2,1,2,1,1,2,2,1,2,1,1,1,2,1,3,1,1,1,1,1,1,1,2,1,1,1,2,1,1,2,2,1,1,1,1,1,1,1,1],"group":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"nodes":{"name":["cucchi t","yravedra j","gonzlez-aguilera d","courtenay la","aramendi j","evin a","mat-gonzlez m","dobney k","buchanan b","cornette r","gunz p","larson g","domnguez-rodrigo m","o'brien mj","archer w","charlin j","stoetzel e","denys c","von cramon-taubadel n","collard m","geometric morphometrics","taphonomy","zooarchaeology","archaeology","experimental archaeology","3d geometric morphometrics","archaeobotany","paleoindian","typology","projectile points","raw materials","cut marks","3d","holocene","mandible","bioarchaeology","homo sapiens","species identification","geometric morphometric","teeth","journal of archaeological science","journal of human evolution","american journal of physical anthropology","quaternary international","quaternary science reviews","","archaeological and anthropological sciences","journal of archaeological science: reports","proceedings of the royal society b: biological sciences","biological journal of the linnean society","palaeogeography, palaeoclimatology, palaeoecology","american antiquity","","international journal of legal medicine","","anatomical record","international journal of nautical archaeology","journal of archaeological method and theory","paleoamerica","journal of cultural heritage"],"group":["cucchi t","yravedra j","gonzlez-aguilera d","courtenay la","aramendi j","evin a","mat-gonzlez m","dobney k","buchanan b","cornette r","gunz p","larson g","domnguez-rodrigo m","o'brien mj","archer w","charlin j","stoetzel e","denys c","von cramon-taubadel n","collard m","geometric morphometrics","taphonomy","zooarchaeology","archaeology","experimental archaeology","3d geometric morphometrics","archaeobotany","paleoindian","typology","projectile points","raw materials","cut marks","3d","holocene","mandible","bioarchaeology","homo sapiens","species identification","geometric morphometric","teeth","journal of archaeological science","journal of human evolution","american journal of physical anthropology","quaternary international","quaternary science reviews","","archaeological and anthropological sciences","journal of archaeological science: reports","proceedings of the royal society b: biological sciences","biological journal of the linnean society","palaeogeography, palaeoclimatology, palaeoecology","american antiquity","","international journal of legal medicine","","anatomical record","international journal of nautical archaeology","journal of archaeological method and theory","paleoamerica","journal of cultural heritage"]},"options":{"NodeID":"Nodes","NodeGroup":"group","LinkGroup":"group","colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":12,"fontFamily":null,"nodeWidth":30,"nodePadding":10,"units":"","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":true}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+(#fig:3.flds)Interactive visualization of three fields (keywords, authors, and journals) illustrating how they are related.
+</p>
+</div>
 </div>
 </div>
 <div id="most-cited" class="section level2">
 <h2><span class="header-section-number">3.2</span> Most cited</h2>
 <div id="most-cited-articles" class="section level3">
 <h3><span class="header-section-number">3.2.1</span> Most cited articles</h3>
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" title="1"><span class="co"># most cited references in FULL network</span></a>
-<a class="sourceLine" id="cb15-2" title="2">mcr &lt;-<span class="st"> </span><span class="kw">citations</span>(df, <span class="dt">field =</span> <span class="st">&quot;article&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb15-3" title="3"><span class="kw">cbind</span>(mcr<span class="op">$</span>Cited[<span class="dv">1</span><span class="op">:</span><span class="dv">20</span>])</a></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb19-1" title="1"><span class="co"># most cited references in global network</span></a>
+<a class="sourceLine" id="cb19-2" title="2">mcr &lt;-<span class="st"> </span><span class="kw">citations</span>(df, <span class="dt">field =</span> <span class="st">&quot;article&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb19-3" title="3"><span class="kw">cbind</span>(mcr<span class="op">$</span>Cited[<span class="dv">1</span><span class="op">:</span><span class="dv">20</span>])</a></code></pre></div>
 <pre><code>##                                                                                                                                                                                                                                       [,1]
 ## BUCHANAN, B., COLLARD, M., A GEOMETRIC MORPHOMETRICS-BASED ASSESSMENT OF BLADE SHAPE DIFFERENCES AMONG PALEOINDIAN PROJECTILE POINT TYPES FROM WESTERN NORTH AMERICA (2010) J. ARCHAEOL. SCI., 37, PP. 350-359                           8
 ## MITTEROECKER, P., GUNZ, P., ADVANCES IN GEOMETRIC MORPHOMETRICS (2009) EVOL. BIOL., 36, PP. 235-247                                                                                                                                      8
@@ -573,9 +723,9 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 </div>
 <div id="most-cited-authors" class="section level3">
 <h3><span class="header-section-number">3.2.2</span> Most cited authors</h3>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" title="1"><span class="co"># most cited authors in FULL network</span></a>
-<a class="sourceLine" id="cb17-2" title="2">mcr &lt;-<span class="st"> </span><span class="kw">citations</span>(df, <span class="dt">field =</span> <span class="st">&quot;author&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb17-3" title="3"><span class="kw">cbind</span>(mcr<span class="op">$</span>Cited[<span class="dv">1</span><span class="op">:</span><span class="dv">20</span>])</a></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb21-1" title="1"><span class="co"># most cited authors in global network</span></a>
+<a class="sourceLine" id="cb21-2" title="2">mcr &lt;-<span class="st"> </span><span class="kw">citations</span>(df, <span class="dt">field =</span> <span class="st">&quot;author&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb21-3" title="3"><span class="kw">cbind</span>(mcr<span class="op">$</span>Cited[<span class="dv">1</span><span class="op">:</span><span class="dv">20</span>])</a></code></pre></div>
 <pre><code>##                       [,1]
 ## ROHLF F J              200
 ## BOOKSTEIN F L          189
@@ -603,14 +753,14 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 <h2><span class="header-section-number">3.3</span> The intellectual structure of the field</h2>
 <div id="reference-co-citation" class="section level3">
 <h3><span class="header-section-number">3.3.1</span> Reference co-citation</h3>
-<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb19-1" title="1"><span class="co"># article co-citation network</span></a>
-<a class="sourceLine" id="cb19-2" title="2">comat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;co-citation&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;references&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb19-3" title="3"><span class="co"># network plot</span></a>
-<a class="sourceLine" id="cb19-4" title="4">conet1 =<span class="st"> </span><span class="kw">networkPlot</span>(comat1, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Reference Co-Citation Network&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">20</span>, <span class="dt">size.cex =</span> T, <span class="dt">remove.multiple =</span> <span class="ot">FALSE</span>, <span class="dt">labelsize =</span> <span class="fl">0.4</span>, <span class="dt">edgesize =</span> <span class="dv">5</span>, <span class="dt">edges.min =</span> <span class="dv">3</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb23-1" title="1"><span class="co"># article co-citation network</span></a>
+<a class="sourceLine" id="cb23-2" title="2">comat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;co-citation&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;references&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb23-3" title="3"><span class="co"># network plot</span></a>
+<a class="sourceLine" id="cb23-4" title="4">conet1 =<span class="st"> </span><span class="kw">networkPlot</span>(comat1, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Reference Co-Citation Network&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">20</span>, <span class="dt">size.cex =</span> T, <span class="dt">remove.multiple =</span> <span class="ot">FALSE</span>, <span class="dt">labelsize =</span> <span class="fl">0.4</span>, <span class="dt">edgesize =</span> <span class="dv">5</span>, <span class="dt">edges.min =</span> <span class="dv">3</span>)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/refcocite-1.png" width="100%" /></p>
-<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb20-1" title="1"><span class="co"># descriptive analysis of journal co-citation network</span></a>
-<a class="sourceLine" id="cb20-2" title="2">aconetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(comat1)</a>
-<a class="sourceLine" id="cb20-3" title="3"><span class="kw">summary</span>(aconetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb24-1" title="1"><span class="co"># descriptive analysis of journal co-citation network</span></a>
+<a class="sourceLine" id="cb24-2" title="2">aconetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(comat1)</a>
+<a class="sourceLine" id="cb24-3" title="3"><span class="kw">summary</span>(aconetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
 <pre><code>## 
 ## 
 ## Main statistics about the network
@@ -626,15 +776,15 @@ This volume is in <b><a href="open.html#open">Open Review</a></b>. I want your f
 </div>
 <div id="historiograph-direct-citation-linkages" class="section level2">
 <h2><span class="header-section-number">3.4</span> Historiograph direct citation linkages</h2>
-<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb22-1" title="1"><span class="co"># historical citation network</span></a>
-<a class="sourceLine" id="cb22-2" title="2"><span class="kw">options</span>(<span class="dt">width =</span> <span class="dv">100</span>)</a>
-<a class="sourceLine" id="cb22-3" title="3">histResults &lt;-<span class="st"> </span><span class="kw">histNetwork</span>(df, <span class="dt">min.citations =</span> <span class="dv">5</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb26-1" title="1"><span class="co"># historical citation network</span></a>
+<a class="sourceLine" id="cb26-2" title="2"><span class="kw">options</span>(<span class="dt">width =</span> <span class="dv">100</span>)</a>
+<a class="sourceLine" id="cb26-3" title="3">histResults &lt;-<span class="st"> </span><span class="kw">histNetwork</span>(df, <span class="dt">min.citations =</span> <span class="dv">5</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a></code></pre></div>
 <pre><code>## 
 ## SCOPUS DB: Searching local citations (LCS) by document titles (TI) and DOIs...
 ## 
 ## Found 42 documents with no empty Local Citations (LCS)</code></pre>
-<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb24-1" title="1"><span class="co"># plot historical co-citation network</span></a>
-<a class="sourceLine" id="cb24-2" title="2">hnet &lt;-<span class="st"> </span><span class="kw">histPlot</span>(histResults, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">labelsize =</span> <span class="dv">2</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb28-1" title="1"><span class="co"># plot historical co-citation network</span></a>
+<a class="sourceLine" id="cb28-2" title="2">hnet &lt;-<span class="st"> </span><span class="kw">histPlot</span>(histResults, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">labelsize =</span> <span class="dv">2</span>)</a></code></pre></div>
 <div class="figure"><span id="fig:hdcn"></span>
 <img src="gt-v_files/figure-html/hdcn-1.png" alt="The historiographic map is a chronological network map of the most relevant direct citations resulting from this bibliographic collection." width="100%" />
 <p class="caption">
@@ -759,16 +909,16 @@ Figure 3.1: The historiographic map is a chronological network map of the most r
 <h2><span class="header-section-number">3.5</span> The conceptual structure of the field</h2>
 <div id="co-word-analysis-through-keyword-co-occurrences" class="section level3">
 <h3><span class="header-section-number">3.5.1</span> Co-word analysis through keyword co-occurrences</h3>
-<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb26-1" title="1"><span class="co"># keyword co-occurrences network</span></a>
-<a class="sourceLine" id="cb26-2" title="2">keymat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;co-occurrences&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;keywords&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb26-3" title="3"><span class="co"># networkplot</span></a>
-<a class="sourceLine" id="cb26-4" title="4">keynet1=<span class="kw">networkPlot</span>(keymat1, <span class="dt">normalize =</span> <span class="st">&quot;association&quot;</span>, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Keyword Co-occurrences&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">5</span>, <span class="dt">edgesize =</span> <span class="dv">2</span>, <span class="dt">labelsize =</span> <span class="fl">0.4</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb30-1" title="1"><span class="co"># keyword co-occurrences network</span></a>
+<a class="sourceLine" id="cb30-2" title="2">keymat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;co-occurrences&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;keywords&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb30-3" title="3"><span class="co"># networkplot</span></a>
+<a class="sourceLine" id="cb30-4" title="4">keynet1=<span class="kw">networkPlot</span>(keymat1, <span class="dt">normalize =</span> <span class="st">&quot;association&quot;</span>, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Keyword Co-occurrences&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">5</span>, <span class="dt">edgesize =</span> <span class="dv">2</span>, <span class="dt">labelsize =</span> <span class="fl">0.4</span>)</a></code></pre></div>
 <p><img src="gt-v_files/figure-html/keywordco-1.png" width="100%" /></p>
 </div>
 <div id="co-word-analysis-through-multiple-correspondence-analysis" class="section level3">
 <h3><span class="header-section-number">3.5.2</span> Co-word analysis through Multiple Correspondence Analysis</h3>
-<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb27-1" title="1"><span class="co"># using authors keywords</span></a>
-<a class="sourceLine" id="cb27-2" title="2">cw &lt;-<span class="st"> </span><span class="kw">conceptualStructure</span>(df, <span class="dt">field =</span> <span class="st">&quot;DE&quot;</span>, <span class="dt">method =</span> <span class="st">&quot;MCA&quot;</span>, <span class="dt">minDegree =</span> <span class="dv">3</span>, <span class="dt">clust =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">stemming =</span> <span class="ot">FALSE</span>, <span class="dt">labelsize =</span> <span class="dv">8</span>, <span class="dt">documents =</span> <span class="dv">15</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb31-1" title="1"><span class="co"># using authors keywords</span></a>
+<a class="sourceLine" id="cb31-2" title="2">cw &lt;-<span class="st"> </span><span class="kw">conceptualStructure</span>(df, <span class="dt">field =</span> <span class="st">&quot;DE&quot;</span>, <span class="dt">method =</span> <span class="st">&quot;MCA&quot;</span>, <span class="dt">minDegree =</span> <span class="dv">3</span>, <span class="dt">clust =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">stemming =</span> <span class="ot">FALSE</span>, <span class="dt">labelsize =</span> <span class="dv">8</span>, <span class="dt">documents =</span> <span class="dv">15</span>)</a></code></pre></div>
 <div class="figure"><span id="fig:coword11"></span>
 <img src="gt-v_files/figure-html/coword1-1.png" alt="Co-word analysis was used to map the conceptual structure of the research domain using co-occurrence of keywords in the bibliographic collection." width="100%" />
 <p class="caption">
@@ -797,10 +947,10 @@ Figure 3.5: Co-word analysis was used to map the conceptual structure of the res
 </div>
 <div id="thematic-mapping" class="section level2">
 <h2><span class="header-section-number">3.6</span> Thematic mapping</h2>
-<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb28-1" title="1"><span class="co"># keyword map</span></a>
-<a class="sourceLine" id="cb28-2" title="2">map1 =<span class="st"> </span><span class="kw">thematicMap</span>(df, <span class="dt">field =</span> <span class="st">&quot;DE&quot;</span>, <span class="dt">n =</span> <span class="dv">1000</span>, <span class="dt">minfreq =</span> <span class="dv">3</span>, <span class="dt">stemming =</span> <span class="ot">FALSE</span>, <span class="dt">size =</span> <span class="fl">0.8</span>, <span class="dt">n.labels =</span> <span class="dv">1</span>, <span class="dt">repel =</span> <span class="ot">TRUE</span>)</a>
-<a class="sourceLine" id="cb28-3" title="3"><span class="co"># plot map</span></a>
-<a class="sourceLine" id="cb28-4" title="4"><span class="kw">plot</span>(map1<span class="op">$</span>map)</a></code></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb32-1" title="1"><span class="co"># keyword map</span></a>
+<a class="sourceLine" id="cb32-2" title="2">map1 =<span class="st"> </span><span class="kw">thematicMap</span>(df, <span class="dt">field =</span> <span class="st">&quot;DE&quot;</span>, <span class="dt">n =</span> <span class="dv">1000</span>, <span class="dt">minfreq =</span> <span class="dv">3</span>, <span class="dt">stemming =</span> <span class="ot">FALSE</span>, <span class="dt">size =</span> <span class="fl">0.8</span>, <span class="dt">n.labels =</span> <span class="dv">1</span>, <span class="dt">repel =</span> <span class="ot">TRUE</span>)</a>
+<a class="sourceLine" id="cb32-3" title="3"><span class="co"># plot map</span></a>
+<a class="sourceLine" id="cb32-4" title="4"><span class="kw">plot</span>(map1<span class="op">$</span>map)</a></code></pre></div>
 <div class="figure"><span id="fig:thematicmap"></span>
 <img src="gt-v_files/figure-html/thematicmap-1.png" alt="Thematic maps are intuitive plots that can be analyzed according to the quadrant in which the theme occurs. The top right quadrant articulates with motor themes, the bottom right with basic and transversal themes, the lower left with emerging or declining themes, and the upper left with highly developed and isolated themes (Cobo et al. 2011)." width="100%" />
 <p class="caption">
@@ -809,9 +959,9 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 </div>
 <div id="thematic-evolution" class="section level3">
 <h3><span class="header-section-number">3.6.1</span> Thematic evolution</h3>
-<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb29-1" title="1"><span class="co"># keyword thematic evolution</span></a>
-<a class="sourceLine" id="cb29-2" title="2">nexus &lt;-<span class="st"> </span><span class="kw">thematicEvolution</span>(df, <span class="dt">field =</span> <span class="st">&quot;DE&quot;</span>, <span class="dt">years =</span> <span class="kw">c</span>(<span class="dv">2010</span>,<span class="dv">2015</span>), <span class="dt">n =</span> <span class="dv">1000</span>, <span class="dt">minFreq =</span> <span class="dv">2</span>, <span class="dt">size =</span> <span class="fl">0.8</span>, <span class="dt">n.labels =</span> <span class="dv">1</span>, <span class="dt">repel =</span> <span class="ot">TRUE</span>)</a>
-<a class="sourceLine" id="cb29-3" title="3">nexus</a></code></pre></div>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb33-1" title="1"><span class="co"># keyword thematic evolution</span></a>
+<a class="sourceLine" id="cb33-2" title="2">nexus &lt;-<span class="st"> </span><span class="kw">thematicEvolution</span>(df, <span class="dt">field =</span> <span class="st">&quot;DE&quot;</span>, <span class="dt">years =</span> <span class="kw">c</span>(<span class="dv">2010</span>,<span class="dv">2015</span>), <span class="dt">n =</span> <span class="dv">1000</span>, <span class="dt">minFreq =</span> <span class="dv">2</span>, <span class="dt">size =</span> <span class="fl">0.8</span>, <span class="dt">n.labels =</span> <span class="dv">1</span>, <span class="dt">repel =</span> <span class="ot">TRUE</span>)</a>
+<a class="sourceLine" id="cb33-3" title="3">nexus</a></code></pre></div>
 <pre><code>## $Nodes
 ##                                 name                              group
 ## 1 geometric morphometrics--2002-2010 geometric morphometrics--2002-2010
@@ -863,13 +1013,13 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 
 ## $TM[[1]]$net
 ## $TM[[1]]$net$graph
-## IGRAPH 7ba7ae1 UNW- 44 109 -- 
+## IGRAPH 4b58d22 UNW- 44 109 -- 
 ## + attr: alpha (g/n), ylim (g/n), xlim (g/n), rescale (g/l), asp (g/n), layout (g/n), main
 ## | (g/c), name (v/c), deg (v/n), size (v/n), label.cex (v/n), color (v/c), community
 ## | (v/n), labelsize (v/n), label.dist (v/n), frame.color (v/c), label.color (v/c),
 ## | label.font (v/n), label (v/c), weight (e/n), num (e/n), width (e/n), color (e/c), lty
 ## | (e/n), curved (e/l)
-## + edges from 7ba7ae1 (vertex names):
+## + edges from 4b58d22 (vertex names):
 ## [1] blade shape            --geometric morphometrics
 ## [2] blade shape            --paleoindian            
 ## [3] blade shape            --projectile points      
@@ -877,10 +1027,10 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## + ... omitted several edges
 ## 
 ## $TM[[1]]$net$graph_pajek
-## IGRAPH 7ba6c44 UNW- 44 109 -- 
+## IGRAPH 4b58622 UNW- 44 109 -- 
 ## + attr: name (v/c), deg (v/n), size (v/n), label.cex (v/n), id (v/c), weight (e/n), num
 ## | (e/n)
-## + edges from 7ba6c44 (vertex names):
+## + edges from 4b58622 (vertex names):
 ##  [1] blade shape            --geometric morphometrics
 ##  [2] blade shape            --paleoindian            
 ##  [3] blade shape            --projectile points      
@@ -953,51 +1103,51 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 44                facial ontogeny       8              0
 ## 
 ## $TM[[1]]$net$layout
-##              [,1]        [,2]
-##  [1,]  0.32825972 -0.79259499
-##  [2,] -0.09994674 -0.55765043
-##  [3,]  0.41906156 -0.72544029
-##  [4,]  0.24028379 -0.61389961
-##  [5,]  0.42156544 -0.61057235
-##  [6,]  0.23486102 -0.73237387
-##  [7,]  0.32679339 -0.53825403
-##  [8,]  0.94118059  0.03764424
-##  [9,]  1.00000000 -0.09954434
-## [10,]  0.75503060 -0.07477802
-## [11,]  0.89210500 -0.10996798
-## [12,]  0.81284536  0.04280803
-## [13,]  0.84190565 -0.20661826
-## [14,] -0.57945674 -0.31119714
-## [15,] -0.60870758 -0.44334529
-## [16,] -0.45558336 -0.25285131
-## [17,] -0.39127575 -0.36373472
-## [18,] -0.48467535 -0.46874721
-## [19,] -0.41022187  0.91257938
-## [20,] -0.19776300  0.85270563
-## [21,] -0.39286173  0.77644917
-## [22,] -0.28157469  0.96016398
-## [23,] -0.26336765  0.73202117
-## [24,]  0.11478034 -0.09791292
-## [25,] -0.03943480 -0.03183428
-## [26,] -0.42909844 -0.91990018
-## [27,] -0.22831929 -0.84895629
-## [28,] -0.32413472 -1.00000000
-## [29,] -0.36132569 -0.81126356
-## [30,] -0.19910705 -0.97694201
-## [31,]  0.75297274  0.64589724
-## [32,]  0.68330355  0.50997209
-## [33,]  0.61227658  0.71086774
-## [34,]  0.53564273  0.55707508
-## [35,] -0.83194794  0.16891054
-## [36,] -0.94030326  0.40325499
-## [37,] -0.95586683  0.18222986
-## [38,] -0.74799018  0.28810948
-## [39,] -1.00000000  0.29700113
-## [40,] -0.81408631  0.41454582
-## [41,] -0.86339317  0.29389790
-## [42,]  0.34017761  0.97033532
-## [43,]  0.22538615  0.81711406
-## [44,]  0.17486508  1.00000000
+##               [,1]          [,2]
+##  [1,] -0.759677282 -0.2834813586
+##  [2,] -0.627775454  0.0840999276
+##  [3,] -0.850582613 -0.3819652026
+##  [4,] -0.990563765 -0.1792000713
+##  [5,] -1.000000000 -0.3213860091
+##  [6,] -0.848825796 -0.1601943878
+##  [7,] -0.892842863 -0.2705209512
+##  [8,]  0.741294782 -0.5845673979
+##  [9,]  0.749120718 -0.3854355948
+## [10,]  0.581436787 -0.4821355678
+## [11,]  0.613815668 -0.5870170155
+## [12,]  0.802567600 -0.4859090613
+## [13,]  0.618039438 -0.3793468457
+## [14,] -0.259466474 -0.1278720012
+## [15,] -0.200413762  0.0915212298
+## [16,] -0.129428883 -0.0987886453
+## [17,] -0.089356353  0.0223299591
+## [18,] -0.301041251  0.0001854734
+## [19,]  0.083991869  1.0000000000
+## [20,]  0.004277077  0.8133822792
+## [21,]  0.144459403  0.8037204341
+## [22,]  0.199231933  0.9189947032
+## [23,] -0.033359767  0.9354793001
+## [24,] -0.304126531  0.4457279498
+## [25,] -0.424835841  0.5647089958
+## [26,] -0.928129977  0.4777023568
+## [27,] -0.731158598  0.4330509279
+## [28,] -0.808810949  0.5322352607
+## [29,] -0.819779591  0.3268690681
+## [30,] -0.949324967  0.3572326638
+## [31,]  0.653621592  0.4181563612
+## [32,]  0.660484654  0.6313110014
+## [33,]  0.544937378  0.5199133507
+## [34,]  0.773828656  0.5253858004
+## [35,] -0.167885119 -0.7947350857
+## [36,] -0.081529793 -0.9002148279
+## [37,]  0.037746107 -0.8752666373
+## [38,] -0.244908307 -0.8765034807
+## [39,] -0.048829790 -0.7733583763
+## [40,] -0.042915019 -1.0000000000
+## [41,] -0.187547640 -0.9793455464
+## [42,]  0.994241162  0.1703102474
+## [43,]  1.000000000  0.0011458432
+## [44,]  0.833198994  0.0797804111
 ## 
 ## $TM[[1]]$net$S
 ## 44 x 44 sparse Matrix of class &quot;dsCMatrix&quot;</code></pre>
@@ -1153,13 +1303,13 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 
 ## $TM[[2]]$net
 ## $TM[[2]]$net$graph
-## IGRAPH 7bb83bd UNW- 130 388 -- 
+## IGRAPH 4b6745f UNW- 130 388 -- 
 ## + attr: alpha (g/n), ylim (g/n), xlim (g/n), rescale (g/l), asp (g/n), layout (g/n), main
 ## | (g/c), name (v/c), deg (v/n), size (v/n), label.cex (v/n), color (v/c), community
 ## | (v/n), labelsize (v/n), label.dist (v/n), frame.color (v/c), label.color (v/c),
 ## | label.font (v/n), label (v/c), weight (e/n), num (e/n), width (e/n), color (e/c), lty
 ## | (e/n), curved (e/l)
-## + edges from 7bb83bd (vertex names):
+## + edges from 4b6745f (vertex names):
 ## [1] archaeozoology--gaul                                
 ## [2] archaeozoology--iron age                            
 ## [3] archaeozoology--italy                               
@@ -1167,10 +1317,10 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## + ... omitted several edges
 ## 
 ## $TM[[2]]$net$graph_pajek
-## IGRAPH 7bb7521 UNW- 130 388 -- 
+## IGRAPH 4b66ab5 UNW- 130 388 -- 
 ## + attr: name (v/c), deg (v/n), size (v/n), label.cex (v/n), id (v/c), weight (e/n), num
 ## | (e/n)
-## + edges from 7bb7521 (vertex names):
+## + edges from 4b66ab5 (vertex names):
 ##  [1] archaeozoology--gaul                                
 ##  [2] archaeozoology--iron age                            
 ##  [3] archaeozoology--italy                               
@@ -1329,137 +1479,137 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 130          sima del elefante cave site      14      0.0000000
 ## 
 ## $TM[[2]]$net$layout
-##                [,1]        [,2]
-##   [1,] -0.615543060 -0.50835089
-##   [2,] -0.575874821 -0.64922608
-##   [3,] -0.644773408 -0.70530923
-##   [4,] -0.539585704 -0.69488426
-##   [5,] -0.637222511 -0.64617055
-##   [6,] -0.479643165 -0.56437999
-##   [7,] -0.588787556 -0.72975002
-##   [8,] -0.762042092 -0.61021141
-##   [9,] -0.920997884  0.04807403
-##  [10,] -0.848903945  0.12503210
-##  [11,] -0.936670612  0.16083378
-##  [12,] -0.415389379  0.15718427
-##  [13,] -0.728167602  0.11251245
-##  [14,] -0.864763807  0.19521244
-##  [15,] -0.094270713  0.24808011
-##  [16,] -0.176745340  0.22001762
-##  [17,] -0.144253875  0.14559035
-##  [18,] -0.061666553  0.17250066
-##  [19,] -0.857812606  0.39843373
-##  [20,] -0.892256662  0.49262820
-##  [21,] -0.905340467  0.43412679
-##  [22,] -0.808089079  0.47493260
-##  [23,] -0.795448317  0.41211223
-##  [24,] -0.720170508  0.46894184
-##  [25,] -0.832847770  0.52317336
-##  [26,] -0.051731993 -0.90047498
-##  [27,]  0.005794434 -0.96461996
-##  [28,] -0.077098789 -1.00000000
-##  [29,] -0.129918269 -0.94282140
-##  [30,] -0.591994812 -0.26721547
-##  [31,] -0.687774576 -0.29227310
-##  [32,] -0.617980478 -0.33097352
-##  [33,] -0.924512986 -0.10716636
-##  [34,] -0.996188447 -0.08146011
-##  [35,] -0.895938525 -0.04826235
-##  [36,] -1.000000000 -0.01842950
-##  [37,] -0.531117351  0.06658722
-##  [38,] -0.595569656  0.01570566
-##  [39,] -0.627527805  0.07701775
-##  [40,] -0.580046323  0.13817033
-##  [41,]  0.511541360 -0.55891464
-##  [42,]  0.670751856 -0.59197361
-##  [43,]  0.626896562 -0.50340939
-##  [44,]  0.552014856 -0.48873483
-##  [45,]  0.575624406 -0.58823266
-##  [46,]  0.044529646 -0.12110889
-##  [47,]  0.057844778 -0.19100031
-##  [48,]  0.206574461 -0.12971542
-##  [49,]  0.205490732 -0.19874964
-##  [50,] -0.006404236 -0.36219512
-##  [51,] -0.320638489 -0.41027505
-##  [52,] -0.331644850 -0.48130339
-##  [53,] -0.383208828 -0.37743129
-##  [54,] -0.401349018 -0.44267387
-##  [55,] -0.173243787 -0.44631589
-##  [56,] -0.979652851 -0.50455658
-##  [57,] -0.976009732 -0.56972075
-##  [58,] -0.907990213 -0.54726374
-##  [59,] -0.912268414 -0.59962344
-##  [60,] -0.867941040 -0.51074738
-##  [61,] -0.922824255 -0.46893563
-##  [62,]  0.466889997 -0.05313304
-##  [63,]  0.604434649  0.05195236
-##  [64,]  0.658922497  0.02654995
-##  [65,]  0.639965604  0.09942058
-##  [66,]  0.570663385  0.10926374
-##  [67,]  0.547717828  0.01679492
-##  [68,]  0.521801294  0.07622671
-##  [69,]  0.608076330 -0.01584512
-##  [70,]  0.340208150 -0.22668864
-##  [71,]  0.332633005 -0.12825896
-##  [72,]  0.384775536 -0.18432068
-##  [73,] -0.057979409 -0.61482565
-##  [74,]  0.047233556 -0.54424236
-##  [75,] -0.034007178 -0.55026358
-##  [76,]  0.022955398 -0.61270568
-##  [77,] -0.575393946  0.49058130
-##  [78,] -0.562640379  0.40805881
-##  [79,] -0.072129377  0.90155741
-##  [80,] -0.029951515  0.95631619
-##  [81,] -0.147079665  0.90684909
-##  [82,] -0.091522762  1.00000000
-##  [83,] -0.160615202  0.97078910
-##  [84,]  0.770214475 -0.66289502
-##  [85,]  0.815603718 -0.57376584
-##  [86,]  0.445806646  0.49866374
-##  [87,]  0.320383984  0.46357919
-##  [88,]  0.508362223  0.47577308
-##  [89,]  0.429130735  0.56715831
-##  [90,]  0.494897283  0.58858048
-##  [91,]  0.538720770  0.53963789
-##  [92,]  0.335833145  0.89136978
-##  [93,]  0.205430223  0.75296797
-##  [94,]  0.392119699  0.83267156
-##  [95,]  0.278716519  0.84863183
-##  [96,]  0.336778800  0.78723599
-##  [97,] -0.474094647  0.74715635
-##  [98,] -0.578120965  0.69255184
-##  [99,] -0.452869565  0.68624439
-## [100,] -0.516466599  0.65408042
-## [101,] -0.547130337  0.75068379
-## [102,]  0.370097113 -0.78223115
-## [103,]  0.399478197 -0.88695914
-## [104,]  0.325521846 -0.88402009
-## [105,]  0.432388477 -0.82533215
-## [106,]  0.308683506 -0.81948561
-## [107,] -0.128470221 -0.28526032
-## [108,] -0.209067990 -0.25552697
-## [109,] -0.146651995 -0.21149017
-## [110,]  0.042572980  0.64239306
-## [111,]  0.823733360  0.37497486
-## [112,]  0.927400902  0.41245960
-## [113,]  0.879984333  0.46922474
-## [114,]  0.811744652  0.44206433
-## [115,]  0.895528236  0.34995746
-## [116,] -0.267170921  0.47934503
-## [117,] -0.164945669  0.54541869
-## [118,] -0.279281761  0.54817804
-## [119,] -0.220929878  0.59455874
-## [120,] -0.193426976  0.48601333
-## [121,]  0.144705490  0.43838150
-## [122,]  0.184682383  0.34548358
-## [123,]  0.108646584  0.37595021
-## [124,]  0.961462059 -0.12177430
-## [125,]  0.884793420 -0.23620303
-## [126,]  0.978206679 -0.21287623
-## [127,]  0.875026098 -0.18040980
-## [128,]  1.000000000 -0.16415593
-## [129,]  0.902663062 -0.13204026
-## [130,]  0.943124756 -0.25442528
+##                 [,1]         [,2]
+##   [1,] -0.3891685153 -0.434851399
+##   [2,] -0.3941310072 -0.602382975
+##   [3,] -0.4043455167 -0.542917162
+##   [4,] -0.3418592997 -0.540912491
+##   [5,] -0.3125970694 -0.598577836
+##   [6,] -0.2066931267 -0.463633878
+##   [7,] -0.3519032101 -0.638543109
+##   [8,] -0.5184791242 -0.603154781
+##   [9,]  0.1252936494  0.440718783
+##  [10,] -0.0490089284  0.472661698
+##  [11,]  0.0257584347  0.484203249
+##  [12,] -0.0509421657 -0.017267856
+##  [13,]  0.0270843657  0.311559109
+##  [14,] -0.0210011771  0.408739992
+##  [15,] -0.5634727055  0.154978851
+##  [16,] -0.4813290135  0.049736541
+##  [17,] -0.4804672934  0.132299509
+##  [18,] -0.5566692891  0.081422449
+##  [19,] -0.4251656339  0.380746553
+##  [20,] -0.3469304925  0.398824700
+##  [21,] -0.3239445294  0.457737840
+##  [22,] -0.3947502680  0.443687777
+##  [23,] -0.4532085141  0.436996936
+##  [24,] -0.3465436659  0.316048401
+##  [25,] -0.3878418433  0.497651990
+##  [26,] -0.3992449848  0.951630314
+##  [27,] -0.3911141571  0.845589527
+##  [28,] -0.3324552044  0.906253950
+##  [29,] -0.4554421232  0.889774808
+##  [30,] -0.3983721993 -0.222985252
+##  [31,] -0.3551939683 -0.280108029
+##  [32,] -0.4533195683 -0.282364022
+##  [33,]  0.2700203899  0.351580254
+##  [34,]  0.3053143283  0.413353258
+##  [35,]  0.2558198644  0.476208432
+##  [36,]  0.2168601430  0.409968326
+##  [37,]  0.0840912403  0.134425517
+##  [38,]  0.0551393953  0.214218811
+##  [39,]  0.1313653331  0.189930720
+##  [40,]  0.0053801769  0.160738819
+##  [41,] -0.8095851229  0.462805575
+##  [42,] -0.7972021850  0.562104513
+##  [43,] -0.8890807315  0.498068866
+##  [44,] -0.9112290589  0.428386155
+##  [45,] -0.8432285014  0.400185415
+##  [46,]  0.5738764841 -0.059475169
+##  [47,]  0.5547069428  0.010232984
+##  [48,]  0.7229345692 -0.074486154
+##  [49,]  0.7137523290 -0.009099711
+##  [50,]  0.4685617891 -0.165325038
+##  [51,] -0.0240169754 -0.383959296
+##  [52,] -0.0463551396 -0.281404730
+##  [53,] -0.0765652462 -0.336159272
+##  [54,]  0.0079480313 -0.328319479
+##  [55,]  0.2267138079 -0.290447446
+##  [56,] -0.6430912266 -0.697042680
+##  [57,] -0.6328429746 -0.638784683
+##  [58,] -0.7152129312 -0.570972108
+##  [59,] -0.6598713775 -0.584148694
+##  [60,] -0.7044562596 -0.681758113
+##  [61,] -0.7328371921 -0.628978208
+##  [62,]  0.8924036151  0.117058191
+##  [63,]  0.9295909649  0.262575613
+##  [64,]  0.8665451631  0.284744276
+##  [65,]  0.9171301369  0.325878506
+##  [66,]  0.9765539924  0.305111353
+##  [67,]  0.9635856345  0.204211316
+##  [68,]  1.0000000000  0.250367992
+##  [69,]  0.8884185746  0.224009724
+##  [70,]  0.9086587193 -0.049148753
+##  [71,]  0.8467916176 -0.013995127
+##  [72,]  0.8594296863 -0.094391863
+##  [73,]  0.5276476955 -0.283715667
+##  [74,]  0.5436039988 -0.349792823
+##  [75,]  0.4773020454 -0.373551286
+##  [76,]  0.4561709586 -0.303913284
+##  [77,] -0.3060316841  0.144375126
+##  [78,] -0.2526320410  0.206227760
+##  [79,]  0.4347789009  0.854349759
+##  [80,]  0.3638176496  0.860712509
+##  [81,]  0.4663181215  0.917734902
+##  [82,]  0.3453731539  0.927095260
+##  [83,]  0.4063685227  0.959178240
+##  [84,] -0.6807839070  0.678489429
+##  [85,] -0.7574184181  0.702629059
+##  [86,] -0.9495257156 -0.131668063
+##  [87,] -0.8121491793 -0.075872984
+##  [88,] -0.9856701042 -0.011041901
+##  [89,] -0.9211250345 -0.076129594
+##  [90,] -0.9236564889 -0.004311064
+##  [91,] -1.0000000000 -0.080870239
+##  [92,]  0.0601130006  0.942307926
+##  [93,] -0.0238517505  0.821618611
+##  [94,]  0.0004623428  1.000000000
+##  [95,] -0.0074712630  0.918355712
+##  [96,] -0.0672710928  0.958130630
+##  [97,]  0.0742951799 -0.555820864
+##  [98,]  0.0173987209 -0.577306702
+##  [99,]  0.0441770630 -0.665007001
+## [100,] -0.0200602427 -0.629324437
+## [101,]  0.1050569021 -0.625785029
+## [102,]  0.0063106573 -0.936441354
+## [103,]  0.1404690929 -0.943939168
+## [104,]  0.1035094072 -0.996995267
+## [105,]  0.0298133257 -1.000000000
+## [106,]  0.0770817299 -0.908962894
+## [107,]  0.2513790817 -0.118897270
+## [108,]  0.3116264791 -0.165742768
+## [109,]  0.3227201072 -0.082200916
+## [110,] -0.0712304510  0.667871118
+## [111,]  0.8035632251 -0.651096222
+## [112,]  0.8459488090 -0.589228844
+## [113,]  0.7475348524 -0.576630963
+## [114,]  0.7322322791 -0.644567405
+## [115,]  0.8051606609 -0.534698001
+## [116,]  0.3669476145 -0.504543530
+## [117,]  0.2765296695 -0.543128799
+## [118,]  0.3908187183 -0.565828971
+## [119,]  0.3057548520 -0.474357116
+## [120,]  0.3243435411 -0.591388679
+## [121,] -0.6746430064 -0.041490696
+## [122,] -0.6801694749 -0.146712956
+## [123,] -0.6223055528 -0.102432585
+## [124,]  0.6362556113  0.580533819
+## [125,]  0.5841911855  0.622341958
+## [126,]  0.6296126145  0.514893598
+## [127,]  0.6498448264  0.648038425
+## [128,]  0.6910541234  0.540054107
+## [129,]  0.5746440404  0.556249955
+## [130,]  0.7019637722  0.606705868
 ## 
 ## $TM[[2]]$net$S
 ## 130 x 130 sparse Matrix of class &quot;dsCMatrix&quot;</code></pre>
@@ -1818,13 +1968,13 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 
 ## $TM[[3]]$net
 ## $TM[[3]]$net$graph
-## IGRAPH 7bd98d2 UNW- 198 649 -- 
+## IGRAPH 4b8d2bd UNW- 198 649 -- 
 ## + attr: alpha (g/n), ylim (g/n), xlim (g/n), rescale (g/l), asp (g/n), layout (g/n), main
 ## | (g/c), name (v/c), deg (v/n), size (v/n), label.cex (v/n), color (v/c), community
 ## | (v/n), labelsize (v/n), label.dist (v/n), frame.color (v/c), label.color (v/c),
 ## | label.font (v/n), label (v/c), weight (e/n), num (e/n), width (e/n), color (e/c), lty
 ## | (e/n), curved (e/l)
-## + edges from 7bd98d2 (vertex names):
+## + edges from 4b8d2bd (vertex names):
 ## [1] geometric morphometrics--hull shape variation   geometric morphometrics--ships                 
 ## [3] geometric morphometrics--ancient dna            geometric morphometrics--archaeology           
 ## [5] geometric morphometrics--canis lupus familiaris geometric morphometrics--circumpolar           
@@ -1832,10 +1982,10 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## + ... omitted several edges
 ## 
 ## $TM[[3]]$net$graph_pajek
-## IGRAPH 7bd72ae UNW- 198 649 -- 
+## IGRAPH 4b8c421 UNW- 198 649 -- 
 ## + attr: name (v/c), deg (v/n), size (v/n), label.cex (v/n), id (v/c), weight (e/n), num
 ## | (e/n)
-## + edges from 7bd72ae (vertex names):
+## + edges from 4b8c421 (vertex names):
 ##  [1] geometric morphometrics--hull shape variation            
 ##  [2] geometric morphometrics--ships                           
 ##  [3] geometric morphometrics--ancient dna                     
@@ -2063,204 +2213,204 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 
 ## $TM[[3]]$net$layout
 ##                [,1]         [,2]
-##   [1,] -0.081246540 -0.104904804
-##   [2,]  0.028510174 -0.518353765
-##   [3,] -0.018661863 -0.566837260
-##   [4,] -0.541576346  0.172173511
-##   [5,] -0.404050760  0.424139184
-##   [6,] -0.491653956  0.203401688
-##   [7,] -0.579095353  0.219008505
-##   [8,] -0.527905356  0.249202823
-##   [9,] -0.572715610 -0.697041514
-##  [10,] -0.619618999 -0.646075325
-##  [11,] -0.523694854 -0.661528398
-##  [12,] -0.574405029 -0.616384837
-##  [13,]  0.186702194  0.877800064
-##  [14,]  0.168403900  0.825009646
-##  [15,]  0.075194122  0.720950104
-##  [16,]  0.117786442  0.871210273
-##  [17,]  0.140015808 -0.453960138
-##  [18,]  0.226989764 -0.675862255
-##  [19,]  0.183867555 -0.619345273
-##  [20,]  0.250133258 -0.608441196
-##  [21,] -0.541159740  0.406854020
-##  [22,] -0.618763001  0.579335153
-##  [23,] -0.666090254  0.481360160
-##  [24,] -0.538047238  0.461436502
-##  [25,] -0.585214477  0.436466438
-##  [26,] -0.598833753  0.386334355
-##  [27,]  0.730907684 -0.537697848
-##  [28,]  0.452804779 -0.510028393
-##  [29,]  0.722577291 -0.597346081
-##  [30,]  0.676484183 -0.553487550
-##  [31,]  0.644134699 -0.638462703
-##  [32,]  0.645472710 -0.445382484
-##  [33,] -0.180624076  0.921134093
-##  [34,] -0.112220930  0.958618056
-##  [35,] -0.135894304  0.913477142
-##  [36,] -0.079830293  0.984686210
-##  [37,] -0.142597975  1.000000000
-##  [38,] -0.086241105  0.919424354
-##  [39,] -0.179920430  0.968211433
-##  [40,] -0.951171746 -0.333833854
-##  [41,] -0.900891637 -0.328478903
-##  [42,] -0.892007874 -0.433296707
-##  [43,] -0.947316563 -0.417880948
-##  [44,] -0.859859579 -0.365201232
-##  [45,] -0.892655020 -0.393883304
-##  [46,] -0.945220288 -0.374317105
-##  [47,] -0.312229492 -0.632215126
-##  [48,] -0.261066229 -0.618324137
-##  [49,] -0.267258512 -0.694170594
-##  [50,] -0.322264365 -0.679762864
-##  [51,] -0.228720975 -0.657431081
-##  [52,] -0.286492692 -0.519011901
-##  [53,]  0.364355934 -0.809574425
-##  [54,]  0.419356349 -0.834153245
-##  [55,]  0.388495867 -0.761010577
-##  [56,]  0.446020527 -0.792574894
-##  [57,]  0.475201267 -0.715160060
-##  [58,]  0.614343048 -0.311811223
-##  [59,]  0.541620450 -0.391975164
-##  [60,]  0.882969589 -0.322772544
-##  [61,]  0.827887604 -0.352668294
-##  [62,]  0.878449231 -0.398200620
-##  [63,]  0.107409437 -0.698927392
-##  [64,]  0.044769260 -0.762694945
-##  [65,]  0.144695667 -0.754786478
-##  [66,]  0.496137211 -0.615135338
-##  [67,]  0.002813206  0.281534950
-##  [68,] -0.027935375  0.207682956
-##  [69,] -0.067349260  0.265981940
-##  [70,]  0.645422464  0.402096891
-##  [71,]  0.687628793  0.369881479
-##  [72,]  0.667729002  0.446697541
-##  [73,]  0.524686176  0.351002787
-##  [74,]  0.521540664  0.275181356
-##  [75,] -0.321435444  0.192850930
-##  [76,] -0.319453030  0.091314804
-##  [77,] -0.251988251  0.092115668
-##  [78,] -0.271094917  0.029348173
-##  [79,] -0.336014696  0.011122004
-##  [80,]  0.437700247 -0.259245204
-##  [81,]  0.485926948 -0.179266854
-##  [82,]  0.430064226 -0.186728151
-##  [83,]  0.500456463 -0.237784185
-##  [84,]  0.455071901  0.092166189
-##  [85,]  0.317444077  0.121023304
-##  [86,]  0.493724175  0.138259334
-##  [87,]  0.429294774  0.144128470
-##  [88,]  0.522137492  0.614951654
-##  [89,]  0.472451560  0.595956694
-##  [90,]  0.349628668  0.537581025
-##  [91,]  0.458367081  0.425300917
-##  [92,]  0.531470113  0.562833374
-##  [93,]  0.310314058  0.376194616
-##  [94,]  0.371503062  0.075310287
-##  [95,]  0.421371944  0.328091614
-##  [96,]  0.411796165  0.275318168
-##  [97,]  0.447924023  0.297466843
-##  [98,]  0.335450954  0.401799263
-##  [99,]  0.380533696  0.302135052
-## [100,]  0.654781135 -0.088326004
-## [101,]  0.628960041 -0.004953109
-## [102,]  0.604243663 -0.093401828
-## [103,]  0.674585455 -0.039723987
-## [104,]  0.582075774 -0.037859954
-## [105,] -0.612173626  0.751669295
-## [106,] -0.561515330  0.789562780
-## [107,] -0.517967892  0.749679028
-## [108,] -0.563904360  0.714714751
-## [109,] -0.368617712 -0.404548983
-## [110,] -0.337606069 -0.356337968
-## [111,] -0.457072679 -0.405100349
-## [112,] -0.396530158 -0.339736050
-## [113,] -0.375247673  0.058142545
-## [114,] -0.922619459  0.120295502
-## [115,] -0.990419491  0.176764936
-## [116,] -0.966537083  0.096406655
-## [117,] -0.951816960  0.203355591
-## [118,] -0.913931853  0.169222014
-## [119,] -1.000000000  0.132077087
-## [120,]  0.245875302  0.490257429
-## [121,]  0.009991435  0.523724156
-## [122,]  0.209628574  0.456778329
-## [123,]  0.296785423  0.614815070
-## [124,]  0.207202840  0.506514456
-## [125,]  0.609196804 -0.723797781
-## [126,]  0.565132725 -0.705113571
-## [127,]  0.528606455 -0.575798458
-## [128,] -0.269152595 -0.985792237
-## [129,] -0.285384247 -0.934781009
-## [130,] -0.325425569 -1.000000000
-## [131,] -0.370877163 -0.965408328
-## [132,] -0.344583678 -0.919768316
-## [133,]  0.873639786  0.308257140
-## [134,]  0.931336521  0.186502609
-## [135,]  0.907490542  0.361138527
-## [136,]  0.943549791  0.310093587
-## [137,]  0.457570570 -0.443600054
-## [138,]  0.396724731 -0.477501798
-## [139,]  0.204920230  0.051110954
-## [140,]  0.152369533  0.090080690
-## [141,]  0.192137434  0.132775784
-## [142,] -0.046345088 -0.254448366
-## [143,]  0.020794864 -0.202652010
-## [144,]  0.090971880 -0.216510407
-## [145,]  0.058032515 -0.262176755
-## [146,]  0.053778078 -0.160469327
-## [147,] -0.032958708 -0.755513355
-## [148,]  0.004529674 -0.833081723
-## [149,] -0.077610576 -0.786978059
-## [150,] -0.047700008 -0.833481049
-## [151,] -0.728861227  0.591690498
-## [152,] -0.736546880  0.534765883
-## [153,] -0.776608238  0.592319840
-## [154,] -0.797703565  0.548031882
-## [155,] -0.780895711  0.503806439
-## [156,]  0.342107069 -0.213340504
-## [157,]  0.297502203 -0.183750268
-## [158,]  0.297286091 -0.234356300
-## [159,] -0.301228599  0.368375226
-## [160,] -0.374590523  0.311337865
-## [161,] -0.359323505  0.363142768
-## [162,] -0.304563314  0.312408064
-## [163,] -0.016559721  0.574681136
-## [164,]  0.023401534  0.632430007
-## [165,]  0.051464734  0.589886051
-## [166,] -0.032351048  0.626746736
-## [167,] -0.187040743 -0.263627320
-## [168,] -0.109543682 -0.329095401
-## [169,] -0.166221148 -0.324412589
-## [170,] -0.134251808 -0.255114736
-## [171,] -0.166232116 -0.512682072
-## [172,] -0.384253492 -0.483778763
-## [173,] -0.545986846 -0.129520844
-## [174,] -0.521824104 -0.191846505
-## [175,] -0.593128863 -0.197722707
-## [176,]  1.000000000  0.069095217
-## [177,]  0.974974117  0.026335390
-## [178,]  0.904296913  0.070310809
-## [179,]  0.975496383  0.109751998
-## [180,]  0.927696626  0.029584999
-## [181,]  0.929529042  0.106293423
-## [182,] -0.198233177  0.592776982
-## [183,] -0.269703710  0.608519483
-## [184,] -0.250685213  0.556382789
-## [185,] -0.200740466  0.543625418
-## [186,] -0.221497782  0.631619193
-## [187,]  0.406429372  0.803489724
-## [188,]  0.427752341  0.750412191
-## [189,]  0.357100385  0.776158901
-## [190,] -0.713374432 -0.033910630
-## [191,] -0.710742446 -0.124738308
-## [192,] -0.764841340 -0.054184992
-## [193,] -0.681176520 -0.074708135
-## [194,] -0.760841516 -0.109942797
-## [195,] -0.513745946 -0.489852214
-## [196,] -0.568067574 -0.463502845
-## [197,] -0.552629840 -0.402195505
-## [198,] -0.514683870 -0.438415967
+##   [1,] -0.112587381 -0.144873661
+##   [2,] -0.452213094 -0.116724632
+##   [3,] -0.387395054 -0.087687576
+##   [4,] -0.498641002  0.162026289
+##   [5,] -0.364416749  0.346411116
+##   [6,] -0.451540087  0.206377794
+##   [7,] -0.450545422  0.122216835
+##   [8,] -0.405716962  0.164541012
+##   [9,] -0.637024729 -0.338161459
+##  [10,] -0.557677094 -0.393997681
+##  [11,] -0.575563241 -0.326721612
+##  [12,] -0.618588433 -0.401848636
+##  [13,]  0.602118873 -0.244304449
+##  [14,]  0.653438076 -0.215469554
+##  [15,]  0.441989033 -0.192072977
+##  [16,]  0.641388532 -0.290812124
+##  [17,]  0.107422783 -0.208085833
+##  [18,]  0.184834916 -0.390717293
+##  [19,]  0.258073113 -0.387874754
+##  [20,]  0.224348338 -0.446741225
+##  [21,] -0.535945196  0.343507313
+##  [22,] -0.704430757  0.434613840
+##  [23,] -0.625784037  0.484467925
+##  [24,] -0.540855265  0.399649564
+##  [25,] -0.589305980  0.367685114
+##  [26,] -0.589590333  0.317765319
+##  [27,]  0.507125976  0.694273975
+##  [28,]  0.461124573  0.425148251
+##  [29,]  0.568335104  0.708498243
+##  [30,]  0.516020881  0.641050535
+##  [31,]  0.496704871  0.761293640
+##  [32,]  0.298511685  0.748333092
+##  [33,]  0.528056159 -0.972598103
+##  [34,]  0.431586719 -0.966389512
+##  [35,]  0.533407734 -0.915994680
+##  [36,]  0.443380016 -0.915615775
+##  [37,]  0.486957770 -0.950849203
+##  [38,]  0.490588793 -0.887809872
+##  [39,]  0.468028776 -1.000000000
+##  [40,] -0.830847322 -0.506306145
+##  [41,] -0.925949045 -0.489108144
+##  [42,] -0.841568901 -0.450074300
+##  [43,] -0.900028162 -0.537899839
+##  [44,] -0.879544679 -0.479890443
+##  [45,] -0.898631371 -0.435581262
+##  [46,] -0.854455634 -0.549027051
+##  [47,] -0.235407841 -0.807411493
+##  [48,] -0.250560956 -0.872766634
+##  [49,] -0.190457689 -0.897759850
+##  [50,] -0.156675202 -0.842981309
+##  [51,] -0.201026665 -0.843001571
+##  [52,] -0.146576332 -0.696727655
+##  [53,]  0.709821879  0.569945035
+##  [54,]  0.722805026  0.475945601
+##  [55,]  0.680414749  0.518603494
+##  [56,]  0.751044413  0.530945020
+##  [57,]  0.585972682  0.632234783
+##  [58,]  0.211580951  0.624794924
+##  [59,]  0.294918687  0.574103726
+##  [60,]  0.185795520  1.000000000
+##  [61,]  0.101623549  0.989365450
+##  [62,]  0.144044355  0.945162749
+##  [63,] -0.098562469 -0.258889581
+##  [64,] -0.224639931 -0.310406436
+##  [65,] -0.078651612 -0.319421309
+##  [66,]  0.405754921  0.673046929
+##  [67,]  0.481313507 -0.440723324
+##  [68,]  0.468710261 -0.371816045
+##  [69,]  0.539492173 -0.404708157
+##  [70,]  0.073016280  0.591522185
+##  [71,]  0.126243228  0.556898795
+##  [72,]  0.125735256  0.619741667
+##  [73,]  0.216283907  0.443116432
+##  [74,]  0.129590973  0.412993036
+##  [75,] -0.314197893  0.685776109
+##  [76,] -0.158264049  0.711480560
+##  [77,] -0.191966045  0.763187111
+##  [78,] -0.239185951  0.661575890
+##  [79,] -0.183488381  0.650317153
+##  [80,]  0.260305009 -0.764316848
+##  [81,]  0.268165732 -0.664157346
+##  [82,]  0.306731107 -0.715991227
+##  [83,]  0.222621530 -0.715448499
+##  [84,] -0.049653500  0.377590282
+##  [85,] -0.149705343  0.422589134
+##  [86,] -0.042644789  0.429611093
+##  [87,] -0.056477704  0.477645484
+##  [88,]  0.596269374  0.267157271
+##  [89,]  0.547988126  0.302934251
+##  [90,]  0.460148023  0.189544996
+##  [91,]  0.396842446  0.331772243
+##  [92,]  0.589841962  0.333997205
+##  [93,]  0.301801322  0.219572079
+##  [94,]  0.226519290  0.223904682
+##  [95,]  0.281234257  0.318151213
+##  [96,]  0.306394981  0.366500738
+##  [97,]  0.261233083  0.363741518
+##  [98,]  0.334519165  0.234279259
+##  [99,]  0.233796276  0.327057600
+## [100,]  0.045130079 -0.979329983
+## [101,]  0.097522320 -0.925086853
+## [102,]  0.037999275 -0.926162097
+## [103,] -0.010252585 -0.935461140
+## [104,]  0.048197389 -0.875314299
+## [105,] -0.894996493  0.367278981
+## [106,] -0.859203926  0.416550247
+## [107,] -0.857280600  0.315750106
+## [108,] -0.818322656  0.358075023
+## [109,] -0.220282835 -0.568583982
+## [110,] -0.239353897 -0.639218312
+## [111,] -0.082679170 -0.621442903
+## [112,] -0.184055588 -0.614364767
+## [113,] -0.243894056  0.741436818
+## [114,] -0.947929136  0.037305953
+## [115,] -0.983865881 -0.070356980
+## [116,] -0.905668351 -0.002687785
+## [117,] -0.962528352 -0.023856007
+## [118,] -0.924353104 -0.066915585
+## [119,] -1.000000000  0.007878383
+## [120,]  0.343620022  0.088159881
+## [121,]  0.133907444  0.049684725
+## [122,]  0.378721865  0.121018696
+## [123,]  0.503622172  0.086043035
+## [124,]  0.384794722  0.067447556
+## [125,]  0.498477702  0.832720923
+## [126,]  0.445165301  0.830347514
+## [127,]  0.339174605  0.792912894
+## [128,]  0.758939879 -0.631280882
+## [129,]  0.819549370 -0.545595835
+## [130,]  0.847240029 -0.598248268
+## [131,]  0.766720025 -0.568479899
+## [132,]  0.809108083 -0.639437025
+## [133,]  0.940021856 -0.267276948
+## [134,]  0.947724518 -0.083197374
+## [135,]  0.974033491 -0.214266643
+## [136,]  0.901172108 -0.218004942
+## [137,]  0.142003032  0.772353276
+## [138,]  0.189588120  0.745693240
+## [139,] -0.245742248  0.459704442
+## [140,] -0.300493808  0.432968314
+## [141,] -0.255934168  0.378672529
+## [142,] -0.505579749 -0.710566934
+## [143,] -0.588838787 -0.677965545
+## [144,] -0.512833978 -0.620334205
+## [145,] -0.580631620 -0.631976977
+## [146,] -0.560695296 -0.584320631
+## [147,] -0.308437353 -0.343908548
+## [148,] -0.380176982 -0.336801437
+## [149,] -0.344078369 -0.286721123
+## [150,] -0.343615984 -0.388864390
+## [151,] -0.745020173  0.605879200
+## [152,] -0.736970361  0.557061384
+## [153,] -0.707152992  0.642401061
+## [154,] -0.683993352  0.571671312
+## [155,] -0.662832561  0.618915404
+## [156,]  0.244525372  0.101779624
+## [157,]  0.199234330  0.087183758
+## [158,]  0.262226426  0.049152115
+## [159,] -0.416797648  0.717535981
+## [160,] -0.466810787  0.686707968
+## [161,] -0.443678824  0.629549112
+## [162,] -0.401569654  0.657731972
+## [163,]  0.245380203 -0.171168131
+## [164,]  0.295424801 -0.191210972
+## [165,]  0.273524549 -0.123919250
+## [166,]  0.323188818 -0.139266071
+## [167,] -0.407797887 -0.794817537
+## [168,] -0.447554547 -0.836736701
+## [169,] -0.430464989 -0.745002115
+## [170,] -0.486386220 -0.798100816
+## [171,] -0.031881897 -0.463676464
+## [172,]  0.015189150 -0.543113273
+## [173,]  0.445264921 -0.621475404
+## [174,]  0.407547548 -0.557794633
+## [175,]  0.484904766 -0.565433164
+## [176,]  1.000000000  0.049702907
+## [177,]  0.994169212 -0.002958524
+## [178,]  0.946908752  0.001325497
+## [179,]  0.967457378  0.085956317
+## [180,]  0.907758579  0.019400382
+## [181,]  0.925869753  0.070809423
+## [182,] -0.145339076  0.197771581
+## [183,] -0.110483737  0.128005994
+## [184,] -0.102372327  0.177430629
+## [185,] -0.151580701  0.102896601
+## [186,] -0.175308255  0.151819173
+## [187,]  0.662210735  0.076047207
+## [188,]  0.700610566  0.036250179
+## [189,]  0.709237598  0.124939880
+## [190,] -0.649128555 -0.034351584
+## [191,] -0.610887351 -0.082410824
+## [192,] -0.688837372 -0.071319512
+## [193,] -0.633132733 -0.135852937
+## [194,] -0.691128006 -0.127501428
+## [195,]  0.060182715 -0.607848517
+## [196,] -0.002279629 -0.620215232
+## [197,]  0.002976301 -0.680536664
+## [198,]  0.057193841 -0.667289873
 ## 
 ## $TM[[3]]$net$S
 ## 198 x 198 sparse Matrix of class &quot;dsCMatrix&quot;</code></pre>
@@ -2599,13 +2749,13 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## $Net
 ## $Net[[1]]
 ## $Net[[1]]$graph
-## IGRAPH 7ba7ae1 UNW- 44 109 -- 
+## IGRAPH 4b58d22 UNW- 44 109 -- 
 ## + attr: alpha (g/n), ylim (g/n), xlim (g/n), rescale (g/l), asp (g/n), layout (g/n), main
 ## | (g/c), name (v/c), deg (v/n), size (v/n), label.cex (v/n), color (v/c), community
 ## | (v/n), labelsize (v/n), label.dist (v/n), frame.color (v/c), label.color (v/c),
 ## | label.font (v/n), label (v/c), weight (e/n), num (e/n), width (e/n), color (e/c), lty
 ## | (e/n), curved (e/l)
-## + edges from 7ba7ae1 (vertex names):
+## + edges from 4b58d22 (vertex names):
 ## [1] blade shape            --geometric morphometrics
 ## [2] blade shape            --paleoindian            
 ## [3] blade shape            --projectile points      
@@ -2613,10 +2763,10 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## + ... omitted several edges
 ## 
 ## $Net[[1]]$graph_pajek
-## IGRAPH 7ba6c44 UNW- 44 109 -- 
+## IGRAPH 4b58622 UNW- 44 109 -- 
 ## + attr: name (v/c), deg (v/n), size (v/n), label.cex (v/n), id (v/c), weight (e/n), num
 ## | (e/n)
-## + edges from 7ba6c44 (vertex names):
+## + edges from 4b58622 (vertex names):
 ##  [1] blade shape            --geometric morphometrics
 ##  [2] blade shape            --paleoindian            
 ##  [3] blade shape            --projectile points      
@@ -2689,51 +2839,51 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 44                facial ontogeny       8              0
 ## 
 ## $Net[[1]]$layout
-##              [,1]        [,2]
-##  [1,]  0.32825972 -0.79259499
-##  [2,] -0.09994674 -0.55765043
-##  [3,]  0.41906156 -0.72544029
-##  [4,]  0.24028379 -0.61389961
-##  [5,]  0.42156544 -0.61057235
-##  [6,]  0.23486102 -0.73237387
-##  [7,]  0.32679339 -0.53825403
-##  [8,]  0.94118059  0.03764424
-##  [9,]  1.00000000 -0.09954434
-## [10,]  0.75503060 -0.07477802
-## [11,]  0.89210500 -0.10996798
-## [12,]  0.81284536  0.04280803
-## [13,]  0.84190565 -0.20661826
-## [14,] -0.57945674 -0.31119714
-## [15,] -0.60870758 -0.44334529
-## [16,] -0.45558336 -0.25285131
-## [17,] -0.39127575 -0.36373472
-## [18,] -0.48467535 -0.46874721
-## [19,] -0.41022187  0.91257938
-## [20,] -0.19776300  0.85270563
-## [21,] -0.39286173  0.77644917
-## [22,] -0.28157469  0.96016398
-## [23,] -0.26336765  0.73202117
-## [24,]  0.11478034 -0.09791292
-## [25,] -0.03943480 -0.03183428
-## [26,] -0.42909844 -0.91990018
-## [27,] -0.22831929 -0.84895629
-## [28,] -0.32413472 -1.00000000
-## [29,] -0.36132569 -0.81126356
-## [30,] -0.19910705 -0.97694201
-## [31,]  0.75297274  0.64589724
-## [32,]  0.68330355  0.50997209
-## [33,]  0.61227658  0.71086774
-## [34,]  0.53564273  0.55707508
-## [35,] -0.83194794  0.16891054
-## [36,] -0.94030326  0.40325499
-## [37,] -0.95586683  0.18222986
-## [38,] -0.74799018  0.28810948
-## [39,] -1.00000000  0.29700113
-## [40,] -0.81408631  0.41454582
-## [41,] -0.86339317  0.29389790
-## [42,]  0.34017761  0.97033532
-## [43,]  0.22538615  0.81711406
-## [44,]  0.17486508  1.00000000
+##               [,1]          [,2]
+##  [1,] -0.759677282 -0.2834813586
+##  [2,] -0.627775454  0.0840999276
+##  [3,] -0.850582613 -0.3819652026
+##  [4,] -0.990563765 -0.1792000713
+##  [5,] -1.000000000 -0.3213860091
+##  [6,] -0.848825796 -0.1601943878
+##  [7,] -0.892842863 -0.2705209512
+##  [8,]  0.741294782 -0.5845673979
+##  [9,]  0.749120718 -0.3854355948
+## [10,]  0.581436787 -0.4821355678
+## [11,]  0.613815668 -0.5870170155
+## [12,]  0.802567600 -0.4859090613
+## [13,]  0.618039438 -0.3793468457
+## [14,] -0.259466474 -0.1278720012
+## [15,] -0.200413762  0.0915212298
+## [16,] -0.129428883 -0.0987886453
+## [17,] -0.089356353  0.0223299591
+## [18,] -0.301041251  0.0001854734
+## [19,]  0.083991869  1.0000000000
+## [20,]  0.004277077  0.8133822792
+## [21,]  0.144459403  0.8037204341
+## [22,]  0.199231933  0.9189947032
+## [23,] -0.033359767  0.9354793001
+## [24,] -0.304126531  0.4457279498
+## [25,] -0.424835841  0.5647089958
+## [26,] -0.928129977  0.4777023568
+## [27,] -0.731158598  0.4330509279
+## [28,] -0.808810949  0.5322352607
+## [29,] -0.819779591  0.3268690681
+## [30,] -0.949324967  0.3572326638
+## [31,]  0.653621592  0.4181563612
+## [32,]  0.660484654  0.6313110014
+## [33,]  0.544937378  0.5199133507
+## [34,]  0.773828656  0.5253858004
+## [35,] -0.167885119 -0.7947350857
+## [36,] -0.081529793 -0.9002148279
+## [37,]  0.037746107 -0.8752666373
+## [38,] -0.244908307 -0.8765034807
+## [39,] -0.048829790 -0.7733583763
+## [40,] -0.042915019 -1.0000000000
+## [41,] -0.187547640 -0.9793455464
+## [42,]  0.994241162  0.1703102474
+## [43,]  1.000000000  0.0011458432
+## [44,]  0.833198994  0.0797804111
 ## 
 ## $Net[[1]]$S
 ## 44 x 44 sparse Matrix of class &quot;dsCMatrix&quot;</code></pre>
@@ -2828,13 +2978,13 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 
 ## $Net[[2]]
 ## $Net[[2]]$graph
-## IGRAPH 7bb83bd UNW- 130 388 -- 
+## IGRAPH 4b6745f UNW- 130 388 -- 
 ## + attr: alpha (g/n), ylim (g/n), xlim (g/n), rescale (g/l), asp (g/n), layout (g/n), main
 ## | (g/c), name (v/c), deg (v/n), size (v/n), label.cex (v/n), color (v/c), community
 ## | (v/n), labelsize (v/n), label.dist (v/n), frame.color (v/c), label.color (v/c),
 ## | label.font (v/n), label (v/c), weight (e/n), num (e/n), width (e/n), color (e/c), lty
 ## | (e/n), curved (e/l)
-## + edges from 7bb83bd (vertex names):
+## + edges from 4b6745f (vertex names):
 ## [1] archaeozoology--gaul                                
 ## [2] archaeozoology--iron age                            
 ## [3] archaeozoology--italy                               
@@ -2842,10 +2992,10 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## + ... omitted several edges
 ## 
 ## $Net[[2]]$graph_pajek
-## IGRAPH 7bb7521 UNW- 130 388 -- 
+## IGRAPH 4b66ab5 UNW- 130 388 -- 
 ## + attr: name (v/c), deg (v/n), size (v/n), label.cex (v/n), id (v/c), weight (e/n), num
 ## | (e/n)
-## + edges from 7bb7521 (vertex names):
+## + edges from 4b66ab5 (vertex names):
 ##  [1] archaeozoology--gaul                                
 ##  [2] archaeozoology--iron age                            
 ##  [3] archaeozoology--italy                               
@@ -3004,137 +3154,137 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 130          sima del elefante cave site      14      0.0000000
 ## 
 ## $Net[[2]]$layout
-##                [,1]        [,2]
-##   [1,] -0.615543060 -0.50835089
-##   [2,] -0.575874821 -0.64922608
-##   [3,] -0.644773408 -0.70530923
-##   [4,] -0.539585704 -0.69488426
-##   [5,] -0.637222511 -0.64617055
-##   [6,] -0.479643165 -0.56437999
-##   [7,] -0.588787556 -0.72975002
-##   [8,] -0.762042092 -0.61021141
-##   [9,] -0.920997884  0.04807403
-##  [10,] -0.848903945  0.12503210
-##  [11,] -0.936670612  0.16083378
-##  [12,] -0.415389379  0.15718427
-##  [13,] -0.728167602  0.11251245
-##  [14,] -0.864763807  0.19521244
-##  [15,] -0.094270713  0.24808011
-##  [16,] -0.176745340  0.22001762
-##  [17,] -0.144253875  0.14559035
-##  [18,] -0.061666553  0.17250066
-##  [19,] -0.857812606  0.39843373
-##  [20,] -0.892256662  0.49262820
-##  [21,] -0.905340467  0.43412679
-##  [22,] -0.808089079  0.47493260
-##  [23,] -0.795448317  0.41211223
-##  [24,] -0.720170508  0.46894184
-##  [25,] -0.832847770  0.52317336
-##  [26,] -0.051731993 -0.90047498
-##  [27,]  0.005794434 -0.96461996
-##  [28,] -0.077098789 -1.00000000
-##  [29,] -0.129918269 -0.94282140
-##  [30,] -0.591994812 -0.26721547
-##  [31,] -0.687774576 -0.29227310
-##  [32,] -0.617980478 -0.33097352
-##  [33,] -0.924512986 -0.10716636
-##  [34,] -0.996188447 -0.08146011
-##  [35,] -0.895938525 -0.04826235
-##  [36,] -1.000000000 -0.01842950
-##  [37,] -0.531117351  0.06658722
-##  [38,] -0.595569656  0.01570566
-##  [39,] -0.627527805  0.07701775
-##  [40,] -0.580046323  0.13817033
-##  [41,]  0.511541360 -0.55891464
-##  [42,]  0.670751856 -0.59197361
-##  [43,]  0.626896562 -0.50340939
-##  [44,]  0.552014856 -0.48873483
-##  [45,]  0.575624406 -0.58823266
-##  [46,]  0.044529646 -0.12110889
-##  [47,]  0.057844778 -0.19100031
-##  [48,]  0.206574461 -0.12971542
-##  [49,]  0.205490732 -0.19874964
-##  [50,] -0.006404236 -0.36219512
-##  [51,] -0.320638489 -0.41027505
-##  [52,] -0.331644850 -0.48130339
-##  [53,] -0.383208828 -0.37743129
-##  [54,] -0.401349018 -0.44267387
-##  [55,] -0.173243787 -0.44631589
-##  [56,] -0.979652851 -0.50455658
-##  [57,] -0.976009732 -0.56972075
-##  [58,] -0.907990213 -0.54726374
-##  [59,] -0.912268414 -0.59962344
-##  [60,] -0.867941040 -0.51074738
-##  [61,] -0.922824255 -0.46893563
-##  [62,]  0.466889997 -0.05313304
-##  [63,]  0.604434649  0.05195236
-##  [64,]  0.658922497  0.02654995
-##  [65,]  0.639965604  0.09942058
-##  [66,]  0.570663385  0.10926374
-##  [67,]  0.547717828  0.01679492
-##  [68,]  0.521801294  0.07622671
-##  [69,]  0.608076330 -0.01584512
-##  [70,]  0.340208150 -0.22668864
-##  [71,]  0.332633005 -0.12825896
-##  [72,]  0.384775536 -0.18432068
-##  [73,] -0.057979409 -0.61482565
-##  [74,]  0.047233556 -0.54424236
-##  [75,] -0.034007178 -0.55026358
-##  [76,]  0.022955398 -0.61270568
-##  [77,] -0.575393946  0.49058130
-##  [78,] -0.562640379  0.40805881
-##  [79,] -0.072129377  0.90155741
-##  [80,] -0.029951515  0.95631619
-##  [81,] -0.147079665  0.90684909
-##  [82,] -0.091522762  1.00000000
-##  [83,] -0.160615202  0.97078910
-##  [84,]  0.770214475 -0.66289502
-##  [85,]  0.815603718 -0.57376584
-##  [86,]  0.445806646  0.49866374
-##  [87,]  0.320383984  0.46357919
-##  [88,]  0.508362223  0.47577308
-##  [89,]  0.429130735  0.56715831
-##  [90,]  0.494897283  0.58858048
-##  [91,]  0.538720770  0.53963789
-##  [92,]  0.335833145  0.89136978
-##  [93,]  0.205430223  0.75296797
-##  [94,]  0.392119699  0.83267156
-##  [95,]  0.278716519  0.84863183
-##  [96,]  0.336778800  0.78723599
-##  [97,] -0.474094647  0.74715635
-##  [98,] -0.578120965  0.69255184
-##  [99,] -0.452869565  0.68624439
-## [100,] -0.516466599  0.65408042
-## [101,] -0.547130337  0.75068379
-## [102,]  0.370097113 -0.78223115
-## [103,]  0.399478197 -0.88695914
-## [104,]  0.325521846 -0.88402009
-## [105,]  0.432388477 -0.82533215
-## [106,]  0.308683506 -0.81948561
-## [107,] -0.128470221 -0.28526032
-## [108,] -0.209067990 -0.25552697
-## [109,] -0.146651995 -0.21149017
-## [110,]  0.042572980  0.64239306
-## [111,]  0.823733360  0.37497486
-## [112,]  0.927400902  0.41245960
-## [113,]  0.879984333  0.46922474
-## [114,]  0.811744652  0.44206433
-## [115,]  0.895528236  0.34995746
-## [116,] -0.267170921  0.47934503
-## [117,] -0.164945669  0.54541869
-## [118,] -0.279281761  0.54817804
-## [119,] -0.220929878  0.59455874
-## [120,] -0.193426976  0.48601333
-## [121,]  0.144705490  0.43838150
-## [122,]  0.184682383  0.34548358
-## [123,]  0.108646584  0.37595021
-## [124,]  0.961462059 -0.12177430
-## [125,]  0.884793420 -0.23620303
-## [126,]  0.978206679 -0.21287623
-## [127,]  0.875026098 -0.18040980
-## [128,]  1.000000000 -0.16415593
-## [129,]  0.902663062 -0.13204026
-## [130,]  0.943124756 -0.25442528
+##                 [,1]         [,2]
+##   [1,] -0.3891685153 -0.434851399
+##   [2,] -0.3941310072 -0.602382975
+##   [3,] -0.4043455167 -0.542917162
+##   [4,] -0.3418592997 -0.540912491
+##   [5,] -0.3125970694 -0.598577836
+##   [6,] -0.2066931267 -0.463633878
+##   [7,] -0.3519032101 -0.638543109
+##   [8,] -0.5184791242 -0.603154781
+##   [9,]  0.1252936494  0.440718783
+##  [10,] -0.0490089284  0.472661698
+##  [11,]  0.0257584347  0.484203249
+##  [12,] -0.0509421657 -0.017267856
+##  [13,]  0.0270843657  0.311559109
+##  [14,] -0.0210011771  0.408739992
+##  [15,] -0.5634727055  0.154978851
+##  [16,] -0.4813290135  0.049736541
+##  [17,] -0.4804672934  0.132299509
+##  [18,] -0.5566692891  0.081422449
+##  [19,] -0.4251656339  0.380746553
+##  [20,] -0.3469304925  0.398824700
+##  [21,] -0.3239445294  0.457737840
+##  [22,] -0.3947502680  0.443687777
+##  [23,] -0.4532085141  0.436996936
+##  [24,] -0.3465436659  0.316048401
+##  [25,] -0.3878418433  0.497651990
+##  [26,] -0.3992449848  0.951630314
+##  [27,] -0.3911141571  0.845589527
+##  [28,] -0.3324552044  0.906253950
+##  [29,] -0.4554421232  0.889774808
+##  [30,] -0.3983721993 -0.222985252
+##  [31,] -0.3551939683 -0.280108029
+##  [32,] -0.4533195683 -0.282364022
+##  [33,]  0.2700203899  0.351580254
+##  [34,]  0.3053143283  0.413353258
+##  [35,]  0.2558198644  0.476208432
+##  [36,]  0.2168601430  0.409968326
+##  [37,]  0.0840912403  0.134425517
+##  [38,]  0.0551393953  0.214218811
+##  [39,]  0.1313653331  0.189930720
+##  [40,]  0.0053801769  0.160738819
+##  [41,] -0.8095851229  0.462805575
+##  [42,] -0.7972021850  0.562104513
+##  [43,] -0.8890807315  0.498068866
+##  [44,] -0.9112290589  0.428386155
+##  [45,] -0.8432285014  0.400185415
+##  [46,]  0.5738764841 -0.059475169
+##  [47,]  0.5547069428  0.010232984
+##  [48,]  0.7229345692 -0.074486154
+##  [49,]  0.7137523290 -0.009099711
+##  [50,]  0.4685617891 -0.165325038
+##  [51,] -0.0240169754 -0.383959296
+##  [52,] -0.0463551396 -0.281404730
+##  [53,] -0.0765652462 -0.336159272
+##  [54,]  0.0079480313 -0.328319479
+##  [55,]  0.2267138079 -0.290447446
+##  [56,] -0.6430912266 -0.697042680
+##  [57,] -0.6328429746 -0.638784683
+##  [58,] -0.7152129312 -0.570972108
+##  [59,] -0.6598713775 -0.584148694
+##  [60,] -0.7044562596 -0.681758113
+##  [61,] -0.7328371921 -0.628978208
+##  [62,]  0.8924036151  0.117058191
+##  [63,]  0.9295909649  0.262575613
+##  [64,]  0.8665451631  0.284744276
+##  [65,]  0.9171301369  0.325878506
+##  [66,]  0.9765539924  0.305111353
+##  [67,]  0.9635856345  0.204211316
+##  [68,]  1.0000000000  0.250367992
+##  [69,]  0.8884185746  0.224009724
+##  [70,]  0.9086587193 -0.049148753
+##  [71,]  0.8467916176 -0.013995127
+##  [72,]  0.8594296863 -0.094391863
+##  [73,]  0.5276476955 -0.283715667
+##  [74,]  0.5436039988 -0.349792823
+##  [75,]  0.4773020454 -0.373551286
+##  [76,]  0.4561709586 -0.303913284
+##  [77,] -0.3060316841  0.144375126
+##  [78,] -0.2526320410  0.206227760
+##  [79,]  0.4347789009  0.854349759
+##  [80,]  0.3638176496  0.860712509
+##  [81,]  0.4663181215  0.917734902
+##  [82,]  0.3453731539  0.927095260
+##  [83,]  0.4063685227  0.959178240
+##  [84,] -0.6807839070  0.678489429
+##  [85,] -0.7574184181  0.702629059
+##  [86,] -0.9495257156 -0.131668063
+##  [87,] -0.8121491793 -0.075872984
+##  [88,] -0.9856701042 -0.011041901
+##  [89,] -0.9211250345 -0.076129594
+##  [90,] -0.9236564889 -0.004311064
+##  [91,] -1.0000000000 -0.080870239
+##  [92,]  0.0601130006  0.942307926
+##  [93,] -0.0238517505  0.821618611
+##  [94,]  0.0004623428  1.000000000
+##  [95,] -0.0074712630  0.918355712
+##  [96,] -0.0672710928  0.958130630
+##  [97,]  0.0742951799 -0.555820864
+##  [98,]  0.0173987209 -0.577306702
+##  [99,]  0.0441770630 -0.665007001
+## [100,] -0.0200602427 -0.629324437
+## [101,]  0.1050569021 -0.625785029
+## [102,]  0.0063106573 -0.936441354
+## [103,]  0.1404690929 -0.943939168
+## [104,]  0.1035094072 -0.996995267
+## [105,]  0.0298133257 -1.000000000
+## [106,]  0.0770817299 -0.908962894
+## [107,]  0.2513790817 -0.118897270
+## [108,]  0.3116264791 -0.165742768
+## [109,]  0.3227201072 -0.082200916
+## [110,] -0.0712304510  0.667871118
+## [111,]  0.8035632251 -0.651096222
+## [112,]  0.8459488090 -0.589228844
+## [113,]  0.7475348524 -0.576630963
+## [114,]  0.7322322791 -0.644567405
+## [115,]  0.8051606609 -0.534698001
+## [116,]  0.3669476145 -0.504543530
+## [117,]  0.2765296695 -0.543128799
+## [118,]  0.3908187183 -0.565828971
+## [119,]  0.3057548520 -0.474357116
+## [120,]  0.3243435411 -0.591388679
+## [121,] -0.6746430064 -0.041490696
+## [122,] -0.6801694749 -0.146712956
+## [123,] -0.6223055528 -0.102432585
+## [124,]  0.6362556113  0.580533819
+## [125,]  0.5841911855  0.622341958
+## [126,]  0.6296126145  0.514893598
+## [127,]  0.6498448264  0.648038425
+## [128,]  0.6910541234  0.540054107
+## [129,]  0.5746440404  0.556249955
+## [130,]  0.7019637722  0.606705868
 ## 
 ## $Net[[2]]$S
 ## 130 x 130 sparse Matrix of class &quot;dsCMatrix&quot;</code></pre>
@@ -3383,13 +3533,13 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 
 ## $Net[[3]]
 ## $Net[[3]]$graph
-## IGRAPH 7bd98d2 UNW- 198 649 -- 
+## IGRAPH 4b8d2bd UNW- 198 649 -- 
 ## + attr: alpha (g/n), ylim (g/n), xlim (g/n), rescale (g/l), asp (g/n), layout (g/n), main
 ## | (g/c), name (v/c), deg (v/n), size (v/n), label.cex (v/n), color (v/c), community
 ## | (v/n), labelsize (v/n), label.dist (v/n), frame.color (v/c), label.color (v/c),
 ## | label.font (v/n), label (v/c), weight (e/n), num (e/n), width (e/n), color (e/c), lty
 ## | (e/n), curved (e/l)
-## + edges from 7bd98d2 (vertex names):
+## + edges from 4b8d2bd (vertex names):
 ## [1] geometric morphometrics--hull shape variation   geometric morphometrics--ships                 
 ## [3] geometric morphometrics--ancient dna            geometric morphometrics--archaeology           
 ## [5] geometric morphometrics--canis lupus familiaris geometric morphometrics--circumpolar           
@@ -3397,10 +3547,10 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## + ... omitted several edges
 ## 
 ## $Net[[3]]$graph_pajek
-## IGRAPH 7bd72ae UNW- 198 649 -- 
+## IGRAPH 4b8c421 UNW- 198 649 -- 
 ## + attr: name (v/c), deg (v/n), size (v/n), label.cex (v/n), id (v/c), weight (e/n), num
 ## | (e/n)
-## + edges from 7bd72ae (vertex names):
+## + edges from 4b8c421 (vertex names):
 ##  [1] geometric morphometrics--hull shape variation            
 ##  [2] geometric morphometrics--ships                           
 ##  [3] geometric morphometrics--ancient dna                     
@@ -3628,204 +3778,204 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ## 
 ## $Net[[3]]$layout
 ##                [,1]         [,2]
-##   [1,] -0.081246540 -0.104904804
-##   [2,]  0.028510174 -0.518353765
-##   [3,] -0.018661863 -0.566837260
-##   [4,] -0.541576346  0.172173511
-##   [5,] -0.404050760  0.424139184
-##   [6,] -0.491653956  0.203401688
-##   [7,] -0.579095353  0.219008505
-##   [8,] -0.527905356  0.249202823
-##   [9,] -0.572715610 -0.697041514
-##  [10,] -0.619618999 -0.646075325
-##  [11,] -0.523694854 -0.661528398
-##  [12,] -0.574405029 -0.616384837
-##  [13,]  0.186702194  0.877800064
-##  [14,]  0.168403900  0.825009646
-##  [15,]  0.075194122  0.720950104
-##  [16,]  0.117786442  0.871210273
-##  [17,]  0.140015808 -0.453960138
-##  [18,]  0.226989764 -0.675862255
-##  [19,]  0.183867555 -0.619345273
-##  [20,]  0.250133258 -0.608441196
-##  [21,] -0.541159740  0.406854020
-##  [22,] -0.618763001  0.579335153
-##  [23,] -0.666090254  0.481360160
-##  [24,] -0.538047238  0.461436502
-##  [25,] -0.585214477  0.436466438
-##  [26,] -0.598833753  0.386334355
-##  [27,]  0.730907684 -0.537697848
-##  [28,]  0.452804779 -0.510028393
-##  [29,]  0.722577291 -0.597346081
-##  [30,]  0.676484183 -0.553487550
-##  [31,]  0.644134699 -0.638462703
-##  [32,]  0.645472710 -0.445382484
-##  [33,] -0.180624076  0.921134093
-##  [34,] -0.112220930  0.958618056
-##  [35,] -0.135894304  0.913477142
-##  [36,] -0.079830293  0.984686210
-##  [37,] -0.142597975  1.000000000
-##  [38,] -0.086241105  0.919424354
-##  [39,] -0.179920430  0.968211433
-##  [40,] -0.951171746 -0.333833854
-##  [41,] -0.900891637 -0.328478903
-##  [42,] -0.892007874 -0.433296707
-##  [43,] -0.947316563 -0.417880948
-##  [44,] -0.859859579 -0.365201232
-##  [45,] -0.892655020 -0.393883304
-##  [46,] -0.945220288 -0.374317105
-##  [47,] -0.312229492 -0.632215126
-##  [48,] -0.261066229 -0.618324137
-##  [49,] -0.267258512 -0.694170594
-##  [50,] -0.322264365 -0.679762864
-##  [51,] -0.228720975 -0.657431081
-##  [52,] -0.286492692 -0.519011901
-##  [53,]  0.364355934 -0.809574425
-##  [54,]  0.419356349 -0.834153245
-##  [55,]  0.388495867 -0.761010577
-##  [56,]  0.446020527 -0.792574894
-##  [57,]  0.475201267 -0.715160060
-##  [58,]  0.614343048 -0.311811223
-##  [59,]  0.541620450 -0.391975164
-##  [60,]  0.882969589 -0.322772544
-##  [61,]  0.827887604 -0.352668294
-##  [62,]  0.878449231 -0.398200620
-##  [63,]  0.107409437 -0.698927392
-##  [64,]  0.044769260 -0.762694945
-##  [65,]  0.144695667 -0.754786478
-##  [66,]  0.496137211 -0.615135338
-##  [67,]  0.002813206  0.281534950
-##  [68,] -0.027935375  0.207682956
-##  [69,] -0.067349260  0.265981940
-##  [70,]  0.645422464  0.402096891
-##  [71,]  0.687628793  0.369881479
-##  [72,]  0.667729002  0.446697541
-##  [73,]  0.524686176  0.351002787
-##  [74,]  0.521540664  0.275181356
-##  [75,] -0.321435444  0.192850930
-##  [76,] -0.319453030  0.091314804
-##  [77,] -0.251988251  0.092115668
-##  [78,] -0.271094917  0.029348173
-##  [79,] -0.336014696  0.011122004
-##  [80,]  0.437700247 -0.259245204
-##  [81,]  0.485926948 -0.179266854
-##  [82,]  0.430064226 -0.186728151
-##  [83,]  0.500456463 -0.237784185
-##  [84,]  0.455071901  0.092166189
-##  [85,]  0.317444077  0.121023304
-##  [86,]  0.493724175  0.138259334
-##  [87,]  0.429294774  0.144128470
-##  [88,]  0.522137492  0.614951654
-##  [89,]  0.472451560  0.595956694
-##  [90,]  0.349628668  0.537581025
-##  [91,]  0.458367081  0.425300917
-##  [92,]  0.531470113  0.562833374
-##  [93,]  0.310314058  0.376194616
-##  [94,]  0.371503062  0.075310287
-##  [95,]  0.421371944  0.328091614
-##  [96,]  0.411796165  0.275318168
-##  [97,]  0.447924023  0.297466843
-##  [98,]  0.335450954  0.401799263
-##  [99,]  0.380533696  0.302135052
-## [100,]  0.654781135 -0.088326004
-## [101,]  0.628960041 -0.004953109
-## [102,]  0.604243663 -0.093401828
-## [103,]  0.674585455 -0.039723987
-## [104,]  0.582075774 -0.037859954
-## [105,] -0.612173626  0.751669295
-## [106,] -0.561515330  0.789562780
-## [107,] -0.517967892  0.749679028
-## [108,] -0.563904360  0.714714751
-## [109,] -0.368617712 -0.404548983
-## [110,] -0.337606069 -0.356337968
-## [111,] -0.457072679 -0.405100349
-## [112,] -0.396530158 -0.339736050
-## [113,] -0.375247673  0.058142545
-## [114,] -0.922619459  0.120295502
-## [115,] -0.990419491  0.176764936
-## [116,] -0.966537083  0.096406655
-## [117,] -0.951816960  0.203355591
-## [118,] -0.913931853  0.169222014
-## [119,] -1.000000000  0.132077087
-## [120,]  0.245875302  0.490257429
-## [121,]  0.009991435  0.523724156
-## [122,]  0.209628574  0.456778329
-## [123,]  0.296785423  0.614815070
-## [124,]  0.207202840  0.506514456
-## [125,]  0.609196804 -0.723797781
-## [126,]  0.565132725 -0.705113571
-## [127,]  0.528606455 -0.575798458
-## [128,] -0.269152595 -0.985792237
-## [129,] -0.285384247 -0.934781009
-## [130,] -0.325425569 -1.000000000
-## [131,] -0.370877163 -0.965408328
-## [132,] -0.344583678 -0.919768316
-## [133,]  0.873639786  0.308257140
-## [134,]  0.931336521  0.186502609
-## [135,]  0.907490542  0.361138527
-## [136,]  0.943549791  0.310093587
-## [137,]  0.457570570 -0.443600054
-## [138,]  0.396724731 -0.477501798
-## [139,]  0.204920230  0.051110954
-## [140,]  0.152369533  0.090080690
-## [141,]  0.192137434  0.132775784
-## [142,] -0.046345088 -0.254448366
-## [143,]  0.020794864 -0.202652010
-## [144,]  0.090971880 -0.216510407
-## [145,]  0.058032515 -0.262176755
-## [146,]  0.053778078 -0.160469327
-## [147,] -0.032958708 -0.755513355
-## [148,]  0.004529674 -0.833081723
-## [149,] -0.077610576 -0.786978059
-## [150,] -0.047700008 -0.833481049
-## [151,] -0.728861227  0.591690498
-## [152,] -0.736546880  0.534765883
-## [153,] -0.776608238  0.592319840
-## [154,] -0.797703565  0.548031882
-## [155,] -0.780895711  0.503806439
-## [156,]  0.342107069 -0.213340504
-## [157,]  0.297502203 -0.183750268
-## [158,]  0.297286091 -0.234356300
-## [159,] -0.301228599  0.368375226
-## [160,] -0.374590523  0.311337865
-## [161,] -0.359323505  0.363142768
-## [162,] -0.304563314  0.312408064
-## [163,] -0.016559721  0.574681136
-## [164,]  0.023401534  0.632430007
-## [165,]  0.051464734  0.589886051
-## [166,] -0.032351048  0.626746736
-## [167,] -0.187040743 -0.263627320
-## [168,] -0.109543682 -0.329095401
-## [169,] -0.166221148 -0.324412589
-## [170,] -0.134251808 -0.255114736
-## [171,] -0.166232116 -0.512682072
-## [172,] -0.384253492 -0.483778763
-## [173,] -0.545986846 -0.129520844
-## [174,] -0.521824104 -0.191846505
-## [175,] -0.593128863 -0.197722707
-## [176,]  1.000000000  0.069095217
-## [177,]  0.974974117  0.026335390
-## [178,]  0.904296913  0.070310809
-## [179,]  0.975496383  0.109751998
-## [180,]  0.927696626  0.029584999
-## [181,]  0.929529042  0.106293423
-## [182,] -0.198233177  0.592776982
-## [183,] -0.269703710  0.608519483
-## [184,] -0.250685213  0.556382789
-## [185,] -0.200740466  0.543625418
-## [186,] -0.221497782  0.631619193
-## [187,]  0.406429372  0.803489724
-## [188,]  0.427752341  0.750412191
-## [189,]  0.357100385  0.776158901
-## [190,] -0.713374432 -0.033910630
-## [191,] -0.710742446 -0.124738308
-## [192,] -0.764841340 -0.054184992
-## [193,] -0.681176520 -0.074708135
-## [194,] -0.760841516 -0.109942797
-## [195,] -0.513745946 -0.489852214
-## [196,] -0.568067574 -0.463502845
-## [197,] -0.552629840 -0.402195505
-## [198,] -0.514683870 -0.438415967
+##   [1,] -0.112587381 -0.144873661
+##   [2,] -0.452213094 -0.116724632
+##   [3,] -0.387395054 -0.087687576
+##   [4,] -0.498641002  0.162026289
+##   [5,] -0.364416749  0.346411116
+##   [6,] -0.451540087  0.206377794
+##   [7,] -0.450545422  0.122216835
+##   [8,] -0.405716962  0.164541012
+##   [9,] -0.637024729 -0.338161459
+##  [10,] -0.557677094 -0.393997681
+##  [11,] -0.575563241 -0.326721612
+##  [12,] -0.618588433 -0.401848636
+##  [13,]  0.602118873 -0.244304449
+##  [14,]  0.653438076 -0.215469554
+##  [15,]  0.441989033 -0.192072977
+##  [16,]  0.641388532 -0.290812124
+##  [17,]  0.107422783 -0.208085833
+##  [18,]  0.184834916 -0.390717293
+##  [19,]  0.258073113 -0.387874754
+##  [20,]  0.224348338 -0.446741225
+##  [21,] -0.535945196  0.343507313
+##  [22,] -0.704430757  0.434613840
+##  [23,] -0.625784037  0.484467925
+##  [24,] -0.540855265  0.399649564
+##  [25,] -0.589305980  0.367685114
+##  [26,] -0.589590333  0.317765319
+##  [27,]  0.507125976  0.694273975
+##  [28,]  0.461124573  0.425148251
+##  [29,]  0.568335104  0.708498243
+##  [30,]  0.516020881  0.641050535
+##  [31,]  0.496704871  0.761293640
+##  [32,]  0.298511685  0.748333092
+##  [33,]  0.528056159 -0.972598103
+##  [34,]  0.431586719 -0.966389512
+##  [35,]  0.533407734 -0.915994680
+##  [36,]  0.443380016 -0.915615775
+##  [37,]  0.486957770 -0.950849203
+##  [38,]  0.490588793 -0.887809872
+##  [39,]  0.468028776 -1.000000000
+##  [40,] -0.830847322 -0.506306145
+##  [41,] -0.925949045 -0.489108144
+##  [42,] -0.841568901 -0.450074300
+##  [43,] -0.900028162 -0.537899839
+##  [44,] -0.879544679 -0.479890443
+##  [45,] -0.898631371 -0.435581262
+##  [46,] -0.854455634 -0.549027051
+##  [47,] -0.235407841 -0.807411493
+##  [48,] -0.250560956 -0.872766634
+##  [49,] -0.190457689 -0.897759850
+##  [50,] -0.156675202 -0.842981309
+##  [51,] -0.201026665 -0.843001571
+##  [52,] -0.146576332 -0.696727655
+##  [53,]  0.709821879  0.569945035
+##  [54,]  0.722805026  0.475945601
+##  [55,]  0.680414749  0.518603494
+##  [56,]  0.751044413  0.530945020
+##  [57,]  0.585972682  0.632234783
+##  [58,]  0.211580951  0.624794924
+##  [59,]  0.294918687  0.574103726
+##  [60,]  0.185795520  1.000000000
+##  [61,]  0.101623549  0.989365450
+##  [62,]  0.144044355  0.945162749
+##  [63,] -0.098562469 -0.258889581
+##  [64,] -0.224639931 -0.310406436
+##  [65,] -0.078651612 -0.319421309
+##  [66,]  0.405754921  0.673046929
+##  [67,]  0.481313507 -0.440723324
+##  [68,]  0.468710261 -0.371816045
+##  [69,]  0.539492173 -0.404708157
+##  [70,]  0.073016280  0.591522185
+##  [71,]  0.126243228  0.556898795
+##  [72,]  0.125735256  0.619741667
+##  [73,]  0.216283907  0.443116432
+##  [74,]  0.129590973  0.412993036
+##  [75,] -0.314197893  0.685776109
+##  [76,] -0.158264049  0.711480560
+##  [77,] -0.191966045  0.763187111
+##  [78,] -0.239185951  0.661575890
+##  [79,] -0.183488381  0.650317153
+##  [80,]  0.260305009 -0.764316848
+##  [81,]  0.268165732 -0.664157346
+##  [82,]  0.306731107 -0.715991227
+##  [83,]  0.222621530 -0.715448499
+##  [84,] -0.049653500  0.377590282
+##  [85,] -0.149705343  0.422589134
+##  [86,] -0.042644789  0.429611093
+##  [87,] -0.056477704  0.477645484
+##  [88,]  0.596269374  0.267157271
+##  [89,]  0.547988126  0.302934251
+##  [90,]  0.460148023  0.189544996
+##  [91,]  0.396842446  0.331772243
+##  [92,]  0.589841962  0.333997205
+##  [93,]  0.301801322  0.219572079
+##  [94,]  0.226519290  0.223904682
+##  [95,]  0.281234257  0.318151213
+##  [96,]  0.306394981  0.366500738
+##  [97,]  0.261233083  0.363741518
+##  [98,]  0.334519165  0.234279259
+##  [99,]  0.233796276  0.327057600
+## [100,]  0.045130079 -0.979329983
+## [101,]  0.097522320 -0.925086853
+## [102,]  0.037999275 -0.926162097
+## [103,] -0.010252585 -0.935461140
+## [104,]  0.048197389 -0.875314299
+## [105,] -0.894996493  0.367278981
+## [106,] -0.859203926  0.416550247
+## [107,] -0.857280600  0.315750106
+## [108,] -0.818322656  0.358075023
+## [109,] -0.220282835 -0.568583982
+## [110,] -0.239353897 -0.639218312
+## [111,] -0.082679170 -0.621442903
+## [112,] -0.184055588 -0.614364767
+## [113,] -0.243894056  0.741436818
+## [114,] -0.947929136  0.037305953
+## [115,] -0.983865881 -0.070356980
+## [116,] -0.905668351 -0.002687785
+## [117,] -0.962528352 -0.023856007
+## [118,] -0.924353104 -0.066915585
+## [119,] -1.000000000  0.007878383
+## [120,]  0.343620022  0.088159881
+## [121,]  0.133907444  0.049684725
+## [122,]  0.378721865  0.121018696
+## [123,]  0.503622172  0.086043035
+## [124,]  0.384794722  0.067447556
+## [125,]  0.498477702  0.832720923
+## [126,]  0.445165301  0.830347514
+## [127,]  0.339174605  0.792912894
+## [128,]  0.758939879 -0.631280882
+## [129,]  0.819549370 -0.545595835
+## [130,]  0.847240029 -0.598248268
+## [131,]  0.766720025 -0.568479899
+## [132,]  0.809108083 -0.639437025
+## [133,]  0.940021856 -0.267276948
+## [134,]  0.947724518 -0.083197374
+## [135,]  0.974033491 -0.214266643
+## [136,]  0.901172108 -0.218004942
+## [137,]  0.142003032  0.772353276
+## [138,]  0.189588120  0.745693240
+## [139,] -0.245742248  0.459704442
+## [140,] -0.300493808  0.432968314
+## [141,] -0.255934168  0.378672529
+## [142,] -0.505579749 -0.710566934
+## [143,] -0.588838787 -0.677965545
+## [144,] -0.512833978 -0.620334205
+## [145,] -0.580631620 -0.631976977
+## [146,] -0.560695296 -0.584320631
+## [147,] -0.308437353 -0.343908548
+## [148,] -0.380176982 -0.336801437
+## [149,] -0.344078369 -0.286721123
+## [150,] -0.343615984 -0.388864390
+## [151,] -0.745020173  0.605879200
+## [152,] -0.736970361  0.557061384
+## [153,] -0.707152992  0.642401061
+## [154,] -0.683993352  0.571671312
+## [155,] -0.662832561  0.618915404
+## [156,]  0.244525372  0.101779624
+## [157,]  0.199234330  0.087183758
+## [158,]  0.262226426  0.049152115
+## [159,] -0.416797648  0.717535981
+## [160,] -0.466810787  0.686707968
+## [161,] -0.443678824  0.629549112
+## [162,] -0.401569654  0.657731972
+## [163,]  0.245380203 -0.171168131
+## [164,]  0.295424801 -0.191210972
+## [165,]  0.273524549 -0.123919250
+## [166,]  0.323188818 -0.139266071
+## [167,] -0.407797887 -0.794817537
+## [168,] -0.447554547 -0.836736701
+## [169,] -0.430464989 -0.745002115
+## [170,] -0.486386220 -0.798100816
+## [171,] -0.031881897 -0.463676464
+## [172,]  0.015189150 -0.543113273
+## [173,]  0.445264921 -0.621475404
+## [174,]  0.407547548 -0.557794633
+## [175,]  0.484904766 -0.565433164
+## [176,]  1.000000000  0.049702907
+## [177,]  0.994169212 -0.002958524
+## [178,]  0.946908752  0.001325497
+## [179,]  0.967457378  0.085956317
+## [180,]  0.907758579  0.019400382
+## [181,]  0.925869753  0.070809423
+## [182,] -0.145339076  0.197771581
+## [183,] -0.110483737  0.128005994
+## [184,] -0.102372327  0.177430629
+## [185,] -0.151580701  0.102896601
+## [186,] -0.175308255  0.151819173
+## [187,]  0.662210735  0.076047207
+## [188,]  0.700610566  0.036250179
+## [189,]  0.709237598  0.124939880
+## [190,] -0.649128555 -0.034351584
+## [191,] -0.610887351 -0.082410824
+## [192,] -0.688837372 -0.071319512
+## [193,] -0.633132733 -0.135852937
+## [194,] -0.691128006 -0.127501428
+## [195,]  0.060182715 -0.607848517
+## [196,] -0.002279629 -0.620215232
+## [197,]  0.002976301 -0.680536664
+## [198,]  0.057193841 -0.667289873
 ## 
 ## $Net[[3]]$S
 ## 198 x 198 sparse Matrix of class &quot;dsCMatrix&quot;</code></pre>
@@ -4106,19 +4256,19 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 <h2><span class="header-section-number">3.7</span> Social structure - collaboration</h2>
 <div id="author-collaboration" class="section level3">
 <h3><span class="header-section-number">3.7.1</span> Author collaboration</h3>
-<div class="sourceCode" id="cb63"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb63-1" title="1"><span class="co"># author collaboration network</span></a>
-<a class="sourceLine" id="cb63-2" title="2">collab1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;authors&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb63-3" title="3"><span class="co"># network plot</span></a>
-<a class="sourceLine" id="cb63-4" title="4">collabnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(collab1, <span class="dt">n =</span> <span class="dv">100</span>, <span class="dt">Title =</span> <span class="st">&quot;Author Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">15</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">3</span>, <span class="dt">labelsize =</span> <span class="fl">0.5</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb67"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb67-1" title="1"><span class="co"># author collaboration network</span></a>
+<a class="sourceLine" id="cb67-2" title="2">collab1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;authors&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb67-3" title="3"><span class="co"># network plot</span></a>
+<a class="sourceLine" id="cb67-4" title="4">collabnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(collab1, <span class="dt">n =</span> <span class="dv">100</span>, <span class="dt">Title =</span> <span class="st">&quot;Author Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;auto&quot;</span>, <span class="dt">size =</span> <span class="dv">15</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">3</span>, <span class="dt">labelsize =</span> <span class="fl">0.5</span>)</a></code></pre></div>
 <div class="figure">
 <img src="gt-v_files/figure-html/collab.network-1.png" alt="In this figure, scientific collaborations are plotted where nodes are authors and links are co-authorships, illustrating collaborations between authors." width="100%" />
 <p class="caption">
 (#fig:collab.network)In this figure, scientific collaborations are plotted where nodes are authors and links are co-authorships, illustrating collaborations between authors.
 </p>
 </div>
-<div class="sourceCode" id="cb64"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb64-1" title="1"><span class="co"># descriptive analysis of author collaboration network</span></a>
-<a class="sourceLine" id="cb64-2" title="2">collabnetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(collab1)</a>
-<a class="sourceLine" id="cb64-3" title="3"><span class="kw">summary</span>(collabnetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb68"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb68-1" title="1"><span class="co"># descriptive analysis of author collaboration network</span></a>
+<a class="sourceLine" id="cb68-2" title="2">collabnetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(collab1)</a>
+<a class="sourceLine" id="cb68-3" title="3"><span class="kw">summary</span>(collabnetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
 <pre><code>## 
 ## 
 ## Main statistics about the network
@@ -4133,19 +4283,19 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 </div>
 <div id="edu-collaboration" class="section level3">
 <h3><span class="header-section-number">3.7.2</span> Edu collaboration</h3>
-<div class="sourceCode" id="cb66"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb66-1" title="1"><span class="co"># author collaboration network</span></a>
-<a class="sourceLine" id="cb66-2" title="2">educollab1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;universities&quot;</span>,<span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb66-3" title="3"><span class="co"># network plot</span></a>
-<a class="sourceLine" id="cb66-4" title="4">educollabnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(educollab1, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Edu Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;fruchterman&quot;</span>, <span class="dt">size =</span> <span class="dv">25</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">3</span>, <span class="dt">labelsize =</span> <span class="fl">0.4</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb70"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb70-1" title="1"><span class="co"># author collaboration network</span></a>
+<a class="sourceLine" id="cb70-2" title="2">educollab1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(df, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;universities&quot;</span>,<span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb70-3" title="3"><span class="co"># network plot</span></a>
+<a class="sourceLine" id="cb70-4" title="4">educollabnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(educollab1, <span class="dt">n =</span> <span class="dv">50</span>, <span class="dt">Title =</span> <span class="st">&quot;Edu Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;fruchterman&quot;</span>, <span class="dt">size =</span> <span class="dv">25</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">3</span>, <span class="dt">labelsize =</span> <span class="fl">0.4</span>)</a></code></pre></div>
 <div class="figure">
 <img src="gt-v_files/figure-html/edu.collab-1.png" alt="In this figure, scientific collaborations are plotted where nodes are institutions and links are co-authorships, illustrating collaborations between institutions." width="100%" />
 <p class="caption">
 (#fig:edu.collab)In this figure, scientific collaborations are plotted where nodes are institutions and links are co-authorships, illustrating collaborations between institutions.
 </p>
 </div>
-<div class="sourceCode" id="cb67"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb67-1" title="1"><span class="co"># descriptive analysis of edu collaboration network</span></a>
-<a class="sourceLine" id="cb67-2" title="2">edunetstat&lt;-<span class="kw">networkStat</span>(educollab1)</a>
-<a class="sourceLine" id="cb67-3" title="3"><span class="kw">summary</span>(edunetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb71"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb71-1" title="1"><span class="co"># descriptive analysis of edu collaboration network</span></a>
+<a class="sourceLine" id="cb71-2" title="2">edunetstat&lt;-<span class="kw">networkStat</span>(educollab1)</a>
+<a class="sourceLine" id="cb71-3" title="3"><span class="kw">summary</span>(edunetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
 <pre><code>## 
 ## 
 ## Main statistics about the network
@@ -4160,20 +4310,20 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 </div>
 <div id="country-collaboration" class="section level3">
 <h3><span class="header-section-number">3.7.3</span> Country collaboration</h3>
-<div class="sourceCode" id="cb69"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb69-1" title="1"><span class="co"># country collaboration network</span></a>
-<a class="sourceLine" id="cb69-2" title="2">count &lt;-<span class="st"> </span><span class="kw">metaTagExtraction</span>(df, <span class="dt">Field =</span> <span class="st">&quot;AU_CO&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb69-3" title="3">cmat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(count, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;countries&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
-<a class="sourceLine" id="cb69-4" title="4"><span class="co"># network plot</span></a>
-<a class="sourceLine" id="cb69-5" title="5">cnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(cmat1, <span class="dt">n =</span> <span class="kw">dim</span>(cmat1)[<span class="dv">1</span>], <span class="dt">Title =</span> <span class="st">&quot;Country Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;circle&quot;</span>, <span class="dt">size =</span> <span class="dv">10</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">1</span>, <span class="dt">labelsize =</span> <span class="fl">0.6</span>, <span class="dt">cluster =</span> <span class="st">&quot;none&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb73"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb73-1" title="1"><span class="co"># country collaboration network</span></a>
+<a class="sourceLine" id="cb73-2" title="2">count &lt;-<span class="st"> </span><span class="kw">metaTagExtraction</span>(df, <span class="dt">Field =</span> <span class="st">&quot;AU_CO&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb73-3" title="3">cmat1 &lt;-<span class="st"> </span><span class="kw">biblioNetwork</span>(count, <span class="dt">analysis =</span> <span class="st">&quot;collaboration&quot;</span>, <span class="dt">network =</span> <span class="st">&quot;countries&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;;&quot;</span>)</a>
+<a class="sourceLine" id="cb73-4" title="4"><span class="co"># network plot</span></a>
+<a class="sourceLine" id="cb73-5" title="5">cnet1 =<span class="st"> </span><span class="kw">networkPlot</span>(cmat1, <span class="dt">n =</span> <span class="kw">dim</span>(cmat1)[<span class="dv">1</span>], <span class="dt">Title =</span> <span class="st">&quot;Country Collaboration&quot;</span>, <span class="dt">type =</span> <span class="st">&quot;circle&quot;</span>, <span class="dt">size =</span> <span class="dv">10</span>, <span class="dt">size.cex =</span> T, <span class="dt">edgesize =</span> <span class="dv">1</span>, <span class="dt">labelsize =</span> <span class="fl">0.6</span>, <span class="dt">cluster =</span> <span class="st">&quot;none&quot;</span>)</a></code></pre></div>
 <div class="figure">
 <img src="gt-v_files/figure-html/country.collab-1.png" alt="In this figure, scientific collaborations are plotted where nodes are countries and links are co-authorships, illustrating collaborations between countries" width="100%" />
 <p class="caption">
 (#fig:country.collab)In this figure, scientific collaborations are plotted where nodes are countries and links are co-authorships, illustrating collaborations between countries
 </p>
 </div>
-<div class="sourceCode" id="cb70"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb70-1" title="1"><span class="co"># descriptive analysis of country collaboration network</span></a>
-<a class="sourceLine" id="cb70-2" title="2">countnetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(cmat1)</a>
-<a class="sourceLine" id="cb70-3" title="3"><span class="kw">summary</span>(countnetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb74"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb74-1" title="1"><span class="co"># descriptive analysis of country collaboration network</span></a>
+<a class="sourceLine" id="cb74-2" title="2">countnetstat &lt;-<span class="st"> </span><span class="kw">networkStat</span>(cmat1)</a>
+<a class="sourceLine" id="cb74-3" title="3"><span class="kw">summary</span>(countnetstat, <span class="dt">k =</span> <span class="dv">15</span>)</a></code></pre></div>
 <pre><code>## 
 ## 
 ## Main statistics about the network
@@ -4185,7 +4335,7 @@ Figure 3.6: Thematic maps are intuitive plots that can be analyzed according to 
 ##  Degree Centralization                 0.488 
 ##  Average path length                   1.978 
 ## </code></pre>
-<div class="sourceCode" id="cb72"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb72-1" title="1"><span class="co">#end of code</span></a></code></pre></div>
+<div class="sourceCode" id="cb76"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb76-1" title="1"><span class="co">#end of code</span></a></code></pre></div>
 
 </div>
 </div>
