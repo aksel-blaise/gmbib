@@ -24,7 +24,7 @@ plot(x = results, k = 10, pause = FALSE)
 
 ### Attributes of the local network
 
-```{r net.attr, echo=TRUE, warning=FALSE}
+```{r net.attr, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # calculate citations in the LOCAL network
 CR <- localCitations(df, sep = ";")
 # top 10 cited authors in LOCAL network
