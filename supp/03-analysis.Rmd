@@ -7,7 +7,7 @@
 library(bibliometrix)
 library(reshape2)
 library(ggplot2)
-df <- convert2df(file = "scopus.bib", dbsource = "scopus",format = "bibtex")
+df <- convert2df(file = "scopus.bib", dbsource = "scopus", format = "bibtex")
 ```
 
 ## Descriptive analysis
@@ -37,14 +37,14 @@ topAU <- authorProdOverTime(df, k = 10, graph = TRUE)
 topSO <- sourceGrowth(df, top = 10, cdf = TRUE)
 topSO
 # plot results
-tso=melt(topSO, id = 'Year')
+tso = melt(topSO, id = 'Year')
 ggplot(tso, aes(Year, value, group = variable, color = variable)) + 
   geom_line()
 ```
 
-### Three fields plot
+### Sankey diagram
 
-```{r 3.flds, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="Interactive visualization of three fields (authors, keywords, and journals) illustrating how they are related."}
+```{r 3.flds, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="Interactive Sankey diagram of three fields (authors, keywords, and journals) illustrating relationships."}
 threeFieldsPlot(df, fields = c("AU", "DE", "SO"), n = c(20,20,20), width = 800, height = 800)
 ```
 
@@ -52,7 +52,7 @@ threeFieldsPlot(df, fields = c("AU", "DE", "SO"), n = c(20,20,20), width = 800, 
 
 ### Most cited articles
 
-```{r mostcitedrefs, echo=TRUE, warning=FALSE}
+```{r most.cited.refs, echo=TRUE, warning=FALSE}
 # most cited references in global network
 mcr <- citations(df, field = "article", sep = ";")
 cbind(mcr$Cited[1:20])
@@ -60,17 +60,25 @@ cbind(mcr$Cited[1:20])
 
 ### Most cited authors
 
-```{r mostcitedauths, echo=TRUE, warning=FALSE}
+```{r most.cited.auths, echo=TRUE, warning=FALSE}
 # most cited authors in global network
 mcr <- citations(df, field = "author", sep = ";")
 cbind(mcr$Cited[1:20])
 ```
 
-## The intellectual structure of the field
+### Author dominance ranking
+
+```{r auth.dom, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+dom <- biblioAnalysis(df)
+dom.r <- dominance(dom)
+dom.r
+```
+
+## The intellectual structure of geometric morphometrics in archaeology
 
 ### Reference co-citation
 
-```{r refcocite, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+```{r ref.co.cite, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # article co-citation network
 comat1 <- biblioNetwork(df, analysis = "co-citation", network = "references", sep = ";")
 # network plot
@@ -90,27 +98,59 @@ histResults <- histNetwork(df, min.citations = 5, sep = ";")
 hnet <- histPlot(histResults, n = 50, size = 4, labelsize = 2)
 ```
 
-## The conceptual structure of the field
+### Field tag distribution by year
+
+```{r field.tag.dist, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+timespan = c(2005, 2010, 2015)
+ftd <- fieldByYear(df, field = "DE", timespan = timespan, min.freq = 3, n.items = 5, labelsize = 3, graph = TRUE)
+```
+
+### ID and DE keyword associations
+
+```{r key.assoc, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+list <- keywordAssoc(df, sep = ";", n = 10, excludeKW = c("geometric morphometric","geometric morphometrics"))
+names(list)
+list[[1]][1:10]
+```
+
+### Yearly occurrences of top keywords/terms
+
+```{r key.growth, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+topKW = KeywordGrowth(df, Tag = "DE", sep = ";", top=10, cdf=TRUE)
+topKW
+# plot results
+key.plot = melt(topKW, id='Year')
+ggplot(key.plot, aes(Year, value, group = variable, color = variable)) + 
+  geom_line()
+```
+
+### Reference publication year spectroscopy
+
+```{r rpys, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+spec <- rpys(df, sep = ";", graph = TRUE)
+```
+
+## The conceptual structure of geometric morphometrics in archaeology
 
 ### Co-word analysis through keyword co-occurrences
 
-```{r keywordco, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+```{r keyword.co, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # keyword co-occurrences network
 keymat1 <- biblioNetwork(df, analysis = "co-occurrences", network = "keywords", sep = ";")
 # networkplot
-keynet1=networkPlot(keymat1, normalize = "association", n = 50, Title = "Keyword Co-occurrences", type = "auto", size = 5, edgesize = 2, labelsize = 0.4)
+keynet1 = networkPlot(keymat1, normalize = "association", n = 50, Title = "Keyword Co-occurrences", type = "auto", size = 5, edgesize = 2, labelsize = 0.4)
 ```
 
-### Co-word analysis through Multiple Correspondence Analysis
+### Co-word analysis via Metric Multidimensional Scaling
 
-```{r coword1, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="Co-word analysis was used to map the conceptual structure of the research domain using co-occurrence of keywords in the bibliographic collection."}
+```{r co.word1, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="Co-word analysis was used to map the conceptual structure of the research domain using co-occurrence of keywords in the bibliographic collection."}
 # using authors keywords
-cw <- conceptualStructure(df, field = "DE", method = "MCA", minDegree = 3, clust = "auto", stemming = FALSE, labelsize = 8, documents = 15)
+cw <- conceptualStructure(df, field = "DE", method = "MDS", minDegree = 3, clust = "auto", stemming = FALSE, labelsize = 8, documents = 15)
 ```
 
 ## Thematic mapping
 
-```{r thematicmap, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="Thematic maps are intuitive plots that can be analyzed according to the quadrant in which the theme occurs. The top right quadrant articulates with motor themes, the bottom right with basic and transversal themes, the lower left with emerging or declining themes, and the upper left with highly developed and isolated themes (Cobo et al. 2011)."}
+```{r thematic.map, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="Thematic maps are intuitive plots that can be analyzed according to the quadrant in which the theme occurs. The top right quadrant articulates with motor themes, the bottom right with basic and transversal themes, the lower left with emerging or declining themes, and the upper left with highly developed and isolated themes (Cobo et al. 2011)."}
 # keyword map
 map1 = thematicMap(df, field = "DE", n = 1000, minfreq = 3, stemming = FALSE, size = 0.8, n.labels = 1, repel = TRUE)
 # plot map
@@ -119,17 +159,17 @@ plot(map1$map)
 
 ### Thematic evolution
 
-```{r thematicevol, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+```{r thematic.evol, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # keyword thematic evolution
-nexus <- thematicEvolution(df, field = "DE", years = c(2010,2015), n = 1000, minFreq = 2, size = 0.8, n.labels = 1, repel = TRUE)
-nexus
+nexus <- thematicEvolution(df, field = "DE", years = c(2010,2013,2017), n = 2000, minFreq = 2, size = 0.8, n.labels = 1, repel = TRUE)
+plotThematicEvolution(nexus$Nodes, nexus$Edges)
 ```
 
-## Social structure - collaboration
+## Social structure of geometric morphometrics in archaeology
 
 ### Author collaboration
 
-```{r collab.network, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="In this figure, scientific collaborations are plotted where nodes are authors and links are co-authorships, illustrating collaborations between authors."}
+```{r auth.collab, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="In this figure, scientific collaborations are plotted where nodes are authors and links are co-authorships, illustrating collaborations between authors."}
 # author collaboration network
 collab1 <- biblioNetwork(df, analysis = "collaboration", network = "authors", sep = ";")
 # network plot
@@ -153,7 +193,7 @@ summary(edunetstat, k = 15)
 
 ### Country collaboration
 
-```{r country.collab, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="In this figure, scientific collaborations are plotted where nodes are countries and links are co-authorships, illustrating collaborations between countries"}
+```{r count.collab, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="In this figure, scientific collaborations are plotted where nodes are countries and links are co-authorships, illustrating collaborations between countries"}
 # country collaboration network
 count <- metaTagExtraction(df, Field = "AU_CO", sep = ";")
 cmat1 <- biblioNetwork(count, analysis = "collaboration", network = "countries", sep = ";")
@@ -164,4 +204,3 @@ countnetstat <- networkStat(cmat1)
 summary(countnetstat, k = 15)
 #end of code
 ```
-
