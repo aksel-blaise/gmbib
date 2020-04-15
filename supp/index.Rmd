@@ -1,6 +1,6 @@
 --- 
 title: "Supplementary data for paper: A bibliometric study of geometric morphometrics in archaeology"
-author: "Robert Z. Selden, Jr.; Christian S. Hoggard; and Sarah Y. Stark"
+author: "Robert Z. Selden, Jr.; Christian S. Hoggard; Sarah Y. Stark; and Morgane Dubied"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book

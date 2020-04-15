@@ -150,7 +150,14 @@ cw <- conceptualStructure(df, field = "DE", method = "MDS", minDegree = 3, clust
 
 ## Thematic mapping
 
-```{r thematic.map, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE, fig.cap="Thematic maps are intuitive plots that can be analyzed according to the quadrant in which the theme occurs. The top right quadrant articulates with motor themes, the bottom right with basic and transversal themes, the lower left with emerging or declining themes, and the upper left with highly developed and isolated themes (Cobo et al. 2011)."}
+From [@RN20996, 150-151]:
+
+* Themes in the upper-right quadrant are both well developed and important for the structuring ofa research field. They are known as the motor-themes of the specialty, given that they present strong centrality and high density. The placement of themesin this quadrantimplies that theyare related externally to concepts applicable to otherthemesthat are conceptually closely related.
+* Themes in the upper-left quadrant have well developed internal ties but unimportant external ties and so are of only marginal importance for the field. These themes are very specialized and peripheral in character.
+* Themes in the lower-left quadrant are both weakly developed and marginal. The themes ofthis quadrant have low density and low centrality, mainly representing either emerging or disappearing themes.
+* Themes in the lower-right quadrant are important for a research field but are not developed. So, this quadrant groups transversal and general, basic themes.
+
+```{r thematic.map, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # keyword map
 map1 = thematicMap(df, field = "DE", n = 1000, minfreq = 3, stemming = FALSE, size = 0.8, n.labels = 1, repel = TRUE)
 # plot map
