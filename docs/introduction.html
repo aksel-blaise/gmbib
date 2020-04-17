@@ -24,7 +24,7 @@
 <meta name="author" content="Robert Z. Selden, Jr.; Christian S. Hoggard; Sarah Y. Stark; and Morgane Dubied" />
 
 
-<meta name="date" content="2020-04-15" />
+<meta name="date" content="2020-04-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -361,13 +361,13 @@ Figure 1.1: Example of query results that employ Boolean operators. The structur
 <a class="sourceLine" id="cb2-5" title="5">       <span class="dt">found_other =</span> <span class="dv">0</span>,</a>
 <a class="sourceLine" id="cb2-6" title="6">       <span class="dt">no_dupes =</span> <span class="dv">103</span>, </a>
 <a class="sourceLine" id="cb2-7" title="7">       <span class="dt">screened =</span> <span class="dv">103</span>, </a>
-<a class="sourceLine" id="cb2-8" title="8">       <span class="dt">screen_exclusions =</span> <span class="dv">1</span>, </a>
-<a class="sourceLine" id="cb2-9" title="9">       <span class="dt">full_text =</span> <span class="dv">102</span>,</a>
+<a class="sourceLine" id="cb2-8" title="8">       <span class="dt">screen_exclusions =</span> <span class="dv">6</span>, </a>
+<a class="sourceLine" id="cb2-9" title="9">       <span class="dt">full_text =</span> <span class="dv">97</span>,</a>
 <a class="sourceLine" id="cb2-10" title="10">       <span class="dt">full_text_exclusions =</span> <span class="dv">0</span>, </a>
-<a class="sourceLine" id="cb2-11" title="11">       <span class="dt">qualitative =</span> <span class="dv">102</span>, </a>
-<a class="sourceLine" id="cb2-12" title="12">       <span class="dt">quantitative =</span> <span class="dv">102</span>)</a></code></pre></div>
-<div id="htmlwidget-9ae4f0085a963500473f" style="width:672px;height:480px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9ae4f0085a963500473f">{"x":{"diagram":"digraph prisma {\n    node [shape=\"box\", fontsize = 10];\n    graph [splines=ortho, nodesep=1, dpi = 72]\n    a -> nodups;\n    b -> nodups;\n    a [label=\"Records identified through\ndatabase searching\n(n = 103)\"];\n    b [label=\"Additional records identified\nthrough other sources\n(n = 0)\"]\n    nodups -> incex;\n    nodups [label=\"Records after duplicates removed\n(n = 103)\"];\n    incex -> {ex; ft}\n    incex [label=\"Records screened\n(n = 103)\"];\n    ex [label=\"Records excluded\n(n = 1)\"];\n    {rank=same; incex ex}\n    ft -> {qual; ftex};\n    ft [label=\"Full-text articles assessed\nfor eligibility\n(n = 102)\"];\n    {rank=same; ft ftex}\n    ftex [label=\"Full-text articles excluded,\nwith reasons\n(n = 0)\"];\n    qual -> quant\n    qual [label=\"Studies included in qualitative synthesis\n(n = 102)\"];\n    quant [label=\"Studies included in\nquantitative synthesis\n(meta-analysis)\n(n = 102)\"];\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<a class="sourceLine" id="cb2-11" title="11">       <span class="dt">qualitative =</span> <span class="dv">97</span>, </a>
+<a class="sourceLine" id="cb2-12" title="12">       <span class="dt">quantitative =</span> <span class="dv">97</span>)</a></code></pre></div>
+<div id="htmlwidget-0ac603df969060097dcb" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0ac603df969060097dcb">{"x":{"diagram":"digraph prisma {\n    node [shape=\"box\", fontsize = 10];\n    graph [splines=ortho, nodesep=1, dpi = 72]\n    a -> nodups;\n    b -> nodups;\n    a [label=\"Records identified through\ndatabase searching\n(n = 103)\"];\n    b [label=\"Additional records identified\nthrough other sources\n(n = 0)\"]\n    nodups -> incex;\n    nodups [label=\"Records after duplicates removed\n(n = 103)\"];\n    incex -> {ex; ft}\n    incex [label=\"Records screened\n(n = 103)\"];\n    ex [label=\"Records excluded\n(n = 6)\"];\n    {rank=same; incex ex}\n    ft -> {qual; ftex};\n    ft [label=\"Full-text articles assessed\nfor eligibility\n(n = 97)\"];\n    {rank=same; ft ftex}\n    ftex [label=\"Full-text articles excluded,\nwith reasons\n(n = 0)\"];\n    qual -> quant\n    qual [label=\"Studies included in qualitative synthesis\n(n = 97)\"];\n    quant [label=\"Studies included in\nquantitative synthesis\n(meta-analysis)\n(n = 97)\"];\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 </div>
 </div>

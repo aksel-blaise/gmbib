@@ -18,11 +18,11 @@ prisma(found = 103,
        found_other = 0,
        no_dupes = 103, 
        screened = 103, 
-       screen_exclusions = 1, 
-       full_text = 102,
+       screen_exclusions = 6, 
+       full_text = 97,
        full_text_exclusions = 0, 
-       qualitative = 102, 
-       quantitative = 102)
+       qualitative = 97, 
+       quantitative = 97)
 ```
 
 
